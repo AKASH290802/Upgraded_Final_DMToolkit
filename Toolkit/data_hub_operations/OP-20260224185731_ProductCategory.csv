@@ -1,0 +1,53 @@
+tvnt__Question__c,tvnt__Section__c,tvnt__Parent_Question_Association__c,tvnt__Questionnaire__c,Name,tvnt__Display_criteria__c,tvnt__Sequence__c,tvnt__Matching_criteria__c,CurrencyIsoCode,tvnt__Mandatory__c
+a8Scf000000oD25EAE,a8Wcf000000H5mTEAS,,a8Vcf0000000YuXEAU,Electrical Validation,,9.0,Any,USD,False
+a8Scf000000oCsPEAU,a8Wcf000000H5mTEAS,,a8Vcf0000000YuXEAU,Other (Pump Failure),Other (Pump Failure),7.0,Any,USD,False
+a8Scf000000oCvdEAE,a8Wcf000000H5mTEAS,,a8Vcf0000000YuXEAU,Booster Pump Failure Type,,6.0,Any,USD,False
+a8Scf000000oCsPEAU,a8Wcf000000H5mTEAS,,a8Vcf0000000YuXEAU,Other (Motor Failure),Other (Motor Failure),5.0,Any,USD,False
+a8Scf000000oCu1EAE,a8Wcf000000H5mTEAS,,a8Vcf0000000YuXEAU,Motor Failure Type,,3.0,Any,USD,False
+a8Scf000000oCsPEAU,a8Wcf000000BvMLEA0,,a8Vcf0000000YuXEAU,Other,Other (Gearbox Failure),3.0,Any,USD,False
+a8Scf000000oCqnEAE,a8Wcf000000BvMLEA0,,a8Vcf0000000YuXEAU,Gear Box Failure Type,,2.0,Any,USD,False
+a8Scf000000oCpBEAU,a8Wcf000000BvNxEAK,,a8Vcf0000000YuXEAU,Type of Power Supply,,8.0,Any,USD,True
+a8Scf000000oCyrEAE,a8Wcf000000H5mTEAS,,a8Vcf0000000YuXEAU,Detail Motor Failure by Examination,,8.0,Any,USD,False
+a8Scf000000oCnZEAU,a8Wcf000000BvNxEAK,,a8Vcf0000000YuXEAU,Serial # (from nameplate),,7.0,Any,USD,True
+a8Scf000000oClxEAE,a8Wcf000000BvNxEAK,,a8Vcf0000000YuXEAU,Failed Part #,,6.0,Any,USD,True
+a8Scf000000oCkLEAU,a8Wcf000000BvNxEAK,,a8Vcf0000000YuXEAU,Failed Tower #,,5.0,Any,USD,True
+a8Scf000000oCijEAE,a8Wcf000000BvNxEAK,,a8Vcf0000000YuXEAU,Date Installed,,4.0,Any,USD,True
+a8Scf000000oCfVEAU,a8Wcf000000BvNxEAK,,a8Vcf0000000YuXEAU,Dealer Name & No.,,2.0,,USD,True
+a8Scf000000oCh7EAE,a8Wcf000000BvNxEAK,,a8Vcf0000000YuXEAU,Parent Order #,,3.0,Any,USD,True
+a8Scf000000oCdtEAE,a8Wcf000000BvNxEAK,,a8Vcf0000000YuXEAU,Claim #,,1.0,Any,USD,True
+a8Scf000000nc8zEAA,a8Wcf000000BvMLEA0,,a8Vcf0000000YuXEAU,Identify Gear Box (check applicable photo),,1.0,Any,USD,True
+a8Scf000000o6OnEAI,a8Wcf000000GqCLEA0,,a8Vcf0000000ouTEAQ,3.1 – Failure Code Category,,12.0,,USD,True
+a8Scf000000o6NBEAY,a8Wcf000000GqAjEAK,,a8Vcf0000000ouTEAQ,2.3 – Description of Failure,,11.0,,USD,False
+a8Scf000000o6JxEAI,a8Wcf000000GqAjEAK,,a8Vcf0000000ouTEAQ,2.2 – A‑B‑A Swap Method Confirmation,,10.0,,USD,False
+a8Scf000000o5pKEAQ,a8Wcf000000GqAjEAK,,a8Vcf0000000ouTEAQ,2.1 – Frequency / Time of Occurrence,,9.0,,USD,True
+a8Scf000000o6GjEAI,a8Wcf000000Gf2PEAS,,a8Vcf0000000ouTEAQ,1.6 – Technician Name,,6.0,,USD,True
+a8Scf000000o6LZEAY,a8Wcf000000Gf2PEAS,,a8Vcf0000000ouTEAQ,1.8 – Dealer Service Case Number,,8.0,,USD,False
+a8Scf000000o6ILEAY,a8Wcf000000Gf2PEAS,,a8Vcf0000000ouTEAQ,1.7 – External Temperature at Time of Failure,,7.0,,USD,True
+a8Scf000000o6F7EAI,a8Wcf000000Gf2PEAS,,a8Vcf0000000ouTEAQ,1.5 – Hours on Module,,5.0,,USD,True
+a8Scf000000o6DVEAY,a8Wcf000000Gf2PEAS,,a8Vcf0000000ouTEAQ,1.4 – Date Installed (MM/YYYY),,4.0,,USD,True
+a8Scf000000o6BtEAI,a8Wcf000000Gf2PEAS,,a8Vcf0000000ouTEAQ,1.3 – Parent Order #,,3.0,,USD,True
+a8Scf000000o6AHEAY,a8Wcf000000Gf2PEAS,,a8Vcf0000000ouTEAQ,1.2 – Part #,,2.0,,USD,True
+a8Scf000000o68fEAA,a8Wcf000000Gf2PEAS,,a8Vcf0000000ouTEAQ,1.1 – Claim #,,1.0,,USD,True
+a8Scf000000oBrVEAU,a8Wcf000000GsqrEAC,,a8Vcf0000000sTREAY,Gearbox Type Selection,,24.0,,USD,False
+a8Scf000000oBjREAU,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,"Failure Code (Seal,Oil / Bearing / Other)",,22.0,,USD,True
+a8Scf000000oBhpEAE,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,Bearing Failure,,21.0,,USD,False
+a8Scf000000oBgDEAU,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,Solid State Motor Controller on Tower,,20.0,,USD,False
+a8Scf000000oBebEAE,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,Bow in Alignment,,19.0,,USD,False
+a8Scf000000oBczEAE,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,Direction of Travel,,18.0,,USD,False
+a8Scf000000oBbNEAU,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,Shims Present,,17.0,,USD,False
+a8Scf000000oBZlEAM,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,Oil Present and Full,,16.0,,USD,False
+a8Scf000000oBY9EAM,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,Crop or Crop Rotation,,15.0,,USD,False
+a8Scf000000oBWXEA2,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,Soil Type,,14.0,,USD,True
+a8Scf000000oBTJEA2,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,Maintenance Program – Schedule,,12.0,,USD,True
+a8Scf000000oBRhEAM,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,Tire Size,,11.0,,USD,True
+a8Scf000000oBOTEA2,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,Centerdrive RPM,,10.0,,USD,True
+a8Scf000000oBMsEAM,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,Hours on Machine,,9.0,,USD,True
+a8Scf000000oBMrEAM,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,GPS Coordinates,,8.0,,USD,True
+a8Scf000000oBLFEA2,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,Front or Rear,,7.0,,USD,True
+a8Scf000000oBEoEAM,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,Tower,,6.0,,USD,False
+a8Scf000000o6DVEAY,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,Date Installed,,5.0,,USD,True
+a8Scf000000oBI1EAM,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,Parent Order,,4.0,,USD,True
+a8Scf000000oB8LEAU,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,Failure Mode,,3.0,,USD,True
+a8Scf000000oBUvEAM,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,Terrain Type,,13.0,,USD,True
+a8Scf000000o6AHEAY,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,Part Number,,2.0,,USD,True
+a8Scf000000o68fEAA,a8Wcf000000Gs65EAC,,a8Vcf0000000sTREAY,Claim Number,,1.0,,USD,True

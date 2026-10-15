@@ -1,0 +1,2859 @@
+[
+ {
+  "label": "Dashboard cold (first run, imports)",
+  "wall_s": 2.603,
+  "script_s": 0.052,
+  "sections_s": {
+   "render_page_background": 0.003,
+   "_render_connection_settings": 0.002
+  },
+  "counts": {
+   "fs:scandir": 72,
+   "fs:walk": 4
+  },
+  "callers": [
+   [
+    "fs:scandir",
+    "ui_components\\dashboard_overview.py:193",
+    30
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\utils.py:276",
+    28
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\dashboard_overview.py:199",
+    14
+   ],
+   [
+    "fs:walk",
+    "ui_components\\utils.py:276",
+    2
+   ],
+   [
+    "fs:walk",
+    "ui_components\\dashboard_overview.py:193",
+    1
+   ],
+   [
+    "fs:walk",
+    "ui_components\\dashboard_overview.py:199",
+    1
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Dashboard warm rerun",
+  "wall_s": 0.065,
+  "script_s": 0.055,
+  "sections_s": {
+   "render_page_background": 0.002,
+   "_render_connection_settings": 0.002
+  },
+  "counts": {
+   "fs:scandir": 72,
+   "fs:walk": 4
+  },
+  "callers": [
+   [
+    "fs:scandir",
+    "ui_components\\dashboard_overview.py:193",
+    30
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\utils.py:276",
+    28
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\dashboard_overview.py:199",
+    14
+   ],
+   [
+    "fs:walk",
+    "ui_components\\utils.py:276",
+    2
+   ],
+   [
+    "fs:walk",
+    "ui_components\\dashboard_overview.py:193",
+    1
+   ],
+   [
+    "fs:walk",
+    "ui_components\\dashboard_overview.py:199",
+    1
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Sidebar: select org",
+  "wall_s": 0.07,
+  "script_s": 0.058,
+  "sections_s": {
+   "_render_connection_settings": 0.005,
+   "render_page_background": 0.002
+  },
+  "counts": {
+   "fs:scandir": 72,
+   "fs:walk": 4
+  },
+  "callers": [
+   [
+    "fs:scandir",
+    "ui_components\\dashboard_overview.py:193",
+    30
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\utils.py:276",
+    28
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\dashboard_overview.py:199",
+    14
+   ],
+   [
+    "fs:walk",
+    "ui_components\\utils.py:276",
+    2
+   ],
+   [
+    "fs:walk",
+    "ui_components\\dashboard_overview.py:193",
+    1
+   ],
+   [
+    "fs:walk",
+    "ui_components\\dashboard_overview.py:199",
+    1
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Sidebar: select SQL",
+  "wall_s": 0.063,
+  "script_s": 0.052,
+  "sections_s": {
+   "render_page_background": 0.002,
+   "_render_connection_settings": 0.002
+  },
+  "counts": {
+   "fs:scandir": 72,
+   "fs:walk": 4
+  },
+  "callers": [
+   [
+    "fs:scandir",
+    "ui_components\\dashboard_overview.py:193",
+    30
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\utils.py:276",
+    28
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\dashboard_overview.py:199",
+    14
+   ],
+   [
+    "fs:walk",
+    "ui_components\\utils.py:276",
+    2
+   ],
+   [
+    "fs:walk",
+    "ui_components\\dashboard_overview.py:193",
+    1
+   ],
+   [
+    "fs:walk",
+    "ui_components\\dashboard_overview.py:199",
+    1
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Dashboard rerun (org connected)",
+  "wall_s": 0.053,
+  "script_s": 0.045,
+  "sections_s": {
+   "render_page_background": 0.002,
+   "_render_connection_settings": 0.002
+  },
+  "counts": {
+   "fs:scandir": 72,
+   "fs:walk": 4
+  },
+  "callers": [
+   [
+    "fs:scandir",
+    "ui_components\\dashboard_overview.py:193",
+    30
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\utils.py:276",
+    28
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\dashboard_overview.py:199",
+    14
+   ],
+   [
+    "fs:walk",
+    "ui_components\\utils.py:276",
+    2
+   ],
+   [
+    "fs:walk",
+    "ui_components\\dashboard_overview.py:193",
+    1
+   ],
+   [
+    "fs:walk",
+    "ui_components\\dashboard_overview.py:199",
+    1
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 1 first render",
+  "wall_s": 0.028,
+  "script_s": 0.015,
+  "sections_s": {
+   "render_page_background": 0.003,
+   "_render_connection_settings": 0.003,
+   "render_step_header": 0.001
+  },
+  "counts": {
+   "describe_global": 1
+  },
+  "callers": [
+   [
+    "describe_global",
+    "ui_components\\validation_operations.py:4483",
+    1
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 1 choose SQL source",
+  "wall_s": 0.031,
+  "script_s": 0.02,
+  "sections_s": {
+   "_render_connection_settings": 0.003,
+   "render_page_background": 0.002,
+   "render_step_header": 0.001
+  },
+  "counts": {
+   "sql_query": 1
+  },
+  "callers": [],
+  "exceptions": []
+ },
+ {
+  "label": "Step 1 run query -> stage 20k",
+  "wall_s": 0.157,
+  "script_s": 0.148,
+  "sections_s": {
+   "render_page_background": 0.003,
+   "_render_connection_settings": 0.002,
+   "render_step_header": 0.001
+  },
+  "counts": {
+   "df_copy_big": 4,
+   "sql_query": 1
+  },
+  "callers": [
+   [
+    "df_copy_big",
+    "ui_components\\connection_manager.py:346",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\step1_data_loading.py:369",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\step1_data_loading.py:82",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\step1_data_loading.py:84",
+    1
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 1 rerun with 20k staged",
+  "wall_s": 0.029,
+  "script_s": 0.017,
+  "sections_s": {
+   "_render_connection_settings": 0.002,
+   "render_page_background": 0.002,
+   "render_step_header": 0.001
+  },
+  "counts": {},
+  "callers": [],
+  "exceptions": []
+ },
+ {
+  "label": "Step 1 pick target Account",
+  "wall_s": 0.024,
+  "script_s": 0.014,
+  "sections_s": {
+   "render_page_background": 0.002,
+   "_render_connection_settings": 0.002,
+   "render_step_header": 0.001
+  },
+  "counts": {},
+  "callers": [],
+  "exceptions": []
+ },
+ {
+  "label": "Step 1 confirm dataset",
+  "wall_s": 0.095,
+  "script_s": 0.018,
+  "sections_s": {
+   "render_page_background": 0.002,
+   "_render_connection_settings": 0.002,
+   "render_step_header": 0.001
+  },
+  "counts": {
+   "df_copy_big": 1
+  },
+  "callers": [
+   [
+    "df_copy_big",
+    "ui_components\\data_hub\\data_hub.py:51",
+    1
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 1 rerun after confirm",
+  "wall_s": 0.023,
+  "script_s": 0.014,
+  "sections_s": {
+   "render_page_background": 0.002,
+   "_render_connection_settings": 0.002,
+   "render_step_header": 0.001
+  },
+  "counts": {},
+  "callers": [],
+  "exceptions": []
+ },
+ {
+  "label": "Step 1 edit dataset name (trivial)",
+  "wall_s": 0.026,
+  "script_s": 0.016,
+  "sections_s": {
+   "render_page_background": 0.002,
+   "_render_connection_settings": 0.002,
+   "render_step_header": 0.001
+  },
+  "counts": {},
+  "callers": [],
+  "exceptions": []
+ },
+ {
+  "label": "Step 2 first render (Next)",
+  "wall_s": 4.885,
+  "script_s": 4.868,
+  "sections_s": {
+   "show_enhanced_validation": 4.099,
+   "show_validation_summary": 0.69,
+   "show_schema_validation": 0.052,
+   "show_genai_validation": 0.007,
+   "show_saved_mappings_manager": 0.004,
+   "show_custom_validation": 0.004,
+   "render_page_background": 0.002,
+   "_render_connection_settings": 0.002,
+   "render_step_header": 0.001,
+   "render_validation_result_card": 0.0
+  },
+  "counts": {
+   "describe:Account": 4,
+   "describe:Contact": 1,
+   "describe_global": 1,
+   "describe_sobject": 5,
+   "df_copy_big": 6,
+   "fs:listdir": 4,
+   "fs:scandir": 230,
+   "fs:walk": 1,
+   "get_object_description": 3,
+   "soql": 11
+  },
+  "callers": [
+   [
+    "describe:Account",
+    "ui_components\\utils.py:92",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe:Contact",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe_global",
+    "ui_components\\utils.py:55",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9532",
+    2
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\utils.py:92",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\data_hub\\data_hub.py:85",
+    2
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:246",
+    2
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:9455",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\data_operations.py:8014",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\validation_operations.py:7389",
+    3
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\field_mapping_manager.py:122",
+    1
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\validation_operations.py:7020",
+    221
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\validation_operations.py:7389",
+    9
+   ],
+   [
+    "fs:walk",
+    "ui_components\\validation_operations.py:7020",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1247",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:9174",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1516",
+    1
+   ],
+   [
+    "soql",
+    "ui_components\\data_operations.py:8113",
+    11
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 2 plain rerun",
+  "wall_s": 6.611,
+  "script_s": 6.583,
+  "sections_s": {
+   "show_enhanced_validation": 6.117,
+   "show_validation_summary": 0.39,
+   "show_schema_validation": 0.043,
+   "show_custom_validation": 0.011,
+   "show_genai_validation": 0.006,
+   "show_saved_mappings_manager": 0.005,
+   "_render_connection_settings": 0.003,
+   "render_page_background": 0.002,
+   "render_step_header": 0.002,
+   "render_validation_result_card": 0.0
+  },
+  "counts": {
+   "describe:Account": 3,
+   "describe:Contact": 1,
+   "describe_sobject": 4,
+   "df_copy_big": 2,
+   "fs:listdir": 1,
+   "fs:scandir": 221,
+   "fs:walk": 1,
+   "get_object_description": 3,
+   "soql": 11
+  },
+  "callers": [
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe:Contact",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9532",
+    2
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:9455",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\data_operations.py:8014",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\field_mapping_manager.py:122",
+    1
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\validation_operations.py:7020",
+    221
+   ],
+   [
+    "fs:walk",
+    "ui_components\\validation_operations.py:7020",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1247",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:9174",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1516",
+    1
+   ],
+   [
+    "soql",
+    "ui_components\\data_operations.py:8113",
+    11
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 2 Schema tab: change 1 mapping",
+  "wall_s": 4.589,
+  "script_s": 4.561,
+  "sections_s": {
+   "show_enhanced_validation": 4.221,
+   "show_validation_summary": 0.268,
+   "show_schema_validation": 0.051,
+   "show_genai_validation": 0.005,
+   "show_custom_validation": 0.004,
+   "_render_connection_settings": 0.002,
+   "render_page_background": 0.002,
+   "show_saved_mappings_manager": 0.002,
+   "render_step_header": 0.001,
+   "render_validation_result_card": 0.0
+  },
+  "counts": {
+   "describe:Account": 3,
+   "describe:Contact": 1,
+   "describe_sobject": 4,
+   "df_copy_big": 2,
+   "fs:listdir": 1,
+   "fs:scandir": 221,
+   "fs:walk": 1,
+   "get_object_description": 3,
+   "soql": 11
+  },
+  "callers": [
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe:Contact",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9532",
+    2
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:9455",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\data_operations.py:8014",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\field_mapping_manager.py:122",
+    1
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\validation_operations.py:7020",
+    221
+   ],
+   [
+    "fs:walk",
+    "ui_components\\validation_operations.py:7020",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1247",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:9174",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1516",
+    1
+   ],
+   [
+    "soql",
+    "ui_components\\data_operations.py:8113",
+    11
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 2 Enhanced tab: change 1 mapping",
+  "wall_s": 4.814,
+  "script_s": 4.779,
+  "sections_s": {
+   "show_enhanced_validation": 4.396,
+   "show_validation_summary": 0.306,
+   "show_schema_validation": 0.048,
+   "show_custom_validation": 0.008,
+   "show_genai_validation": 0.006,
+   "show_saved_mappings_manager": 0.004,
+   "_render_connection_settings": 0.003,
+   "render_page_background": 0.002,
+   "render_step_header": 0.001,
+   "render_validation_result_card": 0.0
+  },
+  "counts": {
+   "describe:Account": 3,
+   "describe:Contact": 1,
+   "describe_sobject": 4,
+   "df_copy_big": 2,
+   "fs:listdir": 1,
+   "fs:scandir": 221,
+   "fs:walk": 1,
+   "get_object_description": 3,
+   "soql": 11
+  },
+  "callers": [
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe:Contact",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9532",
+    2
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:9455",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\data_operations.py:8014",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\field_mapping_manager.py:122",
+    1
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\validation_operations.py:7020",
+    221
+   ],
+   [
+    "fs:walk",
+    "ui_components\\validation_operations.py:7020",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1247",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:9174",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1516",
+    1
+   ],
+   [
+    "soql",
+    "ui_components\\data_operations.py:8113",
+    11
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 2 Enhanced tab: revert mapping",
+  "wall_s": 4.763,
+  "script_s": 4.734,
+  "sections_s": {
+   "show_enhanced_validation": 4.377,
+   "show_validation_summary": 0.278,
+   "show_schema_validation": 0.048,
+   "show_custom_validation": 0.007,
+   "show_genai_validation": 0.006,
+   "show_saved_mappings_manager": 0.005,
+   "render_step_header": 0.003,
+   "_render_connection_settings": 0.002,
+   "render_page_background": 0.002,
+   "render_validation_result_card": 0.0
+  },
+  "counts": {
+   "describe:Account": 3,
+   "describe:Contact": 1,
+   "describe_sobject": 4,
+   "df_copy_big": 2,
+   "fs:listdir": 1,
+   "fs:scandir": 221,
+   "fs:walk": 1,
+   "get_object_description": 3,
+   "soql": 11
+  },
+  "callers": [
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe:Contact",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9532",
+    2
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:9455",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\data_operations.py:8014",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\field_mapping_manager.py:122",
+    1
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\validation_operations.py:7020",
+    221
+   ],
+   [
+    "fs:walk",
+    "ui_components\\validation_operations.py:7020",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1247",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:9174",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1516",
+    1
+   ],
+   [
+    "soql",
+    "ui_components\\data_operations.py:8113",
+    11
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 2 Enhanced tab: change strategy radio",
+  "wall_s": 4.732,
+  "script_s": 4.7,
+  "sections_s": {
+   "show_enhanced_validation": 4.363,
+   "show_validation_summary": 0.265,
+   "show_schema_validation": 0.045,
+   "show_genai_validation": 0.008,
+   "show_saved_mappings_manager": 0.004,
+   "show_custom_validation": 0.004,
+   "_render_connection_settings": 0.002,
+   "render_page_background": 0.002,
+   "render_step_header": 0.001,
+   "render_validation_result_card": 0.0
+  },
+  "counts": {
+   "describe:Account": 3,
+   "describe:Contact": 1,
+   "describe_sobject": 4,
+   "df_copy_big": 2,
+   "fs:listdir": 1,
+   "fs:scandir": 221,
+   "fs:walk": 1,
+   "get_object_description": 3,
+   "soql": 11
+  },
+  "callers": [
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe:Contact",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9532",
+    2
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:9455",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\data_operations.py:8014",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\field_mapping_manager.py:122",
+    1
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\validation_operations.py:7020",
+    221
+   ],
+   [
+    "fs:walk",
+    "ui_components\\validation_operations.py:7020",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1247",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:9174",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1516",
+    1
+   ],
+   [
+    "soql",
+    "ui_components\\data_operations.py:8113",
+    11
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 2 Custom tab: pick rule field",
+  "wall_s": 4.453,
+  "script_s": 4.421,
+  "sections_s": {
+   "show_enhanced_validation": 4.084,
+   "show_validation_summary": 0.268,
+   "show_schema_validation": 0.042,
+   "show_genai_validation": 0.007,
+   "show_custom_validation": 0.005,
+   "show_saved_mappings_manager": 0.004,
+   "render_page_background": 0.002,
+   "_render_connection_settings": 0.002,
+   "render_step_header": 0.001,
+   "render_validation_result_card": 0.0
+  },
+  "counts": {
+   "describe:Account": 3,
+   "describe:Contact": 1,
+   "describe_sobject": 4,
+   "df_copy_big": 2,
+   "fs:listdir": 1,
+   "fs:scandir": 221,
+   "fs:walk": 1,
+   "get_object_description": 3,
+   "soql": 11
+  },
+  "callers": [
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe:Contact",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9532",
+    2
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:9455",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\data_operations.py:8014",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\field_mapping_manager.py:122",
+    1
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\validation_operations.py:7020",
+    221
+   ],
+   [
+    "fs:walk",
+    "ui_components\\validation_operations.py:7020",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1247",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:9174",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1516",
+    1
+   ],
+   [
+    "soql",
+    "ui_components\\data_operations.py:8113",
+    11
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 2 background toggle off",
+  "wall_s": 4.75,
+  "script_s": 4.721,
+  "sections_s": {
+   "show_enhanced_validation": 4.321,
+   "show_validation_summary": 0.333,
+   "show_schema_validation": 0.041,
+   "show_custom_validation": 0.006,
+   "show_genai_validation": 0.005,
+   "show_saved_mappings_manager": 0.004,
+   "render_step_header": 0.003,
+   "_render_connection_settings": 0.002,
+   "render_page_background": 0.0,
+   "render_validation_result_card": 0.0
+  },
+  "counts": {
+   "describe:Account": 3,
+   "describe:Contact": 1,
+   "describe_sobject": 4,
+   "df_copy_big": 2,
+   "fs:listdir": 1,
+   "fs:scandir": 221,
+   "fs:walk": 1,
+   "get_object_description": 3,
+   "soql": 11
+  },
+  "callers": [
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe:Contact",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9532",
+    2
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:9455",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\data_operations.py:8014",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\field_mapping_manager.py:122",
+    1
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\validation_operations.py:7020",
+    221
+   ],
+   [
+    "fs:walk",
+    "ui_components\\validation_operations.py:7020",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1247",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:9174",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1516",
+    1
+   ],
+   [
+    "soql",
+    "ui_components\\data_operations.py:8113",
+    11
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 2 rerun, background off",
+  "wall_s": 4.523,
+  "script_s": 4.496,
+  "sections_s": {
+   "show_enhanced_validation": 4.156,
+   "show_validation_summary": 0.263,
+   "show_schema_validation": 0.049,
+   "show_genai_validation": 0.009,
+   "show_custom_validation": 0.005,
+   "_render_connection_settings": 0.004,
+   "show_saved_mappings_manager": 0.003,
+   "render_step_header": 0.002,
+   "render_page_background": 0.0,
+   "render_validation_result_card": 0.0
+  },
+  "counts": {
+   "describe:Account": 3,
+   "describe:Contact": 1,
+   "describe_sobject": 4,
+   "df_copy_big": 2,
+   "fs:listdir": 1,
+   "fs:scandir": 221,
+   "fs:walk": 1,
+   "get_object_description": 3,
+   "soql": 11
+  },
+  "callers": [
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe:Contact",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9532",
+    2
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:9455",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\data_operations.py:8014",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\field_mapping_manager.py:122",
+    1
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\validation_operations.py:7020",
+    221
+   ],
+   [
+    "fs:walk",
+    "ui_components\\validation_operations.py:7020",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1247",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:9174",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1516",
+    1
+   ],
+   [
+    "soql",
+    "ui_components\\data_operations.py:8113",
+    11
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 2 background toggle on",
+  "wall_s": 4.707,
+  "script_s": 4.68,
+  "sections_s": {
+   "show_enhanced_validation": 4.321,
+   "show_validation_summary": 0.293,
+   "show_schema_validation": 0.043,
+   "show_custom_validation": 0.004,
+   "show_saved_mappings_manager": 0.004,
+   "show_genai_validation": 0.003,
+   "render_page_background": 0.002,
+   "_render_connection_settings": 0.002,
+   "render_step_header": 0.002,
+   "render_validation_result_card": 0.0
+  },
+  "counts": {
+   "describe:Account": 3,
+   "describe:Contact": 1,
+   "describe_sobject": 4,
+   "df_copy_big": 2,
+   "fs:listdir": 1,
+   "fs:scandir": 221,
+   "fs:walk": 1,
+   "get_object_description": 3,
+   "soql": 11
+  },
+  "callers": [
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe:Contact",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9532",
+    2
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:9455",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\data_operations.py:8014",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\field_mapping_manager.py:122",
+    1
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\validation_operations.py:7020",
+    221
+   ],
+   [
+    "fs:walk",
+    "ui_components\\validation_operations.py:7020",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1247",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:9174",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1516",
+    1
+   ],
+   [
+    "soql",
+    "ui_components\\data_operations.py:8113",
+    11
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 2 Schema: Run validation (20k)",
+  "wall_s": 97.456,
+  "script_s": 97.433,
+  "sections_s": {
+   "show_schema_validation": 94.829,
+   "show_enhanced_validation": 2.349,
+   "show_validation_summary": 0.149,
+   "render_validation_result_card": 0.086,
+   "show_custom_validation": 0.004,
+   "show_genai_validation": 0.003,
+   "render_step_header": 0.003,
+   "show_saved_mappings_manager": 0.002,
+   "_render_connection_settings": 0.002,
+   "render_page_background": 0.002
+  },
+  "counts": {
+   "describe:Account": 4,
+   "describe:Contact": 1,
+   "describe_sobject": 5,
+   "df_copy_big": 10,
+   "fs:listdir": 1,
+   "fs:scandir": 221,
+   "fs:walk": 1,
+   "get_object_description": 5,
+   "soql": 11
+  },
+  "callers": [
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:366",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe:Contact",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9532",
+    2
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:366",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:3343",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:408",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:3465",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\step_flow.py:143",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\step_flow.py:144",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:4160",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:4172",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:4203",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:9455",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\data_operations.py:8014",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\field_mapping_manager.py:122",
+    1
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\validation_operations.py:7020",
+    221
+   ],
+   [
+    "fs:walk",
+    "ui_components\\validation_operations.py:7020",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1247",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:3325",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:458",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:9174",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1516",
+    1
+   ],
+   [
+    "soql",
+    "ui_components\\data_operations.py:8113",
+    11
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 2 rerun after Schema result",
+  "wall_s": 2.703,
+  "script_s": 2.685,
+  "sections_s": {
+   "show_enhanced_validation": 2.422,
+   "show_validation_summary": 0.136,
+   "render_validation_result_card": 0.084,
+   "show_schema_validation": 0.027,
+   "show_custom_validation": 0.005,
+   "show_genai_validation": 0.003,
+   "show_saved_mappings_manager": 0.002,
+   "_render_connection_settings": 0.001,
+   "render_step_header": 0.001,
+   "render_page_background": 0.001
+  },
+  "counts": {
+   "describe:Account": 3,
+   "describe:Contact": 1,
+   "describe_sobject": 4,
+   "df_copy_big": 2,
+   "fs:listdir": 1,
+   "fs:scandir": 221,
+   "fs:walk": 1,
+   "get_object_description": 3,
+   "soql": 11
+  },
+  "callers": [
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe:Contact",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9532",
+    2
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:9455",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\data_operations.py:8014",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\field_mapping_manager.py:122",
+    1
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\validation_operations.py:7020",
+    221
+   ],
+   [
+    "fs:walk",
+    "ui_components\\validation_operations.py:7020",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1247",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:9174",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1516",
+    1
+   ],
+   [
+    "soql",
+    "ui_components\\data_operations.py:8113",
+    11
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 2 Enhanced: Start validation (20k)",
+  "wall_s": 2.704,
+  "script_s": 2.688,
+  "sections_s": {
+   "show_enhanced_validation": 2.424,
+   "show_validation_summary": 0.134,
+   "render_validation_result_card": 0.088,
+   "show_schema_validation": 0.026,
+   "show_custom_validation": 0.003,
+   "show_genai_validation": 0.003,
+   "show_saved_mappings_manager": 0.002,
+   "_render_connection_settings": 0.002,
+   "render_page_background": 0.001,
+   "render_step_header": 0.001
+  },
+  "counts": {
+   "describe:Account": 4,
+   "describe:Contact": 2,
+   "describe_sobject": 6,
+   "df_copy_big": 4,
+   "fs:listdir": 1,
+   "fs:scandir": 221,
+   "fs:walk": 1,
+   "get_object_description": 5,
+   "soql": 11
+  },
+  "callers": [
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:366",
+    1
+   ],
+   [
+    "describe:Contact",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe:Contact",
+    "ui_components\\validation_operations.py:366",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9532",
+    2
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:366",
+    2
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:9455",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\data_operations.py:8014",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:9625",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\step_flow.py:144",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\field_mapping_manager.py:122",
+    1
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\validation_operations.py:7020",
+    221
+   ],
+   [
+    "fs:walk",
+    "ui_components\\validation_operations.py:7020",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1247",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:9174",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\transform_operations.py:72",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:9646",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1516",
+    1
+   ],
+   [
+    "soql",
+    "ui_components\\data_operations.py:8113",
+    11
+   ]
+  ],
+  "exceptions": [
+   "'float' object is not subscriptable"
+  ]
+ },
+ {
+  "label": "Step 2 rerun after Enhanced result",
+  "wall_s": 2.749,
+  "script_s": 2.728,
+  "sections_s": {
+   "show_enhanced_validation": 2.416,
+   "show_validation_summary": 0.172,
+   "render_validation_result_card": 0.095,
+   "show_schema_validation": 0.03,
+   "show_custom_validation": 0.003,
+   "show_saved_mappings_manager": 0.003,
+   "show_genai_validation": 0.003,
+   "_render_connection_settings": 0.001,
+   "render_page_background": 0.001,
+   "render_step_header": 0.001
+  },
+  "counts": {
+   "describe:Account": 3,
+   "describe:Contact": 1,
+   "describe_sobject": 4,
+   "df_copy_big": 2,
+   "fs:listdir": 1,
+   "fs:scandir": 221,
+   "fs:walk": 1,
+   "get_object_description": 3,
+   "soql": 11
+  },
+  "callers": [
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe:Contact",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9532",
+    2
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:9455",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\data_operations.py:8014",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\field_mapping_manager.py:122",
+    1
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\validation_operations.py:7020",
+    221
+   ],
+   [
+    "fs:walk",
+    "ui_components\\validation_operations.py:7020",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1247",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:9174",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1516",
+    1
+   ],
+   [
+    "soql",
+    "ui_components\\data_operations.py:8113",
+    11
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 3 first render",
+  "wall_s": 0.119,
+  "script_s": 0.109,
+  "sections_s": {
+   "_render_connection_settings": 0.002,
+   "render_page_background": 0.002,
+   "render_step_header": 0.001
+  },
+  "counts": {
+   "describe:Account": 2,
+   "describe:Contact": 1,
+   "describe_sobject": 3,
+   "get_object_description": 1,
+   "soql": 1
+  },
+  "callers": [
+   [
+    "describe:Account",
+    "ui_components\\data_operations.py:1767",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\data_operations.py:81",
+    1
+   ],
+   [
+    "describe:Contact",
+    "ui_components\\data_operations.py:2188",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\data_operations.py:1767",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\data_operations.py:2188",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\data_operations.py:81",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\data_operations.py:3007",
+    1
+   ],
+   [
+    "soql",
+    "ui_components\\data_operations.py:1426",
+    1
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 3 Load tab rerun",
+  "wall_s": 0.11,
+  "script_s": 0.102,
+  "sections_s": {
+   "_render_connection_settings": 0.001,
+   "render_page_background": 0.001,
+   "render_step_header": 0.001
+  },
+  "counts": {
+   "describe:Account": 2,
+   "describe:Contact": 1,
+   "describe_sobject": 3,
+   "get_object_description": 1,
+   "soql": 1
+  },
+  "callers": [
+   [
+    "describe:Account",
+    "ui_components\\data_operations.py:1767",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\data_operations.py:81",
+    1
+   ],
+   [
+    "describe:Contact",
+    "ui_components\\data_operations.py:2188",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\data_operations.py:1767",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\data_operations.py:2188",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\data_operations.py:81",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\data_operations.py:3007",
+    1
+   ],
+   [
+    "soql",
+    "ui_components\\data_operations.py:1426",
+    1
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 3 pick insert source field",
+  "wall_s": 0.108,
+  "script_s": 0.099,
+  "sections_s": {
+   "_render_connection_settings": 0.002,
+   "render_page_background": 0.001,
+   "render_step_header": 0.001
+  },
+  "counts": {
+   "describe:Account": 2,
+   "describe:Contact": 1,
+   "describe_sobject": 3,
+   "get_object_description": 1,
+   "soql": 1
+  },
+  "callers": [
+   [
+    "describe:Account",
+    "ui_components\\data_operations.py:1767",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\data_operations.py:81",
+    1
+   ],
+   [
+    "describe:Contact",
+    "ui_components\\data_operations.py:2188",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\data_operations.py:1767",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\data_operations.py:2188",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\data_operations.py:81",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\data_operations.py:3007",
+    1
+   ],
+   [
+    "soql",
+    "ui_components\\data_operations.py:1426",
+    1
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Unit Testing first render",
+  "wall_s": 0.029,
+  "script_s": 0.022,
+  "sections_s": {
+   "render_page_background": 0.002,
+   "_render_connection_settings": 0.001
+  },
+  "counts": {
+   "describe_global": 1,
+   "fs:listdir": 5
+  },
+  "callers": [
+   [
+    "describe_global",
+    "ui_components\\utils.py:55",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\unit_testing_operations.py:4574",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\unit_testing_operations.py:2859",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\unit_testing_operations.py:2863",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\unit_testing_operations.py:2715",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\unit_testing_operations.py:2720",
+    1
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Unit Testing rerun",
+  "wall_s": 0.03,
+  "script_s": 0.023,
+  "sections_s": {
+   "render_page_background": 0.002,
+   "_render_connection_settings": 0.002
+  },
+  "counts": {
+   "fs:listdir": 5
+  },
+  "callers": [
+   [
+    "fs:listdir",
+    "ui_components\\unit_testing_operations.py:4574",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\unit_testing_operations.py:2859",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\unit_testing_operations.py:2863",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\unit_testing_operations.py:2715",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\unit_testing_operations.py:2720",
+    1
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Data Hub first render",
+  "wall_s": 4.224,
+  "script_s": 4.214,
+  "sections_s": {
+   "_render_connection_settings": 0.003,
+   "render_page_background": 0.002
+  },
+  "counts": {},
+  "callers": [],
+  "exceptions": []
+ },
+ {
+  "label": "Data Hub rerun",
+  "wall_s": 4.136,
+  "script_s": 4.129,
+  "sections_s": {
+   "_render_connection_settings": 0.001,
+   "render_page_background": 0.001
+  },
+  "counts": {},
+  "callers": [],
+  "exceptions": []
+ },
+ {
+  "label": "File Library first render",
+  "wall_s": 2.478,
+  "script_s": 2.455,
+  "sections_s": {
+   "_render_connection_settings": 0.001,
+   "render_page_background": 0.001
+  },
+  "counts": {
+   "fs:scandir": 288,
+   "fs:walk": 5
+  },
+  "callers": [
+   [
+    "fs:scandir",
+    "ui_components\\file_store_manager.py:409",
+    258
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\file_store_manager.py:438",
+    30
+   ],
+   [
+    "fs:walk",
+    "ui_components\\file_store_manager.py:409",
+    4
+   ],
+   [
+    "fs:walk",
+    "ui_components\\file_store_manager.py:438",
+    1
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "File Library rerun",
+  "wall_s": 0.687,
+  "script_s": 0.654,
+  "sections_s": {
+   "_render_connection_settings": 0.003,
+   "render_page_background": 0.002
+  },
+  "counts": {},
+  "callers": [],
+  "exceptions": []
+ },
+ {
+  "label": "Logs & Reports first render",
+  "wall_s": 0.081,
+  "script_s": 0.06,
+  "sections_s": {
+   "_render_connection_settings": 0.003,
+   "render_page_background": 0.001
+  },
+  "counts": {
+   "fs:listdir": 13,
+   "fs:scandir": 14,
+   "fs:walk": 1
+  },
+  "callers": [
+   [
+    "fs:listdir",
+    "ui_components\\logs_reports.py:422",
+    7
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\logs_reports.py:418",
+    5
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\logs_reports.py:415",
+    1
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\logs_reports.py:282",
+    14
+   ],
+   [
+    "fs:walk",
+    "ui_components\\logs_reports.py:282",
+    1
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Logs & Reports rerun",
+  "wall_s": 0.059,
+  "script_s": 0.052,
+  "sections_s": {
+   "_render_connection_settings": 0.001,
+   "render_page_background": 0.001
+  },
+  "counts": {
+   "fs:listdir": 13,
+   "fs:scandir": 14,
+   "fs:walk": 1
+  },
+  "callers": [
+   [
+    "fs:listdir",
+    "ui_components\\logs_reports.py:422",
+    7
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\logs_reports.py:418",
+    5
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\logs_reports.py:415",
+    1
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\logs_reports.py:282",
+    14
+   ],
+   [
+    "fs:walk",
+    "ui_components\\logs_reports.py:282",
+    1
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Configuration first render",
+  "wall_s": 0.096,
+  "script_s": 0.09,
+  "sections_s": {
+   "render_page_background": 0.002,
+   "_render_connection_settings": 0.001
+  },
+  "counts": {
+   "fs:scandir": 301,
+   "fs:walk": 6
+  },
+  "callers": [
+   [
+    "fs:scandir",
+    "ui_components\\config_management.py:730",
+    301
+   ],
+   [
+    "fs:walk",
+    "ui_components\\config_management.py:730",
+    6
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Configuration rerun",
+  "wall_s": 0.088,
+  "script_s": 0.082,
+  "sections_s": {
+   "_render_connection_settings": 0.001,
+   "render_page_background": 0.001
+  },
+  "counts": {
+   "fs:scandir": 301,
+   "fs:walk": 6
+  },
+  "callers": [
+   [
+    "fs:scandir",
+    "ui_components\\config_management.py:730",
+    301
+   ],
+   [
+    "fs:walk",
+    "ui_components\\config_management.py:730",
+    6
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Dashboard with 20k in session",
+  "wall_s": 0.027,
+  "script_s": 0.02,
+  "sections_s": {
+   "_render_connection_settings": 0.001,
+   "render_page_background": 0.001
+  },
+  "counts": {
+   "fs:scandir": 72,
+   "fs:walk": 4
+  },
+  "callers": [
+   [
+    "fs:scandir",
+    "ui_components\\dashboard_overview.py:193",
+    30
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\utils.py:276",
+    28
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\dashboard_overview.py:199",
+    14
+   ],
+   [
+    "fs:walk",
+    "ui_components\\utils.py:276",
+    2
+   ],
+   [
+    "fs:walk",
+    "ui_components\\dashboard_overview.py:193",
+    1
+   ],
+   [
+    "fs:walk",
+    "ui_components\\dashboard_overview.py:199",
+    1
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Dashboard rerun with 20k in session",
+  "wall_s": 0.027,
+  "script_s": 0.022,
+  "sections_s": {
+   "_render_connection_settings": 0.001,
+   "render_page_background": 0.001
+  },
+  "counts": {
+   "fs:scandir": 72,
+   "fs:walk": 4
+  },
+  "callers": [
+   [
+    "fs:scandir",
+    "ui_components\\dashboard_overview.py:193",
+    30
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\utils.py:276",
+    28
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\dashboard_overview.py:199",
+    14
+   ],
+   [
+    "fs:walk",
+    "ui_components\\utils.py:276",
+    2
+   ],
+   [
+    "fs:walk",
+    "ui_components\\dashboard_overview.py:193",
+    1
+   ],
+   [
+    "fs:walk",
+    "ui_components\\dashboard_overview.py:199",
+    1
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 2 revisit",
+  "wall_s": 2.702,
+  "script_s": 2.687,
+  "sections_s": {
+   "show_enhanced_validation": 2.422,
+   "show_validation_summary": 0.133,
+   "render_validation_result_card": 0.092,
+   "show_schema_validation": 0.026,
+   "show_custom_validation": 0.003,
+   "show_genai_validation": 0.003,
+   "show_saved_mappings_manager": 0.002,
+   "_render_connection_settings": 0.001,
+   "render_page_background": 0.001,
+   "render_step_header": 0.001
+  },
+  "counts": {
+   "describe:Account": 3,
+   "describe:Contact": 1,
+   "describe_sobject": 4,
+   "df_copy_big": 2,
+   "fs:listdir": 1,
+   "fs:scandir": 221,
+   "fs:walk": 1,
+   "get_object_description": 3,
+   "soql": 11
+  },
+  "callers": [
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe:Contact",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9532",
+    2
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:9455",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\data_operations.py:8014",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\field_mapping_manager.py:122",
+    1
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\validation_operations.py:7020",
+    221
+   ],
+   [
+    "fs:walk",
+    "ui_components\\validation_operations.py:7020",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1247",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:9174",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1516",
+    1
+   ],
+   [
+    "soql",
+    "ui_components\\data_operations.py:8113",
+    11
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "Step 2 revisit rerun",
+  "wall_s": 2.703,
+  "script_s": 2.687,
+  "sections_s": {
+   "show_enhanced_validation": 2.418,
+   "show_validation_summary": 0.134,
+   "render_validation_result_card": 0.093,
+   "show_schema_validation": 0.028,
+   "show_custom_validation": 0.003,
+   "show_genai_validation": 0.003,
+   "show_saved_mappings_manager": 0.002,
+   "_render_connection_settings": 0.002,
+   "render_page_background": 0.001,
+   "render_step_header": 0.001
+  },
+  "counts": {
+   "describe:Account": 3,
+   "describe:Contact": 1,
+   "describe_sobject": 4,
+   "df_copy_big": 2,
+   "fs:listdir": 1,
+   "fs:scandir": 221,
+   "fs:walk": 1,
+   "get_object_description": 3,
+   "soql": 11
+  },
+  "callers": [
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "describe:Account",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe:Contact",
+    "ui_components\\validation_operations.py:9532",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9532",
+    2
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9347",
+    1
+   ],
+   [
+    "describe_sobject",
+    "ui_components\\validation_operations.py:9469",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\validation_operations.py:9455",
+    1
+   ],
+   [
+    "df_copy_big",
+    "ui_components\\data_operations.py:8014",
+    1
+   ],
+   [
+    "fs:listdir",
+    "ui_components\\field_mapping_manager.py:122",
+    1
+   ],
+   [
+    "fs:scandir",
+    "ui_components\\validation_operations.py:7020",
+    221
+   ],
+   [
+    "fs:walk",
+    "ui_components\\validation_operations.py:7020",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1247",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:9174",
+    1
+   ],
+   [
+    "get_object_description",
+    "ui_components\\validation_operations.py:1516",
+    1
+   ],
+   [
+    "soql",
+    "ui_components\\data_operations.py:8113",
+    11
+   ]
+  ],
+  "exceptions": []
+ },
+ {
+  "label": "_background_markdown_bytes",
+  "sizes": [
+   49647
+  ]
+ }
+]

@@ -1,0 +1,5 @@
+ValidationName,ErrorConditionFormula,FieldName,ObjectName,Active,ErrorMessage,Description,ValidationRuleName
+KBT_Require_Division,"AND(
+    ISPICKVAL(KBT_Location__c, ""Overseas"") = FALSE,
+    ISPICKVAL(KBT_Division__c, """") 
+)",,Account,False,Division is required unless the Location is 'Overseas,,KBT_Require_Division

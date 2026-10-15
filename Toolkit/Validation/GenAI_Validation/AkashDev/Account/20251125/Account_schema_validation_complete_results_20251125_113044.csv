@@ -1,0 +1,35 @@
+=== VALIDATION SUMMARY ===
+Metric,Value
+Total Records,11
+Passed Records,9
+Failed Records,2
+Total Errors,4
+Success Rate,81.82%
+
+
+=== VALIDATED DATASET WITH RESULTS ===
+FirstName,Phone No.,Billing Street,Validation_Status,Validation_Errors
+Alice,123-456-7890,Springfield,PASSED,
+Bob,234-567-8901,Rivertown,PASSED,
+Charlie,345-678-9012, Lakeview,PASSED,
+Diana,456-789-0123, Hilltop,PASSED,
+Ethan,567-890-1234, Brookfield,PASSED,
+Fiona,678-901-2345,Greenfield,PASSED,
+George,789-012-3456,Meadow Park,PASSED,
+Hannah,890-123-4567,Pinecrest,PASSED,
+Isaac,901-234-5678,Maple Ridge,PASSED,
+Julia,012-345-6789,Oakwood,FAILED,Duplicate record found at row 10 - all field values are identical to another row in the dataset
+Julia,012-345-6789,Oakwood,FAILED,Duplicate record found at row 11 - all field values are identical to another row in the dataset
+
+
+=== DETAILED VALIDATION ERRORS ===
+Error_Description
+Duplicate record found at row 10 - all field values are identical to another row in the dataset
+Duplicate record found at row 11 - all field values are identical to another row in the dataset
+Duplicate record found at row 10 - all field values are identical to another row in the dataset
+Duplicate record found at row 11 - all field values are identical to another row in the dataset
+
+
+=== FIELD-WISE ERROR SUMMARY ===
+Field_Name,Error_Count,Error_Rate_Percent,Sample_Errors
+Duplicate Records,2,18.18,Duplicate record found at row 10 - all field values are identical to another row in the dataset; Duplicate record found at row 11 - all field values are identical to another row in the dataset

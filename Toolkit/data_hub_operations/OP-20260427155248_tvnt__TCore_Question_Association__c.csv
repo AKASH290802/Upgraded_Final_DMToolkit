@@ -1,0 +1,56 @@
+Name,tvnt__Sequence__c,tvnt__Section__c,tvnt__Display_criteria__c,tvnt__Parent_Question_Association__c,tvnt__Matching_criteria__c,CurrencyIsoCode,tvnt__Question__c,tvnt__Mandatory__c,tvnt__Questionnaire__c
+Identify Gear Box (check applicable photo),1.0,a8acf00000FpqdVAAR,,,Any,USD,a8Wcf000000QvEgEAK,True,a8Zcf00000030bNEAQ
+1.1 – Claim #,1.0,a8acf00000FpqdXAAR,,,,USD,a8Wcf000000QvcAEAS,True,a8Zcf00000030bOEAQ
+1.2 – Part #,2.0,a8acf00000FpqdXAAR,,,,USD,a8Wcf000000QvcBEAS,True,a8Zcf00000030bOEAQ
+1.3 – Parent Order #,3.0,a8acf00000FpqdXAAR,,,,USD,a8Wcf000000QvcCEAS,True,a8Zcf00000030bOEAQ
+1.4 – Date Installed (MM/YYYY),4.0,a8acf00000FpqdXAAR,,,,USD,a8Wcf000000QvcDEAS,True,a8Zcf00000030bOEAQ
+1.5 – Hours on Module,5.0,a8acf00000FpqdXAAR,,,,USD,a8Wcf000000QvcEEAS,True,a8Zcf00000030bOEAQ
+1.7 – External Temperature at Time of Failure,7.0,a8acf00000FpqdXAAR,,,,USD,a8Wcf000000QvcGEAS,True,a8Zcf00000030bOEAQ
+1.8 – Dealer Service Case Number,8.0,a8acf00000FpqdXAAR,,,,USD,a8Wcf000000QvcHEAS,False,a8Zcf00000030bOEAQ
+1.6 – Technician Name,6.0,a8acf00000FpqdXAAR,,,,USD,a8Wcf000000QvcFEAS,True,a8Zcf00000030bOEAQ
+2.1 – Frequency / Time of Occurrence,9.0,a8acf00000FpqdYAAR,,,,USD,a8Wcf000000Qvc9EAC,True,a8Zcf00000030bOEAQ
+3.1 – Failure Code Category,12.0,a8acf00000FpqdZAAR,,,,USD,a8Wcf000000QvEMEA0,True,a8Zcf00000030bOEAQ
+Claim Number,1.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvcAEAS,True,a8Zcf00000030bPEAQ
+Part Number,2.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvcBEAS,True,a8Zcf00000030bPEAQ
+Terrain Type,13.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvESEA0,True,a8Zcf00000030bPEAQ
+Failure Mode,3.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvcJEAS,True,a8Zcf00000030bPEAQ
+Parent Order,4.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvcLEAS,True,a8Zcf00000030bPEAQ
+Date Installed,5.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvcDEAS,True,a8Zcf00000030bPEAQ
+Tower,6.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvcKEAS,False,a8Zcf00000030bPEAQ
+Front or Rear,7.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvEQEA0,True,a8Zcf00000030bPEAQ
+GPS Coordinates,8.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvcMEAS,True,a8Zcf00000030bPEAQ
+Hours on Machine,9.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvcNEAS,True,a8Zcf00000030bPEAQ
+Centerdrive RPM,10.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvcOEAS,True,a8Zcf00000030bPEAQ
+Tire Size,11.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvcPEAS,True,a8Zcf00000030bPEAQ
+Maintenance Program – Schedule,12.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvEREA0,True,a8Zcf00000030bPEAQ
+Soil Type,14.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvETEA0,True,a8Zcf00000030bPEAQ
+Crop or Crop Rotation,15.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvKPEA0,False,a8Zcf00000030bPEAQ
+Oil Present and Full,16.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvM1EAK,False,a8Zcf00000030bPEAQ
+Shims Present,17.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvEUEA0,False,a8Zcf00000030bPEAQ
+Direction of Travel,18.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvEVEA0,False,a8Zcf00000030bPEAQ
+Bow in Alignment,19.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvEWEA0,False,a8Zcf00000030bPEAQ
+Solid State Motor Controller on Tower,20.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvEXEA0,False,a8Zcf00000030bPEAQ
+Bearing Failure,21.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvM2EAK,False,a8Zcf00000030bPEAQ
+"Failure Code (Seal,Oil / Bearing / Other)",22.0,a8acf00000FpqdaAAB,,,,USD,a8Wcf000000QvEYEA0,True,a8Zcf00000030bPEAQ
+Gearbox Type Selection,24.0,a8acf00000FpqdbAAB,,,,USD,a8Wcf000000QvEhEAK,True,a8Zcf00000030bPEAQ
+Claim #,1.0,a8acf00000FpqdWAAR,,,Any,USD,a8Wcf000000QvM4EAK,True,a8Zcf00000030bNEAQ
+Parent Order #,3.0,a8acf00000FpqdWAAR,,,Any,USD,a8Wcf000000QvM6EAK,True,a8Zcf00000030bNEAQ
+Dealer Name & No.,2.0,a8acf00000FpqdWAAR,,,,USD,a8Wcf000000QvM5EAK,True,a8Zcf00000030bNEAQ
+Date Installed,4.0,a8acf00000FpqdWAAR,,,Any,USD,a8Wcf000000QvM7EAK,True,a8Zcf00000030bNEAQ
+Failed Tower #,5.0,a8acf00000FpqdWAAR,,,Any,USD,a8Wcf000000QvM8EAK,True,a8Zcf00000030bNEAQ
+Failed Part #,6.0,a8acf00000FpqdWAAR,,,Any,USD,a8Wcf000000QvM9EAK,True,a8Zcf00000030bNEAQ
+Serial # (from nameplate),7.0,a8acf00000FpqdWAAR,,,Any,USD,a8Wcf000000QvMAEA0,True,a8Zcf00000030bNEAQ
+Detail Motor Failure by Examination,8.0,a8acf00000FpqdcAAB,,,Any,USD,a8Wcf000000QvEiEAK,False,a8Zcf00000030bNEAQ
+Type of Power Supply,8.0,a8acf00000FpqdWAAR,,,Any,USD,a8Wcf000000QvEcEAK,True,a8Zcf00000030bNEAQ
+Gear Box Failure Type,2.0,a8acf00000FpqdVAAR,,,Any,USD,a8Wcf000000QvEdEAK,False,a8Zcf00000030bNEAQ
+Other,3.0,a8acf00000FpqdVAAR,Other (Gearbox Failure),,Any,USD,a8Wcf000000QvMBEA0,False,a8Zcf00000030bNEAQ
+Motor Failure Type,3.0,a8acf00000FpqdcAAB,,,Any,USD,a8Wcf000000QvEeEAK,False,a8Zcf00000030bNEAQ
+Other (Motor Failure),5.0,a8acf00000FpqdcAAB,Other (Motor Failure),,Any,USD,a8Wcf000000QvMBEA0,False,a8Zcf00000030bNEAQ
+Booster Pump Failure Type,6.0,a8acf00000FpqdcAAB,,,Any,USD,a8Wcf000000QvEfEAK,False,a8Zcf00000030bNEAQ
+Other (Pump Failure),7.0,a8acf00000FpqdcAAB,Other (Pump Failure),,Any,USD,a8Wcf000000QvMBEA0,False,a8Zcf00000030bNEAQ
+Electrical Validation,9.0,a8acf00000FpqdeAAB,,,Any,USD,a8Wcf000000QvMCEA0,False,a8Zcf00000030bNEAQ
+2.2 – A‑B‑A Swap Method Confirmation,10.0,a8acf00000FpqdYAAR,,,,USD,a8Wcf000000QvELEA0,False,a8Zcf00000030bOEAQ
+2.3 – Description of Failure,11.0,a8acf00000FpqdXAAR,,,,USD,a8Wcf000000QvcIEAS,False,a8Zcf00000030bOEAQ
+Date Code (Valley Gearbox/VS 7000 Gearbox),25.0,a8acf00000FpqdbAAB,,,,USD,a8Wcf000000QvM3EAK,True,a8Zcf00000030bPEAQ
+4.1 - Failure Code Found,16.0,a8acf00000FpqddAAB,,,,USD,a8Wcf000000QvMFEA0,False,a8Zcf00000030bOEAQ
+4.2 - Valmont Tech Notes,17.0,a8acf00000FpqddAAB,,,,USD,a8Wcf000000QvMGEA0,False,a8Zcf00000030bOEAQ

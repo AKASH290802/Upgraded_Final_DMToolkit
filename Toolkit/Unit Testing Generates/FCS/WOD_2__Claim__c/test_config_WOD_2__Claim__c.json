@@ -1,0 +1,42 @@
+{
+  "generation_metadata": {
+    "object_name": "WOD_2__Claim__c",
+    "test_types": [
+      "Data Loading Tests",
+      "Schema Validation Tests",
+      "Integration Tests",
+      "Business Rule Tests"
+    ],
+    "test_coverage": "Comprehensive",
+    "include_negative_tests": true,
+    "include_edge_cases": true,
+    "sample_size": 100,
+    "data_source": "Use Existing Data",
+    "generated_at": "2025-10-30 15:44:07",
+    "complexity_level": "High",
+    "complexity_score": 1316.8
+  },
+  "object_analysis": {
+    "total_fields": 480,
+    "required_fields": 58,
+    "updateable_fields": 391,
+    "picklist_fields": 52,
+    "lookup_fields": 43,
+    "custom_fields": 464
+  },
+  "test_metrics": {
+    "total_tests": 20,
+    "data_loading_tests": 7,
+    "schema_validation_tests": 4,
+    "business_rule_tests": 3,
+    "integration_tests": 2,
+    "negative_tests": 2,
+    "edge_case_tests": 2
+  },
+  "coverage_analysis": {
+    "field_coverage": 100.0,
+    "business_rule_coverage": 85.5,
+    "integration_coverage": 92.3,
+    "security_coverage": 88.7
+  }
+}

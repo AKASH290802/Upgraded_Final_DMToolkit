@@ -1,0 +1,19 @@
+ENHANCED VALIDATION SUMMARY REPORT
+==================================================
+
+Generated: 2025-12-23 10:00:47
+Salesforce Org: Valmont_Industries
+Target Object: WOD_2__Rates_Details__c
+
+OVERALL STATISTICS:
+Total Records Processed: 5
+Transform Success: 0 (0.0%)
+Transform Failure: 5 (100.0%)
+
+FAILURE BREAKDOWN:
+- Lookup transformation failures: 5
+- Picklist validation failures: 0
+- Unique field constraint failures: 0
+
+LOOKUP FIELDS PROCESSED:
+- WOD_2__Dealer__c -> {'referenced_object': 'Account', 'label': 'Dealer', 'sf_field_name': 'WOD_2__Dealer__c'} (0 values resolved)

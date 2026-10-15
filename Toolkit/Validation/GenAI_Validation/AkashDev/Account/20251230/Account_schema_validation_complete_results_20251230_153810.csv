@@ -1,0 +1,25 @@
+=== VALIDATION SUMMARY ===
+Metric,Value
+Total Records,6
+Passed Records,6
+Failed Records,0
+Total Errors,0
+Success Rate,100.00%
+
+
+=== VALIDATED DATASET WITH RESULTS ===
+FirstName,Phone No.,Billing Street,Validation_Status,Validation_Errors
+Alice,123-456-7890,Springfield,PASSED,
+Bob,234-567-8901,Rivertown,PASSED,
+Charlie,345-678-9012, Lakeview,PASSED,
+Diana,456-789-0123, Hilltop,PASSED,
+Ethan,567-890-1234, Brookfield,PASSED,
+Fiona,678-901-2345,Greenfield,PASSED,
+
+
+=== DETAILED VALIDATION ERRORS ===
+No validation errors found.
+
+
+=== FIELD-WISE ERROR SUMMARY ===
+No field-specific errors found.

@@ -1,0 +1,18 @@
+Name,tvnt__Type__c,tvnt__Is_Mandatory__c,tvnt__Response_Input_Type__c,tvnt__Response_Type__c,CurrencyIsoCode,tvnt__Response__c,tvnt__Question__c,tvnt__Sequence__c
+Frequency / Time of Occurrence,,True,,Number,USD,,<p>Frequency / Time of Occurrence</p>,8.0
+Claim Number,,False,,Text,USD,,<p>Claim #</p>,1.0
+Part Number,,False,,Text,USD,,<p>Part #</p>,2.0
+Parent Order Number,,True,,Text,USD,,<p>Parent Order #</p>,3.0
+Date Installed,,True,,Date,USD,,<p>Date Installed (Month/Year)</p>,4.0
+Hours on Module,,True,,Number,USD,,<p>Hours on Module</p>,5.0
+Tech Name,,True,,Text,USD,,<p>Tech Name (Who Performed Field Service)</p>,6.0
+External Temperature at Time of Failure,,True,,Number,USD,,<p>External Temperature at Time of Failure</p>,7.0
+Dealer Valley Service Dept. Service Case Number,,False,,Text,USD,,<p>Dealer Valley Service Dept. Service Case Number</p>,10.0
+Description of Failure,,False,,Text Area,USD,,<p>Description of Failure</p>,11.0
+Failure Mode,,False,,Text,USD,,<p>Failure Mode</p>,
+Tower,,False,,Number,USD,,<p>Tower #</p>,
+Parent Order,,False,,Text,USD,,<p>Parent Order #</p>,
+GPS Coordinates,,False,,Text,USD,,<p>GPS Coordinates</p>,
+Hours on Machine,,False,,Number,USD,,<p>Hours on Machine</p>,
+Centerdrive RPM,,False,,Number,USD,,<p>Centerdrive RPM</p>,
+Tire Size,,False,,Text,USD,,<p>Tire Size</p>,

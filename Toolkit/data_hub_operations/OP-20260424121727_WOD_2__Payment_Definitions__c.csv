@@ -1,0 +1,37 @@
+Name,CurrencyIsoCode,WOD_2__Business_Units__c,WOD_2__Cost_Categories__c,WOD_2__Is_Default__c,WOD_2__Status__c,VRM_External_Id__c
+Standard Full Payment Definition,USD,VRM-NA,OEM Parts;Labor;Freight;Parts;Travel;Repair Invoice;Boom Truck;Corrosion,False,Active,Standard Full Payment Definition
+Standard Payment Definition,USD,VRM-NA,Labor;Parts;Travel,False,Active,Standard Payment Definition
+Parts only Payment Definition,USD,VRM-NA,Parts,False,Active,Parts only Payment Definition
+Standard with Repair Invoice Payment Definition,USD,VRM-NA,Labor;Parts;Travel;Repair Invoice,False,Active,Standard with Repair Invoice Payment Definition
+Standard with Boom Truck Payment Definition,USD,VRM-NA,Labor;Parts;Travel;Repair Invoice;Boom Truck,False,Active,Standard with Boom Truck Payment Definition
+Payment 11,USD,VRM-NA,Labor;Parts,False,Draft,
+Premium Payment Plan,USD,VRM-NA,Labor;Freight;Travel;Repair Invoice,False,Draft,
+Payment Definition12,USD,VRM-NA,Labor;Freight;Parts;Travel;Repair Invoice;Boom Truck,False,Active,
+Premium Payment Plan,USD,VRM-NA,Labor;Freight;Travel;Repair Invoice,False,Draft,
+Standard Payment Plan,USD,VRM-NA,Labor;Freight;Parts;Travel,True,Active,
+Standard Payment Plan,USD,VRM-NA,Labor;Freight;Parts;Travel,True,Active,
+Standard Payment Plan,USD,VRM-NA,Labor;Parts;Travel,True,Active,
+Standard Payment Plan Edited,USD,VRM-NA,Labor;Freight;Travel,True,Active,
+Standard Payment Plan Clone,USD,VRM-NA,Labor;Freight;Travel,True,Draft,
+Standard Payment Plan,USD,VRM-NA,Labor;Freight;Travel,True,Active,
+Standard Payment Plan Clone,USD,VRM-NA,Labor;Freight;Travel,True,Draft,
+Standard Payment Plan,USD,VRM-NA,Labor;Freight;Travel,False,Active,
+Payment Definition Plan Standard,USD,VRM-NA,Labor;Freight;Travel,False,Active,
+Payment Definition Plan Standard1,USD,VRM-NA,Labor;Freight;Travel,False,Active,
+Basic Payment Plan,USD,VRM-NA,Labor;Freight,True,Inactive,
+Standard Payment Plan Clone,USD,VRM-NA,Labor;Freight,True,Draft,
+Standard Payment Plan Clone2,USD,VRM-NA,Labor;Freight,True,Active,
+Standard Payment Plan Clone2,USD,VRM-NA,Labor;Freight,True,Active,
+Edited Payment Definition,USD,VRM-NA,Labor;Freight,True,Active,
+Standard Payment Plan Clone4,USD,VRM-NA,Labor;Freight,True,Active,
+Standard Payment Plan Clone4,USD,VRM-NA,Labor;Freight,True,Active,
+Standard Service Reimbursement,USD,VRM-NA,Labor;Freight;Travel,False,Active,
+Smoke Parts Freight Reimbursement,USD,VRM-NA,Labor;Freight,False,Active,
+Smoke Search Labor Reimbursement,USD,VRM-NA,Labor;Travel,False,Active,
+Smoke Search Labor Reimbursement3373,USD,VRM-NA,Labor;Travel,False,Active,
+Smoke Parts Freight Reimbursement4709,USD,VRM-NA,Labor;Freight,False,Active,
+Smoke Search Labor Reimbursement48546,USD,VRM-NA,Labor;Travel,False,Active,
+Smoke Parts Freight Reimbursement44157,USD,VRM-NA,Labor;Freight,False,Active,
+Smoke Search Labor Reimbursement83441,USD,VRM-NA,Labor;Travel,False,Active,
+Standard Payment Definition1,USD,VRM-NA,Parts,False,Active,
+Part Return Payment Definition,USD,VRM-NA,OEM Parts,False,Active,

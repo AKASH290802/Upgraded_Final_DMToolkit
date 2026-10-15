@@ -1,0 +1,176 @@
+CatalogId,IsNavigational,NumberOfProducts,Name,ParentCategoryId,CurrencyIsoCode
+0ZSRj00000002rROAQ,True,0,Products,,USD
+0ZSRj00000002rROAQ,True,593,Ancillary,,USD
+0ZSRj00000002rROAQ,True,960,Control Technology,,USD
+0ZSRj00000002rROAQ,True,478,Corner,,USD
+0ZSRj00000002rROAQ,True,764,Drive Train,,USD
+0ZSRj00000002rROAQ,True,272,Drive Unit Controls,,USD
+0ZSRj00000002rROAQ,True,3460,Electrical Components,,USD
+0ZSRj00000002rROAQ,True,39,Flotation,,USD
+0ZSRj00000002rROAQ,True,527,Linears,,USD
+0ZSRj00000002rROAQ,True,396,Machine Options,,USD
+0ZSRj00000002rROAQ,True,46,Manuals,,USD
+0ZSRj00000002rROAQ,True,57,Service Tools,,USD
+0ZSRj00000002rROAQ,True,1372,Span Accessories,,USD
+0ZSRj00000002rROAQ,True,1565,Sprinklers,,USD
+0ZSRj00000002rROAQ,True,2096,Structural,,USD
+0ZSRj00000002rROAQ,True,12,Ancillary Valves,,USD
+0ZSRj00000002rROAQ,True,19,Butterfly Valves,,USD
+0ZSRj00000002rROAQ,True,20,Direct Buried Cable,,USD
+0ZSRj00000002rROAQ,True,14,Disconnect Panels,,USD
+0ZSRj00000002rROAQ,True,39,Fertigation and Chemigation,,USD
+0ZSRj00000002rROAQ,True,50,Flowmeters,,USD
+0ZSRj00000002rROAQ,True,36,Generators and Engines,,USD
+0ZSRj00000002rROAQ,True,22,Hook-Up Options,,USD
+0ZSRj00000002rROAQ,True,32,Phase Converters,,USD
+0ZSRj00000002rROAQ,True,18,Pump Panels,,USD
+0ZSRj00000002rROAQ,True,29,Ring Lock Fittings,,USD
+0ZSRj00000002rROAQ,True,52,Soft Starters,,USD
+0ZSRj00000002rROAQ,True,33,Steel Tubing,,USD
+0ZSRj00000002rROAQ,True,135,Variable Frequency Drives,,USD
+0ZSRj00000002rROAQ,True,168,AgSense,,USD
+0ZSRj00000002rROAQ,True,446,Complete Control Panels,,USD
+0ZSRj00000002rROAQ,True,52,Control Panel Options,,USD
+0ZSRj00000002rROAQ,True,29,Control Panel Upgrades,,USD
+0ZSRj00000002rROAQ,True,0,Panel Auxiliary Options,,USD
+0ZSRj00000002rROAQ,True,22,Solar,,USD
+0ZSRj00000002rROAQ,True,108,Telemetry,,USD
+0ZSRj00000002rROAQ,True,23,Air Compressor,,USD
+0ZSRj00000002rROAQ,True,24,Below Ground Guidance,,USD
+0ZSRj00000002rROAQ,True,5,Cam Lines,,USD
+0ZSRj00000002rROAQ,True,6,Corner Overhang Package,,USD
+0ZSRj00000002rROAQ,True,18,Corner Sensor Box,,USD
+0ZSRj00000002rROAQ,True,14,Corner Sequencing,,USD
+0ZSRj00000002rROAQ,True,9,Corner Span Package,,USD
+0ZSRj00000002rROAQ,True,23,Corner Spans and Overhangs,,USD
+0ZSRj00000002rROAQ,True,9,Corner Upgrade,,USD
+0ZSRj00000002rROAQ,True,44,Encompass,,USD
+0ZSRj00000002rROAQ,True,79,GPS Guidance,,USD
+0ZSRj00000002rROAQ,True,86,LRDU,,USD
+0ZSRj00000002rROAQ,True,30,Sprinkler,,USD
+0ZSRj00000002rROAQ,True,65,Steerable Drive Unit,,USD
+0ZSRj00000002rROAQ,True,28,Tubing Harnesses,,USD
+0ZSRj00000002rROAQ,True,159,Center Drive Repair,,USD
+0ZSRj00000002rROAQ,True,48,Complete Center Drives,,USD
+0ZSRj00000002rROAQ,True,43,Complete Gearboxes,,USD
+0ZSRj00000002rROAQ,True,21,Drive Shaft Shields,,USD
+0ZSRj00000002rROAQ,True,63,Drive Shafts,,USD
+0ZSRj00000002rROAQ,True,14,Drive Train Conversions,,USD
+0ZSRj00000002rROAQ,True,5,Engine Drive,,USD
+0ZSRj00000002rROAQ,True,0,Gear Lube,,USD
+0ZSRj00000002rROAQ,True,212,Gearbox Repair,,USD
+0ZSRj00000002rROAQ,True,183,Tires and Rims,,USD
+0ZSRj00000002rROAQ,True,0,T-L Conversion,,USD
+0ZSRj00000002rROAQ,True,16,U-Joints,,USD
+0ZSRj00000002rROAQ,True,90,Complete Tower Boxes,,USD
+0ZSRj00000002rROAQ,True,80,Pivot Alignment,,USD
+0ZSRj00000002rROAQ,True,0,Solid State Motor Controller,,USD
+0ZSRj00000002rROAQ,True,42,Tower Box Conversion,,USD
+0ZSRj00000002rROAQ,True,46,Tower Box Mechanical,,USD
+0ZSRj00000002rROAQ,True,9,Tower Box Upgrades,,USD
+0ZSRj00000002rROAQ,True,5,X-Tec,,USD
+0ZSRj00000002rROAQ,True,0,Batteries,,USD
+0ZSRj00000002rROAQ,True,132,Cable Accessories,,USD
+0ZSRj00000002rROAQ,True,38,Collector Rings,,USD
+0ZSRj00000002rROAQ,True,88,Control Boards and Modules,,USD
+0ZSRj00000002rROAQ,True,41,Din Rails and Snap Tracks,,USD
+0ZSRj00000002rROAQ,True,379,Electrical Cables,,USD
+0ZSRj00000002rROAQ,True,27,Electrical Contactors,,USD
+0ZSRj00000002rROAQ,True,20,Electrical Disconnect,,USD
+0ZSRj00000002rROAQ,True,6,Electrical Meters,,USD
+0ZSRj00000002rROAQ,True,33,Electrical Protective Devices,,USD
+0ZSRj00000002rROAQ,True,1,Electrical Timers,,USD
+0ZSRj00000002rROAQ,True,16,Electrical Transformers,,USD
+0ZSRj00000002rROAQ,True,2160,Electrical Wire,,USD
+0ZSRj00000002rROAQ,True,149,Fuses & Circuit Breakers,,USD
+0ZSRj00000002rROAQ,True,79,Micro Switches,,USD
+0ZSRj00000002rROAQ,True,14,Percent Timers,,USD
+0ZSRj00000002rROAQ,True,24,Power Supply,,USD
+0ZSRj00000002rROAQ,True,16,Pressure Transducers,,USD
+0ZSRj00000002rROAQ,True,64,Relays,,USD
+0ZSRj00000002rROAQ,True,10,Solenoids,,USD
+0ZSRj00000002rROAQ,True,64,Speciality Cables,,USD
+0ZSRj00000002rROAQ,True,1,Switches,,USD
+0ZSRj00000002rROAQ,True,0,Terminal Strips,,USD
+0ZSRj00000002rROAQ,True,6,3 Wheel Drive,,USD
+0ZSRj00000002rROAQ,True,5,Agri-TRAC,,USD
+0ZSRj00000002rROAQ,True,6,Articulating 4-Wheel Drive,,USD
+0ZSRj00000002rROAQ,True,1,Articulating Track Drive,,USD
+0ZSRj00000002rROAQ,True,5,Loegering Tracks,,USD
+0ZSRj00000002rROAQ,True,9,RAAFT Track,,USD
+0ZSRj00000002rROAQ,True,4,Spider Wheel,,USD
+0ZSRj00000002rROAQ,True,3,Track Drive,,USD
+0ZSRj00000002rROAQ,True,44,Below Ground Guidance,,USD
+0ZSRj00000002rROAQ,True,22,Furrow Guidance,,USD
+0ZSRj00000002rROAQ,True,156,GPS Guidance,,USD
+0ZSRj00000002rROAQ,True,170,Inlet Components,,USD
+0ZSRj00000002rROAQ,True,37,Linear Alignment,,USD
+0ZSRj00000002rROAQ,True,187,Linear Carts,,USD
+0ZSRj00000002rROAQ,True,12,Linear Options,,USD
+0ZSRj00000002rROAQ,True,9,Power Pedestal,,USD
+0ZSRj00000002rROAQ,True,30,Bender Options,,USD
+0ZSRj00000002rROAQ,True,64,Booster Pumps,,USD
+0ZSRj00000002rROAQ,True,18,Cable Protection Options,,USD
+0ZSRj00000002rROAQ,True,8,Drive Unit Auto-Reverse Options,,USD
+0ZSRj00000002rROAQ,True,30,Drop Span Options,,USD
+0ZSRj00000002rROAQ,True,19,End Gun Control Options,,USD
+0ZSRj00000002rROAQ,True,49,End of Field Stops Options,,USD
+0ZSRj00000002rROAQ,True,50,Pump Connect,,USD
+0ZSRj00000002rROAQ,True,39,Running Lights,,USD
+0ZSRj00000002rROAQ,True,0,Installation Manuals,,USD
+0ZSRj00000002rROAQ,True,0,Owner's Manuals,,USD
+0ZSRj00000002rROAQ,True,26,Electrical Tools,,USD
+0ZSRj00000002rROAQ,True,12,Field Mapping Tools,,USD
+0ZSRj00000002rROAQ,True,19,Mechanical Tools,,USD
+0ZSRj00000002rROAQ,True,154,Bracket and Mounts,,USD
+0ZSRj00000002rROAQ,True,31,Drains and Couplers,,USD
+0ZSRj00000002rROAQ,True,232,Fasteners,,USD
+0ZSRj00000002rROAQ,True,45,Flanges and End Plates,,USD
+0ZSRj00000002rROAQ,True,24,Flex Boots,,USD
+0ZSRj00000002rROAQ,True,0,Half Clamps,,USD
+0ZSRj00000002rROAQ,True,575,Hardware,,USD
+0ZSRj00000002rROAQ,True,0,Overhang Accessories,,USD
+0ZSRj00000002rROAQ,True,0,Overhang Cables,,USD
+0ZSRj00000002rROAQ,True,32,Rubber Gaskets,,USD
+0ZSRj00000002rROAQ,True,68,Span Clamps,,USD
+0ZSRj00000002rROAQ,True,10,Span Transitions,,USD
+0ZSRj00000002rROAQ,True,2,Truss Components,,USD
+0ZSRj00000002rROAQ,True,65,Weldment Options,,USD
+0ZSRj00000002rROAQ,True,83,Boombacks,,USD
+0ZSRj00000002rROAQ,True,126,Drop Options,,USD
+0ZSRj00000002rROAQ,True,29,End Guns,,USD
+0ZSRj00000002rROAQ,True,95,Fixed Sprays,,USD
+0ZSRj00000002rROAQ,True,11,Impact Sprinklers,,USD
+0ZSRj00000002rROAQ,True,100,Rotating Sprays,,USD
+0ZSRj00000002rROAQ,True,255,Sprinkler Fittings,,USD
+0ZSRj00000002rROAQ,True,16,Sprinkler Gauges,,USD
+0ZSRj00000002rROAQ,True,572,Sprinkler Nozzles,,USD
+0ZSRj00000002rROAQ,True,83,Sprinkler Regulators,,USD
+0ZSRj00000002rROAQ,True,123,Sprinkler Repair,,USD
+0ZSRj00000002rROAQ,True,22,U-Pipes,,USD
+0ZSRj00000002rROAQ,True,50,Valves,,USD
+0ZSRj00000002rROAQ,True,58,Add Span Packages,,USD
+0ZSRj00000002rROAQ,True,370,Drive Unit Structure,,USD
+0ZSRj00000002rROAQ,True,10,Overhang Packages,,USD
+0ZSRj00000002rROAQ,True,511,Pipe & Stubs,,USD
+0ZSRj00000002rROAQ,True,0,Pivot Flex Options,,USD
+0ZSRj00000002rROAQ,True,721,Pivot Point,,USD
+0ZSRj00000002rROAQ,True,297,Truss Angles,,USD
+0ZSRj00000002rROAQ,True,129,Truss Rods,,USD
+0ZSRj00000002rROAQ,True,10,Battery,,USD
+0ZSRj00000002rROAQ,True,7,Electrical Relays and Bases,,USD
+0ZSRj00000002rROAQ,True,134,Overhang Cable,,USD
+0ZSRj00000002rROAQ,True,59,VRI,,USD
+0ZSRj00000002rROAQ,True,19,X-TEC Options,,USD
+0ZSRj00000002rROAQ,True,61,Control Valves,,USD
+0ZSRj00000002rROAQ,True,64,Control Panel Repair,,USD
+0ZSRj00000002rROAQ,True,7,Pressure Switches,,USD
+0ZSRj00000002rROAQ,True,74,Terminal Options,,USD
+0ZSRj00000002rROAQ,True,21,Pumping Options,,USD
+0ZSRj00000002rROAQ,True,7,Merchandising,,USD
+0ZSRj00000002rROAQ,True,7,Miscellaneous Merchandising,,USD
+0ZSRj00000002rROAQ,True,7,Above Ground Guidance,,USD
+0ZSRj00000002rROAQ,True,14,Pump Control Options,,USD
+0ZSRj00000002rROAQ,True,17,Owner's Manual,,USD
+0ZSRj00000002rROAQ,True,29,Installation Manual,,USD
+0ZSRj00000002rROAQ,True,10,Machine Diagnostics,,USD

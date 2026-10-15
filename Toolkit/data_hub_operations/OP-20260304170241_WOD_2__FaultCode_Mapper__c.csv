@@ -1,0 +1,1309 @@
+Name,WOD_2__Status__c,VRM_External_Id__c,VRM_Category__c,VRM_SubCategory__c,VRM_Failure_Resolution_Code__c
+FaultCode1,True,Ancillary-Ancillary Valves-Coil Failure-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDhGAM,a83cf0000002qSLAAY
+FaultCode2,True,Ancillary-Ancillary Valves-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDhGAM,a83cf0000002qSMAAY
+FaultCode3,True,Ancillary-Ancillary Valves-Leaking-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDhGAM,a83cf0000002qSNAAY
+FaultCode4,True,Ancillary-Ancillary Valves-Won't close-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDhGAM,a83cf0000002qSOAAY
+FaultCode5,True,Ancillary-Ancillary Valves-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDhGAM,a83cf0000002qSPAAY
+FaultCode6,True,Ancillary-Ancillary Valves-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDhGAM,a83cf0000002qSQAAY
+FaultCode7,True,Ancillary-Ancillary Valves-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDhGAM,a83cf0000002qSRAAY
+FaultCode8,True,Ancillary-Butterfly Valves-Coil Failure-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDiGAM,a83cf0000002qSLAAY
+FaultCode9,True,Ancillary-Butterfly Valves-Leaking-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDiGAM,a83cf0000002qSNAAY
+FaultCode10,True,Ancillary-Butterfly Valves-Won't close-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDiGAM,a83cf0000002qSOAAY
+FaultCode11,True,Ancillary-Butterfly Valves-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDiGAM,a83cf0000002qSPAAY
+FaultCode12,True,Ancillary-Butterfly Valves-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDiGAM,a83cf0000002qSRAAY
+FaultCode13,True,Ancillary-Control Valves-Coil Failure-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDvGAM,a83cf0000002qSLAAY
+FaultCode14,True,Ancillary-Control Valves-Leaking-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDvGAM,a83cf0000002qSNAAY
+FaultCode15,True,Ancillary-Control Valves-Won't close-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDvGAM,a83cf0000002qSOAAY
+FaultCode16,True,Ancillary-Control Valves-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDvGAM,a83cf0000002qSPAAY
+FaultCode17,True,Ancillary-Control Valves-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDvGAM,a83cf0000002qSRAAY
+FaultCode18,True,Ancillary-Control Valves-Will Not Rotate-Replace Component-1.5hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDvGAM,a83cf0000002qSSAAY
+FaultCode19,True,Ancillary-Disconnect Panels-Calibration changed/out of spec-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDkGAM,a83cf0000002qSTAAY
+FaultCode20,True,Ancillary-Disconnect Panels-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDkGAM,a83cf0000002qSUAAY
+FaultCode21,True,Ancillary-Disconnect Panels-Contactor Chattering-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDkGAM,a83cf0000002qSVAAY
+FaultCode22,True,Ancillary-Disconnect Panels-Contactor Locked in-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDkGAM,a83cf0000002qSWAAY
+FaultCode23,True,Ancillary-Disconnect Panels-Contactor not pulling in-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDkGAM,a83cf0000002qSXAAY
+FaultCode24,True,Ancillary-Disconnect Panels-Disconnect Switch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDkGAM,a83cf0000002qSYAAY
+FaultCode25,True,Ancillary-Disconnect Panels-Disconnect Switch Fails Open-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDkGAM,a83cf0000002qSZAAY
+FaultCode26,True,Ancillary-Disconnect Panels-Electrical Component Failure-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDkGAM,a83cf0000002qSaAAI
+FaultCode27,True,Ancillary-Disconnect Panels-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDkGAM,a83cf0000002qSbAAI
+FaultCode28,True,Ancillary-Disconnect Panels-Fuse Block Defective-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDkGAM,a83cf0000002qScAAI
+FaultCode29,True,Ancillary-Disconnect Panels-Grounding Block Defective-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDkGAM,a83cf0000002qSdAAI
+FaultCode30,True,Ancillary-Disconnect Panels-Housing Damaged-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDkGAM,a83cf0000002qSeAAI
+FaultCode31,True,Ancillary-Disconnect Panels-Intermittent Operations-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDkGAM,a83cf0000002qSfAAI
+FaultCode32,True,Ancillary-Disconnect Panels-Leads corroded/broken-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDkGAM,a83cf0000002qSgAAI
+FaultCode33,True,Ancillary-Disconnect Panels-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDkGAM,a83cf0000002qSPAAY
+FaultCode34,True,Ancillary-Disconnect Panels-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDkGAM,a83cf0000002qSRAAY
+FaultCode35,True,Ancillary-Fertigation and Chemigation-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDlGAM,a83cf0000002qSPAAY
+FaultCode36,True,Ancillary-Fertigation and Chemigation-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDlGAM,a83cf0000002qSRAAY
+FaultCode37,True,Ancillary-Fertigation and Chemigation-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDlGAM,a83cf0000002qSMAAY
+FaultCode38,True,Ancillary-Flowmeters-Cracked Liner-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDmGAM,a83cf0000002qShAAI
+FaultCode39,True,Ancillary-Flowmeters-Electrical Component Failure-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDmGAM,a83cf0000002qSaAAI
+FaultCode40,True,Ancillary-Flowmeters-Flow not registering-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDmGAM,a83cf0000002qSiAAI
+FaultCode41,True,Ancillary-Flowmeters-Head Filling with Water-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDmGAM,a83cf0000002qSjAAI
+FaultCode42,True,Ancillary-Flowmeters-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDmGAM,a83cf0000002qSPAAY
+FaultCode43,True,Ancillary-Flowmeters-Signal Weak-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDmGAM,a83cf0000002qSkAAI
+FaultCode44,True,Ancillary-Generators and Engines-Contact Warranty Department - Not within-Contact Warranty Department-0hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDnGAM,a83cf0000002qSlAAI
+FaultCode45,True,Ancillary-Phase Converters-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDpGAM,a83cf0000002qSPAAY
+FaultCode46,True,Ancillary-Phase Converters-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDpGAM,a83cf0000002qSRAAY
+FaultCode47,True,Ancillary-Phase Converters-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDpGAM,a83cf0000002qSMAAY
+FaultCode48,True,Ancillary-Pump Panels-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDqGAM,a83cf0000002qSPAAY
+FaultCode49,True,Ancillary-Pump Panels-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDqGAM,a83cf0000002qSRAAY
+FaultCode50,True,Ancillary-Pump Panels-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDqGAM,a83cf0000002qSMAAY
+FaultCode51,True,Ancillary-Pumping Options-Contact Warranty Department - Not within-Contact Warranty Department-0hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDwGAM,a83cf0000002qSlAAI
+FaultCode52,True,Ancillary-Ring Lock Fittings-Hose Pulled off-Replace Component-2hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDrGAM,a83cf0000002qSmAAI
+FaultCode53,True,Ancillary-Ring Lock Fittings-Hose Split-Replace Component-2hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDrGAM,a83cf0000002qSnAAI
+FaultCode54,True,Ancillary-Ring Lock Fittings-Insufficient Clamping Force-Replace Component-2hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDrGAM,a83cf0000002qSoAAI
+FaultCode55,True,Ancillary-Ring Lock Fittings-Mis-manufactured-Replace Component-2hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDrGAM,a83cf0000002qSpAAI
+FaultCode56,True,Ancillary-Ring Lock Fittings-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDrGAM,a83cf0000002qSPAAY
+FaultCode57,True,Ancillary-Ring Lock Fittings-Part Dimensions Incorrect-Replace Component-2hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDrGAM,a83cf0000002qSqAAI
+FaultCode58,True,Ancillary-Ring Lock Fittings-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDrGAM,a83cf0000002qSRAAY
+FaultCode59,True,Ancillary-Ring Lock Fittings-Ultraviolet Degradation-Replace Component-2hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDrGAM,a83cf0000002qSrAAI
+FaultCode60,True,Ancillary-Soft Starters-Signal Weak-Replace Component-2hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDsGAM,a83cf0000002qSsAAI
+FaultCode61,True,Ancillary-Soft Starters-Electrical Component Failure-Replace Component-2hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDsGAM,a83cf0000002qStAAI
+FaultCode62,True,Ancillary-Soft Starters-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDsGAM,a83cf0000002qSPAAY
+FaultCode63,True,Ancillary-Steel Tubing-Dent in Pipe-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qSuAAI
+FaultCode64,True,Ancillary-Steel Tubing-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qSvAAI
+FaultCode65,True,Ancillary-Steel Tubing-Flanges not Square-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qSwAAI
+FaultCode66,True,Ancillary-Steel Tubing-Flanges Out of Time-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qSxAAI
+FaultCode67,True,Ancillary-Steel Tubing-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qSyAAI
+FaultCode68,True,Ancillary-Steel Tubing-Galvanizing Quality-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qSzAAI
+FaultCode69,True,Ancillary-Steel Tubing-Hitch ball bolt failed-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qT0AAI
+FaultCode70,True,Ancillary-Steel Tubing-Hole in Pipe-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qT1AAI
+FaultCode71,True,Ancillary-Steel Tubing-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qSMAAY
+FaultCode72,True,Ancillary-Steel Tubing-Seam Split-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qT2AAI
+FaultCode73,True,Ancillary-Steel Tubing-Seam Split-Weld In Field-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qT3AAI
+FaultCode74,True,Ancillary-Steel Tubing-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qSRAAY
+FaultCode75,True,Ancillary-Steel Tubing-Galvanizing Excessive-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qT4AAI
+FaultCode76,True,Ancillary-Steel Tubing-Hole in Pipe-Weld In Field-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qT5AAI
+FaultCode77,True,Ancillary-Steel Tubing-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qSPAAY
+FaultCode78,True,Ancillary-Steel Tubing-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qSQAAY
+FaultCode79,True,Ancillary-Steel Tubing-Weld Failure-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qT6AAI
+FaultCode80,True,Ancillary-Steel Tubing-Weld Failure-Weld In Field-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qT7AAI
+FaultCode81,True,Ancillary-Steel Tubing-Weld Missing-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qT8AAI
+FaultCode82,True,Ancillary-Steel Tubing-Weld Missing-Repair Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qT9AAI
+FaultCode83,True,Ancillary-Steel Tubing-Hose Pulled off-Replace Component-2hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qSmAAI
+FaultCode84,True,Ancillary-Steel Tubing-Hose Split-Replace Component-2hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qSnAAI
+FaultCode85,True,Ancillary-Steel Tubing-Insufficient Clamping Force-Replace Component-2hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qSoAAI
+FaultCode86,True,Ancillary-Steel Tubing-Plug Removal-Remove Plugs-2hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qTAAAY
+FaultCode87,True,Ancillary-Steel Tubing-Ultraviolet Degradation-Replace Component-2hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDtGAM,a83cf0000002qSrAAI
+FaultCode88,True,Ancillary-Variable Frequency Drives-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDuGAM,a83cf0000002qSPAAY
+FaultCode89,True,Ancillary-Variable Frequency Drives-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDuGAM,a83cf0000002qSRAAY
+FaultCode90,True,Ancillary-Variable Frequency Drives-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8rGAE,0ZGcf0000002YDuGAM,a83cf0000002qSMAAY
+FaultCode91,True,Control Technology-AgSense-Communication Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDxGAM,a83cf0000002qTBAAY
+FaultCode92,True,Control Technology-AgSense-Electrical Component Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDxGAM,a83cf0000002qSaAAI
+FaultCode93,True,Control Technology-AgSense-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDxGAM,a83cf0000002qSPAAY
+FaultCode94,True,Control Technology-AgSense-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDxGAM,a83cf0000002qSQAAY
+FaultCode95,True,Control Technology-AgSense-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDxGAM,a83cf0000002qSRAAY
+FaultCode96,True,Control Technology-Complete Control Panels-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qSRAAY
+FaultCode97,True,Control Technology-Complete Control Panels-5 Volt Power Supply-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qTCAAY
+FaultCode98,True,Control Technology-Complete Control Panels-Backlight Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qTDAAY
+FaultCode99,True,Control Technology-Complete Control Panels-Calibration changed/out of spec-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qSTAAY
+FaultCode100,True,Control Technology-Complete Control Panels-Cold Solder Joint-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qTEAAY
+FaultCode101,True,Control Technology-Complete Control Panels-Communication Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qTBAAY
+FaultCode102,True,Control Technology-Complete Control Panels-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qSUAAY
+FaultCode103,True,Control Technology-Complete Control Panels-Contactor not pulling in-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qSXAAY
+FaultCode104,True,Control Technology-Complete Control Panels-Display Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qTFAAY
+FaultCode105,True,Control Technology-Complete Control Panels-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qSbAAI
+FaultCode106,True,Control Technology-Complete Control Panels-Encoder Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qTGAAY
+FaultCode107,True,Control Technology-Complete Control Panels-External Connection Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qTHAAY
+FaultCode108,True,Control Technology-Complete Control Panels-Harness Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qTIAAY
+FaultCode109,True,Control Technology-Complete Control Panels-Keypad Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qTJAAY
+FaultCode110,True,Control Technology-Complete Control Panels-Leads corroded/broken-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qSgAAI
+FaultCode111,True,Control Technology-Complete Control Panels-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qSPAAY
+FaultCode112,True,Control Technology-Complete Control Panels-PCB Cracked-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qTKAAY
+FaultCode113,True,Control Technology-Complete Control Panels-Percent timer runs at 100% at all times-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qTLAAY
+FaultCode114,True,Control Technology-Complete Control Panels-Pressure Reading Incorrect-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qTMAAY
+FaultCode115,True,Control Technology-Complete Control Panels-Relay Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qTNAAY
+FaultCode116,True,Control Technology-Complete Control Panels-Screen Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qTOAAY
+FaultCode117,True,Control Technology-Complete Control Panels-Trace Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qTPAAY
+FaultCode118,True,Control Technology-Complete Control Panels-Voltage Display Inconsistent-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDyGAM,a83cf0000002qTQAAY
+FaultCode119,True,Control Technology-Control Panel Options-Cable End Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qTRAAY
+FaultCode120,True,Control Technology-Control Panel Options-Calibration changed/out of spec-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qSTAAY
+FaultCode121,True,Control Technology-Control Panel Options-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qSUAAY
+FaultCode122,True,Control Technology-Control Panel Options-Contactor Chattering-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qSVAAY
+FaultCode123,True,Control Technology-Control Panel Options-Contactor Locked in-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qSWAAY
+FaultCode124,True,Control Technology-Control Panel Options-Contactor not pulling in-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qSXAAY
+FaultCode125,True,Control Technology-Control Panel Options-Electrical Component Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qSaAAI
+FaultCode126,True,Control Technology-Control Panel Options-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qSbAAI
+FaultCode127,True,Control Technology-Control Panel Options-Excessive Steering-Replace Component-1.5hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qTSAAY
+FaultCode128,True,Control Technology-Control Panel Options-Fuse Block Defective-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qScAAI
+FaultCode129,True,Control Technology-Control Panel Options-Grounding Block Defective-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qSdAAI
+FaultCode130,True,Control Technology-Control Panel Options-Housing Damaged-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qSeAAI
+FaultCode131,True,Control Technology-Control Panel Options-Inconsistent Position-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qTTAAY
+FaultCode132,True,Control Technology-Control Panel Options-Incorrect Resistance Reading-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qTUAAY
+FaultCode133,True,Control Technology-Control Panel Options-Intermittent Operations-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qSfAAI
+FaultCode134,True,Control Technology-Control Panel Options-Leads corroded/broken-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qSgAAI
+FaultCode135,True,Control Technology-Control Panel Options-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qSPAAY
+FaultCode136,True,Control Technology-Control Panel Options-Resolver Input Error-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qTVAAY
+FaultCode137,True,Control Technology-Control Panel Options-Resolver Volts Incorrect-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qTWAAY
+FaultCode138,True,Control Technology-Control Panel Options-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qSRAAY
+FaultCode139,True,Control Technology-Control Panel Options-Signal Weak-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qSkAAI
+FaultCode140,True,Control Technology-Control Panel Options-Won't Break Safety-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qTXAAY
+FaultCode141,True,Control Technology-Control Panel Options-Won't Hold Safety-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qTYAAY
+FaultCode142,True,Control Technology-Control Panel Options-Won't Steer Forward-Replace Component-1.5hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qTZAAY
+FaultCode143,True,Control Technology-Control Panel Options-Won't Steer Reverse-Replace Component-1.5hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YDzGAM,a83cf0000002qTaAAI
+FaultCode144,True,Control Technology-Control Panel Repair-Cable End Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qTRAAY
+FaultCode145,True,Control Technology-Control Panel Repair-Calibration changed/out of spec-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qSTAAY
+FaultCode146,True,Control Technology-Control Panel Repair-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qSUAAY
+FaultCode147,True,Control Technology-Control Panel Repair-Contactor Chattering-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qSVAAY
+FaultCode148,True,Control Technology-Control Panel Repair-Contactor Locked in-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qSWAAY
+FaultCode149,True,Control Technology-Control Panel Repair-Contactor not pulling in-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qSXAAY
+FaultCode150,True,Control Technology-Control Panel Repair-Electrical Component Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qSaAAI
+FaultCode151,True,Control Technology-Control Panel Repair-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qSbAAI
+FaultCode152,True,Control Technology-Control Panel Repair-Excessive Steering-Replace Component-1.5hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qTSAAY
+FaultCode153,True,Control Technology-Control Panel Repair-Fuse Block Defective-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qScAAI
+FaultCode154,True,Control Technology-Control Panel Repair-Grounding Block Defective-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qSdAAI
+FaultCode155,True,Control Technology-Control Panel Repair-Housing Damaged-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qSeAAI
+FaultCode156,True,Control Technology-Control Panel Repair-Inconsistent Position-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qTTAAY
+FaultCode157,True,Control Technology-Control Panel Repair-Incorrect Resistance Reading-Replace Component-1.5hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qTbAAI
+FaultCode158,True,Control Technology-Control Panel Repair-Intermittent Operations-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qSfAAI
+FaultCode159,True,Control Technology-Control Panel Repair-Leads corroded/broken-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qSgAAI
+FaultCode160,True,Control Technology-Control Panel Repair-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qSPAAY
+FaultCode161,True,Control Technology-Control Panel Repair-Resolver Input Error-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qTVAAY
+FaultCode162,True,Control Technology-Control Panel Repair-Resolver Volts Incorrect-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qTWAAY
+FaultCode163,True,Control Technology-Control Panel Repair-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qSRAAY
+FaultCode164,True,Control Technology-Control Panel Repair-Signal Weak-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qSkAAI
+FaultCode165,True,Control Technology-Control Panel Repair-Won't Break Safety-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qTXAAY
+FaultCode166,True,Control Technology-Control Panel Repair-Won't Hold Safety-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qTYAAY
+FaultCode167,True,Control Technology-Control Panel Repair-Won't Steer Forward-Replace Component-1.5hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qTZAAY
+FaultCode168,True,Control Technology-Control Panel Repair-Won't Steer Reverse-Replace Component-1.5hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE4GAM,a83cf0000002qTaAAI
+FaultCode169,True,Control Technology-Control Panel Upgrades-Cable End Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qTRAAY
+FaultCode170,True,Control Technology-Control Panel Upgrades-Calibration changed/out of spec-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qSTAAY
+FaultCode171,True,Control Technology-Control Panel Upgrades-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qSUAAY
+FaultCode172,True,Control Technology-Control Panel Upgrades-Contactor Chattering-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qSVAAY
+FaultCode173,True,Control Technology-Control Panel Upgrades-Contactor Locked in-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qSWAAY
+FaultCode174,True,Control Technology-Control Panel Upgrades-Contactor not pulling in-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qSXAAY
+FaultCode175,True,Control Technology-Control Panel Upgrades-Electrical Component Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qSaAAI
+FaultCode176,True,Control Technology-Control Panel Upgrades-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qSbAAI
+FaultCode177,True,Control Technology-Control Panel Upgrades-Excessive Steering-Replace Component-1.5hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qTSAAY
+FaultCode178,True,Control Technology-Control Panel Upgrades-Fuse Block Defective-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qScAAI
+FaultCode179,True,Control Technology-Control Panel Upgrades-Grounding Block Defective-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qSdAAI
+FaultCode180,True,Control Technology-Control Panel Upgrades-Housing Damaged-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qSeAAI
+FaultCode181,True,Control Technology-Control Panel Upgrades-Inconsistent Position-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qTTAAY
+FaultCode182,True,Control Technology-Control Panel Upgrades-Incorrect Resistance Reading-Replace Component-1.5hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qTbAAI
+FaultCode183,True,Control Technology-Control Panel Upgrades-Intermittent Operations-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qSfAAI
+FaultCode184,True,Control Technology-Control Panel Upgrades-Leads corroded/broken-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qSgAAI
+FaultCode185,True,Control Technology-Control Panel Upgrades-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qSPAAY
+FaultCode186,True,Control Technology-Control Panel Upgrades-Resolver Input Error-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qTVAAY
+FaultCode187,True,Control Technology-Control Panel Upgrades-Resolver Volts Incorrect-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qTWAAY
+FaultCode188,True,Control Technology-Control Panel Upgrades-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qSRAAY
+FaultCode189,True,Control Technology-Control Panel Upgrades-Signal Weak-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qSkAAI
+FaultCode190,True,Control Technology-Control Panel Upgrades-Won't Break Safety-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qTXAAY
+FaultCode191,True,Control Technology-Control Panel Upgrades-Won't Hold Safety-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qTYAAY
+FaultCode192,True,Control Technology-Control Panel Upgrades-Won't Steer Forward-Replace Component-1.5hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qTZAAY
+FaultCode193,True,Control Technology-Control Panel Upgrades-Won't Steer Reverse-Replace Component-1.5hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE0GAM,a83cf0000002qTaAAI
+FaultCode194,True,Control Technology-Pump Control Options-Communication Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE5GAM,a83cf0000002qTBAAY
+FaultCode195,True,Control Technology-Pump Control Options-Electrical Component Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE5GAM,a83cf0000002qSaAAI
+FaultCode196,True,Control Technology-Pump Control Options-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE5GAM,a83cf0000002qSPAAY
+FaultCode197,True,Control Technology-Pump Control Options-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE5GAM,a83cf0000002qSQAAY
+FaultCode198,True,Control Technology-Pump Control Options-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE5GAM,a83cf0000002qSRAAY
+FaultCode199,True,Control Technology-Telemetry--12 Volt Power Supply-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTcAAI
+FaultCode200,True,Control Technology-Telemetry-5 Volt Power Supply-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTCAAY
+FaultCode201,True,Control Technology-Telemetry-Backlight Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTDAAY
+FaultCode202,True,Control Technology-Telemetry-Cable End Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTRAAY
+FaultCode203,True,Control Technology-Telemetry-Calibration changed/out of spec-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qSTAAY
+FaultCode204,True,Control Technology-Telemetry-Cold Solder Joint-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTEAAY
+FaultCode205,True,Control Technology-Telemetry-Communication Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTBAAY
+FaultCode206,True,Control Technology-Telemetry-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qSUAAY
+FaultCode207,True,Control Technology-Telemetry-Contactor Chattering-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qSVAAY
+FaultCode208,True,Control Technology-Telemetry-Contactor Locked in-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qSWAAY
+FaultCode209,True,Control Technology-Telemetry-Contactor not pulling in-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qSXAAY
+FaultCode210,True,Control Technology-Telemetry-Display Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTFAAY
+FaultCode211,True,Control Technology-Telemetry-Electrical Component Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qSaAAI
+FaultCode212,True,Control Technology-Telemetry-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qSbAAI
+FaultCode213,True,Control Technology-Telemetry-Encoder Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTGAAY
+FaultCode214,True,Control Technology-Telemetry-Excessive Steering-Replace Component-1.5hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTSAAY
+FaultCode215,True,Control Technology-Telemetry-External Connection Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTHAAY
+FaultCode216,True,Control Technology-Telemetry-Fuse Block Defective-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qScAAI
+FaultCode217,True,Control Technology-Telemetry-Grounding Block Defective-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qSdAAI
+FaultCode218,True,Control Technology-Telemetry-Harness Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTIAAY
+FaultCode219,True,Control Technology-Telemetry-Housing Damaged-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qSeAAI
+FaultCode220,True,Control Technology-Telemetry-Incorrect Resistance Reading-Replace Component-1.5hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTbAAI
+FaultCode221,True,Control Technology-Telemetry-Intermittent Operations-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qSfAAI
+FaultCode222,True,Control Technology-Telemetry-Keypad Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTJAAY
+FaultCode223,True,Control Technology-Telemetry-Leads corroded/broken-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qSgAAI
+FaultCode224,True,Control Technology-Telemetry-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qSPAAY
+FaultCode225,True,Control Technology-Telemetry-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qSQAAY
+FaultCode226,True,Control Technology-Telemetry-PCB Cracked-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTKAAY
+FaultCode227,True,Control Technology-Telemetry-Pressure Reading Incorrect-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTMAAY
+FaultCode228,True,Control Technology-Telemetry-Relay Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTNAAY
+FaultCode229,True,Control Technology-Telemetry-Screen Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTOAAY
+FaultCode230,True,Control Technology-Telemetry-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qSRAAY
+FaultCode231,True,Control Technology-Telemetry-Signal Weak-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qSkAAI
+FaultCode232,True,Control Technology-Telemetry-Trace Failure-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTPAAY
+FaultCode233,True,Control Technology-Telemetry-Voltage Display Inconsistent-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTQAAY
+FaultCode234,True,Control Technology-Telemetry-Won't Break Safety-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTXAAY
+FaultCode235,True,Control Technology-Telemetry-Won't Hold Safety-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTYAAY
+FaultCode236,True,Control Technology-Telemetry-Won't Steer Forward-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTdAAI
+FaultCode237,True,Control Technology-Telemetry-Won't Steer Reverse-Replace Component-1hr,0ZGcf0000002Y8sGAE,0ZGcf0000002YE3GAM,a83cf0000002qTeAAI
+FaultCode239,True,Corner-Air Compressor-Electrical Component Failure-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE6GAM,a83cf0000002qSaAAI
+FaultCode240,True,Corner-Air Compressor-Factory Wiring Incorrect-Repair Wiring-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE6GAM,a83cf0000002qTfAAI
+FaultCode241,True,Corner-Air Compressor-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE6GAM,a83cf0000002qSvAAI
+FaultCode242,True,Corner-Air Compressor-Galvanizing Quality-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE6GAM,a83cf0000002qSzAAI
+FaultCode243,True,Corner-Air Compressor-Hitch ball bolt failed-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE6GAM,a83cf0000002qT0AAI
+FaultCode244,True,Corner-Air Compressor-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE6GAM,a83cf0000002qSMAAY
+FaultCode245,True,Corner-Air Compressor-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE6GAM,a83cf0000002qSPAAY
+FaultCode246,True,Corner-Air Compressor-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE6GAM,a83cf0000002qSQAAY
+FaultCode247,True,Corner-Air Compressor-Precision Corner Adjustment-Adjust Span Sensor-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE6GAM,a83cf0000002qTgAAI
+FaultCode248,True,Corner-Air Compressor-Seam Split-Weld In Field-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE6GAM,a83cf0000002qT3AAI
+FaultCode249,True,Corner-Air Compressor-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE6GAM,a83cf0000002qSRAAY
+FaultCode250,True,Corner-Air Compressor-Weld Failure-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE6GAM,a83cf0000002qT6AAI
+FaultCode251,True,Corner-Air Compressor-Weld Failure-Weld In Field-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE6GAM,a83cf0000002qT7AAI
+FaultCode252,True,Corner-Air Compressor-Weld Missing-Weld In Field-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE6GAM,a83cf0000002qThAAI
+FaultCode253,True,Corner-Air Compressor-Weld Missing-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE6GAM,a83cf0000002qT8AAI
+FaultCode254,True,Corner-Below Ground Guidance-Excessive Steering-Replace Component-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE7GAM,a83cf0000002qTSAAY
+FaultCode255,True,Corner-Below Ground Guidance-Incorrect Resistance Reading-Replace Component-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE7GAM,a83cf0000002qTbAAI
+FaultCode256,True,Corner-Below Ground Guidance-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE7GAM,a83cf0000002qSPAAY
+FaultCode257,True,Corner-Below Ground Guidance-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE7GAM,a83cf0000002qSRAAY
+FaultCode258,True,Corner-Below Ground Guidance-Signal Weak-Replace Component-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE7GAM,a83cf0000002qTiAAI
+FaultCode259,True,Corner-Below Ground Guidance-Won't Break Safety-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE7GAM,a83cf0000002qTXAAY
+FaultCode260,True,Corner-Below Ground Guidance-Won't Hold Safety-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE7GAM,a83cf0000002qTYAAY
+FaultCode261,True,Corner-Below Ground Guidance-Won't Steer Forward-Replace Component-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE7GAM,a83cf0000002qTZAAY
+FaultCode262,True,Corner-Below Ground Guidance-Won't Steer Reverse-Replace Component-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YE7GAM,a83cf0000002qTaAAI
+FaultCode263,True,Corner-Corner Sensor Box-Electrical Component Failure-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qSaAAI
+FaultCode264,True,Corner-Corner Sensor Box-Factory Wiring Incorrect-Repair Wiring-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qTfAAI
+FaultCode265,True,Corner-Corner Sensor Box-Factory Wiring Incorrect-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qTjAAI
+FaultCode266,True,Corner-Corner Sensor Box-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qSvAAI
+FaultCode267,True,Corner-Corner Sensor Box-Flanges not Square-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qSwAAI
+FaultCode268,True,Corner-Corner Sensor Box-Flanges Out of Time-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qSxAAI
+FaultCode269,True,Corner-Corner Sensor Box-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qSyAAI
+FaultCode270,True,Corner-Corner Sensor Box-Galvanizing Excessive-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qT4AAI
+FaultCode271,True,Corner-Corner Sensor Box-Galvanizing Quality-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qSzAAI
+FaultCode272,True,Corner-Corner Sensor Box-Hitch ball bolt failed-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qT0AAI
+FaultCode273,True,Corner-Corner Sensor Box-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qSMAAY
+FaultCode274,True,Corner-Corner Sensor Box-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qSPAAY
+FaultCode275,True,Corner-Corner Sensor Box-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qSQAAY
+FaultCode276,True,Corner-Corner Sensor Box-Precision Corner Adjustment-Adjust Span Sensor-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qTgAAI
+FaultCode277,True,Corner-Corner Sensor Box-Seam Split-Weld In Field-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qT3AAI
+FaultCode278,True,Corner-Corner Sensor Box-Seam Split-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qT2AAI
+FaultCode279,True,Corner-Corner Sensor Box-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qSRAAY
+FaultCode280,True,Corner-Corner Sensor Box-Weld Failure-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qT6AAI
+FaultCode281,True,Corner-Corner Sensor Box-Weld Failure-Weld In Field-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qT7AAI
+FaultCode282,True,Corner-Corner Sensor Box-Weld Missing-Weld In Field-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qThAAI
+FaultCode283,True,Corner-Corner Sensor Box-Weld Missing-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEAGA2,a83cf0000002qT8AAI
+FaultCode284,True,Corner-Corner Sequencing-Coil Failure-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEBGA2,a83cf0000002qSLAAY
+FaultCode285,True,Corner-Corner Sequencing-Contact Points Damaged-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEBGA2,a83cf0000002qTkAAI
+FaultCode286,True,Corner-Corner Sequencing-Contactor Chattering-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEBGA2,a83cf0000002qSVAAY
+FaultCode287,True,Corner-Corner Sequencing-Contactor Locked in-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEBGA2,a83cf0000002qSWAAY
+FaultCode288,True,Corner-Corner Sequencing-Contactor not pulling in-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEBGA2,a83cf0000002qSXAAY
+FaultCode289,True,Corner-Corner Sequencing-Disconnect Switch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEBGA2,a83cf0000002qSYAAY
+FaultCode290,True,Corner-Corner Sequencing-Disconnect Switch Fails Open-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEBGA2,a83cf0000002qSZAAY
+FaultCode291,True,Corner-Corner Sequencing-Electrical Component Failure-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEBGA2,a83cf0000002qSaAAI
+FaultCode292,True,Corner-Corner Sequencing-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEBGA2,a83cf0000002qSbAAI
+FaultCode293,True,Corner-Corner Sequencing-Factory Wiring Incorrect-Repair Wiring-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEBGA2,a83cf0000002qTfAAI
+FaultCode294,True,Corner-Corner Sequencing-Leads corroded/broken-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEBGA2,a83cf0000002qSgAAI
+FaultCode295,True,Corner-Corner Sequencing-Leaking-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEBGA2,a83cf0000002qSNAAY
+FaultCode296,True,Corner-Corner Sequencing-Low Pressure Switch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEBGA2,a83cf0000002qTlAAI
+FaultCode297,True,Corner-Corner Sequencing-Low Pressure Switch Fails Open-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEBGA2,a83cf0000002qTmAAI
+FaultCode298,True,Corner-Corner Sequencing-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEBGA2,a83cf0000002qSPAAY
+FaultCode299,True,Corner-Corner Sequencing-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEBGA2,a83cf0000002qSRAAY
+FaultCode300,True,Corner-Corner Sequencing-Switch Failure-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEBGA2,a83cf0000002qTnAAI
+FaultCode301,True,Corner-Corner Sequencing-Voltage Display Inconsistent-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEBGA2,a83cf0000002qTQAAY
+FaultCode302,True,Corner-Corner Sequencing-Won't close-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEBGA2,a83cf0000002qSOAAY
+FaultCode303,True,Corner-Corner Spans and Overhangs-Dent in Pipe-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qSuAAI
+FaultCode304,True,Corner-Corner Spans and Overhangs-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qSvAAI
+FaultCode305,True,Corner-Corner Spans and Overhangs-Flanges not Square-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qSwAAI
+FaultCode306,True,Corner-Corner Spans and Overhangs-Flanges Out of Time-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qSxAAI
+FaultCode307,True,Corner-Corner Spans and Overhangs-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qSyAAI
+FaultCode308,True,Corner-Corner Spans and Overhangs-Galvanizing Excessive-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qT4AAI
+FaultCode309,True,Corner-Corner Spans and Overhangs-Galvanizing Quality-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qSzAAI
+FaultCode310,True,Corner-Corner Spans and Overhangs-Hitch ball bolt failed-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qT0AAI
+FaultCode311,True,Corner-Corner Spans and Overhangs-Hole in Pipe-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qT1AAI
+FaultCode312,True,Corner-Corner Spans and Overhangs-Hole in Pipe-Weld In Field-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qT5AAI
+FaultCode313,True,Corner-Corner Spans and Overhangs-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qSMAAY
+FaultCode314,True,Corner-Corner Spans and Overhangs-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qSPAAY
+FaultCode315,True,Corner-Corner Spans and Overhangs-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qSQAAY
+FaultCode316,True,Corner-Corner Spans and Overhangs-Plug Removal-Remove Plugs-2hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qTAAAY
+FaultCode317,True,Corner-Corner Spans and Overhangs-Seam Split-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qT2AAI
+FaultCode318,True,Corner-Corner Spans and Overhangs-Seam Split-Weld In Field-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qT3AAI
+FaultCode319,True,Corner-Corner Spans and Overhangs-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qSRAAY
+FaultCode320,True,Corner-Corner Spans and Overhangs-Weld Failure-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qT6AAI
+FaultCode321,True,Corner-Corner Spans and Overhangs-Weld Failure-Weld In Field-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qT7AAI
+FaultCode322,True,Corner-Corner Spans and Overhangs-Weld Missing-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qT8AAI
+FaultCode323,True,Corner-Corner Spans and Overhangs-Weld Missing-Weld In Field-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEDGA2,a83cf0000002qThAAI
+FaultCode324,True,Corner-Corner Upgrade-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEEGA2,a83cf0000002qSPAAY
+FaultCode325,True,Corner-Corner Upgrade-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEEGA2,a83cf0000002qSRAAY
+FaultCode326,True,Corner-Corner Upgrade-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEEGA2,a83cf0000002qSMAAY
+FaultCode327,True,Corner-Encompass-Coil Failure-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEFGA2,a83cf0000002qSLAAY
+FaultCode328,True,Corner-Encompass-Leaking-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEFGA2,a83cf0000002qSNAAY
+FaultCode329,True,Corner-Encompass-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEFGA2,a83cf0000002qSPAAY
+FaultCode330,True,Corner-Encompass-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEFGA2,a83cf0000002qSRAAY
+FaultCode331,True,Corner-Encompass-Won't close-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEFGA2,a83cf0000002qSOAAY
+FaultCode332,True,Corner-GPS Guidance-Cable End Failure-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEGGA2,a83cf0000002qTRAAY
+FaultCode333,True,Corner-GPS Guidance-Excessive Steering-Replace Component-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEGGA2,a83cf0000002qTSAAY
+FaultCode334,True,Corner-GPS Guidance-Incorrect Resistance Reading-Replace Component-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEGGA2,a83cf0000002qTbAAI
+FaultCode335,True,Corner-GPS Guidance-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEGGA2,a83cf0000002qSPAAY
+FaultCode336,True,Corner-GPS Guidance-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEGGA2,a83cf0000002qSRAAY
+FaultCode337,True,Corner-GPS Guidance-Signal Weak-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEGGA2,a83cf0000002qSkAAI
+FaultCode338,True,Corner-GPS Guidance-Won't Break Safety-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEGGA2,a83cf0000002qTXAAY
+FaultCode339,True,Corner-GPS Guidance-Won't Hold Safety-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEGGA2,a83cf0000002qTYAAY
+FaultCode340,True,Corner-GPS Guidance-Won't Steer Forward-Replace Component-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEGGA2,a83cf0000002qTZAAY
+FaultCode341,True,Corner-GPS Guidance-Won't Steer Reverse-Replace Component-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEGGA2,a83cf0000002qTaAAI
+FaultCode342,True,Corner-LRDU-Factory Wiring Incorrect-Repair Wiring-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEHGA2,a83cf0000002qTfAAI
+FaultCode343,True,Corner-LRDU-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEHGA2,a83cf0000002qSvAAI
+FaultCode344,True,Corner-LRDU-Flanges not Square-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEHGA2,a83cf0000002qSwAAI
+FaultCode345,True,Corner-LRDU-Flanges Out of Time-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEHGA2,a83cf0000002qSxAAI
+FaultCode346,True,Corner-LRDU-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEHGA2,a83cf0000002qSyAAI
+FaultCode347,True,Corner-LRDU-Galvanizing Excessive-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEHGA2,a83cf0000002qT4AAI
+FaultCode348,True,Corner-LRDU-Hose Pulled off-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEHGA2,a83cf0000002qToAAI
+FaultCode349,True,Corner-LRDU-Hose Split-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEHGA2,a83cf0000002qTpAAI
+FaultCode350,True,Corner-LRDU-Insufficient Clamping Force-Replace Component-2hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEHGA2,a83cf0000002qSoAAI
+FaultCode351,True,Corner-LRDU-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEHGA2,a83cf0000002qSMAAY
+FaultCode352,True,Corner-LRDU-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEHGA2,a83cf0000002qSPAAY
+FaultCode353,True,Corner-LRDU-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEHGA2,a83cf0000002qSQAAY
+FaultCode354,True,Corner-LRDU-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEHGA2,a83cf0000002qSRAAY
+FaultCode355,True,Corner-LRDU-Ultraviolet Degradation-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEHGA2,a83cf0000002qTqAAI
+FaultCode356,True,Corner-LRDU-Weld Missing-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEHGA2,a83cf0000002qT8AAI
+FaultCode357,True,Corner-LRDU-Weld Missing-Weld In Field-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEHGA2,a83cf0000002qThAAI
+FaultCode358,True,Corner-Sprinkler-Factory Wiring Incorrect-Repair Wiring-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEIGA2,a83cf0000002qTfAAI
+FaultCode359,True,Corner-Sprinkler-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEIGA2,a83cf0000002qSPAAY
+FaultCode360,True,Corner-Sprinkler-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEIGA2,a83cf0000002qSRAAY
+FaultCode361,True,Corner-Steerable Drive Unit-Aluminum Casting Failure-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qTrAAI
+FaultCode362,True,Corner-Steerable Drive Unit-Bearing Race Missing-Replace Steering Gearbox-4hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qTsAAI
+FaultCode363,True,Corner-Steerable Drive Unit-Bull Gear Broken-Replace Steering Gearbox-4hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qTtAAI
+FaultCode364,True,Corner-Steerable Drive Unit-Calibration changed/out of spec-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qSTAAY
+FaultCode365,True,Corner-Steerable Drive Unit-Case Broken-Replace Steering Gearbox-4hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qTuAAI
+FaultCode366,True,Corner-Steerable Drive Unit-Charred Failure Both Ends-Replace Component-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qTvAAI
+FaultCode367,True,Corner-Steerable Drive Unit-Charred Failure one end-Replace Component-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qTwAAI
+FaultCode368,True,Corner-Steerable Drive Unit-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qSUAAY
+FaultCode369,True,Corner-Steerable Drive Unit-Contact Points Damaged-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qTkAAI
+FaultCode370,True,Corner-Steerable Drive Unit-Control Bearing Seized-Replace Tower Box-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qTxAAI
+FaultCode371,True,Corner-Steerable Drive Unit-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qSbAAI
+FaultCode372,True,Corner-Steerable Drive Unit-Factory Wiring Incorrect-Repair Wiring-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qTfAAI
+FaultCode373,True,Corner-Steerable Drive Unit-Factory Wiring Loose-Repair Wiring-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qTyAAI
+FaultCode374,True,Corner-Steerable Drive Unit-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qSvAAI
+FaultCode375,True,Corner-Steerable Drive Unit-Flanges not Square-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qSwAAI
+FaultCode376,True,Corner-Steerable Drive Unit-Flanges Out of Time-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qSxAAI
+FaultCode377,True,Corner-Steerable Drive Unit-Flex Joint Insert Failure-Replace Component-0.25hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qTzAAI
+FaultCode378,True,Corner-Steerable Drive Unit-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qSyAAI
+FaultCode379,True,Corner-Steerable Drive Unit-Galvanizing Excessive-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qT4AAI
+FaultCode380,True,Corner-Steerable Drive Unit-Gears Locked Up-Replace Component-2hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qU0AAI
+FaultCode381,True,Corner-Steerable Drive Unit-Gears Locked Up-Replace Steering Gearbox-4hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qU1AAI
+FaultCode382,True,Corner-Steerable Drive Unit-Input Bearing Failed-Replace Steering Gearbox-4hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qU2AAI
+FaultCode383,True,Corner-Steerable Drive Unit-Intermittent Operations-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qSfAAI
+FaultCode384,True,Corner-Steerable Drive Unit-Leads corroded/broken-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qSgAAI
+FaultCode385,True,Corner-Steerable Drive Unit-Mis-manufactured-Repair Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qU3AAI
+FaultCode386,True,Corner-Steerable Drive Unit-Motor Using Excessive Current-Replace Component-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qU4AAI
+FaultCode387,True,Corner-Steerable Drive Unit-No holes in shaft-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qU5AAI
+FaultCode388,True,Corner-Steerable Drive Unit-Noise Excessive-Replace Component-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qU6AAI
+FaultCode389,True,Corner-Steerable Drive Unit-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qSPAAY
+FaultCode390,True,Corner-Steerable Drive Unit-Output Bearing Failed-Replace Steering Gearbox-4hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qU7AAI
+FaultCode391,True,Corner-Steerable Drive Unit-Output Seal Leaking-Replace Steering Gearbox-4hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qU8AAI
+FaultCode392,True,Corner-Steerable Drive Unit-Output Seal Missing-Replace Steering Gearbox-4hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qU9AAI
+FaultCode393,True,Corner-Steerable Drive Unit-Output Shaft Broken-Replace Steering Gearbox-4hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qUAAAY
+FaultCode394,True,Corner-Steerable Drive Unit-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qSQAAY
+FaultCode395,True,Corner-Steerable Drive Unit-Phase Burned Both Ends-Replace Component-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qUBAAY
+FaultCode396,True,Corner-Steerable Drive Unit-Phase Burned One End-Replace Component-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qUCAAY
+FaultCode397,True,Corner-Steerable Drive Unit-Phase To Ground Short-Replace Component-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qUDAAY
+FaultCode398,True,Corner-Steerable Drive Unit-Phase To Phase Open-Replace Component-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qUEAAY
+FaultCode399,True,Corner-Steerable Drive Unit-Phase To Phase Short-Replace Component-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qUFAAY
+FaultCode400,True,Corner-Steerable Drive Unit-Seal Leaking-Replace Seal-0.75hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qUGAAY
+FaultCode601,True,Drive Unit Controls-Pivot Alignment-Safety Microswitch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qVdAAI
+FaultCode602,True,Drive Unit Controls-Pivot Alignment-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qSRAAY
+FaultCode603,True,Drive Unit Controls-Pivot Alignment-Single Phasing-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qVeAAI
+FaultCode604,True,Drive Unit Controls-Pivot Alignment-Solenoid Valve Fails-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qVfAAI
+FaultCode605,True,Drive Unit Controls-Pivot Alignment-Terminal Block Defective-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qVgAAI
+FaultCode606,True,Drive Unit Controls-Pivot Alignment-Terminal Strip Stripped Out-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qVhAAI
+FaultCode607,True,Drive Unit Controls-Pivot Alignment-Tower Ahead Forward-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qViAAI
+FaultCode608,True,Drive Unit Controls-Pivot Alignment-Tower Ahead Reverse-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qVmAAI
+FaultCode609,True,Drive Unit Controls-Pivot Alignment-Tower Behind Forward-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qVjAAI
+FaultCode610,True,Drive Unit Controls-Pivot Alignment-Tower Behind Reverse-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qVkAAI
+FaultCode611,True,Drive Unit Controls-Pivot Alignment-Tower Box Cover Fell Off-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qVlAAI
+FaultCode612,True,Drive Unit Controls-Tower Box Conversion-Coil Failure-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qSLAAY
+FaultCode613,True,Drive Unit Controls-Tower Box Conversion-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qSUAAY
+FaultCode614,True,Drive Unit Controls-Tower Box Conversion-Contact Points Damaged-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qTkAAI
+FaultCode615,True,Drive Unit Controls-Tower Box Conversion-Contactor Chattering-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qSVAAY
+FaultCode616,True,Drive Unit Controls-Tower Box Conversion-Contactor Locked in-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qSWAAY
+FaultCode617,True,Drive Unit Controls-Tower Box Conversion-Contactor not pulling in-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qSXAAY
+FaultCode618,True,Drive Unit Controls-Tower Box Conversion-Control Bearing Seized-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qVVAAY
+FaultCode619,True,Drive Unit Controls-Tower Box Conversion-Disconnect Switch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qSYAAY
+FaultCode620,True,Drive Unit Controls-Tower Box Conversion-Disconnect Switch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qSZAAY
+FaultCode621,True,Drive Unit Controls-Tower Box Conversion-Factory Wiring Incorrect-Repair Wiring-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qTfAAI
+FaultCode622,True,Drive Unit Controls-Tower Box Conversion-Factory Wiring Incorrect-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qTjAAI
+FaultCode623,True,Drive Unit Controls-Tower Box Conversion-Factory Wiring Loose-Repair Wiring-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qTyAAI
+FaultCode624,True,Drive Unit Controls-Tower Box Conversion-Fuse Block Defective-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qScAAI
+FaultCode625,True,Drive Unit Controls-Tower Box Conversion-Grounding Block Defective-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qSdAAI
+FaultCode626,True,Drive Unit Controls-Tower Box Conversion-Housing Damaged-Replace Component-0hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qVWAAY
+FaultCode627,True,Drive Unit Controls-Tower Box Conversion-Latch Inoperable-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qVXAAY
+FaultCode628,True,Drive Unit Controls-Tower Box Conversion-Low Pressure Switch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qTlAAI
+FaultCode629,True,Drive Unit Controls-Tower Box Conversion-Low Pressure Switch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qTmAAI
+FaultCode630,True,Drive Unit Controls-Tower Box Conversion-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qSMAAY
+FaultCode631,True,Drive Unit Controls-Tower Box Conversion-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qSPAAY
+FaultCode632,True,Drive Unit Controls-Tower Box Conversion-OW Timer Doesn't Break Safety-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qVYAAY
+FaultCode633,True,Drive Unit Controls-Tower Box Conversion-OW Timer Doesn't Hold Safety-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qVZAAY
+FaultCode634,True,Drive Unit Controls-Tower Box Conversion-Run Microswitch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qVaAAI
+FaultCode635,True,Drive Unit Controls-Tower Box Conversion-Run Microswitch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qVbAAI
+FaultCode636,True,Drive Unit Controls-Tower Box Conversion-Safety Microswitch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qVcAAI
+FaultCode637,True,Drive Unit Controls-Tower Box Conversion-Safety Microswitch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qVdAAI
+FaultCode638,True,Drive Unit Controls-Tower Box Conversion-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qSRAAY
+FaultCode639,True,Drive Unit Controls-Tower Box Conversion-Single Phasing-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qVeAAI
+FaultCode640,True,Drive Unit Controls-Tower Box Conversion-Solenoid Valve Fails-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qVfAAI
+FaultCode641,True,Drive Unit Controls-Tower Box Conversion-Terminal Block Defective-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qVgAAI
+FaultCode642,True,Drive Unit Controls-Tower Box Conversion-Terminal Strip Stripped Out-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qVhAAI
+FaultCode643,True,Drive Unit Controls-Tower Box Conversion-Tower Ahead Forward-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qViAAI
+FaultCode644,True,Drive Unit Controls-Tower Box Conversion-Tower Ahead Reverse-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qVmAAI
+FaultCode645,True,Drive Unit Controls-Tower Box Conversion-Tower Behind Forward-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qVjAAI
+FaultCode646,True,Drive Unit Controls-Tower Box Conversion-Tower Behind Reverse-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qVkAAI
+FaultCode647,True,Drive Unit Controls-Tower Box Conversion-Tower Box Cover Fell Off-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEaGAM,a83cf0000002qVlAAI
+FaultCode648,True,Drive Unit Controls-Tower Box Mechanical-Coil Failure-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qSLAAY
+FaultCode649,True,Drive Unit Controls-Tower Box Mechanical-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qSUAAY
+FaultCode650,True,Drive Unit Controls-Tower Box Mechanical-Contact Points Damaged-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qTkAAI
+FaultCode651,True,Drive Unit Controls-Tower Box Mechanical-Contactor Chattering-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qSVAAY
+FaultCode652,True,Drive Unit Controls-Tower Box Mechanical-Contactor Locked in-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qSWAAY
+FaultCode653,True,Drive Unit Controls-Tower Box Mechanical-Contactor not pulling in-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qSXAAY
+FaultCode654,True,Drive Unit Controls-Tower Box Mechanical-Control Bearing Seized-Replace Tower Box-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qTxAAI
+FaultCode655,True,Drive Unit Controls-Tower Box Mechanical-Control Bearing Seized-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qVVAAY
+FaultCode656,True,Drive Unit Controls-Tower Box Mechanical-Disconnect Switch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qSYAAY
+FaultCode657,True,Drive Unit Controls-Tower Box Mechanical-Disconnect Switch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qSZAAY
+FaultCode658,True,Drive Unit Controls-Tower Box Mechanical-Factory Wiring Incorrect-Repair Wiring-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qTfAAI
+FaultCode659,True,Drive Unit Controls-Tower Box Mechanical-Factory Wiring Incorrect-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qTjAAI
+FaultCode660,True,Drive Unit Controls-Tower Box Mechanical-Factory Wiring Loose-Repair Wiring-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qTyAAI
+FaultCode661,True,Drive Unit Controls-Tower Box Mechanical-Fuse Block Defective-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qScAAI
+FaultCode662,True,Drive Unit Controls-Tower Box Mechanical-Grounding Block Defective-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qSdAAI
+FaultCode663,True,Drive Unit Controls-Tower Box Mechanical-Housing Damaged-Replace Component-0hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qVWAAY
+FaultCode664,True,Drive Unit Controls-Tower Box Mechanical-Latch Inoperable-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qVXAAY
+FaultCode665,True,Drive Unit Controls-Tower Box Mechanical-Low Pressure Switch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qTlAAI
+FaultCode666,True,Drive Unit Controls-Tower Box Mechanical-Low Pressure Switch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qTmAAI
+FaultCode667,True,Drive Unit Controls-Tower Box Mechanical-Mis-manufactured-Repair Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qU3AAI
+FaultCode668,True,Drive Unit Controls-Tower Box Mechanical-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qSPAAY
+FaultCode669,True,Drive Unit Controls-Tower Box Mechanical-OW Timer Doesn't Break Safety-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qVYAAY
+FaultCode670,True,Drive Unit Controls-Tower Box Mechanical-OW Timer Doesn't Hold Safety-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qVZAAY
+FaultCode671,True,Drive Unit Controls-Tower Box Mechanical-Run Microswitch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qVaAAI
+FaultCode672,True,Drive Unit Controls-Tower Box Mechanical-Run Microswitch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qVbAAI
+FaultCode673,True,Drive Unit Controls-Tower Box Mechanical-Safety Microswitch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qVcAAI
+FaultCode674,True,Drive Unit Controls-Tower Box Mechanical-Safety Microswitch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qVdAAI
+FaultCode675,True,Drive Unit Controls-Tower Box Mechanical-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qSRAAY
+FaultCode676,True,Drive Unit Controls-Tower Box Mechanical-Single Phasing-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qVeAAI
+FaultCode677,True,Drive Unit Controls-Tower Box Mechanical-Solenoid Valve Fails-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qVfAAI
+FaultCode678,True,Drive Unit Controls-Tower Box Mechanical-Terminal Block Defective-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qVgAAI
+FaultCode679,True,Drive Unit Controls-Tower Box Mechanical-Terminal Strip Stripped Out-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qVhAAI
+FaultCode680,True,Drive Unit Controls-Tower Box Mechanical-Tower Ahead Forward-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qViAAI
+FaultCode681,True,Drive Unit Controls-Tower Box Mechanical-Tower Ahead Reverse-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qVmAAI
+FaultCode682,True,Drive Unit Controls-Tower Box Mechanical-Tower Behind Forward-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qVjAAI
+FaultCode683,True,Drive Unit Controls-Tower Box Mechanical-Tower Behind Reverse-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qVkAAI
+FaultCode684,True,Drive Unit Controls-Tower Box Mechanical-Tower Box Cover Fell Off-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEbGAM,a83cf0000002qVlAAI
+FaultCode685,True,Drive Unit Controls-Tower Box Upgrades-Coil Failure-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qSLAAY
+FaultCode686,True,Drive Unit Controls-Tower Box Upgrades-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qSUAAY
+FaultCode687,True,Drive Unit Controls-Tower Box Upgrades-Contact Points Damaged-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qTkAAI
+FaultCode688,True,Drive Unit Controls-Tower Box Upgrades-Contactor Chattering-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qSVAAY
+FaultCode689,True,Drive Unit Controls-Tower Box Upgrades-Contactor Locked in-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qSWAAY
+FaultCode690,True,Drive Unit Controls-Tower Box Upgrades-Contactor not pulling in-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qSXAAY
+FaultCode691,True,Drive Unit Controls-Tower Box Upgrades-Disconnect Switch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qSYAAY
+FaultCode692,True,Drive Unit Controls-Tower Box Upgrades-Disconnect Switch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qSZAAY
+FaultCode693,True,Drive Unit Controls-Tower Box Upgrades-Factory Wiring Incorrect-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qTjAAI
+FaultCode694,True,Drive Unit Controls-Tower Box Upgrades-Factory Wiring Incorrect-Repair Wiring-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qTfAAI
+FaultCode695,True,Drive Unit Controls-Tower Box Upgrades-Factory Wiring Loose-Repair Wiring-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qTyAAI
+FaultCode696,True,Drive Unit Controls-Tower Box Upgrades-Fuse Block Defective-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qScAAI
+FaultCode697,True,Drive Unit Controls-Tower Box Upgrades-Grounding Block Defective-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qSdAAI
+FaultCode698,True,Drive Unit Controls-Tower Box Upgrades-Housing Damaged-Replace Component-0hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qVWAAY
+FaultCode699,True,Drive Unit Controls-Tower Box Upgrades-Latch Inoperable-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qVXAAY
+FaultCode700,True,Drive Unit Controls-Tower Box Upgrades-Low Pressure Switch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qTlAAI
+FaultCode701,True,Drive Unit Controls-Tower Box Upgrades-Low Pressure Switch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qTmAAI
+FaultCode702,True,Drive Unit Controls-Tower Box Upgrades-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qSPAAY
+FaultCode703,True,Drive Unit Controls-Tower Box Upgrades-OW Timer Doesn't Break Safety-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qVYAAY
+FaultCode704,True,Drive Unit Controls-Tower Box Upgrades-OW Timer Doesn't Hold Safety-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qVZAAY
+FaultCode705,True,Drive Unit Controls-Tower Box Upgrades-Run Microswitch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qVaAAI
+FaultCode706,True,Drive Unit Controls-Tower Box Upgrades-Run Microswitch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qVbAAI
+FaultCode707,True,Drive Unit Controls-Tower Box Upgrades-Safety Microswitch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qVcAAI
+FaultCode708,True,Drive Unit Controls-Tower Box Upgrades-Safety Microswitch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qVdAAI
+FaultCode709,True,Drive Unit Controls-Tower Box Upgrades-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qSRAAY
+FaultCode710,True,Drive Unit Controls-Tower Box Upgrades-Single Phasing-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qVeAAI
+FaultCode711,True,Drive Unit Controls-Tower Box Upgrades-Solenoid Valve Fails-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qVfAAI
+FaultCode712,True,Drive Unit Controls-Tower Box Upgrades-Terminal Block Defective-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qVgAAI
+FaultCode713,True,Drive Unit Controls-Tower Box Upgrades-Terminal Strip Stripped Out-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qVhAAI
+FaultCode714,True,Drive Unit Controls-Tower Box Upgrades-Tower Ahead Forward-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qViAAI
+FaultCode715,True,Drive Unit Controls-Tower Box Upgrades-Tower Ahead Reverse-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qVmAAI
+FaultCode716,True,Drive Unit Controls-Tower Box Upgrades-Tower Behind Forward-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qVjAAI
+FaultCode717,True,Drive Unit Controls-Tower Box Upgrades-Tower Behind Reverse-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qVkAAI
+FaultCode718,True,Drive Unit Controls-Tower Box Upgrades-Tower Box Cover Fell Off-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEcGAM,a83cf0000002qVlAAI
+FaultCode719,True,Drive Unit Controls-X-Tec-Coil Failure-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qSLAAY
+FaultCode720,True,Drive Unit Controls-X-Tec-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qSUAAY
+FaultCode721,True,Drive Unit Controls-X-Tec-Contact Points Damaged-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qTkAAI
+FaultCode722,True,Drive Unit Controls-X-Tec-Contactor Chattering-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qSVAAY
+FaultCode723,True,Drive Unit Controls-X-Tec-Contactor Locked in-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qSWAAY
+FaultCode724,True,Drive Unit Controls-X-Tec-Contactor not pulling in-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qSXAAY
+FaultCode725,True,Drive Unit Controls-X-Tec-Control Bearing Seized-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qVVAAY
+FaultCode726,True,Drive Unit Controls-X-Tec-Disconnect Switch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qSYAAY
+FaultCode727,True,Drive Unit Controls-X-Tec-Disconnect Switch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qSZAAY
+FaultCode728,True,Drive Unit Controls-X-Tec-Factory Wiring Loose-Repair Wiring-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qTyAAI
+FaultCode729,True,Drive Unit Controls-X-Tec-Fuse Block Defective-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qScAAI
+FaultCode730,True,Drive Unit Controls-X-Tec-Grounding Block Defective-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qSdAAI
+FaultCode731,True,Drive Unit Controls-X-Tec-Housing Damaged-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qSeAAI
+FaultCode732,True,Drive Unit Controls-X-Tec-Latch Inoperable-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qVXAAY
+FaultCode733,True,Drive Unit Controls-X-Tec-Low Pressure Switch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qTlAAI
+FaultCode734,True,Drive Unit Controls-X-Tec-Low Pressure Switch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qTmAAI
+FaultCode735,True,Drive Unit Controls-X-Tec-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qSPAAY
+FaultCode736,True,Drive Unit Controls-X-Tec-OW Timer Doesn't Break Safety-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qVYAAY
+FaultCode737,True,Drive Unit Controls-X-Tec-OW Timer Doesn't Hold Safety-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qVZAAY
+FaultCode738,True,Drive Unit Controls-X-Tec-Run Microswitch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qVaAAI
+FaultCode739,True,Drive Unit Controls-X-Tec-Run Microswitch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qVbAAI
+FaultCode740,True,Drive Unit Controls-X-Tec-Safety Microswitch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qVcAAI
+FaultCode741,True,Drive Unit Controls-X-Tec-Safety Microswitch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qVdAAI
+FaultCode742,True,Drive Unit Controls-X-Tec-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qSRAAY
+FaultCode743,True,Drive Unit Controls-X-Tec-Single Phasing-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qVeAAI
+FaultCode744,True,Drive Unit Controls-X-Tec-Solenoid Valve Fails-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qVfAAI
+FaultCode745,True,Drive Unit Controls-X-Tec-Terminal Block Defective-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qVgAAI
+FaultCode746,True,Drive Unit Controls-X-Tec-Terminal Strip Stripped Out-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qVhAAI
+FaultCode747,True,Drive Unit Controls-X-Tec-Tower Ahead Forward-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qViAAI
+FaultCode748,True,Drive Unit Controls-X-Tec-Tower Ahead Reverse-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qVmAAI
+FaultCode749,True,Drive Unit Controls-X-Tec-Tower Behind Forward-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qVjAAI
+FaultCode750,True,Drive Unit Controls-X-Tec-Tower Behind Reverse-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qVkAAI
+FaultCode751,True,Drive Unit Controls-X-Tec-Tower Box Cover Fell Off-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEdGAM,a83cf0000002qVlAAI
+FaultCode752,True,Electrical Components-Cable Accessories-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEfGAM,a83cf0000002qSUAAY
+FaultCode753,True,Electrical Components-Cable Accessories-Electrical Component Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEfGAM,a83cf0000002qSaAAI
+FaultCode754,True,Electrical Components-Cable Accessories-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEfGAM,a83cf0000002qSbAAI
+FaultCode755,True,Electrical Components-Cable Accessories-Fuse Block Defective-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEfGAM,a83cf0000002qScAAI
+FaultCode756,True,Electrical Components-Cable Accessories-Grounding Block Defective-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEfGAM,a83cf0000002qSdAAI
+FaultCode757,True,Electrical Components-Cable Accessories-Housing Damaged-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEfGAM,a83cf0000002qSeAAI
+FaultCode758,True,Electrical Components-Cable Accessories-Intermittent Operations-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEfGAM,a83cf0000002qSfAAI
+FaultCode759,True,Electrical Components-Cable Accessories-Leads corroded/broken-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEfGAM,a83cf0000002qSgAAI
+FaultCode760,True,Electrical Components-Cable Accessories-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEfGAM,a83cf0000002qSPAAY
+FaultCode761,True,Electrical Components-Cable Accessories-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEfGAM,a83cf0000002qSRAAY
+FaultCode762,True,Electrical Components-Collector Rings-Bearing Seized-Replace Component-2hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEgGAM,a83cf0000002qVnAAI
+FaultCode763,True,Electrical Components-Collector Rings-Factory Wiring Incorrect-Repair Wiring-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEgGAM,a83cf0000002qTfAAI
+FaultCode764,True,Electrical Components-Collector Rings-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEgGAM,a83cf0000002qSPAAY
+FaultCode765,True,Electrical Components-Collector Rings-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEgGAM,a83cf0000002qSRAAY
+FaultCode766,True,Electrical Components-Collector Rings-Terminal Strip Stripped Out-Replace Component-2hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEgGAM,a83cf0000002qVoAAI
+FaultCode767,True,Electrical Components-Control Boards and Modules-120 Volt Input/Output Failure-Replace Component-1.5hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qVpAAI
+FaultCode768,True,Electrical Components-Control Boards and Modules-5 Volt Power Supply Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qVqAAI
+FaultCode769,True,Electrical Components-Control Boards and Modules-Backlight Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qTDAAY
+FaultCode770,True,Electrical Components-Control Boards and Modules-Calibration changed/out of spec-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qSTAAY
+FaultCode771,True,Electrical Components-Control Boards and Modules-Cold Solder Joint-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qTEAAY
+FaultCode772,True,Electrical Components-Control Boards and Modules-Communication Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qTBAAY
+FaultCode773,True,Electrical Components-Control Boards and Modules-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qSUAAY
+FaultCode774,True,Electrical Components-Control Boards and Modules-Contact Points Damaged-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qTkAAI
+FaultCode775,True,Electrical Components-Control Boards and Modules-Contactor not pulling in-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qSXAAY
+FaultCode776,True,Electrical Components-Control Boards and Modules-Display Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qTFAAY
+FaultCode777,True,Electrical Components-Control Boards and Modules-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qSbAAI
+FaultCode778,True,Electrical Components-Control Boards and Modules-External Connection Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qTHAAY
+FaultCode779,True,Electrical Components-Control Boards and Modules-Factory Wiring Incorrect-Repair Wiring-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qTfAAI
+FaultCode780,True,Electrical Components-Control Boards and Modules-Harness Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qTIAAY
+FaultCode781,True,Electrical Components-Control Boards and Modules-Intermittent Operations-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qSfAAI
+FaultCode782,True,Electrical Components-Control Boards and Modules-Keypad Error 13-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qVrAAI
+FaultCode783,True,Electrical Components-Control Boards and Modules-Leads corroded/broken-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qSgAAI
+FaultCode784,True,Electrical Components-Control Boards and Modules-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qSPAAY
+FaultCode785,True,Electrical Components-Control Boards and Modules-PCB Cracked-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qTKAAY
+FaultCode786,True,Electrical Components-Control Boards and Modules-Percent timer runs at 100% at all times-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qTLAAY
+FaultCode787,True,Electrical Components-Control Boards and Modules-Pressure Reading Incorrect-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qTMAAY
+FaultCode788,True,Electrical Components-Control Boards and Modules-Relay Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qTNAAY
+FaultCode789,True,Electrical Components-Control Boards and Modules-Resolver Volts Incorrect-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qTWAAY
+FaultCode790,True,Electrical Components-Control Boards and Modules-Screen Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qTOAAY
+FaultCode791,True,Electrical Components-Control Boards and Modules-Service Tool Test Failed-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qVsAAI
+FaultCode792,True,Electrical Components-Control Boards and Modules-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qSRAAY
+FaultCode793,True,Electrical Components-Control Boards and Modules-Switch Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qTnAAI
+FaultCode794,True,Electrical Components-Control Boards and Modules-Trace Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qTPAAY
+FaultCode795,True,Electrical Components-Control Boards and Modules-Voltage Display Inconsistent-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEhGAM,a83cf0000002qTQAAY
+FaultCode796,True,Electrical Components-Din Rails and Snap Tracks-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEiGAM,a83cf0000002qSPAAY
+FaultCode797,True,Electrical Components-Din Rails and Snap Tracks-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEiGAM,a83cf0000002qSRAAY
+FaultCode798,True,Electrical Components-Din Rails and Snap Tracks-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEiGAM,a83cf0000002qSMAAY
+FaultCode799,True,Electrical Components-Electrical Cables-Other -- Fill in Comments-Replace Span Cable-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEjGAM,a83cf0000002qVtAAI
+FaultCode800,True,Electrical Components-Electrical Cables-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEjGAM,a83cf0000002qSQAAY
+FaultCode401,True,Corner-Steerable Drive Unit-Seam Leaking-Replace Component-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qUHAAY
+FaultCode402,True,Corner-Steerable Drive Unit-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qSRAAY
+FaultCode403,True,Corner-Steerable Drive Unit-Snap Ring Failed-Replace Steering Gearbox-4hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qUIAAY
+FaultCode404,True,Corner-Steerable Drive Unit-Steering arm loose-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qUJAAY
+FaultCode405,True,Corner-Steerable Drive Unit-Steering Gearmotor Failed-Replace Gearmotor-2hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qUKAAY
+FaultCode406,True,Corner-Steerable Drive Unit-Steering Motor Failed-Replace Motor Module-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qULAAY
+FaultCode407,True,Corner-Steerable Drive Unit-Thermal Protection Failure-Replace Component-1.5hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qUMAAY
+FaultCode408,True,Corner-Steerable Drive Unit-Tow Pin Failure-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qUNAAY
+FaultCode409,True,Corner-Steerable Drive Unit-Ultraviolet Degradation-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qTqAAI
+FaultCode410,True,Corner-Steerable Drive Unit-Weld Missing-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qT8AAI
+FaultCode411,True,Corner-Steerable Drive Unit-Weld Missing-Weld In Field-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qThAAI
+FaultCode412,True,Corner-Steerable Drive Unit-Worm Broken-Replace Component-3hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEJGA2,a83cf0000002qUOAAY
+FaultCode413,True,Corner-Tubing Harnesses-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEKGA2,a83cf0000002qSMAAY
+FaultCode414,True,Corner-Tubing Harnesses-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEKGA2,a83cf0000002qSPAAY
+FaultCode415,True,Corner-Tubing Harnesses-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8tGAE,0ZGcf0000002YEKGA2,a83cf0000002qSRAAY
+FaultCode416,True,Drive Train-Center Drive Repair-Case Broken-Replace Gearmotor-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YELGA2,a83cf0000002qUPAAY
+FaultCode417,True,Drive Train-Center Drive Repair-Gears Locked Up-Replace Gearmotor-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YELGA2,a83cf0000002qUQAAY
+FaultCode418,True,Drive Train-Center Drive Repair-Motor Using Excessive Current-Replace Gearmotor-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YELGA2,a83cf0000002qURAAY
+FaultCode419,True,Drive Train-Center Drive Repair-Noise Excessive-Replace Gearmotor-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YELGA2,a83cf0000002qUSAAY
+FaultCode420,True,Drive Train-Center Drive Repair-Oil Reservoir Empty-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YELGA2,a83cf0000002qUTAAY
+FaultCode421,True,Drive Train-Center Drive Repair-Other -- Fill in Comments-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YELGA2,a83cf0000002qUUAAY
+FaultCode422,True,Drive Train-Center Drive Repair-Seal Leaking-Replace Seal-0.75hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YELGA2,a83cf0000002qUGAAY
+FaultCode423,True,Drive Train-Center Drive Repair-Seal Missing-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YELGA2,a83cf0000002qUVAAY
+FaultCode424,True,Drive Train-Center Drive Repair-Seam Leaking-Replace Gearmotor-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YELGA2,a83cf0000002qUWAAY
+FaultCode425,True,Drive Train-Complete Center Drives-Case Broken-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qUXAAY
+FaultCode426,True,Drive Train-Complete Center Drives-Charred Failure Both Ends-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qTvAAI
+FaultCode427,True,Drive Train-Complete Center Drives-Charred Failure one end-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qTwAAI
+FaultCode428,True,Drive Train-Complete Center Drives-Gears Locked Up-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qUYAAY
+FaultCode429,True,Drive Train-Complete Center Drives-Motor Using Excessive Current-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qU4AAI
+FaultCode430,True,Drive Train-Complete Center Drives-No holes in shaft-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qU5AAI
+FaultCode431,True,Drive Train-Complete Center Drives-Noise Excessive-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qU6AAI
+FaultCode432,True,Drive Train-Complete Center Drives-Oil Reservoir Empty-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qUTAAY
+FaultCode433,True,Drive Train-Complete Center Drives-Other -- Fill in Comments-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qUUAAY
+FaultCode434,True,Drive Train-Complete Center Drives-Phase Burned Both Ends-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qUBAAY
+FaultCode435,True,Drive Train-Complete Center Drives-Phase Burned One End-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qUCAAY
+FaultCode436,True,Drive Train-Complete Center Drives-Phase To Ground Short-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qUDAAY
+FaultCode437,True,Drive Train-Complete Center Drives-Phase To Phase Open-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qUEAAY
+FaultCode438,True,Drive Train-Complete Center Drives-Phase To Phase Resistance Unbalanced-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qUZAAY
+FaultCode439,True,Drive Train-Complete Center Drives-Phase To Phase Short-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qUFAAY
+FaultCode440,True,Drive Train-Complete Center Drives-Plastic End Cap Missing-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qUaAAI
+FaultCode441,True,Drive Train-Complete Center Drives-Rotor Failed-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qUbAAI
+FaultCode442,True,Drive Train-Complete Center Drives-Seal Leaking-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qUcAAI
+FaultCode443,True,Drive Train-Complete Center Drives-Seal Leaking-Replace Seal-0.75hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qUGAAY
+FaultCode444,True,Drive Train-Complete Center Drives-Seal Missing-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qUVAAY
+FaultCode445,True,Drive Train-Complete Center Drives-Seam Leaking-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qUHAAY
+FaultCode446,True,Drive Train-Complete Center Drives-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qSRAAY
+FaultCode447,True,Drive Train-Complete Center Drives-Short In Junction Box-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qUdAAI
+FaultCode448,True,Drive Train-Complete Center Drives-Single Phasing-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qUeAAI
+FaultCode449,True,Drive Train-Complete Center Drives-Thermal Protection Failure-Replace Component-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEMGA2,a83cf0000002qUMAAY
+FaultCode450,True,Drive Train-Complete Gearboxes-Bearing Race Missing-Repair Component-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUfAAI
+FaultCode451,True,Drive Train-Complete Gearboxes-Bull Gear Broken-Replace Component-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUgAAI
+FaultCode452,True,Drive Train-Complete Gearboxes-Case Broken-Replace Component-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUhAAI
+FaultCode453,True,Drive Train-Complete Gearboxes-Coupling Failure-Replace Component-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUiAAI
+FaultCode454,True,Drive Train-Complete Gearboxes-Gears Locked Up-Replace Component-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qU0AAI
+FaultCode455,True,Drive Train-Complete Gearboxes-Input Bearing Failed-Replace Component-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUjAAI
+FaultCode456,True,Drive Train-Complete Gearboxes-Input Seal Leaking-Replace Component-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUkAAI
+FaultCode457,True,Drive Train-Complete Gearboxes-Input Seal Leaking-Rebuild Gearbox-3hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUlAAI
+FaultCode458,True,Drive Train-Complete Gearboxes-Input Shaft Broken-Replace Component-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUmAAI
+FaultCode459,True,Drive Train-Complete Gearboxes-Lug Bolts Broken-Replace Component-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUnAAI
+FaultCode460,True,Drive Train-Complete Gearboxes-Mounting Bolts Broken-Replace Component-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUoAAI
+FaultCode461,True,Drive Train-Complete Gearboxes-Oil Reservoir Empty-Replace Component-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUpAAI
+FaultCode462,True,Drive Train-Complete Gearboxes-Other -- Fill in Comments-Replace Component-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUqAAI
+FaultCode463,True,Drive Train-Complete Gearboxes-Output Bearing Failed-Replace Component-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUrAAI
+FaultCode464,True,Drive Train-Complete Gearboxes-Output Seal Leaking-Replace Component-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUsAAI
+FaultCode465,True,Drive Train-Complete Gearboxes-Output Seal Leaking-Rebuild Gearbox-3hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUtAAI
+FaultCode466,True,Drive Train-Complete Gearboxes-Output Seal Missing-Repair Component-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUuAAI
+FaultCode467,True,Drive Train-Complete Gearboxes-Output Seal Missing-Replace Component-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUvAAI
+FaultCode468,True,Drive Train-Complete Gearboxes-Output Shaft Broken-Replace Component-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUwAAI
+FaultCode469,True,Drive Train-Complete Gearboxes-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qSRAAY
+FaultCode470,True,Drive Train-Complete Gearboxes-Snap Ring Failed-Replace Component-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUxAAI
+FaultCode471,True,Drive Train-Complete Gearboxes-Threads Missing-Replace Component-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUyAAI
+FaultCode472,True,Drive Train-Complete Gearboxes-Worm Broken-Replace Component-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YENGA2,a83cf0000002qUzAAI
+FaultCode473,True,Drive Train-Drive Shaft Shields-Aluminum Casting Failure-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEOGA2,a83cf0000002qTrAAI
+FaultCode474,True,Drive Train-Drive Shaft Shields-Flex Joint Insert Failure-Replace Component-0.25hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEOGA2,a83cf0000002qTzAAI
+FaultCode475,True,Drive Train-Drive Shaft Shields-Mis-manufactured-Replace Component-0.25hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEOGA2,a83cf0000002qV0AAI
+FaultCode476,True,Drive Train-Drive Shaft Shields-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEOGA2,a83cf0000002qSPAAY
+FaultCode477,True,Drive Train-Drive Shaft Shields-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEOGA2,a83cf0000002qSQAAY
+FaultCode478,True,Drive Train-Drive Shaft Shields-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEOGA2,a83cf0000002qSRAAY
+FaultCode479,True,Drive Train-Drive Shaft Shields-Tow Pin Failure-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEOGA2,a83cf0000002qUNAAY
+FaultCode480,True,Drive Train-Drive Shaft Shields-Ultraviolet Degradation-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEOGA2,a83cf0000002qTqAAI
+FaultCode481,True,Drive Train-Drive Shafts-Aluminum Casting Failure-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qTrAAI
+FaultCode482,True,Drive Train-Drive Shafts-Bearing Race Missing-Replace Steering Gearbox-4hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qTsAAI
+FaultCode483,True,Drive Train-Drive Shafts-Bull Gear Broken-Replace Steering Gearbox-4hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qTtAAI
+FaultCode484,True,Drive Train-Drive Shafts-Case Broken-Replace Steering Gearbox-4hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qTuAAI
+FaultCode485,True,Drive Train-Drive Shafts-Flex Joint Insert Failure-Replace Component-0.25hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qTzAAI
+FaultCode486,True,Drive Train-Drive Shafts-Gears Locked Up-Replace Steering Gearbox-4hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qU1AAI
+FaultCode487,True,Drive Train-Drive Shafts-Input Bearing Failed-Replace Steering Gearbox-4hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qU2AAI
+FaultCode488,True,Drive Train-Drive Shafts-Mis-manufactured-Replace Component-0.25hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qV0AAI
+FaultCode489,True,Drive Train-Drive Shafts-Other -- Fill in Comments-Replace Component-4hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qV1AAI
+FaultCode490,True,Drive Train-Drive Shafts-Output Bearing Failed-Replace Steering Gearbox-4hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qU7AAI
+FaultCode491,True,Drive Train-Drive Shafts-Output Seal Leaking-Replace Steering Gearbox-4hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qU8AAI
+FaultCode492,True,Drive Train-Drive Shafts-Output Seal Missing-Replace Steering Gearbox-4hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qU9AAI
+FaultCode493,True,Drive Train-Drive Shafts-Output Shaft Broken-Replace Steering Gearbox-4hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qUAAAY
+FaultCode494,True,Drive Train-Drive Shafts-Part Dimensions Incorrect-Replace Component-4hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qV2AAI
+FaultCode495,True,Drive Train-Drive Shafts-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qSRAAY
+FaultCode496,True,Drive Train-Drive Shafts-Snap Ring Failed-Replace Steering Gearbox-4hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qUIAAY
+FaultCode497,True,Drive Train-Drive Shafts-Steering arm loose-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qUJAAY
+FaultCode498,True,Drive Train-Drive Shafts-Steering Gearmotor Failed-Replace Gearmotor-2hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qUKAAY
+FaultCode499,True,Drive Train-Drive Shafts-Steering Motor Failed-Replace Motor Module-1.5hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qULAAY
+FaultCode500,True,Drive Train-Drive Shafts-Tow Pin Failure-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qUNAAY
+FaultCode501,True,Drive Train-Drive Shafts-Ultraviolet Degradation-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qTqAAI
+FaultCode502,True,Drive Train-Drive Shafts-Worm Broken-Replace Component-3hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEPGA2,a83cf0000002qUOAAY
+FaultCode503,True,Drive Train-Gear Lube-Input Seal Leaking-Repair GB-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YESGA2,a83cf0000002qV3AAI
+FaultCode504,True,Drive Train-Gear Lube-Output Seal Leaking-Repair Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YESGA2,a83cf0000002qV4AAI
+FaultCode505,True,Drive Train-Gearbox Repair-Bearing Race Missing-Rebuild Gearbox-3hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YETGA2,a83cf0000002qV5AAI
+FaultCode506,True,Drive Train-Gearbox Repair-Bull Gear Broken-Rebuild Gearbox-3hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YETGA2,a83cf0000002qV6AAI
+FaultCode507,True,Drive Train-Gearbox Repair-Case Broken-Rebuild Gearbox-3hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YETGA2,a83cf0000002qV7AAI
+FaultCode508,True,Drive Train-Gearbox Repair-Diaphragm Faulty-Repair GB-0.25hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YETGA2,a83cf0000002qV8AAI
+FaultCode509,True,Drive Train-Gearbox Repair-Flex Joint Insert Failure-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YETGA2,a83cf0000002qV9AAI
+FaultCode510,True,Drive Train-Gearbox Repair-Gears Locked Up-Rebuild Gearbox-3hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YETGA2,a83cf0000002qVAAAY
+FaultCode511,True,Drive Train-Gearbox Repair-Input Bearing Failed-Rebuild Gearbox-3hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YETGA2,a83cf0000002qVBAAY
+FaultCode512,True,Drive Train-Gearbox Repair-Input Seal Leaking-Repair GB-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YETGA2,a83cf0000002qV3AAI
+FaultCode513,True,Drive Train-Gearbox Repair-Lug Bolts Broken-Repair GB-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YETGA2,a83cf0000002qVCAAY
+FaultCode514,True,Drive Train-Gearbox Repair-Mounting Bolts Broken-Repair GB-0.25hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YETGA2,a83cf0000002qVDAAY
+FaultCode515,True,Drive Train-Gearbox Repair-Oil Reservoir Empty-Replace Component-3hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YETGA2,a83cf0000002qVEAAY
+FaultCode516,True,Drive Train-Gearbox Repair-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YETGA2,a83cf0000002qSPAAY
+FaultCode517,True,Drive Train-Gearbox Repair-Output Bearing Failed-Rebuild Gearbox-3hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YETGA2,a83cf0000002qVFAAY
+FaultCode518,True,Drive Train-Gearbox Repair-Output Seal Leaking-Rebuild Gearbox-3hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YETGA2,a83cf0000002qUtAAI
+FaultCode519,True,Drive Train-Gearbox Repair-Output Seal Missing-Rebuild Gearbox-3hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YETGA2,a83cf0000002qVGAAY
+FaultCode520,True,Drive Train-Gearbox Repair-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YETGA2,a83cf0000002qSRAAY
+FaultCode521,True,Drive Train-Gearbox Repair-Snap Ring Failed-Rebuild Gearbox-3hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YETGA2,a83cf0000002qVHAAY
+FaultCode522,True,Drive Train-Tires and Rims-Bead Damaged-Repair Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEUGA2,a83cf0000002qVIAAY
+FaultCode523,True,Drive Train-Tires and Rims-Corrosion On Wheel-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEUGA2,a83cf0000002qVJAAY
+FaultCode524,True,Drive Train-Tires and Rims-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEUGA2,a83cf0000002qSRAAY
+FaultCode525,True,Drive Train-Tires and Rims-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEUGA2,a83cf0000002qSvAAI
+FaultCode526,True,Drive Train-Tires and Rims-Galvanizing Burrs-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEUGA2,a83cf0000002qVKAAY
+FaultCode527,True,Drive Train-Tires and Rims-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEUGA2,a83cf0000002qSPAAY
+FaultCode528,True,Drive Train-Tires and Rims-Rim Damaged-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEUGA2,a83cf0000002qVLAAY
+FaultCode529,True,Drive Train-Tires and Rims-Tire Leaking Air-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEUGA2,a83cf0000002qVMAAY
+FaultCode530,True,Drive Train-Tires and Rims-Tire Leaking Air-Repair Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEUGA2,a83cf0000002qVNAAY
+FaultCode531,True,Drive Train-Tires and Rims-Tire Split-Repair Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEUGA2,a83cf0000002qVOAAY
+FaultCode532,True,Drive Train-Tires and Rims-Tire Split-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEUGA2,a83cf0000002qVPAAY
+FaultCode533,True,Drive Train-Tires and Rims-Tube Pinched-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEUGA2,a83cf0000002qVQAAY
+FaultCode534,True,Drive Train-Tires and Rims-Tube Pinched-Repair Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEUGA2,a83cf0000002qVRAAY
+FaultCode535,True,Drive Train-Tires and Rims-Valve Stem Leaking-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEUGA2,a83cf0000002qVSAAY
+FaultCode536,True,Drive Train-Tires and Rims-Valve Stem Leaking-Repair Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEUGA2,a83cf0000002qVTAAY
+FaultCode537,True,Drive Train-Tires and Rims-Valve Stem Missing-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEUGA2,a83cf0000002qVUAAY
+FaultCode538,True,Drive Train-U-Joints-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEWGA2,a83cf0000002qSPAAY
+FaultCode539,True,Drive Train-U-Joints-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEWGA2,a83cf0000002qSRAAY
+FaultCode540,True,Drive Train-U-Joints-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8uGAE,0ZGcf0000002YEWGA2,a83cf0000002qSMAAY
+FaultCode541,True,Drive Unit Controls-Complete Tower Boxes-Coil Failure-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qSLAAY
+FaultCode542,True,Drive Unit Controls-Complete Tower Boxes-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qSUAAY
+FaultCode543,True,Drive Unit Controls-Complete Tower Boxes-Contact Points Damaged-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qTkAAI
+FaultCode544,True,Drive Unit Controls-Complete Tower Boxes-Contactor Chattering-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qSVAAY
+FaultCode545,True,Drive Unit Controls-Complete Tower Boxes-Contactor Locked in-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qSWAAY
+FaultCode546,True,Drive Unit Controls-Complete Tower Boxes-Contactor not pulling in-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qSXAAY
+FaultCode547,True,Drive Unit Controls-Complete Tower Boxes-Control Bearing Seized-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qVVAAY
+FaultCode548,True,Drive Unit Controls-Complete Tower Boxes-Disconnect Switch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qSYAAY
+FaultCode549,True,Drive Unit Controls-Complete Tower Boxes-Disconnect Switch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qSZAAY
+FaultCode550,True,Drive Unit Controls-Complete Tower Boxes-Factory Wiring Incorrect-Repair Wiring-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qTfAAI
+FaultCode551,True,Drive Unit Controls-Complete Tower Boxes-Factory Wiring Incorrect-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qTjAAI
+FaultCode552,True,Drive Unit Controls-Complete Tower Boxes-Factory Wiring Loose-Repair Wiring-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qTyAAI
+FaultCode553,True,Drive Unit Controls-Complete Tower Boxes-Fuse Block Defective-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qScAAI
+FaultCode554,True,Drive Unit Controls-Complete Tower Boxes-Grounding Block Defective-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qSdAAI
+FaultCode555,True,Drive Unit Controls-Complete Tower Boxes-Housing Damaged-Replace Component-0hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qVWAAY
+FaultCode556,True,Drive Unit Controls-Complete Tower Boxes-Latch Inoperable-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qVXAAY
+FaultCode557,True,Drive Unit Controls-Complete Tower Boxes-Low Pressure Switch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qTlAAI
+FaultCode558,True,Drive Unit Controls-Complete Tower Boxes-Low Pressure Switch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qTmAAI
+FaultCode559,True,Drive Unit Controls-Complete Tower Boxes-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qSMAAY
+FaultCode560,True,Drive Unit Controls-Complete Tower Boxes-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qSPAAY
+FaultCode561,True,Drive Unit Controls-Complete Tower Boxes-OW Timer Doesn't Break Safety-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qVYAAY
+FaultCode562,True,Drive Unit Controls-Complete Tower Boxes-OW Timer Doesn't Hold Safety-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qVZAAY
+FaultCode563,True,Drive Unit Controls-Complete Tower Boxes-Run Microswitch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qVaAAI
+FaultCode564,True,Drive Unit Controls-Complete Tower Boxes-Run Microswitch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qVbAAI
+FaultCode565,True,Drive Unit Controls-Complete Tower Boxes-Safety Microswitch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qVcAAI
+FaultCode566,True,Drive Unit Controls-Complete Tower Boxes-Safety Microswitch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qVdAAI
+FaultCode567,True,Drive Unit Controls-Complete Tower Boxes-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qSRAAY
+FaultCode568,True,Drive Unit Controls-Complete Tower Boxes-Single Phasing-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qVeAAI
+FaultCode569,True,Drive Unit Controls-Complete Tower Boxes-Solenoid Valve Fails-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qVfAAI
+FaultCode570,True,Drive Unit Controls-Complete Tower Boxes-Terminal Block Defective-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qVgAAI
+FaultCode571,True,Drive Unit Controls-Complete Tower Boxes-Terminal Strip Stripped Out-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qVhAAI
+FaultCode572,True,Drive Unit Controls-Complete Tower Boxes-Tower Ahead Forward-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qViAAI
+FaultCode573,True,Drive Unit Controls-Complete Tower Boxes-Tower Behind Forward-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qVjAAI
+FaultCode574,True,Drive Unit Controls-Complete Tower Boxes-Tower Behind Reverse-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qVkAAI
+FaultCode575,True,Drive Unit Controls-Complete Tower Boxes-Tower Box Cover Fell Off-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEXGA2,a83cf0000002qVlAAI
+FaultCode576,True,Drive Unit Controls-Pivot Alignment-Coil Failure-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qSLAAY
+FaultCode577,True,Drive Unit Controls-Pivot Alignment-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qSUAAY
+FaultCode578,True,Drive Unit Controls-Pivot Alignment-Contact Points Damaged-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qTkAAI
+FaultCode579,True,Drive Unit Controls-Pivot Alignment-Contactor Chattering-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qSVAAY
+FaultCode580,True,Drive Unit Controls-Pivot Alignment-Contactor Locked in-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qSWAAY
+FaultCode581,True,Drive Unit Controls-Pivot Alignment-Contactor not pulling in-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qSXAAY
+FaultCode582,True,Drive Unit Controls-Pivot Alignment-Control Bearing Seized-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qVVAAY
+FaultCode583,True,Drive Unit Controls-Pivot Alignment-Disconnect Switch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qSYAAY
+FaultCode584,True,Drive Unit Controls-Pivot Alignment-Disconnect Switch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qSZAAY
+FaultCode585,True,Drive Unit Controls-Pivot Alignment-Factory Wiring Incorrect-Repair Wiring-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qTfAAI
+FaultCode586,True,Drive Unit Controls-Pivot Alignment-Factory Wiring Incorrect-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qTjAAI
+FaultCode587,True,Drive Unit Controls-Pivot Alignment-Factory Wiring Loose-Repair Wiring-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qTyAAI
+FaultCode588,True,Drive Unit Controls-Pivot Alignment-Fuse Block Defective-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qScAAI
+FaultCode589,True,Drive Unit Controls-Pivot Alignment-Grounding Block Defective-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qSdAAI
+FaultCode590,True,Drive Unit Controls-Pivot Alignment-Housing Damaged-Replace Component-0hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qVWAAY
+FaultCode591,True,Drive Unit Controls-Pivot Alignment-Latch Inoperable-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qVXAAY
+FaultCode592,True,Drive Unit Controls-Pivot Alignment-Low Pressure Switch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qTlAAI
+FaultCode593,True,Drive Unit Controls-Pivot Alignment-Low Pressure Switch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qTmAAI
+FaultCode594,True,Drive Unit Controls-Pivot Alignment-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qSMAAY
+FaultCode595,True,Drive Unit Controls-Pivot Alignment-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qSPAAY
+FaultCode596,True,Drive Unit Controls-Pivot Alignment-OW Timer Doesn't Break Safety-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qVYAAY
+FaultCode597,True,Drive Unit Controls-Pivot Alignment-OW Timer Doesn't Hold Safety-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qVZAAY
+FaultCode598,True,Drive Unit Controls-Pivot Alignment-Run Microswitch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qVaAAI
+FaultCode599,True,Drive Unit Controls-Pivot Alignment-Run Microswitch Fails Open-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qVbAAI
+FaultCode600,True,Drive Unit Controls-Pivot Alignment-Safety Microswitch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8vGAE,0ZGcf0000002YEYGA2,a83cf0000002qVcAAI
+FaultCode801,True,Electrical Components-Electrical Cables-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEjGAM,a83cf0000002qSRAAY
+FaultCode802,True,Electrical Components-Electrical Contactors-Contactor not pulling in-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEkGAM,a83cf0000002qSXAAY
+FaultCode803,True,Electrical Components-Electrical Contactors-Contactor Chattering-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEkGAM,a83cf0000002qSVAAY
+FaultCode804,True,Electrical Components-Electrical Contactors-Contactor Locked in-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEkGAM,a83cf0000002qSWAAY
+FaultCode805,True,Electrical Components-Electrical Contactors-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEkGAM,a83cf0000002qSPAAY
+FaultCode806,True,Electrical Components-Electrical Disconnect-Disconnect Switch Fails Open-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YElGAM,a83cf0000002qSZAAY
+FaultCode807,True,Electrical Components-Electrical Disconnect-Disconnect Switch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YElGAM,a83cf0000002qSYAAY
+FaultCode808,True,Electrical Components-Electrical Disconnect-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YElGAM,a83cf0000002qSPAAY
+FaultCode809,True,Electrical Components-Electrical Meters-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEmGAM,a83cf0000002qSbAAI
+FaultCode810,True,Electrical Components-Electrical Meters-Electrical Component Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEmGAM,a83cf0000002qSaAAI
+FaultCode811,True,Electrical Components-Electrical Meters-Intermittent Operations-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEmGAM,a83cf0000002qSfAAI
+FaultCode812,True,Electrical Components-Electrical Meters-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEmGAM,a83cf0000002qSPAAY
+FaultCode813,True,Electrical Components-Electrical Protective Devices-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEnGAM,a83cf0000002qSUAAY
+FaultCode814,True,Electrical Components-Electrical Protective Devices-Electrical Component Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEnGAM,a83cf0000002qSaAAI
+FaultCode815,True,Electrical Components-Electrical Protective Devices-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEnGAM,a83cf0000002qSbAAI
+FaultCode816,True,Electrical Components-Electrical Protective Devices-Fuse Block Defective-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEnGAM,a83cf0000002qScAAI
+FaultCode817,True,Electrical Components-Electrical Protective Devices-Grounding Block Defective-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEnGAM,a83cf0000002qSdAAI
+FaultCode818,True,Electrical Components-Electrical Protective Devices-Housing Damaged-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEnGAM,a83cf0000002qSeAAI
+FaultCode819,True,Electrical Components-Electrical Protective Devices-Leads corroded/broken-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEnGAM,a83cf0000002qSgAAI
+FaultCode820,True,Electrical Components-Electrical Protective Devices-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEnGAM,a83cf0000002qSMAAY
+FaultCode821,True,Electrical Components-Electrical Protective Devices-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEnGAM,a83cf0000002qSPAAY
+FaultCode822,True,Electrical Components-Electrical Relays and Bases-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF2GAM,a83cf0000002qSUAAY
+FaultCode823,True,Electrical Components-Electrical Relays and Bases-Electrical Component Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF2GAM,a83cf0000002qSaAAI
+FaultCode824,True,Electrical Components-Electrical Relays and Bases-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF2GAM,a83cf0000002qSbAAI
+FaultCode825,True,Electrical Components-Electrical Relays and Bases-Fuse Block Defective-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF2GAM,a83cf0000002qScAAI
+FaultCode826,True,Electrical Components-Electrical Relays and Bases-Grounding Block Defective-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF2GAM,a83cf0000002qSdAAI
+FaultCode827,True,Electrical Components-Electrical Relays and Bases-Housing Damaged-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF2GAM,a83cf0000002qSeAAI
+FaultCode828,True,Electrical Components-Electrical Relays and Bases-Leads corroded/broken-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF2GAM,a83cf0000002qSgAAI
+FaultCode829,True,Electrical Components-Electrical Relays and Bases-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF2GAM,a83cf0000002qSMAAY
+FaultCode830,True,Electrical Components-Electrical Relays and Bases-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF2GAM,a83cf0000002qSPAAY
+FaultCode831,True,Electrical Components-Electrical Transformers-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEpGAM,a83cf0000002qSUAAY
+FaultCode832,True,Electrical Components-Electrical Transformers-Electrical Component Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEpGAM,a83cf0000002qSaAAI
+FaultCode833,True,Electrical Components-Electrical Transformers-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEpGAM,a83cf0000002qSbAAI
+FaultCode834,True,Electrical Components-Electrical Transformers-Fuse Block Defective-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEpGAM,a83cf0000002qScAAI
+FaultCode835,True,Electrical Components-Electrical Transformers-Grounding Block Defective-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEpGAM,a83cf0000002qSdAAI
+FaultCode836,True,Electrical Components-Electrical Transformers-Housing Damaged-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEpGAM,a83cf0000002qSeAAI
+FaultCode837,True,Electrical Components-Electrical Transformers-Leads corroded/broken-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEpGAM,a83cf0000002qSgAAI
+FaultCode838,True,Electrical Components-Electrical Transformers-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEpGAM,a83cf0000002qSMAAY
+FaultCode839,True,Electrical Components-Electrical Transformers-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEpGAM,a83cf0000002qSPAAY
+FaultCode840,True,Electrical Components-Electrical Wire-Calibration changed/out of spec-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEqGAM,a83cf0000002qSTAAY
+FaultCode841,True,Electrical Components-Electrical Wire-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEqGAM,a83cf0000002qSUAAY
+FaultCode842,True,Electrical Components-Electrical Wire-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEqGAM,a83cf0000002qSbAAI
+FaultCode843,True,Electrical Components-Electrical Wire-Factory Wiring Incorrect-Repair Wiring-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEqGAM,a83cf0000002qTfAAI
+FaultCode844,True,Electrical Components-Electrical Wire-Leads corroded/broken-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEqGAM,a83cf0000002qSgAAI
+FaultCode845,True,Electrical Components-Electrical Wire-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEqGAM,a83cf0000002qSMAAY
+FaultCode846,True,Electrical Components-Electrical Wire-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEqGAM,a83cf0000002qSPAAY
+FaultCode847,True,Electrical Components-Electrical Wire-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEqGAM,a83cf0000002qSRAAY
+FaultCode848,True,Electrical Components-Fuses & Circuit Breakers-Calibration changed/out of spec-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YErGAM,a83cf0000002qSTAAY
+FaultCode849,True,Electrical Components-Fuses & Circuit Breakers-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YErGAM,a83cf0000002qSUAAY
+FaultCode850,True,Electrical Components-Fuses & Circuit Breakers-Electrical Component Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YErGAM,a83cf0000002qSaAAI
+FaultCode851,True,Electrical Components-Fuses & Circuit Breakers-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YErGAM,a83cf0000002qSbAAI
+FaultCode852,True,Electrical Components-Fuses & Circuit Breakers-Fuse Block Defective-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YErGAM,a83cf0000002qScAAI
+FaultCode853,True,Electrical Components-Fuses & Circuit Breakers-Grounding Block Defective-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YErGAM,a83cf0000002qSdAAI
+FaultCode854,True,Electrical Components-Fuses & Circuit Breakers-Housing Damaged-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YErGAM,a83cf0000002qSeAAI
+FaultCode855,True,Electrical Components-Fuses & Circuit Breakers-Intermittent Operations-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YErGAM,a83cf0000002qSfAAI
+FaultCode856,True,Electrical Components-Fuses & Circuit Breakers-Leads corroded/broken-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YErGAM,a83cf0000002qSgAAI
+FaultCode857,True,Electrical Components-Fuses & Circuit Breakers-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YErGAM,a83cf0000002qSMAAY
+FaultCode858,True,Electrical Components-Fuses & Circuit Breakers-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YErGAM,a83cf0000002qSPAAY
+FaultCode859,True,Electrical Components-Fuses & Circuit Breakers-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YErGAM,a83cf0000002qSRAAY
+FaultCode860,True,Electrical Components-Micro Switches-Factory Wiring Loose-Repair Wiring-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEsGAM,a83cf0000002qTyAAI
+FaultCode861,True,Electrical Components-Micro Switches-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEsGAM,a83cf0000002qSMAAY
+FaultCode862,True,Electrical Components-Micro Switches-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEsGAM,a83cf0000002qSPAAY
+FaultCode863,True,Electrical Components-Micro Switches-Run Microswitch Fails Open-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEsGAM,a83cf0000002qVbAAI
+FaultCode864,True,Electrical Components-Micro Switches-Safety Microswitch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEsGAM,a83cf0000002qVcAAI
+FaultCode865,True,Electrical Components-Micro Switches-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEsGAM,a83cf0000002qSRAAY
+FaultCode866,True,Electrical Components-Micro Switches-Tower Ahead Forward-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEsGAM,a83cf0000002qViAAI
+FaultCode867,True,Electrical Components-Micro Switches-Tower Ahead Reverse-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEsGAM,a83cf0000002qVmAAI
+FaultCode868,True,Electrical Components-Micro Switches-Tower Behind Forward-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEsGAM,a83cf0000002qVjAAI
+FaultCode869,True,Electrical Components-Micro Switches-Tower Behind Reverse-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEsGAM,a83cf0000002qVkAAI
+FaultCode870,True,Electrical Components-Percent Timers-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEtGAM,a83cf0000002qSbAAI
+FaultCode871,True,Electrical Components-Percent Timers-Factory Wiring Incorrect-Repair Wiring-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEtGAM,a83cf0000002qTfAAI
+FaultCode872,True,Electrical Components-Percent Timers-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEtGAM,a83cf0000002qSMAAY
+FaultCode873,True,Electrical Components-Percent Timers-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEtGAM,a83cf0000002qSPAAY
+FaultCode874,True,Electrical Components-Percent Timers-OW Timer Doesn't Break Safety-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEtGAM,a83cf0000002qVYAAY
+FaultCode875,True,Electrical Components-Percent Timers-OW Timer Doesn't Hold Safety-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEtGAM,a83cf0000002qVZAAY
+FaultCode876,True,Electrical Components-Percent Timers-Percent timer runs at 100% at all times-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEtGAM,a83cf0000002qTLAAY
+FaultCode877,True,Electrical Components-Percent Timers-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEtGAM,a83cf0000002qSRAAY
+FaultCode878,True,Electrical Components-Power Supply-12 Volt Power Supply-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEuGAM,a83cf0000002qVuAAI
+FaultCode879,True,Electrical Components-Power Supply-5 Volt Power Supply-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEuGAM,a83cf0000002qTCAAY
+FaultCode880,True,Electrical Components-Power Supply-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEuGAM,a83cf0000002qSMAAY
+FaultCode881,True,Electrical Components-Power Supply-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEuGAM,a83cf0000002qSPAAY
+FaultCode882,True,Electrical Components-Power Supply-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEuGAM,a83cf0000002qSRAAY
+FaultCode883,True,Electrical Components-Pressure Switches-Electrical Component Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF3GAM,a83cf0000002qSaAAI
+FaultCode884,True,Electrical Components-Pressure Switches-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF3GAM,a83cf0000002qSbAAI
+FaultCode885,True,Electrical Components-Pressure Switches-Low Pressure Switch Fails Closed-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF3GAM,a83cf0000002qTlAAI
+FaultCode886,True,Electrical Components-Pressure Switches-Low Pressure Switch Fails Open-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF3GAM,a83cf0000002qTmAAI
+FaultCode887,True,Electrical Components-Pressure Switches-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF3GAM,a83cf0000002qSMAAY
+FaultCode888,True,Electrical Components-Pressure Switches-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF3GAM,a83cf0000002qSPAAY
+FaultCode889,True,Electrical Components-Pressure Switches-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF3GAM,a83cf0000002qSRAAY
+FaultCode890,True,Electrical Components-Pressure Switches-Switch Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF3GAM,a83cf0000002qTnAAI
+FaultCode891,True,Electrical Components-Pressure Transducers-Calibration changed/out of spec-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEvGAM,a83cf0000002qSTAAY
+FaultCode892,True,Electrical Components-Pressure Transducers-Leads corroded/broken-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEvGAM,a83cf0000002qSgAAI
+FaultCode893,True,Electrical Components-Pressure Transducers-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEvGAM,a83cf0000002qSMAAY
+FaultCode894,True,Electrical Components-Pressure Transducers-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEvGAM,a83cf0000002qSPAAY
+FaultCode895,True,Electrical Components-Pressure Transducers-Pressure Reading Incorrect-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEvGAM,a83cf0000002qTMAAY
+FaultCode896,True,Electrical Components-Pressure Transducers-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEvGAM,a83cf0000002qSRAAY
+FaultCode897,True,Electrical Components-Relays-Calibration changed/out of spec-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEwGAM,a83cf0000002qSTAAY
+FaultCode898,True,Electrical Components-Relays-Coil Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEwGAM,a83cf0000002qSLAAY
+FaultCode899,True,Electrical Components-Relays-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEwGAM,a83cf0000002qSUAAY
+FaultCode900,True,Electrical Components-Relays-Contact Points Damaged-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEwGAM,a83cf0000002qTkAAI
+FaultCode901,True,Electrical Components-Relays-Electrical Component Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEwGAM,a83cf0000002qSaAAI
+FaultCode902,True,Electrical Components-Relays-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEwGAM,a83cf0000002qSbAAI
+FaultCode903,True,Electrical Components-Relays-Factory Wiring Incorrect-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEwGAM,a83cf0000002qTjAAI
+FaultCode904,True,Electrical Components-Relays-Factory Wiring Incorrect-Repair Wiring-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEwGAM,a83cf0000002qTfAAI
+FaultCode905,True,Electrical Components-Relays-Factory Wiring Loose-Repair Wiring-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEwGAM,a83cf0000002qTyAAI
+FaultCode906,True,Electrical Components-Relays-Intermittent Operations-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEwGAM,a83cf0000002qSfAAI
+FaultCode907,True,Electrical Components-Relays-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEwGAM,a83cf0000002qSMAAY
+FaultCode908,True,Electrical Components-Relays-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEwGAM,a83cf0000002qSPAAY
+FaultCode909,True,Electrical Components-Relays-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEwGAM,a83cf0000002qSRAAY
+FaultCode910,True,Electrical Components-Solenoids-Coil Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YExGAM,a83cf0000002qSLAAY
+FaultCode911,True,Electrical Components-Solenoids-Leaking-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YExGAM,a83cf0000002qSNAAY
+FaultCode912,True,Electrical Components-Solenoids-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YExGAM,a83cf0000002qSPAAY
+FaultCode913,True,Electrical Components-Solenoids-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YExGAM,a83cf0000002qSRAAY
+FaultCode914,True,Electrical Components-Solenoids-Won't close-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YExGAM,a83cf0000002qSOAAY
+FaultCode915,True,Electrical Components-Speciality Cables-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEyGAM,a83cf0000002qSPAAY
+FaultCode916,True,Electrical Components-Speciality Cables-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEyGAM,a83cf0000002qSRAAY
+FaultCode917,True,Electrical Components-Speciality Cables-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEyGAM,a83cf0000002qSMAAY
+FaultCode918,True,Electrical Components-Switches-Calibration changed/out of spec-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEzGAM,a83cf0000002qSTAAY
+FaultCode919,True,Electrical Components-Switches-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEzGAM,a83cf0000002qSUAAY
+FaultCode920,True,Electrical Components-Switches-Contact Points Damaged-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEzGAM,a83cf0000002qTkAAI
+FaultCode921,True,Electrical Components-Switches-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEzGAM,a83cf0000002qSbAAI
+FaultCode922,True,Electrical Components-Switches-Intermittent Operations-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEzGAM,a83cf0000002qSfAAI
+FaultCode923,True,Electrical Components-Switches-Leads corroded/broken-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEzGAM,a83cf0000002qSgAAI
+FaultCode924,True,Electrical Components-Switches-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEzGAM,a83cf0000002qSMAAY
+FaultCode925,True,Electrical Components-Switches-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEzGAM,a83cf0000002qSPAAY
+FaultCode926,True,Electrical Components-Switches-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YEzGAM,a83cf0000002qSRAAY
+FaultCode927,True,Electrical Components-Terminal Options-Calibration changed/out of spec-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF4GAM,a83cf0000002qSTAAY
+FaultCode928,True,Electrical Components-Terminal Options-Contact Points Burned-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF4GAM,a83cf0000002qSUAAY
+FaultCode929,True,Electrical Components-Terminal Options-Contactor not pulling in-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF4GAM,a83cf0000002qSXAAY
+FaultCode930,True,Electrical Components-Terminal Options-Electrical Component Failure-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF4GAM,a83cf0000002qSaAAI
+FaultCode931,True,Electrical Components-Terminal Options-Electrical Specs Not Met-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF4GAM,a83cf0000002qSbAAI
+FaultCode932,True,Electrical Components-Terminal Options-Fuse Block Defective-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF4GAM,a83cf0000002qScAAI
+FaultCode933,True,Electrical Components-Terminal Options-Grounding Block Defective-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF4GAM,a83cf0000002qSdAAI
+FaultCode934,True,Electrical Components-Terminal Options-Housing Damaged-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF4GAM,a83cf0000002qSeAAI
+FaultCode935,True,Electrical Components-Terminal Options-Intermittent Operations-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF4GAM,a83cf0000002qSfAAI
+FaultCode936,True,Electrical Components-Terminal Options-Leads corroded/broken-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF4GAM,a83cf0000002qSgAAI
+FaultCode937,True,Electrical Components-Terminal Options-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF4GAM,a83cf0000002qSMAAY
+FaultCode938,True,Electrical Components-Terminal Options-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF4GAM,a83cf0000002qSPAAY
+FaultCode939,True,Electrical Components-Terminal Options-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8wGAE,0ZGcf0000002YF4GAM,a83cf0000002qSRAAY
+FaultCode940,True,Flotation-Articulating 4-Wheel Drive-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8xGAE,0ZGcf0000002YF7GAM,a83cf0000002qSPAAY
+FaultCode941,True,Flotation-Articulating 4-Wheel Drive-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8xGAE,0ZGcf0000002YF7GAM,a83cf0000002qSRAAY
+FaultCode942,True,Flotation-Articulating 4-Wheel Drive-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8xGAE,0ZGcf0000002YF7GAM,a83cf0000002qSMAAY
+FaultCode943,True,Linears-Below Ground Guidance-Excessive Steering-Replace Component-1.5hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFDGA2,a83cf0000002qTSAAY
+FaultCode944,True,Linears-Below Ground Guidance-Incorrect Resistance Reading-Replace Component-1.5hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFDGA2,a83cf0000002qTbAAI
+FaultCode945,True,Linears-Below Ground Guidance-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFDGA2,a83cf0000002qSMAAY
+FaultCode946,True,Linears-Below Ground Guidance-Other -- Fill in Comments-Replace Component-1.5hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFDGA2,a83cf0000002qUUAAY
+FaultCode947,True,Linears-Below Ground Guidance-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFDGA2,a83cf0000002qSRAAY
+FaultCode948,True,Linears-Below Ground Guidance-Signal Weak-Replace Component-1.5hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFDGA2,a83cf0000002qTiAAI
+FaultCode949,True,Linears-Below Ground Guidance-Won't Break Safety-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFDGA2,a83cf0000002qTXAAY
+FaultCode950,True,Linears-Below Ground Guidance-Won't Hold Safety-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFDGA2,a83cf0000002qTYAAY
+FaultCode951,True,Linears-Below Ground Guidance-Won't Steer Forward-Replace Component-1.5hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFDGA2,a83cf0000002qTZAAY
+FaultCode952,True,Linears-Below Ground Guidance-Won't Steer Reverse-Replace Component-1.5hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFDGA2,a83cf0000002qTaAAI
+FaultCode953,True,Linears-GPS Guidance-Cable End Failure-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFFGA2,a83cf0000002qTRAAY
+FaultCode954,True,Linears-GPS Guidance-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFFGA2,a83cf0000002qSMAAY
+FaultCode955,True,Linears-GPS Guidance-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFFGA2,a83cf0000002qSPAAY
+FaultCode956,True,Linears-GPS Guidance-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFFGA2,a83cf0000002qSRAAY
+FaultCode957,True,Linears-GPS Guidance-Signal Weak-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFFGA2,a83cf0000002qSkAAI
+FaultCode958,True,Linears-Inlet Components-Dent in Pipe-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFGGA2,a83cf0000002qSuAAI
+FaultCode959,True,Linears-Inlet Components-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFGGA2,a83cf0000002qSvAAI
+FaultCode960,True,Linears-Inlet Components-Flanges not Square-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFGGA2,a83cf0000002qSwAAI
+FaultCode961,True,Linears-Inlet Components-Flanges Out of Time-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFGGA2,a83cf0000002qSxAAI
+FaultCode962,True,Linears-Inlet Components-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFGGA2,a83cf0000002qSyAAI
+FaultCode963,True,Linears-Inlet Components-Galvanizing Excessive-Repair Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFGGA2,a83cf0000002qVvAAI
+FaultCode964,True,Linears-Inlet Components-Galvanizing Quality-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFGGA2,a83cf0000002qSzAAI
+FaultCode965,True,Linears-Inlet Components-Hole in Pipe-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFGGA2,a83cf0000002qT1AAI
+FaultCode966,True,Linears-Inlet Components-Hole in Pipe-Weld In Field-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFGGA2,a83cf0000002qT5AAI
+FaultCode967,True,Linears-Inlet Components-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFGGA2,a83cf0000002qSMAAY
+FaultCode968,True,Linears-Inlet Components-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFGGA2,a83cf0000002qSPAAY
+FaultCode969,True,Linears-Inlet Components-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFGGA2,a83cf0000002qSQAAY
+FaultCode970,True,Linears-Inlet Components-Plug Removal-Remove Plugs-2hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFGGA2,a83cf0000002qTAAAY
+FaultCode971,True,Linears-Inlet Components-Seam Split-Weld In Field-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFGGA2,a83cf0000002qT3AAI
+FaultCode972,True,Linears-Inlet Components-Seam Split-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFGGA2,a83cf0000002qT2AAI
+FaultCode973,True,Linears-Inlet Components-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFGGA2,a83cf0000002qSRAAY
+FaultCode974,True,Linears-Inlet Components-Weld Failure-Weld In Field-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFGGA2,a83cf0000002qT7AAI
+FaultCode975,True,Linears-Inlet Components-Weld Failure-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFGGA2,a83cf0000002qT6AAI
+FaultCode976,True,Linears-Inlet Components-Weld Missing-Weld In Field-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFGGA2,a83cf0000002qThAAI
+FaultCode977,True,Linears-Inlet Components-Weld Missing-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFGGA2,a83cf0000002qT8AAI
+FaultCode978,True,Linears-Linear Alignment-System out of Alignment-Re-align System-2hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFHGA2,a83cf0000002qVwAAI
+FaultCode979,True,Linears-Linear Alignment-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFHGA2,a83cf0000002qSPAAY
+FaultCode980,True,Linears-Linear Alignment-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFHGA2,a83cf0000002qSRAAY
+FaultCode981,True,Linears-Linear Alignment-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFHGA2,a83cf0000002qSMAAY
+FaultCode982,True,Linears-Linear Carts-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFIGA2,a83cf0000002qSvAAI
+FaultCode983,True,Linears-Linear Carts-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFIGA2,a83cf0000002qSyAAI
+FaultCode984,True,Linears-Linear Carts-Galvanizing Excessive-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFIGA2,a83cf0000002qT4AAI
+FaultCode985,True,Linears-Linear Carts-Galvanizing Quality-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFIGA2,a83cf0000002qSzAAI
+FaultCode986,True,Linears-Linear Carts-Hitch ball bolt failed-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFIGA2,a83cf0000002qT0AAI
+FaultCode987,True,Linears-Linear Carts-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFIGA2,a83cf0000002qSMAAY
+FaultCode988,True,Linears-Linear Carts-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFIGA2,a83cf0000002qSPAAY
+FaultCode989,True,Linears-Linear Carts-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFIGA2,a83cf0000002qSQAAY
+FaultCode990,True,Linears-Linear Carts-Seam Split-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFIGA2,a83cf0000002qT2AAI
+FaultCode991,True,Linears-Linear Carts-Seam Split-Weld In Field-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFIGA2,a83cf0000002qT3AAI
+FaultCode992,True,Linears-Linear Carts-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFIGA2,a83cf0000002qSRAAY
+FaultCode993,True,Linears-Linear Carts-System out of Alignment-Re-align System-2hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFIGA2,a83cf0000002qVwAAI
+FaultCode994,True,Linears-Linear Carts-Weld Failure-Weld In Field-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFIGA2,a83cf0000002qT7AAI
+FaultCode995,True,Linears-Linear Carts-Weld Failure-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFIGA2,a83cf0000002qT6AAI
+FaultCode996,True,Linears-Linear Carts-Weld Missing-Weld In Field-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFIGA2,a83cf0000002qThAAI
+FaultCode997,True,Linears-Linear Carts-Weld Missing-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFIGA2,a83cf0000002qT8AAI
+FaultCode998,True,Linears-Linear Options-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFJGA2,a83cf0000002qSMAAY
+FaultCode999,True,Linears-Linear Options-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFJGA2,a83cf0000002qSPAAY
+FaultCode1000,True,Linears-Linear Options-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFJGA2,a83cf0000002qSRAAY
+FaultCode1001,True,Linears-Linear Options-Signal Weak-Replace Component-1hr,0ZGcf0000002Y8yGAE,0ZGcf0000002YFJGA2,a83cf0000002qSkAAI
+FaultCode1002,True,Machine Options-Bender Options-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFMGA2,a83cf0000002qSPAAY
+FaultCode1003,True,Machine Options-Bender Options-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFMGA2,a83cf0000002qSRAAY
+FaultCode1004,True,Machine Options-Bender Options-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFMGA2,a83cf0000002qSMAAY
+FaultCode1005,True,Machine Options-Booster Pumps-120 Volt Input/Output Failure-Replace 2hp BP Motor-2hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qVxAAI
+FaultCode1006,True,Machine Options-Booster Pumps-120 Volt Input/Output Failure-Replace 2hp BP Complete-2.5hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qVyAAI
+FaultCode1007,True,Machine Options-Booster Pumps-120 Volt Input/Output Failure-Replace 5 or 7.5 hp BP Motor-2hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qVzAAI
+FaultCode1008,True,Machine Options-Booster Pumps-120 Volt Input/Output Failure-Replace 5 or 7.5 hp BP Complete-4hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qW0AAI
+FaultCode1009,True,Machine Options-Booster Pumps-Bearing Seized-Replace 2hp BP Motor-2hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qW1AAI
+FaultCode1010,True,Machine Options-Booster Pumps-Bearing Seized-Replace 2hp BP Complete-2.5hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qW2AAI
+FaultCode1011,True,Machine Options-Booster Pumps-Bearing Seized-Replace 5 or 7.5 hp BP Motor-2hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qW3AAI
+FaultCode1012,True,Machine Options-Booster Pumps-Bearing Seized-Replace 5 or 7.5 hp BP Complete-4hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qW4AAI
+FaultCode1013,True,Machine Options-Booster Pumps-Corrosion-Replace 2hp BP Motor-2hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qW5AAI
+FaultCode1014,True,Machine Options-Booster Pumps-Corrosion-Replace 2hp BP Complete-2.5hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qW6AAI
+FaultCode1015,True,Machine Options-Booster Pumps-Corrosion-Replace 5 or 7.5 hp BP Motor-2hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qW7AAI
+FaultCode1016,True,Machine Options-Booster Pumps-Corrosion-Replace 5 or 7.5 hp BP Complete-4hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qW8AAI
+FaultCode1017,True,Machine Options-Booster Pumps-Housing Damaged-Replace 2hp BP Motor-2hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qW9AAI
+FaultCode1018,True,Machine Options-Booster Pumps-Housing Damaged-Replace 2hp BP Complete-2.5hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qWAAAY
+FaultCode1019,True,Machine Options-Booster Pumps-Housing Damaged-Replace 5 or 7.5 hp BP Motor-2hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qWBAAY
+FaultCode1020,True,Machine Options-Booster Pumps-Housing Damaged-Replace 5 or 7.5 hp BP Complete-4hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qWCAAY
+FaultCode1021,True,Machine Options-Booster Pumps-Impeller Seized-Repair Component-1.5hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qWDAAY
+FaultCode1022,True,Machine Options-Booster Pumps-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qSMAAY
+FaultCode1023,True,Machine Options-Booster Pumps-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qSPAAY
+FaultCode1024,True,Machine Options-Booster Pumps-Shipment Damage-Replace 2hp BP Motor-0hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qWEAAY
+FaultCode1025,True,Machine Options-Booster Pumps-Shipment Damage-Replace 2hp BP Complete-0hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qWFAAY
+FaultCode1026,True,Machine Options-Booster Pumps-Shipment Damage-Replace 5 or 7.5 hp BP Motor-0hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qWGAAY
+FaultCode1027,True,Machine Options-Booster Pumps-Shipment Damage-Replace 5 or 7.5 hp BP Complete-0hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFNGA2,a83cf0000002qWHAAY
+FaultCode1028,True,Machine Options-Drop Span Options-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFQGA2,a83cf0000002qSPAAY
+FaultCode1029,True,Machine Options-Drop Span Options-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFQGA2,a83cf0000002qSRAAY
+FaultCode1030,True,Machine Options-Drop Span Options-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFQGA2,a83cf0000002qSMAAY
+FaultCode1031,True,Machine Options-End Gun Control Options-Won't close-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFRGA2,a83cf0000002qSOAAY
+FaultCode1032,True,Machine Options-End Gun Control Options-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFRGA2,a83cf0000002qSPAAY
+FaultCode1033,True,Machine Options-End Gun Control Options-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFRGA2,a83cf0000002qSRAAY
+FaultCode1034,True,Machine Options-End Gun Control Options-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFRGA2,a83cf0000002qSMAAY
+FaultCode1035,True,Machine Options-End of Field Stops Options-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFSGA2,a83cf0000002qSPAAY
+FaultCode1036,True,Machine Options-End of Field Stops Options-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFSGA2,a83cf0000002qSRAAY
+FaultCode1037,True,Machine Options-End of Field Stops Options-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFSGA2,a83cf0000002qSMAAY
+FaultCode1038,True,Machine Options-Pump Connect-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFTGA2,a83cf0000002qSPAAY
+FaultCode1039,True,Machine Options-Pump Connect-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFTGA2,a83cf0000002qSRAAY
+FaultCode1040,True,Machine Options-Pump Connect-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFTGA2,a83cf0000002qSMAAY
+FaultCode1041,True,Machine Options-Running Lights-Intermittent Operations-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFUGA2,a83cf0000002qSfAAI
+FaultCode1042,True,Machine Options-Running Lights-Light Burned Out-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFUGA2,a83cf0000002qWIAAY
+FaultCode1043,True,Machine Options-Running Lights-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFUGA2,a83cf0000002qSPAAY
+FaultCode1044,True,Machine Options-Running Lights-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFUGA2,a83cf0000002qSRAAY
+FaultCode1045,True,Machine Options-Running Lights-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFUGA2,a83cf0000002qSMAAY
+FaultCode1046,True,Machine Options-VRI-Coil Failure-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFVGA2,a83cf0000002qSLAAY
+FaultCode1047,True,Machine Options-VRI-Leaking-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFVGA2,a83cf0000002qSNAAY
+FaultCode1048,True,Machine Options-VRI-Won't close-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFVGA2,a83cf0000002qSOAAY
+FaultCode1049,True,Machine Options-VRI-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFVGA2,a83cf0000002qSPAAY
+FaultCode1050,True,Machine Options-VRI-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFVGA2,a83cf0000002qSRAAY
+FaultCode1051,True,Machine Options-VRI-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFVGA2,a83cf0000002qSMAAY
+FaultCode1052,True,Machine Options-X-Tec Options-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFWGA2,a83cf0000002qSPAAY
+FaultCode1053,True,Machine Options-X-Tec Options-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFWGA2,a83cf0000002qSRAAY
+FaultCode1054,True,Machine Options-X-Tec Options-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y8zGAE,0ZGcf0000002YFWGA2,a83cf0000002qSMAAY
+FaultCode1055,True,Service Tools-Electrical Tools-Contact Warranty Department - Not within-Contact Warranty Department-0hr,0ZGcf0000002Y91GAE,0ZGcf0000002YFcGAM,a83cf0000002qSlAAI
+FaultCode1056,True,Span Accessories-Bracket and Mounts-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFfGAM,a83cf0000002qSPAAY
+FaultCode1057,True,Span Accessories-Bracket and Mounts-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFfGAM,a83cf0000002qSRAAY
+FaultCode1058,True,Span Accessories-Bracket and Mounts-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFfGAM,a83cf0000002qSMAAY
+FaultCode1059,True,Span Accessories-Bracket and Mounts-Weld Missing-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFfGAM,a83cf0000002qT8AAI
+FaultCode1060,True,Span Accessories-Bracket and Mounts-Weld Missing-Weld In Field-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFfGAM,a83cf0000002qThAAI
+FaultCode1061,True,Span Accessories-Bracket and Mounts-Weld Cracked-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFfGAM,a83cf0000002qWJAAY
+FaultCode1062,True,Span Accessories-Bracket and Mounts-Weld Cracked-Weld In Field-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFfGAM,a83cf0000002qWKAAY
+FaultCode1063,True,Span Accessories-Bracket and Mounts-Weld Failure-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFfGAM,a83cf0000002qT6AAI
+FaultCode1064,True,Span Accessories-Bracket and Mounts-Weld Failure-Weld In Field-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFfGAM,a83cf0000002qT7AAI
+FaultCode1065,True,Span Accessories-Drains and Couplers-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFgGAM,a83cf0000002qSPAAY
+FaultCode1066,True,Span Accessories-Drains and Couplers-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFgGAM,a83cf0000002qSRAAY
+FaultCode1067,True,Span Accessories-Drains and Couplers-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFgGAM,a83cf0000002qSMAAY
+FaultCode1068,True,Span Accessories-Drains and Couplers-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFgGAM,a83cf0000002qSQAAY
+FaultCode1069,True,Span Accessories-Fasteners-Hose Pulled off-Replace Component-2hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFhGAM,a83cf0000002qSmAAI
+FaultCode1070,True,Span Accessories-Fasteners-Insufficient Clamping Force-Replace Component-2hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFhGAM,a83cf0000002qSoAAI
+FaultCode1071,True,Span Accessories-Fasteners-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFhGAM,a83cf0000002qSMAAY
+FaultCode1072,True,Span Accessories-Fasteners-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFhGAM,a83cf0000002qSPAAY
+FaultCode1073,True,Span Accessories-Fasteners-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFhGAM,a83cf0000002qSQAAY
+FaultCode1074,True,Span Accessories-Fasteners-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFhGAM,a83cf0000002qSRAAY
+FaultCode1075,True,Span Accessories-Flanges and End Plates-Flanges not Square-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFiGAM,a83cf0000002qSwAAI
+FaultCode1076,True,Span Accessories-Flanges and End Plates-Flanges Out of Time-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFiGAM,a83cf0000002qSxAAI
+FaultCode1077,True,Span Accessories-Flanges and End Plates-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFiGAM,a83cf0000002qSMAAY
+FaultCode1078,True,Span Accessories-Flanges and End Plates-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFiGAM,a83cf0000002qSPAAY
+FaultCode1079,True,Span Accessories-Flanges and End Plates-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFiGAM,a83cf0000002qSQAAY
+FaultCode1080,True,Span Accessories-Flanges and End Plates-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFiGAM,a83cf0000002qSRAAY
+FaultCode1081,True,Span Accessories-Flex Boots-Hose Pulled off-Replace Component-2hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFjGAM,a83cf0000002qSmAAI
+FaultCode1082,True,Span Accessories-Flex Boots-Hose Split-Replace Component-2hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFjGAM,a83cf0000002qSnAAI
+FaultCode1083,True,Span Accessories-Flex Boots-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFjGAM,a83cf0000002qSMAAY
+FaultCode1084,True,Span Accessories-Flex Boots-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFjGAM,a83cf0000002qSPAAY
+FaultCode1085,True,Span Accessories-Flex Boots-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFjGAM,a83cf0000002qSQAAY
+FaultCode1086,True,Span Accessories-Flex Boots-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFjGAM,a83cf0000002qSRAAY
+FaultCode1087,True,Span Accessories-Flex Boots-Ultraviolet Degradation-Replace Component-2hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFjGAM,a83cf0000002qSrAAI
+FaultCode1088,True,Span Accessories-Hardware-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFlGAM,a83cf0000002qSPAAY
+FaultCode1089,True,Span Accessories-Hardware-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFlGAM,a83cf0000002qSRAAY
+FaultCode1090,True,Span Accessories-Hardware-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFlGAM,a83cf0000002qSMAAY
+FaultCode1091,True,Span Accessories-Hardware-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFlGAM,a83cf0000002qSQAAY
+FaultCode1092,True,Span Accessories-Overhang Cable-Cable Broken-Replace Component-2hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFtGAM,a83cf0000002qWLAAY
+FaultCode1093,True,Span Accessories-Overhang Cable-Cable End Failure-Replace Component-2hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFtGAM,a83cf0000002qWMAAY
+FaultCode1094,True,Span Accessories-Overhang Cable-Cable Pulled Out-Replace Component-2hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFtGAM,a83cf0000002qWNAAY
+FaultCode1095,True,Span Accessories-Overhang Cable-Mis-manufactured-Replace Component-2hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFtGAM,a83cf0000002qSpAAI
+FaultCode1096,True,Span Accessories-Overhang Cable-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFtGAM,a83cf0000002qSPAAY
+FaultCode1097,True,Span Accessories-Overhang Cable-Part Dimensions Incorrect-Replace Component-2hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFtGAM,a83cf0000002qSqAAI
+FaultCode1098,True,Span Accessories-Overhang Cable-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFtGAM,a83cf0000002qSRAAY
+FaultCode1099,True,Span Accessories-Rubber Gaskets-Gasket Degrading-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFoGAM,a83cf0000002qWOAAY
+FaultCode1100,True,Span Accessories-Rubber Gaskets-Gasket Pushing Out-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFoGAM,a83cf0000002qWPAAY
+FaultCode1101,True,Span Accessories-Rubber Gaskets-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFoGAM,a83cf0000002qSMAAY
+FaultCode1102,True,Span Accessories-Rubber Gaskets-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFoGAM,a83cf0000002qSPAAY
+FaultCode1103,True,Span Accessories-Rubber Gaskets-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFoGAM,a83cf0000002qSQAAY
+FaultCode1104,True,Span Accessories-Rubber Gaskets-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFoGAM,a83cf0000002qSRAAY
+FaultCode1105,True,Span Accessories-Span Clamps-Hose Pulled off-Replace Component-2hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFpGAM,a83cf0000002qSmAAI
+FaultCode1106,True,Span Accessories-Span Clamps-Insufficient Clamping Force-Replace Component-2hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFpGAM,a83cf0000002qSoAAI
+FaultCode1107,True,Span Accessories-Span Clamps-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFpGAM,a83cf0000002qSMAAY
+FaultCode1108,True,Span Accessories-Span Clamps-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFpGAM,a83cf0000002qSPAAY
+FaultCode1109,True,Span Accessories-Span Clamps-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFpGAM,a83cf0000002qSQAAY
+FaultCode1110,True,Span Accessories-Span Clamps-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFpGAM,a83cf0000002qSRAAY
+FaultCode1111,True,Span Accessories-Span Transitions-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFqGAM,a83cf0000002qSPAAY
+FaultCode1112,True,Span Accessories-Span Transitions-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFqGAM,a83cf0000002qSRAAY
+FaultCode1113,True,Span Accessories-Span Transitions-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFqGAM,a83cf0000002qSMAAY
+FaultCode1114,True,Span Accessories-Span Transitions-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFqGAM,a83cf0000002qSQAAY
+FaultCode1115,True,Span Accessories-Truss Components-Galvanizing Excessive-Repair Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFrGAM,a83cf0000002qVvAAI
+FaultCode1116,True,Span Accessories-Truss Components-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFrGAM,a83cf0000002qSPAAY
+FaultCode1117,True,Span Accessories-Truss Components-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFrGAM,a83cf0000002qSQAAY
+FaultCode1118,True,Span Accessories-Truss Components-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFrGAM,a83cf0000002qSRAAY
+FaultCode1119,True,Span Accessories-Truss Components-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFrGAM,a83cf0000002qSMAAY
+FaultCode1120,True,Span Accessories-Weldment Options-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFsGAM,a83cf0000002qSPAAY
+FaultCode1121,True,Span Accessories-Weldment Options-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFsGAM,a83cf0000002qSRAAY
+FaultCode1122,True,Span Accessories-Weldment Options-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFsGAM,a83cf0000002qSMAAY
+FaultCode1123,True,Span Accessories-Weldment Options-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y92GAE,0ZGcf0000002YFsGAM,a83cf0000002qSQAAY
+FaultCode1124,True,Sprinklers-Boombacks-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFuGAM,a83cf0000002qSPAAY
+FaultCode1125,True,Sprinklers-Boombacks-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFuGAM,a83cf0000002qSRAAY
+FaultCode1126,True,Sprinklers-Boombacks-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFuGAM,a83cf0000002qSMAAY
+FaultCode1127,True,Sprinklers-Boombacks-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFuGAM,a83cf0000002qSQAAY
+FaultCode1128,True,Sprinklers-Drop Options-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFvGAM,a83cf0000002qSvAAI
+FaultCode1129,True,Sprinklers-Drop Options-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFvGAM,a83cf0000002qSyAAI
+FaultCode1130,True,Sprinklers-Drop Options-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFvGAM,a83cf0000002qSMAAY
+FaultCode1131,True,Sprinklers-Drop Options-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFvGAM,a83cf0000002qSPAAY
+FaultCode1132,True,Sprinklers-Drop Options-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFvGAM,a83cf0000002qSQAAY
+FaultCode1133,True,Sprinklers-Drop Options-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFvGAM,a83cf0000002qSRAAY
+FaultCode1134,True,Sprinklers-Drop Options-Threads Mismanufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFvGAM,a83cf0000002qWQAAY
+FaultCode1135,True,Sprinklers-End Guns-Won't close-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFwGAM,a83cf0000002qSOAAY
+FaultCode1136,True,Sprinklers-End Guns-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFwGAM,a83cf0000002qSPAAY
+FaultCode1137,True,Sprinklers-End Guns-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFwGAM,a83cf0000002qSRAAY
+FaultCode1138,True,Sprinklers-End Guns-Will Not Rotate-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFwGAM,a83cf0000002qWRAAY
+FaultCode1139,True,Sprinklers-End Guns-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFwGAM,a83cf0000002qSMAAY
+FaultCode1140,True,Sprinklers-Impact Sprinklers-Coil Failure-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFyGAM,a83cf0000002qSLAAY
+FaultCode1141,True,Sprinklers-Impact Sprinklers-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFyGAM,a83cf0000002qSvAAI
+FaultCode1142,True,Sprinklers-Impact Sprinklers-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFyGAM,a83cf0000002qSyAAI
+FaultCode1143,True,Sprinklers-Impact Sprinklers-Leaking-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFyGAM,a83cf0000002qSNAAY
+FaultCode1144,True,Sprinklers-Impact Sprinklers-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFyGAM,a83cf0000002qSMAAY
+FaultCode1145,True,Sprinklers-Impact Sprinklers-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFyGAM,a83cf0000002qSPAAY
+FaultCode1146,True,Sprinklers-Impact Sprinklers-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFyGAM,a83cf0000002qSQAAY
+FaultCode1147,True,Sprinklers-Impact Sprinklers-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFyGAM,a83cf0000002qSRAAY
+FaultCode1148,True,Sprinklers-Impact Sprinklers-Threads Mismanufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFyGAM,a83cf0000002qWQAAY
+FaultCode1149,True,Sprinklers-Impact Sprinklers-Won't close-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFyGAM,a83cf0000002qSOAAY
+FaultCode1150,True,Sprinklers-Rotating Sprays-Coil Failure-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFzGAM,a83cf0000002qSLAAY
+FaultCode1151,True,Sprinklers-Rotating Sprays-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFzGAM,a83cf0000002qSvAAI
+FaultCode1152,True,Sprinklers-Rotating Sprays-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFzGAM,a83cf0000002qSyAAI
+FaultCode1153,True,Sprinklers-Rotating Sprays-Leaking-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFzGAM,a83cf0000002qSNAAY
+FaultCode1154,True,Sprinklers-Rotating Sprays-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFzGAM,a83cf0000002qSMAAY
+FaultCode1155,True,Sprinklers-Rotating Sprays-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFzGAM,a83cf0000002qSPAAY
+FaultCode1156,True,Sprinklers-Rotating Sprays-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFzGAM,a83cf0000002qSQAAY
+FaultCode1157,True,Sprinklers-Rotating Sprays-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFzGAM,a83cf0000002qSRAAY
+FaultCode1158,True,Sprinklers-Rotating Sprays-Threads Mismanufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFzGAM,a83cf0000002qWQAAY
+FaultCode1159,True,Sprinklers-Rotating Sprays-Won't close-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YFzGAM,a83cf0000002qSOAAY
+FaultCode1160,True,Sprinklers-Sprinkler Fittings-Coil Failure-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG0GAM,a83cf0000002qSLAAY
+FaultCode1161,True,Sprinklers-Sprinkler Fittings-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG0GAM,a83cf0000002qSvAAI
+FaultCode1162,True,Sprinklers-Sprinkler Fittings-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG0GAM,a83cf0000002qSyAAI
+FaultCode1163,True,Sprinklers-Sprinkler Fittings-Leaking-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG0GAM,a83cf0000002qSNAAY
+FaultCode1164,True,Sprinklers-Sprinkler Fittings-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG0GAM,a83cf0000002qSMAAY
+FaultCode1165,True,Sprinklers-Sprinkler Fittings-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG0GAM,a83cf0000002qSPAAY
+FaultCode1166,True,Sprinklers-Sprinkler Fittings-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG0GAM,a83cf0000002qSQAAY
+FaultCode1167,True,Sprinklers-Sprinkler Fittings-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG0GAM,a83cf0000002qSRAAY
+FaultCode1168,True,Sprinklers-Sprinkler Fittings-Threads Mismanufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG0GAM,a83cf0000002qWQAAY
+FaultCode1169,True,Sprinklers-Sprinkler Fittings-Won't close-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG0GAM,a83cf0000002qSOAAY
+FaultCode1170,True,Sprinklers-Sprinkler Gauges-Coil Failure-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG1GAM,a83cf0000002qSLAAY
+FaultCode1171,True,Sprinklers-Sprinkler Gauges-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG1GAM,a83cf0000002qSvAAI
+FaultCode1172,True,Sprinklers-Sprinkler Gauges-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG1GAM,a83cf0000002qSyAAI
+FaultCode1173,True,Sprinklers-Sprinkler Gauges-Leaking-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG1GAM,a83cf0000002qSNAAY
+FaultCode1174,True,Sprinklers-Sprinkler Gauges-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG1GAM,a83cf0000002qSMAAY
+FaultCode1175,True,Sprinklers-Sprinkler Gauges-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG1GAM,a83cf0000002qSPAAY
+FaultCode1176,True,Sprinklers-Sprinkler Gauges-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG1GAM,a83cf0000002qSQAAY
+FaultCode1177,True,Sprinklers-Sprinkler Gauges-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG1GAM,a83cf0000002qSRAAY
+FaultCode1178,True,Sprinklers-Sprinkler Gauges-Threads Mismanufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG1GAM,a83cf0000002qWQAAY
+FaultCode1179,True,Sprinklers-Sprinkler Gauges-Won't close-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG1GAM,a83cf0000002qSOAAY
+FaultCode1180,True,Sprinklers-Sprinkler Nozzles-Coil Failure-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG2GAM,a83cf0000002qSLAAY
+FaultCode1181,True,Sprinklers-Sprinkler Nozzles-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG2GAM,a83cf0000002qSvAAI
+FaultCode1182,True,Sprinklers-Sprinkler Nozzles-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG2GAM,a83cf0000002qSyAAI
+FaultCode1183,True,Sprinklers-Sprinkler Nozzles-Leaking-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG2GAM,a83cf0000002qSNAAY
+FaultCode1184,True,Sprinklers-Sprinkler Nozzles-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG2GAM,a83cf0000002qSMAAY
+FaultCode1185,True,Sprinklers-Sprinkler Nozzles-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG2GAM,a83cf0000002qSPAAY
+FaultCode1186,True,Sprinklers-Sprinkler Nozzles-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG2GAM,a83cf0000002qSQAAY
+FaultCode1187,True,Sprinklers-Sprinkler Nozzles-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG2GAM,a83cf0000002qSRAAY
+FaultCode1188,True,Sprinklers-Sprinkler Nozzles-Threads Mismanufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG2GAM,a83cf0000002qWQAAY
+FaultCode1189,True,Sprinklers-Sprinkler Nozzles-Won't close-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG2GAM,a83cf0000002qSOAAY
+FaultCode1190,True,Sprinklers-Sprinkler Regulators-Coil Failure-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG3GAM,a83cf0000002qSLAAY
+FaultCode1191,True,Sprinklers-Sprinkler Regulators-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG3GAM,a83cf0000002qSvAAI
+FaultCode1192,True,Sprinklers-Sprinkler Regulators-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG3GAM,a83cf0000002qSyAAI
+FaultCode1193,True,Sprinklers-Sprinkler Regulators-Leaking-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG3GAM,a83cf0000002qSNAAY
+FaultCode1194,True,Sprinklers-Sprinkler Regulators-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG3GAM,a83cf0000002qSMAAY
+FaultCode1195,True,Sprinklers-Sprinkler Regulators-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG3GAM,a83cf0000002qSPAAY
+FaultCode1196,True,Sprinklers-Sprinkler Regulators-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG3GAM,a83cf0000002qSQAAY
+FaultCode1197,True,Sprinklers-Sprinkler Regulators-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG3GAM,a83cf0000002qSRAAY
+FaultCode1198,True,Sprinklers-Sprinkler Regulators-Threads Mismanufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG3GAM,a83cf0000002qWQAAY
+FaultCode1199,True,Sprinklers-Sprinkler Regulators-Won't close-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG3GAM,a83cf0000002qSOAAY
+FaultCode1200,True,Sprinklers-Sprinkler Repair-Coil Failure-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG4GAM,a83cf0000002qSLAAY
+FaultCode1201,True,Sprinklers-Sprinkler Repair-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG4GAM,a83cf0000002qSvAAI
+FaultCode1202,True,Sprinklers-Sprinkler Repair-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG4GAM,a83cf0000002qSyAAI
+FaultCode1203,True,Sprinklers-Sprinkler Repair-Leaking-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG4GAM,a83cf0000002qSNAAY
+FaultCode1204,True,Sprinklers-Sprinkler Repair-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG4GAM,a83cf0000002qSMAAY
+FaultCode1205,True,Sprinklers-Sprinkler Repair-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG4GAM,a83cf0000002qSPAAY
+FaultCode1206,True,Sprinklers-Sprinkler Repair-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG4GAM,a83cf0000002qSQAAY
+FaultCode1207,True,Sprinklers-Sprinkler Repair-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG4GAM,a83cf0000002qSRAAY
+FaultCode1208,True,Sprinklers-Sprinkler Repair-Threads Mismanufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG4GAM,a83cf0000002qWQAAY
+FaultCode1209,True,Sprinklers-Sprinkler Repair-Won't close-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG4GAM,a83cf0000002qSOAAY
+FaultCode1210,True,Sprinklers-U-Pipes-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG5GAM,a83cf0000002qSvAAI
+FaultCode1211,True,Sprinklers-U-Pipes-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG5GAM,a83cf0000002qSyAAI
+FaultCode1212,True,Sprinklers-U-Pipes-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG5GAM,a83cf0000002qSPAAY
+FaultCode1213,True,Sprinklers-U-Pipes-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG5GAM,a83cf0000002qSQAAY
+FaultCode1214,True,Sprinklers-U-Pipes-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG5GAM,a83cf0000002qSRAAY
+FaultCode1215,True,Sprinklers-U-Pipes-Threads Mismanufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG5GAM,a83cf0000002qWQAAY
+FaultCode1216,True,Sprinklers-Valves-Coil Failure-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG6GAM,a83cf0000002qSLAAY
+FaultCode1217,True,Sprinklers-Valves-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG6GAM,a83cf0000002qSvAAI
+FaultCode1218,True,Sprinklers-Valves-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG6GAM,a83cf0000002qSyAAI
+FaultCode1219,True,Sprinklers-Valves-Leaking-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG6GAM,a83cf0000002qSNAAY
+FaultCode1220,True,Sprinklers-Valves-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG6GAM,a83cf0000002qSMAAY
+FaultCode1221,True,Sprinklers-Valves-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG6GAM,a83cf0000002qSPAAY
+FaultCode1222,True,Sprinklers-Valves-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG6GAM,a83cf0000002qSQAAY
+FaultCode1223,True,Sprinklers-Valves-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG6GAM,a83cf0000002qSRAAY
+FaultCode1224,True,Sprinklers-Valves-Threads Mismanufactured-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG6GAM,a83cf0000002qWQAAY
+FaultCode1225,True,Sprinklers-Valves-Won't close-Replace Component-1hr,0ZGcf0000002Y93GAE,0ZGcf0000002YG6GAM,a83cf0000002qSOAAY
+FaultCode1226,True,Structural-Drive Unit Structure-Cracked Pivot Swivel-Replace Pivot Swivel-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG8GAM,a83cf0000002qWSAAY
+FaultCode1227,True,Structural-Drive Unit Structure-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG8GAM,a83cf0000002qSvAAI
+FaultCode1228,True,Structural-Drive Unit Structure-Flanges not Square-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG8GAM,a83cf0000002qSwAAI
+FaultCode1229,True,Structural-Drive Unit Structure-Flanges Out of Time-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG8GAM,a83cf0000002qSxAAI
+FaultCode1230,True,Structural-Drive Unit Structure-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG8GAM,a83cf0000002qSyAAI
+FaultCode1231,True,Structural-Drive Unit Structure-Galvanizing Excessive-Repair Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG8GAM,a83cf0000002qVvAAI
+FaultCode1232,True,Structural-Drive Unit Structure-Galvanizing Excessive-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG8GAM,a83cf0000002qT4AAI
+FaultCode1233,True,Structural-Drive Unit Structure-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG8GAM,a83cf0000002qSMAAY
+FaultCode1234,True,Structural-Drive Unit Structure-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG8GAM,a83cf0000002qSPAAY
+FaultCode1235,True,Structural-Drive Unit Structure-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG8GAM,a83cf0000002qSQAAY
+FaultCode1236,True,Structural-Drive Unit Structure-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG8GAM,a83cf0000002qSRAAY
+FaultCode1237,True,Structural-Drive Unit Structure-Weld Cracked-Weld In Field-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG8GAM,a83cf0000002qWKAAY
+FaultCode1238,True,Structural-Drive Unit Structure-Weld Cracked-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG8GAM,a83cf0000002qWJAAY
+FaultCode1239,True,Structural-Drive Unit Structure-Weld Failure-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG8GAM,a83cf0000002qT6AAI
+FaultCode1240,True,Structural-Drive Unit Structure-Weld Failure-Weld In Field-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG8GAM,a83cf0000002qT7AAI
+FaultCode1241,True,Structural-Drive Unit Structure-Weld Missing-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG8GAM,a83cf0000002qT8AAI
+FaultCode1242,True,Structural-Drive Unit Structure-Weld Missing-Weld In Field-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG8GAM,a83cf0000002qThAAI
+FaultCode1243,True,Structural-Overhang Packages-Cracked Pivot Swivel-Replace Pivot Swivel-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG9GAM,a83cf0000002qWSAAY
+FaultCode1244,True,Structural-Overhang Packages-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG9GAM,a83cf0000002qSvAAI
+FaultCode1245,True,Structural-Overhang Packages-Flanges not Square-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG9GAM,a83cf0000002qSwAAI
+FaultCode1246,True,Structural-Overhang Packages-Flanges Out of Time-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG9GAM,a83cf0000002qSxAAI
+FaultCode1247,True,Structural-Overhang Packages-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG9GAM,a83cf0000002qSyAAI
+FaultCode1248,True,Structural-Overhang Packages-Galvanizing Excessive-Repair Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG9GAM,a83cf0000002qVvAAI
+FaultCode1249,True,Structural-Overhang Packages-Galvanizing Excessive-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG9GAM,a83cf0000002qT4AAI
+FaultCode1250,True,Structural-Overhang Packages-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG9GAM,a83cf0000002qSMAAY
+FaultCode1251,True,Structural-Overhang Packages-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG9GAM,a83cf0000002qSPAAY
+FaultCode1252,True,Structural-Overhang Packages-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG9GAM,a83cf0000002qSQAAY
+FaultCode1253,True,Structural-Overhang Packages-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG9GAM,a83cf0000002qSRAAY
+FaultCode1254,True,Structural-Overhang Packages-Weld Cracked-Weld In Field-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG9GAM,a83cf0000002qWKAAY
+FaultCode1255,True,Structural-Overhang Packages-Weld Cracked-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG9GAM,a83cf0000002qWJAAY
+FaultCode1256,True,Structural-Overhang Packages-Weld Failure-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG9GAM,a83cf0000002qT6AAI
+FaultCode1257,True,Structural-Overhang Packages-Weld Failure-Weld In Field-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG9GAM,a83cf0000002qT7AAI
+FaultCode1258,True,Structural-Overhang Packages-Weld Missing-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG9GAM,a83cf0000002qT8AAI
+FaultCode1259,True,Structural-Overhang Packages-Weld Missing-Weld In Field-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YG9GAM,a83cf0000002qThAAI
+FaultCode1260,True,Structural-Pipe & Stubs-Cracked Pivot Swivel-Replace Pivot Swivel-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGAGA2,a83cf0000002qWSAAY
+FaultCode1261,True,Structural-Pipe & Stubs-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGAGA2,a83cf0000002qSvAAI
+FaultCode1262,True,Structural-Pipe & Stubs-Flanges not Square-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGAGA2,a83cf0000002qSwAAI
+FaultCode1263,True,Structural-Pipe & Stubs-Flanges Out of Time-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGAGA2,a83cf0000002qSxAAI
+FaultCode1264,True,Structural-Pipe & Stubs-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGAGA2,a83cf0000002qSyAAI
+FaultCode1265,True,Structural-Pipe & Stubs-Galvanizing Excessive-Repair Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGAGA2,a83cf0000002qVvAAI
+FaultCode1266,True,Structural-Pipe & Stubs-Galvanizing Excessive-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGAGA2,a83cf0000002qT4AAI
+FaultCode1267,True,Structural-Pipe & Stubs-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGAGA2,a83cf0000002qSMAAY
+FaultCode1268,True,Structural-Pipe & Stubs-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGAGA2,a83cf0000002qSPAAY
+FaultCode1269,True,Structural-Pipe & Stubs-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGAGA2,a83cf0000002qSQAAY
+FaultCode1270,True,Structural-Pipe & Stubs-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGAGA2,a83cf0000002qSRAAY
+FaultCode1271,True,Structural-Pipe & Stubs-Weld Cracked-Weld In Field-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGAGA2,a83cf0000002qWKAAY
+FaultCode1272,True,Structural-Pipe & Stubs-Weld Cracked-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGAGA2,a83cf0000002qWJAAY
+FaultCode1273,True,Structural-Pipe & Stubs-Weld Failure-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGAGA2,a83cf0000002qT6AAI
+FaultCode1274,True,Structural-Pipe & Stubs-Weld Failure-Weld In Field-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGAGA2,a83cf0000002qT7AAI
+FaultCode1275,True,Structural-Pipe & Stubs-Weld Missing-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGAGA2,a83cf0000002qT8AAI
+FaultCode1276,True,Structural-Pipe & Stubs-Weld Missing-Weld In Field-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGAGA2,a83cf0000002qThAAI
+FaultCode1277,True,Structural-Pivot Point-Cracked Pivot Swivel-Replace Pivot Swivel-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGCGA2,a83cf0000002qWSAAY
+FaultCode1278,True,Structural-Pivot Point-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGCGA2,a83cf0000002qSvAAI
+FaultCode1279,True,Structural-Pivot Point-Flanges not Square-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGCGA2,a83cf0000002qSwAAI
+FaultCode1280,True,Structural-Pivot Point-Flanges Out of Time-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGCGA2,a83cf0000002qSxAAI
+FaultCode1281,True,Structural-Pivot Point-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGCGA2,a83cf0000002qSyAAI
+FaultCode1282,True,Structural-Pivot Point-Galvanizing Excessive-Repair Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGCGA2,a83cf0000002qVvAAI
+FaultCode1283,True,Structural-Pivot Point-Galvanizing Excessive-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGCGA2,a83cf0000002qT4AAI
+FaultCode1284,True,Structural-Pivot Point-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGCGA2,a83cf0000002qSMAAY
+FaultCode1285,True,Structural-Pivot Point-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGCGA2,a83cf0000002qSPAAY
+FaultCode1286,True,Structural-Pivot Point-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGCGA2,a83cf0000002qSQAAY
+FaultCode1287,True,Structural-Pivot Point-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGCGA2,a83cf0000002qSRAAY
+FaultCode1288,True,Structural-Pivot Point-Weld Cracked-Weld In Field-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGCGA2,a83cf0000002qWKAAY
+FaultCode1289,True,Structural-Pivot Point-Weld Cracked-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGCGA2,a83cf0000002qWJAAY
+FaultCode1290,True,Structural-Pivot Point-Weld Failure-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGCGA2,a83cf0000002qT6AAI
+FaultCode1291,True,Structural-Pivot Point-Weld Failure-Weld In Field-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGCGA2,a83cf0000002qT7AAI
+FaultCode1292,True,Structural-Pivot Point-Weld Missing-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGCGA2,a83cf0000002qT8AAI
+FaultCode1293,True,Structural-Pivot Point-Weld Missing-Weld In Field-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGCGA2,a83cf0000002qThAAI
+FaultCode1294,True,Structural-Truss Angles-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGDGA2,a83cf0000002qSvAAI
+FaultCode1295,True,Structural-Truss Angles-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGDGA2,a83cf0000002qSyAAI
+FaultCode1296,True,Structural-Truss Angles-Galvanizing Excessive-Repair Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGDGA2,a83cf0000002qVvAAI
+FaultCode1297,True,Structural-Truss Angles-Galvanizing Excessive-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGDGA2,a83cf0000002qT4AAI
+FaultCode1298,True,Structural-Truss Angles-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGDGA2,a83cf0000002qSMAAY
+FaultCode1299,True,Structural-Truss Angles-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGDGA2,a83cf0000002qSPAAY
+FaultCode1300,True,Structural-Truss Angles-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGDGA2,a83cf0000002qSQAAY
+FaultCode1301,True,Structural-Truss Angles-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGDGA2,a83cf0000002qSRAAY
+FaultCode1302,True,Structural-Truss Rods-Finish Appearance Faulty-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGEGA2,a83cf0000002qSvAAI
+FaultCode1303,True,Structural-Truss Rods-Galvanizing Bare Spots-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGEGA2,a83cf0000002qSyAAI
+FaultCode1304,True,Structural-Truss Rods-Galvanizing Excessive-Repair Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGEGA2,a83cf0000002qVvAAI
+FaultCode1305,True,Structural-Truss Rods-Galvanizing Excessive-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGEGA2,a83cf0000002qT4AAI
+FaultCode1306,True,Structural-Truss Rods-Mis-manufactured-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGEGA2,a83cf0000002qSMAAY
+FaultCode1307,True,Structural-Truss Rods-Other -- Fill in Comments-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGEGA2,a83cf0000002qSPAAY
+FaultCode1308,True,Structural-Truss Rods-Part Dimensions Incorrect-Replace Component-1hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGEGA2,a83cf0000002qSQAAY
+FaultCode1309,True,Structural-Truss Rods-Shipment Damage-Replace Component-0hr,0ZGcf0000002Y94GAE,0ZGcf0000002YGEGA2,a83cf0000002qSRAAY

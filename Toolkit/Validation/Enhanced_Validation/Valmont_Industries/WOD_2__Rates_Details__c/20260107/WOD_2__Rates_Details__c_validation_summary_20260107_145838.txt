@@ -1,0 +1,14 @@
+ENHANCED VALIDATION SUMMARY REPORT
+==================================================
+
+Generated: 2026-01-07 14:58:38
+Salesforce Org: Valmont_Industries
+Target Object: WOD_2__Rates_Details__c
+
+OVERALL STATISTICS:
+Total Records Processed: 131
+Transform Success: 131 (100.0%)
+Transform Failure: 0 (0.0%)
+
+LOOKUP FIELDS PROCESSED:
+- WOD_2__Dealer__c -> Account (131 values resolved)

@@ -1,0 +1,87 @@
+{
+  "source_org": "ValmontDev",
+  "target_org": "ValmontQA",
+  "object": "WOD_2__FaultCode_Mapper__c",
+  "execution_date": "2026-03-09T18:25:23.287507",
+  "execution_time_seconds": 17.26,
+  "migration_operation": "INSERT",
+  "main_match_strategy": "field_combination",
+  "main_match_fields": [
+    "Name"
+  ],
+  "field_mappings": {
+    "Name": "Name",
+    "VRM_Category__c": "VRM_Category__c",
+    "VRM_SubCategory__c": "VRM_SubCategory__c",
+    "VRM_Failure_Resolution_Code__c": "VRM_Failure_Resolution_Code__c",
+    "WOD_2__Status__c": "WOD_2__Status__c",
+    "VRM_External_Id__c": "VRM_External_Id__c"
+  },
+  "field_mapping_count": 6,
+  "lookup_configs": {
+    "WOD_2__Code__c": {
+      "parent_object": "WOD_2__Warranty_Code__c",
+      "match_strategy": "external_id",
+      "match_fields": [
+        "WOD_2__Parent_Warranty_Code__r.OwnerId"
+      ]
+    },
+    "WOD_2__Fault_Code__c": {
+      "parent_object": "WOD_2__Warranty_Code__c",
+      "match_strategy": "external_id",
+      "match_fields": [
+        "WOD_2__Parent_Warranty_Code__r.OwnerId"
+      ]
+    },
+    "WOD_2__Fault_Location__c": {
+      "parent_object": "WOD_2__Warranty_Code__c",
+      "match_strategy": "external_id",
+      "match_fields": [
+        "WOD_2__Parent_Warranty_Code__r.OwnerId"
+      ]
+    },
+    "WOD_2__Product__c": {
+      "parent_object": "Product2",
+      "match_strategy": "external_id",
+      "match_fields": [
+        "Part_Number__c"
+      ]
+    },
+    "WOD_2__Warranty_Product__c": {
+      "parent_object": "WOD_2__Warranty_Product__c",
+      "match_strategy": "external_id",
+      "match_fields": [
+        "WOD_2__Business_Unit__r.OwnerId"
+      ]
+    },
+    "VRM_Category__c": {
+      "parent_object": "ProductCategory",
+      "match_strategy": "field_combination",
+      "match_fields": [
+        "Name"
+      ]
+    },
+    "VRM_SubCategory__c": {
+      "parent_object": "ProductCategory",
+      "match_strategy": "field_combination",
+      "match_fields": [
+        "Name",
+        "ParentCategory.Name"
+      ]
+    },
+    "VRM_Failure_Resolution_Code__c": {
+      "parent_object": "WOD_2__Warranty_Code__c",
+      "match_strategy": "field_combination",
+      "match_fields": [
+        "Name"
+      ]
+    }
+  },
+  "lookup_count": 8,
+  "results": {
+    "total_records": 1308,
+    "success_count": 1308,
+    "error_count": 0,
+    "success_rate": 100.0
+  }
+}

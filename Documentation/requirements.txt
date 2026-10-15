@@ -1,0 +1,4 @@
+pandas
+sqlalchemy
+simple_salesforce
+pyodbc

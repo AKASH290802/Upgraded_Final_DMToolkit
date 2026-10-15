@@ -1,0 +1,22 @@
+{
+  "org_name": "ValmontDev",
+  "object_name": "WOD_2__Warranty_Code__c",
+  "field_mappings": {
+    "Name": "Name",
+    "WOD_2__Description__c": "WOD_2__Description__c",
+    "WOD_2__Business_Units__c": "WOD_2__Business_Units__c",
+    "VRM_Failure_Code__c": "VRM_Failure_Code__c",
+    "VRM_Resolution_Code__c": "VRM_Resolution_Code__c",
+    "WOD_2__Standard_Labor_Hour__c": "WOD_2__Standard_Labor_Hour__c"
+  },
+  "csv_columns": [
+    "Name",
+    "VRM_Failure_Code__c",
+    "VRM_Resolution_Code__c",
+    "WOD_2__Standard_Labor_Hour__c",
+    "WOD_2__Business_Units__c"
+  ],
+  "validation_type": "enhanced",
+  "saved_at": "2026-05-11T13:18:41.990270",
+  "mapping_count": 6
+}

@@ -1,0 +1,33 @@
+{
+  "object_name": "Account",
+  "extracted_date": "2025-10-15 10:43:44",
+  "total_rules": 2,
+  "active_rules": 2,
+  "validation_rules": [
+    {
+      "id": "03dgL000000H3mHQAS",
+      "name": "Name_is_null",
+      "display_name": "Name_is_null",
+      "formula": "",
+      "error_message": "Name cannot be blank",
+      "active": true,
+      "description": null,
+      "error_field": "Top of Page",
+      "extracted_date": "2025-10-15 10:43:44",
+      "source": "sf_validation_client"
+    },
+    {
+      "id": "03dgL000000OXajQAG",
+      "name": "PhoneRule",
+      "display_name": "PhoneRule",
+      "formula": "",
+      "error_message": "Phone required",
+      "active": true,
+      "description": null,
+      "error_field": "Top of Page",
+      "extracted_date": "2025-10-15 10:43:44",
+      "source": "sf_validation_client"
+    }
+  ],
+  "source": "real_salesforce_rules"
+}

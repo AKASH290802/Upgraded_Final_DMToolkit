@@ -1,0 +1,6 @@
+WOD_2__Business_Units__c,WOD_2__Is_Default__c,WOD_2__Status__c,Name,WOD_2__Cost_Categories__c,VRM_External_Id__c,CurrencyIsoCode
+VRM-NA,False,Active,Parts only Payment Definition,Parts,Parts only Payment Definition,USD
+VRM-NA,False,Active,Standard Full Payment Definition,OEM Parts;Labor;Freight;Parts;Travel;Repair Invoice;Boom Truck;Corrosion,Standard Full Payment Definition,USD
+VRM-NA,False,Active,Standard Payment Definition,Labor;Parts;Travel,Standard Payment Definition,USD
+VRM-NA,False,Active,Standard with Boom Truck Payment Definition,Labor;Parts;Travel;Repair Invoice;Boom Truck,Standard with Boom Truck Payment Definition,USD
+VRM-NA,False,Active,Standard with Repair Invoice Payment Definition,Labor;Parts;Travel;Repair Invoice,Standard with Repair Invoice Payment Definition,USD

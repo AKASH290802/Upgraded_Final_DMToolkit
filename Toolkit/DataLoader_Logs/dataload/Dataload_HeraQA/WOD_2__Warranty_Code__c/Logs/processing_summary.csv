@@ -1,0 +1,2 @@
+Start_Time,End_Time,Processing_Duration_Seconds,Processing_Duration_Formatted,Total_Records,Total_Success,Total_Errors,Total_Unprocessed,Success_Rate_Percent,Error_Rate_Percent,Operation,Salesforce_Object,Salesforce_Org,Total_Batches,Parallel_Processing,Log_Generated_At
+2025-07-07 16:22:26,2025-07-07 16:22:41,14.63,0:00:14,4,0,4,0,0.00,100.00,insert,WOD_2__Warranty_Code__c,HeraQA,1,False,2025-07-07 16:22:41

@@ -1,0 +1,13 @@
+WOD_2__Payment_Definition__c,WOD_2__Type__c,WOD_2__Business_Units__c,WOD_2__Active_From__c,WOD_2__Months_Covered__c,WOD_2__Status__c,WOD_2__Priority__c,Name,VRM_External_Id__c,CurrencyIsoCode,WOD_2__Sub_Type__c,VRM_WR_Expression__c,WOD_2__Expression__c,WOD_2__Active_Until__c
+a7Ycf000000BmNuEAK,Standard,VRM-NA,2000-01-01,72.0,Active,10.0,System_Gearboxes 7000,System_Gearboxes 7000,USD,,"{""AND"":[""C31""]}","{""AND"":[""C32""]}",2050-12-31
+a7Ycf000000BmNuEAK,Standard,VRM-NA,2000-01-01,72.0,Active,20.0,System_Center Drives 7000,System_Center Drives 7000,USD,,"{""AND"":[""C31""]}","{""AND"":[""C33""]}",2050-12-31
+a7Ycf000000BmNuEAK,Standard,VRM-NA,2000-01-01,96.0,Active,110.0,System_Gearboxes 8000,System_Gearboxes 8000,USD,,"{""AND"":[""C34""]}","{""AND"":[""C32""]}",2050-12-31
+a7Ycf000000BmNuEAK,Standard,VRM-NA,2000-01-01,96.0,Active,120.0,System_Center Drives 8000,System_Center Drives 8000,USD,,"{""AND"":[""C34""]}","{""AND"":[""C33""]}",2050-12-31
+a7Ycf000000BmNvEAK,Standard,VRM-NA,2000-01-01,60.0,Active,30.0,System_Pivot Structure,System_Pivot Structure,USD,,"{""AND"":[""C28""]}","{""AND"":[""C35""]}",2050-12-31
+a7Ycf000000BmNuEAK,Standard,VRM-NA,2000-01-01,60.0,Active,40.0,System_Control Panel,System_Control Panel,USD,,"{""AND"":[""C28""]}","{""AND"":[""C36""]}",2050-12-31
+a7Ycf000000BmNwEAK,Standard,VRM-NA,2000-01-01,24.0,Active,50.0,System_Tires,System_Tires,USD,,"{""AND"":[""C28""]}","{""AND"":[""C37""]}",2050-12-31
+a7Ycf000000BmNtEAK,Standard,VRM-NA,2000-01-01,240.0,Active,60.0,System_Corrosion,System_Corrosion,USD,,"{""AND"":[""C28""]}","{""AND"":[""C27""]}",2050-12-31
+a7Ycf000000BmNuEAK,Standard,VRM-NA,2000-01-01,120.0,Active,70.0,System_Water Application,System_Water Application,USD,,"{""AND"":[""C28""]}",,2050-12-31
+a7Ycf000000BmNuEAK,Standard,VRM-NA,2000-01-01,24.0,Active,80.0,System_GPS Components,System_GPS Components,USD,,"{""AND"":[""C28""]}","{""AND"":[""C38""]}",2050-12-31
+a7Ycf000000BmNuEAK,Standard,VRM-NA,2000-01-01,60.0,Active,90.0,System_Variable Speed Drives,System_Variable Speed Drives,USD,,"{""AND"":[""C28""]}","{""AND"":[""C39""]}",2050-12-31
+a7Ycf000000BmNuEAK,Standard,VRM-NA,2000-01-01,60.0,Active,100.0,System_FlowMeters,System_FlowMeters,USD,,"{""AND"":[""C28""]}","{""AND"":[""C40""]}",2050-12-31

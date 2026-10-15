@@ -1,0 +1,6 @@
+ValidationName,ErrorConditionFormula,FieldName,ObjectName,Active
+Email_Required,ISBLANK(Email),Email,Account,TRUE
+Phone_Length_Check,"LEN(Phone) < 10",Phone,Account,TRUE
+Name_Not_Empty,ISBLANK(Name),Name,Account,TRUE
+Annual_Revenue_Positive,"AnnualRevenue <= 0",AnnualRevenue,Account,TRUE
+Website_Format,"AND(NOT(ISBLANK(Website)), NOT(CONTAINS(Website, ""http"")))",Website,Account,TRUE

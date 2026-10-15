@@ -1,0 +1,11 @@
+ValidationName,ErrorConditionFormula,FieldName,ObjectName,Active,ErrorMessage,Description,ValidationRuleName
+Invalid_Inspection_Date,One_year_Inspection_Date__c >  TODAY(),,WOD_2__Inventory__c,True,Inspection Date cannot be in Future,,Invalid_Inspection_Date
+Factory_Ship_Date_cannot_be_modified,"AND(NOT(ISBLANK(PRIORVALUE(Factory_Ship_Date__c))),ISCHANGED(Factory_Ship_Date__c))",,WOD_2__Inventory__c,False,Cannot make updates to this Date,,Factory_Ship_Date_cannot_be_modified
+Account_Is_Required,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),ISBLANK(WOD_2__Account__c))",,WOD_2__Inventory__c,False,Please provide Account.,,Account_Is_Required
+Comments_are_Mandatory_for_scrapped,"(ISPICKVAL( Reason__c , 'Stolen')|| ISPICKVAL( Reason__c , 'Scrapped') || ISPICKVAL( Reason__c , 'Others'))&&  (ISBLANK( Comments__c ))",,WOD_2__Inventory__c,False,Provide Comments to Proceed Furthure.,,Comments_are_Mandatory_for_scrapped
+Demo_Validation_for_KBT_EU,"Demo_Unit__c == TRUE && ISCHANGED(Demo_Unit__c) && NOT(ISPICKVAL(WOD_2__Type__c, 'Retail')) &&  WOD_2__Business_Unit__r.Name != 'KVG'",,WOD_2__Inventory__c,True,This Unit cannot be marked as a Demo Unit until it's registered.,,Demo_Validation_for_KBT_EU
+Name_Protection,ISCHANGED(Name) && NOT(($Profile.Name == 'Integration User' || $Profile.Name == 'System Administrator' )),,WOD_2__Inventory__c,False,"You cannot modify the Name of the Inventory , Please contact the system administrator",,Name_Protection

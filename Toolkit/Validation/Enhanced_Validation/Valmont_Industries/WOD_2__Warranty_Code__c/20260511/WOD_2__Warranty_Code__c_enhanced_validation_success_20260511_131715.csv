@@ -1,0 +1,4 @@
+Name,WOD_2__Description__c,WOD_2__Business_Units__c,Transform_Status,Transform_Reason,Validation_Details
+XYZ,XYZ,VRM-NA,SUCCESS,No validations required (no lookup/picklist/unique fields),All validations passed
+UVW,UVW,VRM-NA,SUCCESS,No validations required (no lookup/picklist/unique fields),All validations passed
+PST,PST,VRM-NA,SUCCESS,No validations required (no lookup/picklist/unique fields),All validations passed

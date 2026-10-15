@@ -1,0 +1,5 @@
+Full_Name,Phone No.,Billing Street,Type,sf__Error
+,890-123-4567,Pinecrest,Prospect,[Full_Name] required_check: Field 'Name' is required but value is null/empty
+Charlie,345-678-9012, Lakeview,Prospect,[Billing Street] whitespace_check: Value has leading/trailing whitespace — will cause picklist/ID mismatches.
+Diana,, Hilltop,Other,[Billing Street] whitespace_check: Value has leading/trailing whitespace — will cause picklist/ID mismatches.
+Ethan,567-890-1234, Brookfield,Technology Partner,"[Billing Street] whitespace_check: Value has leading/trailing whitespace — will cause picklist/ID mismatches. | [Type] picklist_check: 'Technology Partner' not in allowed values: ['Analyst', 'Competitor', 'Customer', 'Integrator', 'Investor', 'Partner', 'Press', 'Prospect', 'Reseller', 'Other', 'National Account', 'National Account Farm', 'Consultant', 'Academic', 'Equipment Supplier', 'Farm Management', 'Government', 'Holding Company', 'NGO', 'Grower', 'Dealer', 'Dealer & Grower', 'House Account', 'Agronomy Consultant', 'Ag Retail', 'Vendor', 'Other*', 'Agronomic', 'AgSense', 'Independent', 'T-L', 'T-L Only']"

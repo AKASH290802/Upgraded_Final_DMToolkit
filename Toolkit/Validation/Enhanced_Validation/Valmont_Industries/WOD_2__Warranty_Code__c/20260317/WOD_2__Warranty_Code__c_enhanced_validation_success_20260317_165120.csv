@@ -1,0 +1,4 @@
+Name,VRM_Failure_Code__c,VRM_Resolution_Code__c,WOD_2__Standard_Labor_Hour__c,WOD_2__Business_Units__c,Transform_Status,Transform_Reason,Validation_Details
+ ABC-XYZ-1hr,a83cf0000002upJAAQ,a83cf0000002uqvAAA,1,VRM-NA,SUCCESS,"All validations passed (lookup fields transformed, picklist values valid, unique fields unique)",All validations passed
+CDE-UVW-1hr,a83cf0000002upKAAQ,a83cf0000002uqwAAA,1,VRM-NA,SUCCESS,"All validations passed (lookup fields transformed, picklist values valid, unique fields unique)",All validations passed
+EFG-PST-1hr,a83cf0000002upLAAQ,a83cf0000002uqxAAA,1,VRM-NA,SUCCESS,"All validations passed (lookup fields transformed, picklist values valid, unique fields unique)",All validations passed

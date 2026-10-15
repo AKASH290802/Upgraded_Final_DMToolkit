@@ -1,0 +1,40 @@
+=== VALIDATION SUMMARY ===
+Metric,Value
+Total Records,10
+Passed Records,0
+Failed Records,10
+Total Errors,10
+Success Rate,0.00%
+
+
+=== VALIDATED DATASET WITH RESULTS ===
+Name,AccountNumber,Code,IndustryID,WatchlistComments,Validation_Status,Validation_Errors
+Name 1,1.000000000000000000,11138,1483.000000000000000000,,FAILED,"Row 1: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)"
+Name 2,2.000000000000000000,11904,1483.000000000000000000,Manual Review,FAILED,"Row 2: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)"
+Name 3,3.000000000000000000,12228,1483.000000000000000000,Manual Review,FAILED,"Row 3: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)"
+Name 4,4.000000000000000000,12304,1483.000000000000000000,,FAILED,"Row 4: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)"
+Name 5,5.000000000000000000,12346,1483.000000000000000000,,FAILED,"Row 5: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)"
+Name 6,6.000000000000000000,12896,1483.000000000000000000,,FAILED,"Row 6: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)"
+Name 7,7.000000000000000000,12988,1483.000000000000000000,Manual Review,FAILED,"Row 7: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)"
+Name 8,8.000000000000000000,13065,1483.000000000000000000,,FAILED,"Row 8: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)"
+Name 9,9.000000000000000000,13115,1483.000000000000000000,NO CLAIMS FROM US DEALERS!!,FAILED,"Row 9: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)"
+Name 10,10.000000000000000000,13203,1483.000000000000000000,,FAILED,"Row 10: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)"
+
+
+=== DETAILED VALIDATION ERRORS ===
+Error_Description
+"Row 1: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)"
+"Row 2: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)"
+"Row 3: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)"
+"Row 4: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)"
+"Row 5: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)"
+"Row 6: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)"
+"Row 7: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)"
+"Row 8: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)"
+"Row 9: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)"
+"Row 10: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)"
+
+
+=== FIELD-WISE ERROR SUMMARY ===
+Field_Name,Error_Count,Error_Rate_Percent,Sample_Errors
+IndustryID,10,100.00,"Row 1: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total); Row 2: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total); Row 3: Invalid picklist value in field 'IndustryID' (mapped to 'Industry'): '1483.000000000000000000'. No mapping defined. Expected: Agriculture, Air Blocks, Aluminum, ... (121 total)..."

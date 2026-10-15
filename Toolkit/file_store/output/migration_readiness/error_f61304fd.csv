@@ -1,0 +1,149 @@
+Name,VRM_Failure_Code__c,VRM_Resolution_Code__c,WOD_2__Standard_Labor_Hour__c,WOD_2__Business_Units__c,sf__Error
+Other -- Fill in Comments-Replace Component-1hr,Other -- Fill in Comments,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 25 exceeds max 18.
+Part Dimensions Incorrect-Replace Component-1hr,Part Dimensions Incorrect,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 25 exceeds max 18.
+Calibration changed/out of spec-Replace Component-1hr,Calibration changed/out of spec,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 31 exceeds max 18.
+Contact Points Burned-Replace Component-1hr,Contact Points Burned,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 21 exceeds max 18.
+Contactor Chattering-Replace Component-1hr,Contactor Chattering,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 20 exceeds max 18.
+Contactor Locked in-Replace Component-1hr,Contactor Locked in,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+Contactor not pulling in-Replace Component-1hr,Contactor not pulling in,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 24 exceeds max 18.
+Disconnect Switch Fails Closed-Replace Component-1hr,Disconnect Switch Fails Closed,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 30 exceeds max 18.
+Disconnect Switch Fails Open-Replace Component-1hr,Disconnect Switch Fails Open,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 28 exceeds max 18.
+Electrical Component Failure-Replace Component-1hr,Electrical Component Failure,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 28 exceeds max 18.
+Electrical Specs Not Met-Replace Component-1hr,Electrical Specs Not Met,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 24 exceeds max 18.
+Fuse Block Defective-Replace Component-1hr,Fuse Block Defective,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 20 exceeds max 18.
+Grounding Block Defective-Replace Component-1hr,Grounding Block Defective,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 25 exceeds max 18.
+Intermittent Operations-Replace Component-1hr,Intermittent Operations,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 23 exceeds max 18.
+Leads corroded/broken-Replace Component-1hr,Leads corroded/broken,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 21 exceeds max 18.
+Flow not registering-Replace Component-1hr,Flow not registering,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 20 exceeds max 18.
+Head Filling with Water-Replace Component-1hr,Head Filling with Water,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 23 exceeds max 18.
+Contact Warranty Department - Not within-Contact Warranty Department-0hr,Contact Warranty Department - Not within,Contact Warranty Department,0,VRM-NA,[VRM_Failure_Code__c] length_check: Length 40 exceeds max 18. | [VRM_Resolution_Code__c] length_check: Length 27 exceeds max 18.
+Insufficient Clamping Force-Replace Component-2hr,Insufficient Clamping Force,Replace Component,2,VRM-NA,[VRM_Failure_Code__c] length_check: Length 27 exceeds max 18.
+Part Dimensions Incorrect-Replace Component-2hr,Part Dimensions Incorrect,Replace Component,2,VRM-NA,[VRM_Failure_Code__c] length_check: Length 25 exceeds max 18.
+Ultraviolet Degradation-Replace Component-2hr,Ultraviolet Degradation,Replace Component,2,VRM-NA,[VRM_Failure_Code__c] length_check: Length 23 exceeds max 18.
+Electrical Component Failure-Replace Component-2hr,Electrical Component Failure,Replace Component,2,VRM-NA,[VRM_Failure_Code__c] length_check: Length 28 exceeds max 18.
+Finish Appearance Faulty-Replace Component-1hr,Finish Appearance Faulty,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 24 exceeds max 18.
+Flanges Out of Time-Replace Component-1hr,Flanges Out of Time,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+Galvanizing Bare Spots-Replace Component-1hr,Galvanizing Bare Spots,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 22 exceeds max 18.
+Galvanizing Quality-Replace Component-1hr,Galvanizing Quality,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+Hitch ball bolt failed-Replace Component-1hr,Hitch ball bolt failed,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 22 exceeds max 18.
+Galvanizing Excessive-Replace Component-1hr,Galvanizing Excessive,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 21 exceeds max 18.
+Communication Failure-Replace Component-1hr,Communication Failure,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 21 exceeds max 18.
+5 Volt Power Supply-Replace Component-1hr,5 Volt Power Supply,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+External Connection Failure-Replace Component-1hr,External Connection Failure,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 27 exceeds max 18.
+Percent timer runs at 100% at all times-Replace Component-1hr,Percent timer runs at 100% at all times,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 39 exceeds max 18.
+Pressure Reading Incorrect-Replace Component-1hr,Pressure Reading Incorrect,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 26 exceeds max 18.
+Voltage Display Inconsistent-Replace Component-1hr,Voltage Display Inconsistent,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 28 exceeds max 18.
+Inconsistent Position-Replace Component-1hr,Inconsistent Position,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 21 exceeds max 18.
+Incorrect Resistance Reading-Replace Component-1hr,Incorrect Resistance Reading,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 28 exceeds max 18.
+Resolver Input Error-Replace Component-1hr,Resolver Input Error,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 20 exceeds max 18.
+Resolver Volts Incorrect-Replace Component-1hr,Resolver Volts Incorrect,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 24 exceeds max 18.
+Won't Steer Forward-Replace Component-1.5hr,Won't Steer Forward,Replace Component,1.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+Won't Steer Reverse-Replace Component-1.5hr,Won't Steer Reverse,Replace Component,1.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+Incorrect Resistance Reading-Replace Component-1.5hr,Incorrect Resistance Reading,Replace Component,1.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 28 exceeds max 18.
+-12 Volt Power Supply-Replace Component-1hr,-12 Volt Power Supply,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 21 exceeds max 18.
+Won't Steer Forward-Replace Component-1hr,Won't Steer Forward,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+Won't Steer Reverse-Replace Component-1hr,Won't Steer Reverse,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+Factory Wiring Incorrect-Repair Wiring-1hr,Factory Wiring Incorrect,Repair Wiring,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 24 exceeds max 18.
+Precision Corner Adjustment-Adjust Span Sensor-1hr,Precision Corner Adjustment,Adjust Span Sensor,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 27 exceeds max 18.
+Factory Wiring Incorrect-Replace Component-1hr,Factory Wiring Incorrect,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 24 exceeds max 18.
+Contact Points Damaged-Replace Component-1hr,Contact Points Damaged,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 22 exceeds max 18.
+Low Pressure Switch Fails Closed-Replace Component-1hr,Low Pressure Switch Fails Closed,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 32 exceeds max 18.
+Low Pressure Switch Fails Open-Replace Component-1hr,Low Pressure Switch Fails Open,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 30 exceeds max 18.
+Ultraviolet Degradation-Replace Component-1hr,Ultraviolet Degradation,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 23 exceeds max 18.
+Aluminum Casting Failure-Replace Component-1hr,Aluminum Casting Failure,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 24 exceeds max 18.
+Bearing Race Missing-Replace Steering Gearbox-4hr,Bearing Race Missing,Replace Steering Gearbox,4,VRM-NA,[VRM_Failure_Code__c] length_check: Length 20 exceeds max 18. | [VRM_Resolution_Code__c] length_check: Length 24 exceeds max 18.
+Charred Failure Both Ends-Replace Component-1.5hr,Charred Failure Both Ends,Replace Component,1.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 25 exceeds max 18.
+Charred Failure one end-Replace Component-1.5hr,Charred Failure one end,Replace Component,1.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 23 exceeds max 18.
+Control Bearing Seized-Replace Tower Box-1hr,Control Bearing Seized,Replace Tower Box,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 22 exceeds max 18.
+Factory Wiring Loose-Repair Wiring-1hr,Factory Wiring Loose,Repair Wiring,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 20 exceeds max 18.
+Flex Joint Insert Failure-Replace Component-0.25hr,Flex Joint Insert Failure,Replace Component,0.25,VRM-NA,[VRM_Failure_Code__c] length_check: Length 25 exceeds max 18.
+Input Bearing Failed-Replace Steering Gearbox-4hr,Input Bearing Failed,Replace Steering Gearbox,4,VRM-NA,[VRM_Failure_Code__c] length_check: Length 20 exceeds max 18. | [VRM_Resolution_Code__c] length_check: Length 24 exceeds max 18.
+Motor Using Excessive Current-Replace Component-1.5hr,Motor Using Excessive Current,Replace Component,1.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 29 exceeds max 18.
+Output Bearing Failed-Replace Steering Gearbox-4hr,Output Bearing Failed,Replace Steering Gearbox,4,VRM-NA,[VRM_Failure_Code__c] length_check: Length 21 exceeds max 18. | [VRM_Resolution_Code__c] length_check: Length 24 exceeds max 18.
+Output Seal Leaking-Replace Steering Gearbox-4hr,Output Seal Leaking,Replace Steering Gearbox,4,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18. | [VRM_Resolution_Code__c] length_check: Length 24 exceeds max 18.
+Output Seal Missing-Replace Steering Gearbox-4hr,Output Seal Missing,Replace Steering Gearbox,4,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18. | [VRM_Resolution_Code__c] length_check: Length 24 exceeds max 18.
+Output Shaft Broken-Replace Steering Gearbox-4hr,Output Shaft Broken,Replace Steering Gearbox,4,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18. | [VRM_Resolution_Code__c] length_check: Length 24 exceeds max 18.
+Phase Burned Both Ends-Replace Component-1.5hr,Phase Burned Both Ends,Replace Component,1.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 22 exceeds max 18.
+Phase Burned One End-Replace Component-1.5hr,Phase Burned One End,Replace Component,1.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 20 exceeds max 18.
+Phase To Ground Short-Replace Component-1.5hr,Phase To Ground Short,Replace Component,1.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 21 exceeds max 18.
+Phase To Phase Open-Replace Component-1.5hr,Phase To Phase Open,Replace Component,1.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+Phase To Phase Short-Replace Component-1.5hr,Phase To Phase Short,Replace Component,1.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 20 exceeds max 18.
+Steering Gearmotor Failed-Replace Gearmotor-2hr,Steering Gearmotor Failed,Replace Gearmotor,2,VRM-NA,[VRM_Failure_Code__c] length_check: Length 25 exceeds max 18.
+Steering Motor Failed-Replace Motor Module-1.5hr,Steering Motor Failed,Replace Motor Module,1.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 21 exceeds max 18. | [VRM_Resolution_Code__c] length_check: Length 20 exceeds max 18.
+Thermal Protection Failure-Replace Component-1.5hr,Thermal Protection Failure,Replace Component,1.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 26 exceeds max 18.
+Motor Using Excessive Current-Replace Gearmotor-1.5hr,Motor Using Excessive Current,Replace Gearmotor,1.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 29 exceeds max 18.
+Oil Reservoir Empty-Replace Component-1.5hr,Oil Reservoir Empty,Replace Component,1.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+Other -- Fill in Comments-Replace Component-1.5hr,Other -- Fill in Comments,Replace Component,1.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 25 exceeds max 18.
+Phase To Phase Resistance Unbalanced-Replace Component-1.5hr,Phase To Phase Resistance Unbalanced,Replace Component,1.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 36 exceeds max 18.
+Plastic End Cap Missing-Replace Component-1.5hr,Plastic End Cap Missing,Replace Component,1.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 23 exceeds max 18.
+Short In Junction Box-Replace Component-1.5hr,Short In Junction Box,Replace Component,1.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 21 exceeds max 18.
+Bearing Race Missing-Repair Component-2hr,Bearing Race Missing,Repair Component,2,VRM-NA,[VRM_Failure_Code__c] length_check: Length 20 exceeds max 18.
+Input Bearing Failed-Replace Component-2hr,Input Bearing Failed,Replace Component,2,VRM-NA,[VRM_Failure_Code__c] length_check: Length 20 exceeds max 18.
+Mounting Bolts Broken-Replace Component-2hr,Mounting Bolts Broken,Replace Component,2,VRM-NA,[VRM_Failure_Code__c] length_check: Length 21 exceeds max 18.
+Oil Reservoir Empty-Replace Component-2hr,Oil Reservoir Empty,Replace Component,2,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+Other -- Fill in Comments-Replace Component-2hr,Other -- Fill in Comments,Replace Component,2,VRM-NA,[VRM_Failure_Code__c] length_check: Length 25 exceeds max 18.
+Output Bearing Failed-Replace Component-2hr,Output Bearing Failed,Replace Component,2,VRM-NA,[VRM_Failure_Code__c] length_check: Length 21 exceeds max 18.
+Output Seal Leaking-Replace Component-2hr,Output Seal Leaking,Replace Component,2,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+Output Seal Leaking-Rebuild Gearbox-3hr,Output Seal Leaking,Rebuild Gearbox,3,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+Output Seal Missing-Repair Component-2hr,Output Seal Missing,Repair Component,2,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+Output Seal Missing-Replace Component-2hr,Output Seal Missing,Replace Component,2,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+Output Shaft Broken-Replace Component-2hr,Output Shaft Broken,Replace Component,2,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+Other -- Fill in Comments-Replace Component-4hr,Other -- Fill in Comments,Replace Component,4,VRM-NA,[VRM_Failure_Code__c] length_check: Length 25 exceeds max 18.
+Part Dimensions Incorrect-Replace Component-4hr,Part Dimensions Incorrect,Replace Component,4,VRM-NA,[VRM_Failure_Code__c] length_check: Length 25 exceeds max 18.
+Output Seal Leaking-Repair Component-1hr,Output Seal Leaking,Repair Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+Bearing Race Missing-Rebuild Gearbox-3hr,Bearing Race Missing,Rebuild Gearbox,3,VRM-NA,[VRM_Failure_Code__c] length_check: Length 20 exceeds max 18.
+Flex Joint Insert Failure-Replace Component-1hr,Flex Joint Insert Failure,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 25 exceeds max 18.
+Input Bearing Failed-Rebuild Gearbox-3hr,Input Bearing Failed,Rebuild Gearbox,3,VRM-NA,[VRM_Failure_Code__c] length_check: Length 20 exceeds max 18.
+Mounting Bolts Broken-Repair GB-0.25hr,Mounting Bolts Broken,Repair GB,0.25,VRM-NA,[VRM_Failure_Code__c] length_check: Length 21 exceeds max 18.
+Oil Reservoir Empty-Replace Component-3hr,Oil Reservoir Empty,Replace Component,3,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+Output Bearing Failed-Rebuild Gearbox-3hr,Output Bearing Failed,Rebuild Gearbox,3,VRM-NA,[VRM_Failure_Code__c] length_check: Length 21 exceeds max 18.
+Output Seal Missing-Rebuild Gearbox-3hr,Output Seal Missing,Rebuild Gearbox,3,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+Control Bearing Seized-Replace Component-1hr,Control Bearing Seized,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 22 exceeds max 18.
+OW Timer Doesn't Break Safety-Replace Component-1hr,OW Timer Doesn't Break Safety,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 29 exceeds max 18.
+OW Timer Doesn't Hold Safety-Replace Component-1hr,OW Timer Doesn't Hold Safety,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 28 exceeds max 18.
+Run Microswitch Fails Closed-Replace Component-1hr,Run Microswitch Fails Closed,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 28 exceeds max 18.
+Run Microswitch Fails Open-Replace Component-1hr,Run Microswitch Fails Open,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 26 exceeds max 18.
+Safety Microswitch Fails Closed-Replace Component-1hr,Safety Microswitch Fails Closed,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 31 exceeds max 18.
+Safety Microswitch Fails Open-Replace Component-1hr,Safety Microswitch Fails Open,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 29 exceeds max 18.
+Solenoid Valve Fails-Replace Component-1hr,Solenoid Valve Fails,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 20 exceeds max 18.
+Terminal Block Defective-Replace Component-1hr,Terminal Block Defective,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 24 exceeds max 18.
+Terminal Strip Stripped Out-Replace Component-1hr,Terminal Strip Stripped Out,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 27 exceeds max 18.
+Tower Ahead Forward-Replace Component-1hr,Tower Ahead Forward,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+Tower Behind Forward-Replace Component-1hr,Tower Behind Forward,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 20 exceeds max 18.
+Tower Behind Reverse-Replace Component-1hr,Tower Behind Reverse,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 20 exceeds max 18.
+Tower Box Cover Fell Off-Replace Component-1hr,Tower Box Cover Fell Off,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 24 exceeds max 18.
+Tower Ahead Reverse-Replace Component-1hr,Tower Ahead Reverse,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 19 exceeds max 18.
+Terminal Strip Stripped Out-Replace Component-2hr,Terminal Strip Stripped Out,Replace Component,2,VRM-NA,[VRM_Failure_Code__c] length_check: Length 27 exceeds max 18.
+120 Volt Input/Output Failure-Replace Component-1.5hr,120 Volt Input/Output Failure,Replace Component,1.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 29 exceeds max 18.
+5 Volt Power Supply Failure-Replace Component-1hr,5 Volt Power Supply Failure,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 27 exceeds max 18.
+Service Tool Test Failed-Replace Component-1hr,Service Tool Test Failed,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 24 exceeds max 18.
+Other -- Fill in Comments-Replace Span Cable-1hr,Other -- Fill in Comments,Replace Span Cable,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 25 exceeds max 18.
+12 Volt Power Supply-Replace Component-1hr,12 Volt Power Supply,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 20 exceeds max 18.
+Galvanizing Excessive-Repair Component-1hr,Galvanizing Excessive,Repair Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 21 exceeds max 18.
+System out of Alignment-Re-align System-2hr,System out of Alignment,Re-align System,2,VRM-NA,[VRM_Failure_Code__c] length_check: Length 23 exceeds max 18.
+120 Volt Input/Output Failure-Replace 2hp BP Motor-2hr,120 Volt Input/Output Failure,Replace 2hp BP Motor,2,VRM-NA,[VRM_Failure_Code__c] length_check: Length 29 exceeds max 18. | [VRM_Resolution_Code__c] length_check: Length 20 exceeds max 18.
+120 Volt Input/Output Failure-Replace 2hp BP Complete-2.5hr,120 Volt Input/Output Failure,Replace 2hp BP Complete,2.5,VRM-NA,[VRM_Failure_Code__c] length_check: Length 29 exceeds max 18. | [VRM_Resolution_Code__c] length_check: Length 23 exceeds max 18.
+120 Volt Input/Output Failure-Replace 5 or 7.5 hp BP Motor-2hr,120 Volt Input/Output Failure,Replace 5 or 7.5 hp BP Motor,2,VRM-NA,[VRM_Failure_Code__c] length_check: Length 29 exceeds max 18. | [VRM_Resolution_Code__c] length_check: Length 28 exceeds max 18.
+120 Volt Input/Output Failure-Replace 5 or 7.5 hp BP Complete-4hr,120 Volt Input/Output Failure,Replace 5 or 7.5 hp BP Complete,4,VRM-NA,[VRM_Failure_Code__c] length_check: Length 29 exceeds max 18. | [VRM_Resolution_Code__c] length_check: Length 31 exceeds max 18.
+Threads Mismanufactured-Replace Component-1hr,Threads Mismanufactured,Replace Component,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 23 exceeds max 18.
+Cracked Pivot Swivel-Replace Pivot Swivel-1hr,Cracked Pivot Swivel,Replace Pivot Swivel,1,VRM-NA,[VRM_Failure_Code__c] length_check: Length 20 exceeds max 18. | [VRM_Resolution_Code__c] length_check: Length 20 exceeds max 18.
+Bull Gear Broken-Replace Steering Gearbox-4hr,Bull Gear Broken,Replace Steering Gearbox,4,VRM-NA,[VRM_Resolution_Code__c] length_check: Length 24 exceeds max 18.
+Case Broken-Replace Steering Gearbox-4hr,Case Broken,Replace Steering Gearbox,4,VRM-NA,[VRM_Resolution_Code__c] length_check: Length 24 exceeds max 18.
+Gears Locked Up-Replace Steering Gearbox-4hr,Gears Locked Up,Replace Steering Gearbox,4,VRM-NA,[VRM_Resolution_Code__c] length_check: Length 24 exceeds max 18.
+Snap Ring Failed-Replace Steering Gearbox-4hr,Snap Ring Failed,Replace Steering Gearbox,4,VRM-NA,[VRM_Resolution_Code__c] length_check: Length 24 exceeds max 18.
+Bearing Seized-Replace 2hp BP Motor-2hr,Bearing Seized,Replace 2hp BP Motor,2,VRM-NA,[VRM_Resolution_Code__c] length_check: Length 20 exceeds max 18.
+Bearing Seized-Replace 2hp BP Complete-2.5hr,Bearing Seized,Replace 2hp BP Complete,2.5,VRM-NA,[VRM_Resolution_Code__c] length_check: Length 23 exceeds max 18.
+Bearing Seized-Replace 5 or 7.5 hp BP Motor-2hr,Bearing Seized,Replace 5 or 7.5 hp BP Motor,2,VRM-NA,[VRM_Resolution_Code__c] length_check: Length 28 exceeds max 18.
+Bearing Seized-Replace 5 or 7.5 hp BP Complete-4hr,Bearing Seized,Replace 5 or 7.5 hp BP Complete,4,VRM-NA,[VRM_Resolution_Code__c] length_check: Length 31 exceeds max 18.
+Corrosion-Replace 2hp BP Motor-2hr,Corrosion,Replace 2hp BP Motor,2,VRM-NA,[VRM_Resolution_Code__c] length_check: Length 20 exceeds max 18.
+Corrosion-Replace 2hp BP Complete-2.5hr,Corrosion,Replace 2hp BP Complete,2.5,VRM-NA,[VRM_Resolution_Code__c] length_check: Length 23 exceeds max 18.
+Corrosion-Replace 5 or 7.5 hp BP Motor-2hr,Corrosion,Replace 5 or 7.5 hp BP Motor,2,VRM-NA,[VRM_Resolution_Code__c] length_check: Length 28 exceeds max 18.
+Corrosion-Replace 5 or 7.5 hp BP Complete-4hr,Corrosion,Replace 5 or 7.5 hp BP Complete,4,VRM-NA,[VRM_Resolution_Code__c] length_check: Length 31 exceeds max 18.
+Housing Damaged-Replace 2hp BP Motor-2hr,Housing Damaged,Replace 2hp BP Motor,2,VRM-NA,[VRM_Resolution_Code__c] length_check: Length 20 exceeds max 18.
+Housing Damaged-Replace 2hp BP Complete-2.5hr,Housing Damaged,Replace 2hp BP Complete,2.5,VRM-NA,[VRM_Resolution_Code__c] length_check: Length 23 exceeds max 18.
+Housing Damaged-Replace 5 or 7.5 hp BP Motor-2hr,Housing Damaged,Replace 5 or 7.5 hp BP Motor,2,VRM-NA,[VRM_Resolution_Code__c] length_check: Length 28 exceeds max 18.
+Housing Damaged-Replace 5 or 7.5 hp BP Complete-4hr,Housing Damaged,Replace 5 or 7.5 hp BP Complete,4,VRM-NA,[VRM_Resolution_Code__c] length_check: Length 31 exceeds max 18.
+Shipment Damage-Replace 2hp BP Motor-0hr,Shipment Damage,Replace 2hp BP Motor,0,VRM-NA,[VRM_Resolution_Code__c] length_check: Length 20 exceeds max 18.
+Shipment Damage-Replace 2hp BP Complete-0hr,Shipment Damage,Replace 2hp BP Complete,0,VRM-NA,[VRM_Resolution_Code__c] length_check: Length 23 exceeds max 18.
+Shipment Damage-Replace 5 or 7.5 hp BP Motor-0hr,Shipment Damage,Replace 5 or 7.5 hp BP Motor,0,VRM-NA,[VRM_Resolution_Code__c] length_check: Length 28 exceeds max 18.
+Shipment Damage-Replace 5 or 7.5 hp BP Complete-0hr,Shipment Damage,Replace 5 or 7.5 hp BP Complete,0,VRM-NA,[VRM_Resolution_Code__c] length_check: Length 31 exceeds max 18.

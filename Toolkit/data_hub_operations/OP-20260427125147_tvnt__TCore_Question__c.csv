@@ -1,0 +1,134 @@
+Name,CurrencyIsoCode,tvnt__Is_Mandatory__c,tvnt__Question__c,tvnt__Response_Type__c,tvnt__Response__c,tvnt__Sequence__c,tvnt__Type__c,tvnt__Response_Input_Type__c
+Frequency / Time of Occurrence,USD,True,<p>Frequency / Time of Occurrence</p>,Number,,8.0,,
+Claim Number,USD,False,<p>Claim #</p>,Text,,1.0,,
+Part Number,USD,False,<p>Part #</p>,Text,,2.0,,
+Parent Order Number,USD,True,<p>Parent Order #</p>,Text,,3.0,,
+Date Installed,USD,True,<p>Date Installed (Month/Year)</p>,Date,,4.0,,
+Hours on Module,USD,True,<p>Hours on Module</p>,Number,,5.0,,
+Tech Name,USD,True,<p>Tech Name (Who Performed Field Service)</p>,Text,,6.0,,
+External Temperature at Time of Failure,USD,True,<p>External Temperature at Time of Failure</p>,Number,,7.0,,
+A-B-A Swap Method Confirmation,USD,False,"<p><span style=""background-color: rgb(255, 255, 255); font-size: 14px;"">A-B-A Swap Method Confirmation</span></p><p><span style=""font-size: 14px;"">The A‑B Swap Method is a simple cross‑check test, which can confirm the observed issue is not systemic. </span></p><p><span style=""font-size: 14px;"">1. Replace the suspected component (A) from the original failing panel.</span></p><p><span style=""font-size: 14px;"">2. Replace the suspected component (A) with a known good component (B) and check if the hte panel now working properly.</span></p><p><span style=""font-size: 14px;"">3. Replace known good component (B) with original component (A), see if the same failure occurs.</span></p><p><span style=""font-size: 14px;"">4. if failure reoccurs reinstall component (B) if the failure does not repeat keep component (A) installed and continue troubleshooting.</span></p>",Multi Select,Please check this checkbox for A-B-A Swap Method Confirmation,9.0,,Checkbox
+Dealer Valley Service Dept. Service Case Number,USD,False,<p>Dealer Valley Service Dept. Service Case Number</p>,Text,,10.0,,
+Description of Failure,USD,False,<p>Description of Failure</p>,Text Area,,11.0,,
+Failure Code (Screen / Software / Hardware),USD,True,<p>Failure Code</p>,Single Select,"Screen
+Software
+Hardware",12.0,,Picklist
+Failure Code – Screen,USD,False,<p>Failure Code – Screen</p>,Multi Select,"A1) Blank Screen - White/Gray
+A2) Blank Screen - Black
+A3) Stuck on Valley Screen
+A4) Flickering/Lines
+A5) Touch Screen Not Responsive
+A6) Calibration Off (Touch location incorrect)
+A7) Touch Screen Slow Response
+A8) Display Quality (Color, Washout, etc.)
+A9) Screen Rebooting",13.0,,Checkbox
+Failure Code – Software,USD,False,<p>Failure Code – Software</p>,Multi Select,"B1) Firmware
+B2) Time and/or Date Problems",14.0,,Checkbox
+Failure Code – Hardware,USD,False,<p>Failure Code – Hardware</p>,Multi Select,"C1) Bent/Damaged Pins
+C2) Foreign Debris on Connections
+C3) Damaged Cables
+C4) Touch Buttons Not Responsive (Icon 5/Icon X Only)",15.0,,Checkbox
+Failure Mode,USD,False,<p>Failure Mode</p>,Text,,,,
+Tower,USD,False,<p>Tower #</p>,Number,,,,
+Parent Order,USD,False,<p>Parent Order #</p>,Text,,,,
+Front or Rear,USD,False,<p>Front or Rear</p>,Single Select,"Front
+Rear",,,Picklist
+GPS Coordinates,USD,False,<p>GPS Coordinates</p>,Text,,,,
+Hours on Machine,USD,False,<p>Hours on Machine</p>,Number,,,,
+Centerdrive RPM,USD,False,<p>Centerdrive RPM</p>,Number,,,,
+Tire Size,USD,False,<p>Tire Size</p>,Text,,,,
+Maintenance Program – Schedule,USD,False,<p>Maintenance Program – Schedule</p>,Single Select,"None
+Yearly
+Every 2 Years",,,Picklist
+Terrain Type,USD,False,<p>Terrain Type</p>,Single Select,"Flat
+Moderate
+Extreme
+Other",,,Picklist
+Soil Type,USD,False,<p>Soil Type</p>,Single Select,"Clay
+Silty
+Loamy
+Sandy
+Peaty
+Saline
+Chalky",,,Picklist
+Crop or Crop Rotation,USD,False,<p>Crop or Crop Rotation (if known)</p>,Text,,,,
+Oil Present and Full,USD,False,<p>Oil Present and Full (If not full specify level)</p>,Text,,,,
+Shims Present,USD,False,<p>Shims Present</p>,Single Select,"Yes
+No",,,Picklist
+Direction of Travel,USD,False,<p>Direction of Travel</p>,Single Select,"Forward
+Reverse
+Both",,,Picklist
+Bow in Alignment,USD,False,<p>Bow in Alignment</p>,Single Select,"Yes
+No",,,Picklist
+Solid State Motor Controller on Tower,USD,False,<p>Solid State Motor Controller on Tower</p>,Single Select,"Yes
+No",,,Picklist
+Bearing Failure,USD,False,"<p>If Bearing Failure, Which One Failed?</p>",Text,,,,
+"Failure Code (Seal,Oil / Bearing / Other)",USD,False,<p>Failure Code</p>,Single Select,"Seal/Oil Leaks
+Bearing Failures
+Other Failures",,,Picklist
+Failure Code (Seal/Oil Leak),USD,False,<p>Failure Code (Seal/Oil Leak)</p>,Multi Select,"Input Seal Leaking
+Output Seal Leaking
+Both Input/Output Seal Leaking
+Seals Not Seated Properly
+Neck/Housing Leak
+Diaphragm Leak
+Drain Plug Leak
+Swing Tower Box Seal Leaking",,,MultiPicklist
+Failure Code (Bearing Failures),USD,False,<p>Failure Code (Bearing Failures)</p>,Multi Select,"Input Shaft
+Output Shaft – Housing
+Input Shaft – Neck
+Missing Bearings
+Missing Races",,,MultiPicklist
+Failure Code (Other Failures),USD,False,<p>Failure Code (Other Failures)</p>,Multi Select,"Broken Worm
+Worn Bull Gear
+Broken Input Shaft
+Broken Output Shaft
+Stud Bolts Broken
+Mounting Bolts Broken
+Worn Worm",,,MultiPicklist
+Date Code (Valley Gearbox/VS 7000 Gearbox),USD,False,<p>Date Code (See Blue Arrow)</p>,Text,,,,
+Claim #,USD,True,<p>Claim #</p>,Text,,1.0,Machine Inspection Question,
+Dealer Name,USD,True,<p>Dealer Name</p>,Text,,2.0,Machine Inspection Question,
+Parent Order #,USD,True,<p>Parent Order #</p>,Text,,3.0,Machine Inspection Question,
+Date Installed (Day/Month/Year),USD,True,<p>Date Installed (Day/Month/Year)</p>,Date,,4.0,Machine Inspection Question,
+Failed Tower #,USD,True,<p>Failed Tower #</p>,Number,,5.0,Machine Inspection Question,
+Failed Part #,USD,True,<p>Failed Part #</p>,Text,,6.0,Machine Inspection Question,
+Serial # (from nameplate),USD,True,<p>Serial # (from nameplate)</p>,Text,,7.0,Machine Inspection Question,
+Type of Power Supply,USD,True,<p>Type of Power Supply:</p>,Single Select,"Public Power
+Generator
+Roto Phase",8.0,Machine Inspection Question,Radio
+Gear Box Failure Type (Check all that apply),USD,False,<p>Gear Box Failure Type (Check all that apply):</p><p>Oil Leaking from:</p>,Multi Select,"Oil Leaking – Input (Motor) Seal
+Oil Leaking – Output Seal
+No Oil
+Seam Leak (case & cover)
+Porosity (leaking through casting)
+Noisy Gears
+Failed Gears or Bearings
+No Visible Failure",,Machine Inspection Question,Checkbox
+Other Gear Box Failure,USD,False,<p>Other Gear Box Failure:</p>,Text,,,Machine Inspection Question,
+Motor Failure Type,USD,False,<p>Motor Failure Type:</p>,Multi Select,"No Continuity Phase to Phase
+Continuity (Short) Phase to Ground
+Uneven Resistance Phase to Phase
+No Visible Failure",,Machine Inspection Question,Checkbox
+Booster Pump Failure:,USD,False,<p>Booster Pump Failure:</p>,Multi Select,"Pump Failure
+Bearing Failure *Picture Required. Note: Please send a picture of the Bearing to the following email: IrrigationWarranty@valmont.com
+Drive End
+Non-Drive End",,Machine Inspection Question,Checkbox
+Electrical Validation (Post-Replacement),USD,True,<p>Measure voltage phase at pivot point after replacements have been made (start machine at 100% and check voltage):</p>,Text Area,,,Machine Inspection Question,
+Date Code - VS 7000 Gearbox,USD,False,<p>Date Code - VS 7000 Gearbox</p>,Text,,,,
+Identify Gear Box (check applicable photo),USD,False,<p>Identify Gear Box (check applicable photo):</p>,Single Select,"Boston Gear Box|/resource/1767689762000/GEARone?
+Omni Gear Box|/resource/1767689796000/GEARtwo?
+Emerson Gear Box|/resource/1767689827000/GEARthree",1.0,Machine Inspection Question,ImageCheckbox
+Gearbox Type Selection,USD,False,<p>Gearbox Type Selection</p>,Single Select,"Valley Gearbox|/resource/1771919377000/ValleyGearbox
+VS 7000 Gearbox|/resource/1771919476000/VS7000",,,ImageCheckbox
+Detail Motor Failure By Examination (or check applicable motor photo),USD,False,<p>Detail Motor Failure By Examination (or check applicable motor photo):</p>,Single Select,"Shorted Lead Connector|/resource/1770186077000/ShortedLeadConnector
+Shorted Phase To Ground|/resource/1770186159000/ShortedPhaseToGround?
+Shorted Phase To Phase|/resource/1770186201000/ShortedPhaseToPhase?
+Phase Burned Both Ends|/resource/1770186252000/PhaseBurnedBothEnds?
+Charred Failure One Ends|/resource/1770186387000/CharredFailureOneEnds?
+High Voltage Surge|/resource/1770186463000/HighVoltageSurge?
+Phase Burned One End
+Charred Failure Both Ends",,Machine Inspection Question,ImageCheckbox
+Frequency Of Program,USD,False,<p>Frequency Of Program</p>,Text,,,,
+Failure Code Found,USD,False,<p>Failure Code Found</p>,Text,,,,
+Valmont Tech Notes,USD,False,<p>Valmont Tech Notes</p>,Text Area,,,,

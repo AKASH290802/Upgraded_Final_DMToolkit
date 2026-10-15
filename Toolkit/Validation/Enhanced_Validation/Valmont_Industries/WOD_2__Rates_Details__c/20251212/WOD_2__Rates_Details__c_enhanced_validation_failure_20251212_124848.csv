@@ -1,0 +1,6 @@
+Name,WOD_2__Dealer__c,WOD_2__Active_From__c,WOD_2__Active_Until__c,WOD_2__Status__c,WOD_2__Labor_Rate__c,VRM_Travel_Rate__c,Transform_Status,Transform_Reason,Validation_Details,Data_Issue_Details
+00914021-001,914021,2023-01-01,2023-12-31,Active,10,100,FAILURE,Unchanged lookup fields: ['WOD_2__Dealer__c'],Unchanged: WOD_2__Dealer__c,Lookup not found for WOD_2__Dealer__c='914021'
+00914021-002,914021,2024-01-01,2024-12-31,Active,12,100,FAILURE,Unchanged lookup fields: ['WOD_2__Dealer__c'],Unchanged: WOD_2__Dealer__c,Lookup not found for WOD_2__Dealer__c='914021'
+00914021-003,914021,2025-01-01,2025-12-31,Active,13,100,FAILURE,Unchanged lookup fields: ['WOD_2__Dealer__c'],Unchanged: WOD_2__Dealer__c,Lookup not found for WOD_2__Dealer__c='914021'
+00000259-004,259,2024-01-01,2024-12-31,Active,15,100,FAILURE,Unchanged lookup fields: ['WOD_2__Dealer__c'],Unchanged: WOD_2__Dealer__c,Lookup not found for WOD_2__Dealer__c='259'
+00000259-005,259,2025-01-01,2025-12-31,Active,13,100,FAILURE,Unchanged lookup fields: ['WOD_2__Dealer__c'],Unchanged: WOD_2__Dealer__c,Lookup not found for WOD_2__Dealer__c='259'

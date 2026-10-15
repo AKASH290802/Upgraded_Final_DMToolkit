@@ -1,0 +1,136 @@
+Name,tvnt__Default_Field_Value__c,tvnt__Is_Mandatory__c,tvnt__Max_Character_Limit__c,tvnt__Min_Character_Limit__c,tvnt__Question__c,tvnt__Response_Type__c,tvnt__Response__c,tvnt__Sequence__c,tvnt__Type__c,tvnt__Decimals_Allowed__c,tvnt__Lookup_Entity__c,tvnt__Response_Input_Type__c
+Identify Gear Box (check applicable photo),,False,,,<p>Identify Gear Box (check applicable photo):</p>,Single Select,"GEAR One|https://vrm--partial.sandbox.lightning.force.com/resource/1767689762000/GEARone?
+GEAR Two|https://vrm--partial.sandbox.lightning.force.com/resource/1767689796000/GEARtwo?
+GEAR Three|https://vrm--partial.sandbox.lightning.force.com/resource/1767689827000/GEARthree",1,Machine Inspection Question,,,ImageCheckbox
+Frequency / Time of Occurrence,,True,,,<p>Frequency / Time of Occurrence</p>,Number,,8,,,,
+Claim Number,,False,,,<p>Claim #</p>,Text,,1,,,,
+Part Number,,False,,,<p>Part #</p>,Text,,2,,,,
+Parent Order Number,,True,,,<p>Parent Order #</p>,Text,,3,,,,
+Date Installed,,True,,,<p>Date Installed (Month/Year)</p>,Date,,4,,,,
+Hours on Module,,True,,,<p>Hours on Module</p>,Number,,5,,,,
+Tech Name,,True,,,<p>Tech Name (Who Performed Field Service)</p>,Text,,6,,,,
+External Temperature at Time of Failure,,True,,,<p>External Temperature at Time of Failure</p>,Number,,7,,,,
+A-B-A Swap Method Confirmation,,False,,,<p>A-B-A Swap Method Confirmation</p>,Multi Select,"The A‑B Swap Method is a simple cross‑check test, which can confirm the observed issue is not systemic.				_x000D_
+1. Replace the suspected component (A) from the original failing panel.				_x000D_
+2. Replace the suspected component (A) with a known good component  (B) and check if the hte panel now working properly.				_x000D_
+3. Replace known good component (B) with original component (A), see if the same failure occurs.				_x000D_
+4. if failure reoccurs reinstall component (B) if the failure does not repeat keep component (A) installed and continue troubleshooting.",9,,,,Checkbox
+Dealer Valley Service Dept. Service Case Number,,False,,,<p>Dealer Valley Service Dept. Service Case Number</p>,Text,,10,,,,
+Description of Failure,,False,,,<p>Description of Failure</p>,Text Area,,11,,,,
+Failure Code (Screen / Software / Hardware),,True,,,<p>Failure Code</p>,Single Select,"Screen_x000D_
+Software_x000D_
+Hardware",12,,,,Picklist
+Failure Code – Screen,,False,,,<p>Failure Code – Screen</p>,Multi Select,"A1) Blank Screen - White/Gray_x000D_
+A2) Blank Screen - Black_x000D_
+A3) Stuck on Valley Screen_x000D_
+A4) Flickering/Lines_x000D_
+A5) Touch Screen Not Responsive_x000D_
+A6) Calibration Off (Touch location incorrect)_x000D_
+A7) Touch Screen Slow Response_x000D_
+A8) Display Quality (Color, Washout, etc.)_x000D_
+A9) Screen Rebooting",13,,,,Checkbox
+Failure Code – Software,,False,,,<p>Failure Code – Software</p>,Multi Select,"B1) Firmware_x000D_
+B2) Time and/or Date Problems",14,,,,Checkbox
+Failure Code – Hardware,,False,,,<p>Failure Code – Hardware</p>,Multi Select,"C1) Bent/Damaged Pins_x000D_
+C2) Foreign Debris on Connections_x000D_
+C3) Damaged Cables_x000D_
+C4) Touch Buttons Not Responsive (Icon 5/Icon X Only)",15,,,,Checkbox
+Failure Mode,,False,,,<p>Failure Mode</p>,Text,,,,,,
+Tower,,False,,,<p>Tower #</p>,Number,,,,,,
+Parent Order,,False,,,<p>Parent Order #</p>,Text,,,,,,
+Front or Rear,,False,,,<p>Front or Rear</p>,Single Select,"Front_x000D_
+Rear",,,,,Picklist
+GPS Coordinates,,False,,,<p>GPS Coordinates</p>,Text,,,,,,
+Hours on Machine,,False,,,"<p><span style=""font-size: 14.6667px; color: rgb(36, 36, 36);"">Hours on Machine</span></p>",Number,,,,,,
+Centerdrive RPM,,False,,,"<p><span style=""font-size: 14.6667px; color: rgb(36, 36, 36);"">Centerdrive RPM</span></p>",Number,,,,,,
+Tire Size,,False,,,"<p><span style=""font-size: 14.6667px; color: rgb(36, 36, 36);"">Tire Size</span></p>",Text,,,,,,
+Maintenance Program – Schedule,,False,,,"<p><span style=""font-size: 14.6667px; color: rgb(36, 36, 36);"">Maintenance Program – Schedule</span></p>",Single Select,"None_x000D_
+Yearly_x000D_
+Every 2 Years",,,,,Picklist
+Terrain Type,,False,,,"<p><span style=""font-size: 14.6667px; color: rgb(36, 36, 36);"">Terrain Type</span></p>",Single Select,"Flat_x000D_
+Moderate_x000D_
+Extreme_x000D_
+Other",,,,,Picklist
+Soil Type,,False,,,"<p><span style=""font-size: 14.6667px; color: rgb(36, 36, 36);"">Soil Type</span></p>",Single Select,"Clay_x000D_
+Silty_x000D_
+Loamy_x000D_
+Sandy_x000D_
+Peaty_x000D_
+Saline_x000D_
+Chalky",,,,,Picklist
+Crop or Crop Rotation,,False,,,"<p><span style=""font-size: 14.6667px; color: rgb(36, 36, 36);"">Crop or Crop Rotation (if known)</span></p>",Text,,,,,,
+Oil Present and Full,,False,,,"<p><span style=""font-size: 14.6667px; color: rgb(36, 36, 36);"">Oil Present and Full (</span><span style=""font-size: 14.6667px; color: rgb(36, 36, 36); background-color: rgb(255, 255, 255);"">If not full specify level</span><span style=""font-size: 14.6667px; color: rgb(36, 36, 36);"">)</span></p>",Text,,,,,,
+Shims Present,,False,,,"<p><span style=""font-size: 14.6667px; color: rgb(36, 36, 36);"">Shims Present</span></p>",Single Select,"Yes_x000D_
+No",,,,,Picklist
+Direction of Travel,,False,,,"<p><span style=""font-size: 14.6667px; color: rgb(36, 36, 36);"">Direction of Travel</span></p>",Single Select,"Forward_x000D_
+Reverse_x000D_
+Both",,,,,Picklist
+Bow in Alignment,,False,,,"<p><span style=""font-size: 14.6667px; color: rgb(36, 36, 36);"">Bow in Alignment</span></p>",Single Select,"Yes_x000D_
+No",,,,,Picklist
+Solid State Motor Controller on Tower,,False,,,"<p><span style=""font-size: 14.6667px; color: rgb(36, 36, 36);"">Solid State Motor Controller on Tower</span></p>",Single Select,"Yes_x000D_
+No",,,,,Picklist
+Bearing Failure,,False,,,"<p><span style=""font-size: 14.6667px; color: rgb(36, 36, 36);"">If Bearing Failure, Which One Failed?</span></p>",Text,,,,,,
+"Failure Code (Seal,Oil / Bearing / Other)",,False,,,<p>Failure Code</p>,Single Select,"Seal/Oil Leaks_x000D_
+Bearing Failures_x000D_
+Other Failures",,,,,Picklist
+Failure Code (Seal/Oil Leak),,False,,,<p>Failure Code</p>,Multi Select,"Input Seal Leaking_x000D_
+Output Seal Leaking_x000D_
+Both Input/Output Seal Leaking_x000D_
+Seals Not Seated Properly_x000D_
+Neck/Housing Leak_x000D_
+Drain Plug Leak_x000D_
+Diaphragm Leak_x000D_
+Swing Tower Box Seal Leaking",,,,,MultiPicklist
+Failure Code (Bearing Failures),,False,,,<p>Failure Code</p>,Multi Select,"Input Shaft_x000D_
+Output Shaft – Housing_x000D_
+Input Shaft – Neck_x000D_
+Missing Bearings_x000D_
+Missing Races",,,,,MultiPicklist
+Failure Code (Other Failures),,False,,,<p>Failure Code</p>,Multi Select,"Worn Bull Gear_x000D_
+Worn Worm_x000D_
+Broken Worm_x000D_
+Worn Bull Gear_x000D_
+Broken Input Shaft_x000D_
+Broken Output Shaft_x000D_
+Stud Bolts Broken_x000D_
+Mounting Bolts Broken",,,,,MultiPicklist
+Gearbox Type Selection,,False,,,<p>Gearbox Type Selection</p>,Single Select,"Valley Gearbox|https://vrm--partial.sandbox.lightning.force.com/resource/1767689762000/GEARone?_x000D_
+VS 7000 Gearbox|https://vrm--partial.sandbox.lightning.force.com/resource/1767689796000/GEARtwo?",,,,,ImageCheckbox
+Date Code - Valley Gearbox,,False,,,<p>Date Code - Valley Gearbox</p>,Text,,,,,,
+Claim #,,True,,,<p>Claim #</p>,Text,,1,Machine Inspection Question,,,
+Dealer Name,,True,,,<p>Dealer Name</p>,Text,,2,Machine Inspection Question,,,
+Parent Order #,,True,,,<p>Parent Order #</p>,Text,,3,Machine Inspection Question,,,
+Date Installed (Day/Month/Year),,True,,,<p>Date Installed (Day/Month/Year)</p>,Date,,4,Machine Inspection Question,,,
+Failed Tower #,,True,,,<p>Failed Tower #</p>,Number,,5,Machine Inspection Question,,,
+Failed Part #,,True,,,<p>Failed Part #</p>,Text,,6,Machine Inspection Question,,,
+Serial # (from nameplate),,True,,,<p>Serial # (from nameplate)</p>,Text,,7,Machine Inspection Question,,,
+Type of Power Supply,,True,,,<p>Type of Power Supply:</p>,Single Select,"Public Power_x000D_
+Generator_x000D_
+Roto Phase",8,Machine Inspection Question,,,Radio
+Gear Box Failure Type (Check all that apply),,False,,,<p>Gear Box Failure Type (Check all that apply):</p><p>Oil Leaking from:</p>,Multi Select,"Input (Motor) Seal_x000D_
+Output Seal_x000D_
+Seam (leak between case and cover)_x000D_
+Porosity (leaking through casting)_x000D_
+No Oil_x000D_
+Noisy Gears_x000D_
+No Visible Failure_x000D_
+Failed Gears or Bearings",,Machine Inspection Question,,,Checkbox
+Other Gear Box Failure,,False,,,<p>Other Gear Box Failure:</p>,Text,,,Machine Inspection Question,,,
+Motor Failure Type,,False,,,<p>Motor Failure Type:</p>,Multi Select,"No Continuity Phase to Phase_x000D_
+Continuity (Short) Phase to Ground_x000D_
+Uneven Resistance Phase to Phase_x000D_
+No Visible Failure",,Machine Inspection Question,,,Checkbox
+Booster Pump Failure:,,False,,,<p>Booster Pump Failure:</p>,Multi Select,"Pump Failure_x000D_
+Bearing Failure *Picture Required. Note: Please send a picture of the Bearing to the following email: IrrigationWarranty@valmont.com_x000D_
+Drive End_x000D_
+Non-Drive End",,Machine Inspection Question,,,Checkbox
+Detail Motor Failure By Examination (or check applicable motor photo),,False,,,<p>Detail Motor Failure By Examination (or check applicable motor photo):</p>,Single Select,"Shorted Lead Connector|https://vrm--partial.sandbox.lightning.force.com/resource/1770186077000/ShortedLeadConnector_x000D_
+Shorted Phase To Ground|https://vrm--partial.sandbox.lightning.force.com/resource/1770186159000/ShortedPhaseToGround?_x000D_
+Shorted Phase To Phase|https://vrm--partial.sandbox.lightning.force.com/resource/1770186201000/ShortedPhaseToPhase?_x000D_
+Phase Burned Both Ends|https://vrm--partial.sandbox.lightning.force.com/resource/1770186252000/PhaseBurnedBothEnds?_x000D_
+Charred Failure One Ends|https://vrm--partial.sandbox.lightning.force.com/resource/1770186387000/CharredFailureOneEnds?_x000D_
+High Voltage Surge|https://vrm--partial.sandbox.lightning.force.com/resource/1770186463000/HighVoltageSurge?_x000D_
+Phase Burned One End_x000D_
+Charred Failure Both Ends",,Machine Inspection Question,,,ImageCheckbox
+Electrical Validation (Post-Replacement),,True,,,<p>Measure voltage phase at pivot point after replacements have been made (start machine at 100% and check voltage):</p>,Text Area,,,Machine Inspection Question,,,
+Date Code - VS 7000 Gearbox,,False,,,<p>Date Code - VS 7000 Gearbox</p>,Text,,,,,,

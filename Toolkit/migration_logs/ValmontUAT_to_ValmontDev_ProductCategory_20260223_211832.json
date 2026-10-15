@@ -1,0 +1,42 @@
+{
+  "source_org": "ValmontUAT",
+  "target_org": "ValmontDev",
+  "object": "ProductCategory",
+  "execution_date": "2026-02-23T21:18:32.575036",
+  "execution_time_seconds": 42.18,
+  "migration_operation": "UPSERT",
+  "main_match_strategy": "field_combination",
+  "main_match_fields": [
+    "Name"
+  ],
+  "field_mappings": {
+    "Name": "Name",
+    "CatalogId": "CatalogId",
+    "ParentCategoryId": "ParentCategoryId",
+    "IsNavigational": "IsNavigational"
+  },
+  "field_mapping_count": 4,
+  "lookup_configs": {
+    "CatalogId": {
+      "parent_object": "ProductCatalog",
+      "match_strategy": "field_combination",
+      "match_fields": [
+        "Name"
+      ]
+    },
+    "ParentCategoryId": {
+      "parent_object": "ProductCategory",
+      "match_strategy": "field_combination",
+      "match_fields": [
+        "Name"
+      ]
+    }
+  },
+  "lookup_count": 2,
+  "results": {
+    "total_records": 15,
+    "success_count": 13,
+    "error_count": 2,
+    "success_rate": 86.67
+  }
+}

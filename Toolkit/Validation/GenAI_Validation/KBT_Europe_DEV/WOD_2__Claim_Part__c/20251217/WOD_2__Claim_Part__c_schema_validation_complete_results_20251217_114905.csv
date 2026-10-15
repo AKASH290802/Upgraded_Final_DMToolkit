@@ -1,0 +1,54 @@
+=== VALIDATION SUMMARY ===
+Metric,Value
+Total Records,10
+Passed Records,0
+Failed Records,10
+Total Errors,22
+Success Rate,0.00%
+
+
+=== VALIDATED DATASET WITH RESULTS ===
+Name,CurrencyIsoCode,RecordTypeId,WOD_2__Claim__c,WOD_2__Dealer_Contribution__c,WOD_2__External_Claim_Part_Name__c,WOD_2__Inventory__c,WOD_2__Invoice_Date__c,WOD_2__Invoice_Number__c,WOD_2__Invoice_Quantity__c,WOD_2__Unit_Price__c,WOD_2__Warranty_Product_Pricebook__c,WOD_2__Warranty_Product__c,MIG_Approved_Per_Unit_Amount__c,MIG_Approved_Quantity__c,MIG_Requested_Per_Unit_Amount__c,MIG_Requested_Quantity__c,Validation_Status,Validation_Errors
+,EUR,0127Q000001c00hQAA,300718059,,300718059000010_1,,28.02.2022,94036667.0,12.98,1.0,,WAMISCELLANEOUS,1.0,12.98,1.0,12.98,FAILED,Row 1: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300718059 (should be 15 or 18 characters)
+,EUR,0127Q000001c00hQAA,300718059,,300718059000020_2,,28.02.2022,94036667.0,320.0,0.54,,WAMILEAGE,0.54,320.0,0.54,320.0,FAILED,Row 2: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300718059 (should be 15 or 18 characters); Row 2: Invalid Salesforce ID format in field 'WOD_2__Warranty_Product__c' (mapped to 'WOD_2__Warranty_Product__c'): WAMILEAGE (should be 15 or 18 characters)
+,EUR,0127Q000001c00hQAA,300718059,,300718059000030_1,,28.02.2022,94036667.0,5.15,58.0,,WALABOUR,58.0,5.15,58.0,5.15,FAILED,Row 3: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300718059 (should be 15 or 18 characters); Row 3: Invalid Salesforce ID format in field 'WOD_2__Warranty_Product__c' (mapped to 'WOD_2__Warranty_Product__c'): WALABOUR (should be 15 or 18 characters)
+,EUR,0127Q000001c00hQAA,300718059,,300718059000040_1,,28.02.2022,94036667.0,1.0,3.18,,1624104212,3.18,1.0,3.18,1.0,FAILED,Row 4: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300718059 (should be 15 or 18 characters); Row 4: Invalid Salesforce ID format in field 'WOD_2__Warranty_Product__c' (mapped to 'WOD_2__Warranty_Product__c'): 1624104212 (should be 15 or 18 characters)
+,EUR,0127Q000001c00hQAA,300718059,,300718059000050_1,,28.02.2022,94036667.0,1.0,0.83,,0481110280,0.83,1.0,0.83,1.0,FAILED,Row 5: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300718059 (should be 15 or 18 characters); Row 5: Invalid Salesforce ID format in field 'WOD_2__Warranty_Product__c' (mapped to 'WOD_2__Warranty_Product__c'): 0481110280 (should be 15 or 18 characters)
+,EUR,0127Q000001c00hQAA,300718059,,300718059000060_1,,28.02.2022,94036667.0,1.0,23.53,,1624123250,23.53,1.0,23.53,1.0,FAILED,Row 6: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300718059 (should be 15 or 18 characters); Row 6: Invalid Salesforce ID format in field 'WOD_2__Warranty_Product__c' (mapped to 'WOD_2__Warranty_Product__c'): 1624123250 (should be 15 or 18 characters)
+,EUR,0127Q000001c00hQAA,300896113,,300896113000030,,12.08.2024,95424474.0,28.75,65.0,,WALABOUR,65.0,28.75,65.0,28.75,FAILED,Row 7: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300896113 (should be 15 or 18 characters); Row 7: Warning: Large numeric value '300896113000030' in text field 'WOD_2__External_Claim_Part_Name__c' (mapped to 'WOD_2__External_Claim_Part_Name__c') - verify this is appropriate; Row 7: Invalid Salesforce ID format in field 'WOD_2__Warranty_Product__c' (mapped to 'WOD_2__Warranty_Product__c'): WALABOUR (should be 15 or 18 characters)
+,EUR,0127Q000001c00hQAA,300896113,,300896113000010,,12.08.2024,95424474.0,48.9,1.0,,WAMISCELLANEOUS,1.0,48.9,1.0,48.9,FAILED,Row 8: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300896113 (should be 15 or 18 characters); Row 8: Warning: Large numeric value '300896113000010' in text field 'WOD_2__External_Claim_Part_Name__c' (mapped to 'WOD_2__External_Claim_Part_Name__c') - verify this is appropriate
+,EUR,0127Q000001c00hQAA,300896113,,300896113000020,,12.08.2024,95424474.0,1122.0,0.54,,WAMILEAGE,0.54,1122.0,0.54,1122.0,FAILED,Row 9: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300896113 (should be 15 or 18 characters); Row 9: Warning: Large numeric value '300896113000020' in text field 'WOD_2__External_Claim_Part_Name__c' (mapped to 'WOD_2__External_Claim_Part_Name__c') - verify this is appropriate; Row 9: Invalid Salesforce ID format in field 'WOD_2__Warranty_Product__c' (mapped to 'WOD_2__Warranty_Product__c'): WAMILEAGE (should be 15 or 18 characters)
+,EUR,0127Q000001c00hQAA,300834971,,300834971000010,,,,,,,WALABOUR,,,46.0,5.0,FAILED,Row 10: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300834971 (should be 15 or 18 characters); Row 10: Warning: Large numeric value '300834971000010' in text field 'WOD_2__External_Claim_Part_Name__c' (mapped to 'WOD_2__External_Claim_Part_Name__c') - verify this is appropriate; Row 10: Invalid Salesforce ID format in field 'WOD_2__Warranty_Product__c' (mapped to 'WOD_2__Warranty_Product__c'): WALABOUR (should be 15 or 18 characters)
+
+
+=== DETAILED VALIDATION ERRORS ===
+Error_Description
+Row 1: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300718059 (should be 15 or 18 characters)
+Row 2: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300718059 (should be 15 or 18 characters)
+Row 2: Invalid Salesforce ID format in field 'WOD_2__Warranty_Product__c' (mapped to 'WOD_2__Warranty_Product__c'): WAMILEAGE (should be 15 or 18 characters)
+Row 3: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300718059 (should be 15 or 18 characters)
+Row 3: Invalid Salesforce ID format in field 'WOD_2__Warranty_Product__c' (mapped to 'WOD_2__Warranty_Product__c'): WALABOUR (should be 15 or 18 characters)
+Row 4: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300718059 (should be 15 or 18 characters)
+Row 4: Invalid Salesforce ID format in field 'WOD_2__Warranty_Product__c' (mapped to 'WOD_2__Warranty_Product__c'): 1624104212 (should be 15 or 18 characters)
+Row 5: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300718059 (should be 15 or 18 characters)
+Row 5: Invalid Salesforce ID format in field 'WOD_2__Warranty_Product__c' (mapped to 'WOD_2__Warranty_Product__c'): 0481110280 (should be 15 or 18 characters)
+Row 6: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300718059 (should be 15 or 18 characters)
+Row 6: Invalid Salesforce ID format in field 'WOD_2__Warranty_Product__c' (mapped to 'WOD_2__Warranty_Product__c'): 1624123250 (should be 15 or 18 characters)
+Row 7: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300896113 (should be 15 or 18 characters)
+Row 7: Warning: Large numeric value '300896113000030' in text field 'WOD_2__External_Claim_Part_Name__c' (mapped to 'WOD_2__External_Claim_Part_Name__c') - verify this is appropriate
+Row 7: Invalid Salesforce ID format in field 'WOD_2__Warranty_Product__c' (mapped to 'WOD_2__Warranty_Product__c'): WALABOUR (should be 15 or 18 characters)
+Row 8: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300896113 (should be 15 or 18 characters)
+Row 8: Warning: Large numeric value '300896113000010' in text field 'WOD_2__External_Claim_Part_Name__c' (mapped to 'WOD_2__External_Claim_Part_Name__c') - verify this is appropriate
+Row 9: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300896113 (should be 15 or 18 characters)
+Row 9: Warning: Large numeric value '300896113000020' in text field 'WOD_2__External_Claim_Part_Name__c' (mapped to 'WOD_2__External_Claim_Part_Name__c') - verify this is appropriate
+Row 9: Invalid Salesforce ID format in field 'WOD_2__Warranty_Product__c' (mapped to 'WOD_2__Warranty_Product__c'): WAMILEAGE (should be 15 or 18 characters)
+Row 10: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300834971 (should be 15 or 18 characters)
+Row 10: Warning: Large numeric value '300834971000010' in text field 'WOD_2__External_Claim_Part_Name__c' (mapped to 'WOD_2__External_Claim_Part_Name__c') - verify this is appropriate
+Row 10: Invalid Salesforce ID format in field 'WOD_2__Warranty_Product__c' (mapped to 'WOD_2__Warranty_Product__c'): WALABOUR (should be 15 or 18 characters)
+
+
+=== FIELD-WISE ERROR SUMMARY ===
+Field_Name,Error_Count,Error_Rate_Percent,Sample_Errors
+WOD_2__Claim__c,10,100.00,Row 1: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300718059 (should be 15 or 18 characters); Row 2: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300718059 (should be 15 or 18 characters); Row 3: Invalid Salesforce ID format in field 'WOD_2__Claim__c' (mapped to 'WOD_2__Claim__c'): 300718059 (should be 15 or 18 characters)...
+WOD_2__Warranty_Product__c,8,80.00,Row 2: Invalid Salesforce ID format in field 'WOD_2__Warranty_Product__c' (mapped to 'WOD_2__Warranty_Product__c'): WAMILEAGE (should be 15 or 18 characters); Row 3: Invalid Salesforce ID format in field 'WOD_2__Warranty_Product__c' (mapped to 'WOD_2__Warranty_Product__c'): WALABOUR (should be 15 or 18 characters); Row 4: Invalid Salesforce ID format in field 'WOD_2__Warranty_Product__c' (mapped to 'WOD_2__Warranty_Product__c'): 1624104212 (should be 15 or 18 characters)...
+WOD_2__External_Claim_Part_Name__c,4,40.00,Row 7: Warning: Large numeric value '300896113000030' in text field 'WOD_2__External_Claim_Part_Name__c' (mapped to 'WOD_2__External_Claim_Part_Name__c') - verify this is appropriate; Row 8: Warning: Large numeric value '300896113000010' in text field 'WOD_2__External_Claim_Part_Name__c' (mapped to 'WOD_2__External_Claim_Part_Name__c') - verify this is appropriate; Row 9: Warning: Large numeric value '300896113000020' in text field 'WOD_2__External_Claim_Part_Name__c' (mapped to 'WOD_2__External_Claim_Part_Name__c') - verify this is appropriate...

@@ -1,0 +1,445 @@
+Name
+Coil Failure
+Mis-manufactured
+Leaking
+Won't close
+Other -- Fill in Comments
+Part Dimensions Incorrect
+Shipment Damage
+Will Not Rotate
+Calibration changed/out of spec
+Contact Points Burned
+Contactor Chattering
+Contactor Locked in
+Contactor not pulling in
+Disconnect Switch Fails Closed
+Disconnect Switch Fails Open
+Electrical Component Failure
+Electrical Specs Not Met
+Fuse Block Defective
+Grounding Block Defective
+Housing Damaged
+Intermittent Operations
+Leads corroded/broken
+Cracked Liner
+Flow not registering
+Head Filling with Water
+Signal Weak
+Contact Warranty Department - Not within
+Hose Pulled off
+Hose Split
+Insufficient Clamping Force
+Ultraviolet Degradation
+Dent in Pipe
+Finish Appearance Faulty
+Flanges not Square
+Flanges Out of Time
+Galvanizing Bare Spots
+Galvanizing Quality
+Hitch ball bolt failed
+Hole in Pipe
+Seam Split
+Galvanizing Excessive
+Weld Failure
+Weld Missing
+Plug Removal
+Communication Failure
+5 Volt Power Supply
+Backlight Failure
+Cold Solder Joint
+Display Failure
+Encoder Failure
+External Connection Failure
+Harness Failure
+Keypad Failure
+PCB Cracked
+Percent timer runs at 100% at all times
+Pressure Reading Incorrect
+Relay Failure
+Screen Failure
+Trace Failure
+Voltage Display Inconsistent
+Cable End Failure
+Excessive Steering
+Inconsistent Position
+Incorrect Resistance Reading
+Resolver Input Error
+Resolver Volts Incorrect
+Won't Break Safety
+Won't Hold Safety
+Won't Steer Forward
+Won't Steer Reverse
+-12 Volt Power Supply
+Factory Wiring Incorrect
+Precision Corner Adjustment
+Contact Points Damaged
+Low Pressure Switch Fails Closed
+Low Pressure Switch Fails Open
+Switch Failure
+Aluminum Casting Failure
+Bearing Race Missing
+Bull Gear Broken
+Case Broken
+Charred Failure Both Ends
+Charred Failure one end
+Control Bearing Seized
+Factory Wiring Loose
+Flex Joint Insert Failure
+Gears Locked Up
+Input Bearing Failed
+Motor Using Excessive Current
+No holes in shaft
+Noise Excessive
+Output Bearing Failed
+Output Seal Leaking
+Output Seal Missing
+Output Shaft Broken
+Phase Burned Both Ends
+Phase Burned One End
+Phase To Ground Short
+Phase To Phase Open
+Phase To Phase Short
+Seal Leaking
+Seam Leaking
+Snap Ring Failed
+Steering arm loose
+Steering Gearmotor Failed
+Steering Motor Failed
+Thermal Protection Failure
+Tow Pin Failure
+Worm Broken
+Oil Reservoir Empty
+Seal Missing
+Phase To Phase Resistance Unbalanced
+Plastic End Cap Missing
+Rotor Failed
+Short In Junction Box
+Single Phasing
+Coupling Failure
+Input Seal Leaking
+Input Shaft Broken
+Lug Bolts Broken
+Mounting Bolts Broken
+Threads Missing
+Diaphragm Faulty
+Bead Damaged
+Corrosion On Wheel
+Galvanizing Burrs
+Rim Damaged
+Tire Leaking Air
+Tire Split
+Tube Pinched
+Valve Stem Leaking
+Valve Stem Missing
+Latch Inoperable
+OW Timer Doesn't Break Safety
+OW Timer Doesn't Hold Safety
+Run Microswitch Fails Closed
+Run Microswitch Fails Open
+Safety Microswitch Fails Closed
+Safety Microswitch Fails Open
+Solenoid Valve Fails
+Terminal Block Defective
+Terminal Strip Stripped Out
+Tower Ahead Forward
+Tower Behind Forward
+Tower Behind Reverse
+Tower Box Cover Fell Off
+Tower Ahead Reverse
+Bearing Seized
+120 Volt Input/Output Failure
+5 Volt Power Supply Failure
+Keypad Error 13
+Service Tool Test Failed
+12 Volt Power Supply
+System out of Alignment
+Corrosion
+Impeller Seized
+Light Burned Out
+Weld Cracked
+Cable Broken
+Cable Pulled Out
+Gasket Degrading
+Gasket Pushing Out
+Threads Mismanufactured
+Cracked Pivot Swivel
+Replace Component
+Contact Warranty Department
+Weld In Field
+Repair Component
+Remove Plugs
+Repair Wiring
+Adjust Span Sensor
+Replace Steering Gearbox
+Replace Tower Box
+Replace Seal
+Replace Gearmotor
+Replace Motor Module
+Rebuild Gearbox
+Repair GB
+Replace Span Cable
+Re-align System
+Replace 2hp BP Motor
+Replace 2hp BP Complete
+Replace 5 or 7.5 hp BP Motor
+Replace 5 or 7.5 hp BP Complete
+Replace Pivot Swivel
+Coil Failure-Replace Component-1hr
+Mis-manufactured-Replace Component-1hr
+Leaking-Replace Component-1hr
+Won't close-Replace Component-1hr
+Other -- Fill in Comments-Replace Component-1hr
+Part Dimensions Incorrect-Replace Component-1hr
+Shipment Damage-Replace Component-0hr
+Will Not Rotate-Replace Component-1.5hr
+Calibration changed/out of spec-Replace Component-1hr
+Contact Points Burned-Replace Component-1hr
+Contactor Chattering-Replace Component-1hr
+Contactor Locked in-Replace Component-1hr
+Contactor not pulling in-Replace Component-1hr
+Disconnect Switch Fails Closed-Replace Component-1hr
+Disconnect Switch Fails Open-Replace Component-1hr
+Electrical Component Failure-Replace Component-1hr
+Electrical Specs Not Met-Replace Component-1hr
+Fuse Block Defective-Replace Component-1hr
+Grounding Block Defective-Replace Component-1hr
+Housing Damaged-Replace Component-1hr
+Intermittent Operations-Replace Component-1hr
+Leads corroded/broken-Replace Component-1hr
+Cracked Liner-Replace Component-1hr
+Flow not registering-Replace Component-1hr
+Head Filling with Water-Replace Component-1hr
+Signal Weak-Replace Component-1hr
+Contact Warranty Department - Not within-Contact Warranty Department-0hr
+Hose Pulled off-Replace Component-2hr
+Hose Split-Replace Component-2hr
+Insufficient Clamping Force-Replace Component-2hr
+Mis-manufactured-Replace Component-2hr
+Part Dimensions Incorrect-Replace Component-2hr
+Ultraviolet Degradation-Replace Component-2hr
+Signal Weak-Replace Component-2hr
+Electrical Component Failure-Replace Component-2hr
+Dent in Pipe-Replace Component-1hr
+Finish Appearance Faulty-Replace Component-1hr
+Flanges not Square-Replace Component-1hr
+Flanges Out of Time-Replace Component-1hr
+Galvanizing Bare Spots-Replace Component-1hr
+Galvanizing Quality-Replace Component-1hr
+Hitch ball bolt failed-Replace Component-1hr
+Hole in Pipe-Replace Component-1hr
+Seam Split-Replace Component-1hr
+Seam Split-Weld In Field-1hr
+Galvanizing Excessive-Replace Component-1hr
+Hole in Pipe-Weld In Field-1hr
+Weld Failure-Replace Component-1hr
+Weld Failure-Weld In Field-1hr
+Weld Missing-Replace Component-1hr
+Weld Missing-Repair Component-1hr
+Plug Removal-Remove Plugs-2hr
+Communication Failure-Replace Component-1hr
+5 Volt Power Supply-Replace Component-1hr
+Backlight Failure-Replace Component-1hr
+Cold Solder Joint-Replace Component-1hr
+Display Failure-Replace Component-1hr
+Encoder Failure-Replace Component-1hr
+External Connection Failure-Replace Component-1hr
+Harness Failure-Replace Component-1hr
+Keypad Failure-Replace Component-1hr
+PCB Cracked-Replace Component-1hr
+Percent timer runs at 100% at all times-Replace Component-1hr
+Pressure Reading Incorrect-Replace Component-1hr
+Relay Failure-Replace Component-1hr
+Screen Failure-Replace Component-1hr
+Trace Failure-Replace Component-1hr
+Voltage Display Inconsistent-Replace Component-1hr
+Cable End Failure-Replace Component-1hr
+Excessive Steering-Replace Component-1.5hr
+Inconsistent Position-Replace Component-1hr
+Incorrect Resistance Reading-Replace Component-1hr
+Resolver Input Error-Replace Component-1hr
+Resolver Volts Incorrect-Replace Component-1hr
+Won't Break Safety-Replace Component-1hr
+Won't Hold Safety-Replace Component-1hr
+Won't Steer Forward-Replace Component-1.5hr
+Won't Steer Reverse-Replace Component-1.5hr
+Incorrect Resistance Reading-Replace Component-1.5hr
+-12 Volt Power Supply-Replace Component-1hr
+Won't Steer Forward-Replace Component-1hr
+Won't Steer Reverse-Replace Component-1hr
+Factory Wiring Incorrect-Repair Wiring-1hr
+Precision Corner Adjustment-Adjust Span Sensor-1hr
+Weld Missing-Weld In Field-1hr
+Signal Weak-Replace Component-1.5hr
+Factory Wiring Incorrect-Replace Component-1hr
+Contact Points Damaged-Replace Component-1hr
+Low Pressure Switch Fails Closed-Replace Component-1hr
+Low Pressure Switch Fails Open-Replace Component-1hr
+Switch Failure-Replace Component-1hr
+Hose Pulled off-Replace Component-1hr
+Hose Split-Replace Component-1hr
+Ultraviolet Degradation-Replace Component-1hr
+Aluminum Casting Failure-Replace Component-1hr
+Bearing Race Missing-Replace Steering Gearbox-4hr
+Bull Gear Broken-Replace Steering Gearbox-4hr
+Case Broken-Replace Steering Gearbox-4hr
+Charred Failure Both Ends-Replace Component-1.5hr
+Charred Failure one end-Replace Component-1.5hr
+Control Bearing Seized-Replace Tower Box-1hr
+Factory Wiring Loose-Repair Wiring-1hr
+Flex Joint Insert Failure-Replace Component-0.25hr
+Gears Locked Up-Replace Component-2hr
+Gears Locked Up-Replace Steering Gearbox-4hr
+Input Bearing Failed-Replace Steering Gearbox-4hr
+Mis-manufactured-Repair Component-1hr
+Motor Using Excessive Current-Replace Component-1.5hr
+No holes in shaft-Replace Component-1hr
+Noise Excessive-Replace Component-1.5hr
+Output Bearing Failed-Replace Steering Gearbox-4hr
+Output Seal Leaking-Replace Steering Gearbox-4hr
+Output Seal Missing-Replace Steering Gearbox-4hr
+Output Shaft Broken-Replace Steering Gearbox-4hr
+Phase Burned Both Ends-Replace Component-1.5hr
+Phase Burned One End-Replace Component-1.5hr
+Phase To Ground Short-Replace Component-1.5hr
+Phase To Phase Open-Replace Component-1.5hr
+Phase To Phase Short-Replace Component-1.5hr
+Seal Leaking-Replace Seal-0.75hr
+Seam Leaking-Replace Component-1.5hr
+Snap Ring Failed-Replace Steering Gearbox-4hr
+Steering arm loose-Replace Component-1hr
+Steering Gearmotor Failed-Replace Gearmotor-2hr
+Steering Motor Failed-Replace Motor Module-1.5hr
+Thermal Protection Failure-Replace Component-1.5hr
+Tow Pin Failure-Replace Component-1hr
+Worm Broken-Replace Component-3hr
+Case Broken-Replace Gearmotor-1.5hr
+Gears Locked Up-Replace Gearmotor-1.5hr
+Motor Using Excessive Current-Replace Gearmotor-1.5hr
+Noise Excessive-Replace Gearmotor-1.5hr
+Oil Reservoir Empty-Replace Component-1.5hr
+Other -- Fill in Comments-Replace Component-1.5hr
+Seal Missing-Replace Component-1.5hr
+Seam Leaking-Replace Gearmotor-1.5hr
+Case Broken-Replace Component-1.5hr
+Gears Locked Up-Replace Component-1.5hr
+Phase To Phase Resistance Unbalanced-Replace Component-1.5hr
+Plastic End Cap Missing-Replace Component-1.5hr
+Rotor Failed-Replace Component-1.5hr
+Seal Leaking-Replace Component-1.5hr
+Short In Junction Box-Replace Component-1.5hr
+Single Phasing-Replace Component-1.5hr
+Bearing Race Missing-Repair Component-2hr
+Bull Gear Broken-Replace Component-2hr
+Case Broken-Replace Component-2hr
+Coupling Failure-Replace Component-2hr
+Input Bearing Failed-Replace Component-2hr
+Input Seal Leaking-Replace Component-2hr
+Input Seal Leaking-Rebuild Gearbox-3hr
+Input Shaft Broken-Replace Component-2hr
+Lug Bolts Broken-Replace Component-2hr
+Mounting Bolts Broken-Replace Component-2hr
+Oil Reservoir Empty-Replace Component-2hr
+Other -- Fill in Comments-Replace Component-2hr
+Output Bearing Failed-Replace Component-2hr
+Output Seal Leaking-Replace Component-2hr
+Output Seal Leaking-Rebuild Gearbox-3hr
+Output Seal Missing-Repair Component-2hr
+Output Seal Missing-Replace Component-2hr
+Output Shaft Broken-Replace Component-2hr
+Snap Ring Failed-Replace Component-2hr
+Threads Missing-Replace Component-2hr
+Worm Broken-Replace Component-2hr
+Mis-manufactured-Replace Component-0.25hr
+Other -- Fill in Comments-Replace Component-4hr
+Part Dimensions Incorrect-Replace Component-4hr
+Input Seal Leaking-Repair GB-1hr
+Output Seal Leaking-Repair Component-1hr
+Bearing Race Missing-Rebuild Gearbox-3hr
+Bull Gear Broken-Rebuild Gearbox-3hr
+Case Broken-Rebuild Gearbox-3hr
+Diaphragm Faulty-Repair GB-0.25hr
+Flex Joint Insert Failure-Replace Component-1hr
+Gears Locked Up-Rebuild Gearbox-3hr
+Input Bearing Failed-Rebuild Gearbox-3hr
+Lug Bolts Broken-Repair GB-1hr
+Mounting Bolts Broken-Repair GB-0.25hr
+Oil Reservoir Empty-Replace Component-3hr
+Output Bearing Failed-Rebuild Gearbox-3hr
+Output Seal Missing-Rebuild Gearbox-3hr
+Snap Ring Failed-Rebuild Gearbox-3hr
+Bead Damaged-Repair Component-1hr
+Corrosion On Wheel-Replace Component-1hr
+Galvanizing Burrs-Replace Component-1hr
+Rim Damaged-Replace Component-1hr
+Tire Leaking Air-Replace Component-1hr
+Tire Leaking Air-Repair Component-1hr
+Tire Split-Repair Component-1hr
+Tire Split-Replace Component-1hr
+Tube Pinched-Replace Component-1hr
+Tube Pinched-Repair Component-1hr
+Valve Stem Leaking-Replace Component-1hr
+Valve Stem Leaking-Repair Component-1hr
+Valve Stem Missing-Replace Component-1hr
+Control Bearing Seized-Replace Component-1hr
+Housing Damaged-Replace Component-0hr
+Latch Inoperable-Replace Component-1hr
+OW Timer Doesn't Break Safety-Replace Component-1hr
+OW Timer Doesn't Hold Safety-Replace Component-1hr
+Run Microswitch Fails Closed-Replace Component-1hr
+Run Microswitch Fails Open-Replace Component-1hr
+Safety Microswitch Fails Closed-Replace Component-1hr
+Safety Microswitch Fails Open-Replace Component-1hr
+Single Phasing-Replace Component-1hr
+Solenoid Valve Fails-Replace Component-1hr
+Terminal Block Defective-Replace Component-1hr
+Terminal Strip Stripped Out-Replace Component-1hr
+Tower Ahead Forward-Replace Component-1hr
+Tower Behind Forward-Replace Component-1hr
+Tower Behind Reverse-Replace Component-1hr
+Tower Box Cover Fell Off-Replace Component-1hr
+Tower Ahead Reverse-Replace Component-1hr
+Bearing Seized-Replace Component-2hr
+Terminal Strip Stripped Out-Replace Component-2hr
+120 Volt Input/Output Failure-Replace Component-1.5hr
+5 Volt Power Supply Failure-Replace Component-1hr
+Keypad Error 13-Replace Component-1hr
+Service Tool Test Failed-Replace Component-1hr
+Other -- Fill in Comments-Replace Span Cable-1hr
+12 Volt Power Supply-Replace Component-1hr
+Galvanizing Excessive-Repair Component-1hr
+System out of Alignment-Re-align System-2hr
+120 Volt Input/Output Failure-Replace 2hp BP Motor-2hr
+120 Volt Input/Output Failure-Replace 2hp BP Complete-2.5hr
+120 Volt Input/Output Failure-Replace 5 or 7.5 hp BP Motor-2hr
+120 Volt Input/Output Failure-Replace 5 or 7.5 hp BP Complete-4hr
+Bearing Seized-Replace 2hp BP Motor-2hr
+Bearing Seized-Replace 2hp BP Complete-2.5hr
+Bearing Seized-Replace 5 or 7.5 hp BP Motor-2hr
+Bearing Seized-Replace 5 or 7.5 hp BP Complete-4hr
+Corrosion-Replace 2hp BP Motor-2hr
+Corrosion-Replace 2hp BP Complete-2.5hr
+Corrosion-Replace 5 or 7.5 hp BP Motor-2hr
+Corrosion-Replace 5 or 7.5 hp BP Complete-4hr
+Housing Damaged-Replace 2hp BP Motor-2hr
+Housing Damaged-Replace 2hp BP Complete-2.5hr
+Housing Damaged-Replace 5 or 7.5 hp BP Motor-2hr
+Housing Damaged-Replace 5 or 7.5 hp BP Complete-4hr
+Impeller Seized-Repair Component-1.5hr
+Shipment Damage-Replace 2hp BP Motor-0hr
+Shipment Damage-Replace 2hp BP Complete-0hr
+Shipment Damage-Replace 5 or 7.5 hp BP Motor-0hr
+Shipment Damage-Replace 5 or 7.5 hp BP Complete-0hr
+Light Burned Out-Replace Component-1hr
+Weld Cracked-Replace Component-1hr
+Weld Cracked-Weld In Field-1hr
+Cable Broken-Replace Component-2hr
+Cable End Failure-Replace Component-2hr
+Cable Pulled Out-Replace Component-2hr
+Gasket Degrading-Replace Component-1hr
+Gasket Pushing Out-Replace Component-1hr
+Threads Mismanufactured-Replace Component-1hr
+Will Not Rotate-Replace Component-1hr
+Cracked Pivot Swivel-Replace Pivot Swivel-1hr
+Test Failure Code
+Test Failure-Resolution Code
+Test Resolution Code

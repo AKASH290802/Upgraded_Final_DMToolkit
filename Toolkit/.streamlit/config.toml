@@ -1,0 +1,49 @@
+# DM Toolkit theme — Tavant brand (tavant.com: Tango #F36F26 with black and white).
+# Run the app from this folder (run_app.bat does that) so Streamlit picks this file up.
+
+[server]
+# Largest file a screen accepts for upload, in MB (Streamlit's default is 200).
+# An uploaded file is held in memory and then read into a table that needs several
+# times its size (CSV ~6x, Excel ~30x), so size this to the memory of the machine
+# running the app. Bigger files: copy them into the DataFiles folder and pick them
+# in Step 1 > File Library (read from disk, no upload).
+maxUploadSize = 1024
+
+[theme]
+primaryColor = "#F36F26"
+linkColor = "#D9571A"
+baseRadius = "0.75rem"
+buttonRadius = "0.75rem"
+showWidgetBorder = true
+headingFontWeights = [800, 700, 700, 600, 600, 600]
+chartCategoricalColors = ["#F36F26", "#1B1B22", "#FFB547", "#FF5E6C", "#7A7A88", "#FFCBA8", "#C2410C", "#3F3F4A"]
+
+[theme.light]
+backgroundColor = "#FFF8F3"
+secondaryBackgroundColor = "#FDEEE3"
+textColor = "#1B1B22"
+borderColor = "#F2DCCB"
+dataframeHeaderBackgroundColor = "#FDE6D6"
+
+[theme.dark]
+backgroundColor = "#101016"
+secondaryBackgroundColor = "#1D1D26"
+textColor = "#F4F1EE"
+borderColor = "#2F2F3B"
+dataframeHeaderBackgroundColor = "#2A1C15"
+
+# The sidebar follows the Light / Dark choice (theme.py --dm-side-* colours go with these).
+[theme.sidebar]
+primaryColor = "#F36F26"
+
+[theme.light.sidebar]
+backgroundColor = "#FFF1E6"
+secondaryBackgroundColor = "#FFE4D2"
+textColor = "#1B1B22"
+borderColor = "#EED9C8"
+
+[theme.dark.sidebar]
+backgroundColor = "#15151C"
+secondaryBackgroundColor = "#23232D"
+textColor = "#F4F1EE"
+borderColor = "#2E2E3A"

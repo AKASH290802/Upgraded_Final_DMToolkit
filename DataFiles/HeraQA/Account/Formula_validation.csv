@@ -1,0 +1,100 @@
+ValidationName,ErrorConditionFormula,FieldName,ObjectName,Active
+Account_Otherthan_IRW_ISP_Canbe_Created,"IF(
+ OR($Setup.Automation_Bypass__c.Disable_Account_Validation_Rule__c, $Profile.Name = 'System Administrator'),
+ false,    IF( DTAG_Fetch_New_Account__c , false, AND( NOT(ISPICKVAL(Type,'RWS')), NOT(ISPICKVAL( Type , 'ISP')), ISNEW()  )) 
+)",", , , , , , , , , , , , , , , , , , , , , , ",Account,False
+DTAG_RestrictMultipleBUforWholeSale,"AND(ISPICKVAL(DTAG_Distribution_Level__c,'Wholesaler'),( PICKLISTCOUNT(WOD_2__Business_Units__c)>1))",", , , , , , ",Account,True
+DTAG_Restrict_For_Released_Status,"IF(
+	$Setup.Automation_Bypass__c.Disable_Account_Validation_Rule__c,
+	false,  
+  
+		AND(
+			AND(
+							ISPICKVAL(DTAG_Status__c,'Released'),
+							OR(ISPICKVAL(Type,'IR'),
+										ISPICKVAL(Type,'OR'),
+										ISPICKVAL(Type,'GD'),
+ISPICKVAL(Type, 'RWS'),
+					
+										ISPICKVAL(Type,'ISP')
+									)
+			), 
+			OR(
+				ISBLANK(DTAG_Dealer_Discount_Group_Parts__c),
+				ISBLANK(TEXT(DTAG_Labor_Units__c)),
+				ISBLANK(TEXT(DTAG_Participating_in_Remanufacturing__c)),
+				ISBLANK(TEXT(DTAG_Landed_Cost_Calculation__c))
+			)
+		)
+	
+)",", , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ",Account,False
+DTAG_WACanCreateRWSOnly,"ISNEW() &&  $Permission.DTAG_Warranty_Admin_Permission &&  NOT(ISPICKVAL(Type , 'RWS'))",", , , , , , ",Account,True
+DTAG_WACannotRealeaseAccount,"ISCHANGED(DTAG_Status__c) &&    ISPICKVAL(DTAG_Status__c , 'Released') &&  $Permission.DTAG_Warranty_Admin_Permission",", , , , , , ",Account,False
+ParenAcc_cant_ActiveInactv_for_Released,"IF(
+ $Setup.Automation_Bypass__c.Disable_Account_Validation_Rule__c,
+false, AND( 
+ISPICKVAL(Parent.DTAG_Status__c,""Active""),
+ISPICKVAL(DTAG_Status__c,""Released"")
+)
+)",", , , , , , , , , , , , ",Account,False
+Parent_Account_Mandatory_Except_HQ,"IF(
+ $Setup.Automation_Bypass__c.Disable_Account_Validation_Rule__c,
+false, AND( 
+OR( ISPICKVAL( DTAG_Status__c , ""Active"") , ISPICKVAL(DTAG_Status__c , ""Released"")) ,
+ISBLANK(ParentId),
+NOT(ISPICKVAL( Type , ""HQ"")) 
+)
+)",", , , , , , , , , , , , , , , , , , ",Account,False
+Parent_cannot_be_Draft_for_Child_active,"IF(
+ $Setup.Automation_Bypass__c.Disable_Account_Validation_Rule__c,
+false, AND(
+OR(
+				ISPICKVAL(Parent.DTAG_Status__c,""Draft""),
+		 	ISPICKVAL(Parent.DTAG_Status__c,""InActive"")
+		),
+OR(
+ISPICKVAL(DTAG_Status__c,""Active""),
+ISPICKVAL(DTAG_Status__c,""Released""))
+)
+)",", , , , , , , , , , , , , , , , , , , , , ",Account,True
+Restrict_For_ActiveOrReleased_Status,"IF(
+$Setup.Automation_Bypass__c.Disable_Account_Validation_Rule__c,
+false, AND( ISNEW() == false, OR (ISPICKVAL(DTAG_Status__c, 'Active'), ISPICKVAL(DTAG_Status__c, 'Released')), OR(ISBLANK( AccountNumber), ISBLANK(TEXT(Type)), ISBLANK(WOD_2__Business_Units__c)))
+)",", , , , , , , , , , , , , , , , , , , , , , ",Account,True
+ValidFromIsRequiredForReleased,"IF( AND(ISPICKVAL( DTAG_Status__c , 'Released'),  ISBLANK(DTAG_Valid_From__c ) ), true, false)",", , , , , , , , ",Account,True
+DT_Billing_country_should_be_AU_or_NZ,"IF( BillingCountry !='' && BillingCountry !='AU' && BillingCountry !='NZ',true,false)",", , , , , , , ",Account,True
+DTAG_Restrict_CurrencyforReleased,"AND(
+AND(
+ISPICKVAL(DTAG_Status__c,'Released'),
+
+ISPICKVAL(Type, 'RWS')
+),
+ISBLANK(TEXT(DTAG_Account_Currency__c))
+)",", , , , , , , , , , ",Account,True
+DTAG_Restrict_For_Released_Status_New,"AND(
+AND(
+ISPICKVAL(DTAG_Status__c,'Released'),
+OR(ISPICKVAL(Type,'TOC/TG'),
+ISPICKVAL(Type,'GD'),
+ISPICKVAL(Type, 'RWS'),
+
+ISPICKVAL(Type,'ISP')
+)
+),
+OR(
+ISBLANK(DTAG_Dealer_Discount_Group_Parts__c),
+ISBLANK(TEXT(DTAG_Labor_Units__c)),
+ISBLANK(TEXT(DTAG_Participating_in_Remanufacturing__c))
+)
+)",", , , , , , , , , , , , , , , , , , , , , , , , , , , ",Account,True
+DTAG_Restrict_LandedCost_ReleasedStatus,"AND(
+AND(
+ISPICKVAL(DTAG_Status__c,'Released'),
+OR(ISPICKVAL(Type,'TOC/TG'),
+ISPICKVAL(Type,'GD'),
+ISPICKVAL(Type,'ISP')
+)
+),
+ISBLANK(TEXT(DTAG_Landed_Cost_Calculation__c))
+
+)",", , , , , , , , , , , , , , , , , , ",Account,True

@@ -1,0 +1,22 @@
+=== VALIDATION SUMMARY ===
+Metric,Value
+Total Records,3
+Passed Records,3
+Failed Records,0
+Total Errors,0
+Success Rate,100.00%
+
+
+=== VALIDATED DATASET WITH RESULTS ===
+Name,VRM_Failure_Code__c,VRM_Resolution_Code__c,WOD_2__Standard_Labor_Hour__c,WOD_2__Business_Units__c,Validation_Status,Validation_Errors
+ ABC-XYZ-1hr,ABC,XYZ,1,VRM-NA,PASSED,
+CDE-UVW-1hr,CDE,UVW,1,VRM-NA,PASSED,
+EFG-PST-1hr,EFG,PST,1,VRM-NA,PASSED,
+
+
+=== DETAILED VALIDATION ERRORS ===
+No validation errors found.
+
+
+=== FIELD-WISE ERROR SUMMARY ===
+No field-specific errors found.

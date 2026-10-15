@@ -1,0 +1,35 @@
+Rule Name,Error Field,Error Message,Active,Description
+MC_PC_CAUSAL_CLAIM_TEMPLATE_MANDATORY,Top of Page,Please select Causal Part,False,
+DTAG_Damage_Code_Required,Top of Page,Damage Code is Required,False,
+DTAG_OTC_Is_Required,Top of Page,OTC Should be TRUE if Product Category is not NULL,True,OTC Should be TRUE If Product Category is not NULL
+DTAG_Serial_Number_is_required,Top of Page,Part Serial Number is required for Serialized Part,True,Serial Number is required for serialized part.
+Serial_Number_is_Required_for_Serialized,Part Serial Number,Causal Part Serial Number is required for Serialized Part,True,
+Serial_Number_is_required_for_Part,Top of Page,Part Serial Number is required for Serialized Part,True,
+DUMMY_VALIDATION_STATUS,Top of Page,DUMMY_VALIDATION_STATUS,False,DUMMY_VALIDATION_STATUS
+test_status_x,Top of Page,Status cannot be rejected,False,
+DTAG_MCPURCHASEDATEREPAIRDATEFAILURE,Top of Page,Part Purchase Date can't be greater than Repair End Date,True,DTAG_MCPURCHASEDATEREPAIRDATEFAILURE
+DTAG_Part_Purchase_Date_Cannot_be_future,Top of Page,Part Purchase Date cannot be in future.,True,
+FTL_Complaint_should_not_exceed_1000_cha,Top of Page,Complaint cannot exceed 1000 characters,True,Complaint cannot exceed 1000 characters
+FUS_3C_Fields_should_not_exceed_4000_cha,Top of Page,Each of repair details fields length cannot exceed 4000 characters.,True,Each of repair details fields length cannot exceed 4000 characters.
+DT_Repair_details_are_required,Top of Page,Repair detail fields are mandatory,True,
+TestValidation,Top of Page,Claim cannot be Approved at this moment.,False,
+CLM_NonSerializedPartCannotHaveSerialNo,Top of Page,Non-Serialized Causal Part can not have serial number,False,
+GW_REASON_MANDATORY,Top of Page,Please select Goodwill Reason,False,"Goodwill Claim, Goodwill Reason is mandatory"
+MC_PC_ACCOUNT_MANDATORY,Top of Page,Service Dealer is required,False,when you select claim as machine account field should not be empty
+MC_PC_CASUAL_MANDATORY,Top of Page,DEPRECATED,False,DEPRECATED
+MC_PC_CAUSAL_MANDATORY,Top of Page,Please select Causal Part,False,
+MC_PC_CAUSAL_PART_SNO_MANDATORY,Top of Page,Causal Part Serial Number is required for Serialized Part,False,
+MC_PC_FAILUREDATE_LESS_REPAIRDATE,Top of Page,Failure Date can't be greater than Repair Date,False,MC_PC_FAILUREDATE_LESS_REPAIRDATE
+MC_PC_FAILUREDATE_MANDATORY,Top of Page,Date of failure is required,False,"Machine Claim, Date of failure is mandatory"
+MC_PC_INVENTORY_MANDATORY,Top of Page,Please Select Inventory,False,
+MC_PC_MODELNO_MANDATORY,Top of Page,Material/Model Number is required,False,Material/Model Number is required
+MC_PC_PRE_AUTH_COMMENTS_MANDATORY,Top of Page,Pre Authorization Comments is mandatory,True,
+MC_PC_PRE_AUTH_REASON_MANDATORY,Top of Page,Pre Authorization Reason is mandatory,True,
+MC_PC_REPAIRDATE_MANDATORY,Top of Page,Date of repair is required,False,
+MC_PurchaseDate_Less_REPAIRDATE_FAILURE,Top of Page,purchase Date can't be greater,False,
+OSD_RECEIVEDATE_LESS_TODAY,Top of Page,Received Date cannot be in future.,True,Received date should not be in future.
+PC_PART_MANDATORY,Top of Page,Please Select Part,False,"Part Claim, warranty product(part)is mandatory"
+PC_PART_SNO_MANDATORY,Top of Page,Part Serial Number is required for Serialized Part,False,"Part Claim, Serialized Warranty Product's (Part) Serial No is mandatory"
+PC_PURCHASEDATE_MANDATORY,Top of Page,Please Provide Purchase Date,False,"Part  Claim, Date of purchase is mandatory"
+PREAUTH_EXPIRY_DATE_CHECK,Top of Page,Record is expired. Please create a new Pre-Approval record.,False,Claim should not be created from expire pre authorization record.
+PREAUTH_FULFILLED_CHECK,Top of Page,PreAuthorization is already fulfilled,True,

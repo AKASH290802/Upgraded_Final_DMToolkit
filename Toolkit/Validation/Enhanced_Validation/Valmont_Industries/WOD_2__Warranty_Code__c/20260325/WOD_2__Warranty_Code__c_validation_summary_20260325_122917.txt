@@ -1,0 +1,15 @@
+ENHANCED VALIDATION SUMMARY REPORT
+==================================================
+
+Generated: 2026-03-25 12:29:17
+Salesforce Org: Valmont_Industries
+Target Object: WOD_2__Warranty_Code__c
+
+OVERALL STATISTICS:
+Total Records Processed: 0
+Transform Success: 0 (0.0%)
+Transform Failure: 0 (0.0%)
+
+LOOKUP FIELDS PROCESSED:
+- VRM_Resolution_Code__c -> {'referenced_object': 'WOD_2__Warranty_Code__c', 'sf_field_name': 'VRM_Resolution_Code__c', 'label': 'VRM_Resolution_Code__c'} (0 values resolved)
+- VRM_Failure_Code__c -> {'referenced_object': 'WOD_2__Warranty_Code__c', 'sf_field_name': 'VRM_Failure_Code__c', 'label': 'VRM_Failure_Code__c'} (0 values resolved)

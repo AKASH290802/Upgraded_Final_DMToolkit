@@ -1,0 +1,2 @@
+Batch_Number,Batch_Records,Batch_Success,Batch_Errors,Batch_Processing_Time_Seconds,Batch_Success_Rate_Percent,Batch_Error_Rate_Percent,Batch_Status,Error_Details
+1,10,2,8,10.65,20.00,80.00,PARTIAL,

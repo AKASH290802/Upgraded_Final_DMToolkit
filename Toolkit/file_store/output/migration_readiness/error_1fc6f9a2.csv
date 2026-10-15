@@ -1,0 +1,2 @@
+Name,WOD_2__Description__c,WOD_2__Business_Units__c,sf__Error
+Coil Failure,Coil Failure,VRM-AN,"[WOD_2__Business_Units__c] picklist_check: 'VRM-AN' not in allowed values: ['VRM-NA', 'VRM-ANZ', 'VRM-EU', 'VRM-BR', 'VRM-CALA', 'VRM-VMESA']"

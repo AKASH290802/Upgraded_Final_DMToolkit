@@ -1,0 +1,62 @@
+{
+  "Source": "SampleETLConfig",
+  "FieldMapping": [
+    {
+      "OriginalField1": "NewField1",
+      "OriginalField2": "NewField2",
+      "Date_Field": "ProcessDate",
+      "Status": "RecordStatus"
+    }
+  ],
+  "CopyFields": [
+    {
+      "NewField1": "BackupField1",
+      "NewField2": "BackupField2"
+    }
+  ],
+  "FieldRules": [
+    {
+      "FolderURL": "",
+      "Extension": "csv",
+      "Delimiter": ",",
+      "SheetName": "Sheet1",
+      "DateFields": "ProcessDate",
+      "MandatoryFields": "NewField1,NewField2",
+      "DropFields": "UnwantedField1,UnwantedField2",
+      "UniqueFields": "NewField1,NewField2",
+      "LookUpFields": {
+        "NewField1": {
+          "ObjectName": "Account",
+          "Fields": "Id,Name",
+          "JoinField": "Name",
+          "TargetField": "AccountId",
+          "WhereCondition": "WHERE IsDeleted = false",
+          "HandleNumbers": "N"
+        }
+      },
+      "ConditionFields": {
+        "StatusFlag": {
+          "ConditionColumn": "RecordStatus",
+          "ConditionValue": "Active",
+          "Condition": "eq",
+          "TargetValueTrue": "Valid",
+          "TargetValueFalse": "Invalid"
+        }
+      },
+      "RecordTypeObject": "",
+      "ReplaceValueIfNull": {
+        "NewField2": "BackupField2"
+      },
+      "ReplaceValues": {
+        "RecordStatus": {
+          "A": "Active",
+          "I": "Inactive"
+        }
+      },
+      "ErrorColumns": "FinalErrors",
+      "ErrorMessageReplace": {
+        "Missing Mandatory Field": "Required field missing"
+      }
+    }
+  ]
+}

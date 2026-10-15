@@ -1,0 +1,3 @@
+ValidationName,ErrorConditionFormula,FieldName,ObjectName,Active,ErrorMessage,Description,ValidationRuleName
+Name_is_null,ISBLANK(Name),,Account,True,Name cannot be blank,,Name_is_null
+PhoneRule,ISBLANK(Phone),,Account,True,Phone required,,PhoneRule

@@ -1,0 +1,84 @@
+ValidationName,ErrorConditionFormula,FieldName,ObjectName,Active,ErrorMessage,Description,ValidationRuleName
+VRM_Negative_TravelRate_Not_Allowed,"AND(
+    OR(
+        $Permission.WOD_2__DisableSkipTriggerNValidation,
+        NOT($Permission.WOD_2__SkipTriggerNValidations)
+    ),
+    VRM_Travel_Rate__c <= 0
+)",,WOD_2__Rates_Details__c,True,The Travel Rate must be greater than zero.,,VRM_Negative_TravelRate_Not_Allowed
+VRM_Negative_LaborRate_Not_Allowed,"AND(
+    OR(
+        $Permission.WOD_2__DisableSkipTriggerNValidation,
+        NOT($Permission.WOD_2__SkipTriggerNValidations)
+    ),
+    WOD_2__Labor_Rate__c <= 0
+)",,WOD_2__Rates_Details__c,True,The Labor Rate must be greater than zero.,,VRM_Negative_LaborRate_Not_Allowed
+VRM_Dealer_cannot_be_null,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),
+ISBLANK(WOD_2__Dealer__c)
+)",,WOD_2__Rates_Details__c,True,Dealer cannot be null,,VRM_Dealer_cannot_be_null
+VRM_Status_cannot_be_blank,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),
+  ISPICKVAL(WOD_2__Status__c, ' ') 
+)",,WOD_2__Rates_Details__c,True,Status cannot be null,,VRM_Status_cannot_be_blank
+VRM_Labor_Rate_cannot_be_blank,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),
+ISBLANK(WOD_2__Labor_Rate__c)
+)",,WOD_2__Rates_Details__c,True,Labor Rate cannot be null,,VRM_Labor_Rate_cannot_be_blank
+VRM_Travel_Rate_cannot_be_blank,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),
+ISBLANK(VRM_Travel_Rate__c)
+)",,WOD_2__Rates_Details__c,True,Travel Rate cannot be null,,VRM_Travel_Rate_cannot_be_blank
+VRM_Active_Dealer_should_select,"AND(
+    OR(
+        $Permission.WOD_2__DisableSkipTriggerNValidation,
+        NOT($Permission.WOD_2__SkipTriggerNValidations)
+    ),
+
+    NOT(ISBLANK(WOD_2__Dealer__c)),
+
+    OR(
+        ISPICKVAL(WOD_2__Dealer__r.Status__c, ""Active"") = FALSE,
+        ISPICKVAL(WOD_2__Dealer__r.WOD_2__Warranty_Account_Type__c, ""Dealer"") = FALSE
+    )
+)",,WOD_2__Rates_Details__c,True,"The selected Dealer is either Inactive, or the Warranty Account Type is not set to ‘Dealer’. 
+Please update the Account details or select a valid Dealer Account.",,VRM_Active_Dealer_should_select
+VRM_ActiveUntil_Must_Be_After_ActiveFrom,"AND(
+    OR(
+        $Permission.WOD_2__DisableSkipTriggerNValidation,
+        NOT($Permission.WOD_2__SkipTriggerNValidations)
+    ),
+
+    NOT(ISBLANK(WOD_2__Active_Until__c)),
+    WOD_2__Active_Until__c < WOD_2__Active_From__c
+)",,WOD_2__Rates_Details__c,True,The 'Active Until' date cannot be before the 'Active From' date.,,VRM_ActiveUntil_Must_Be_After_ActiveFrom
+VRM_Active_From_cannot_be_blank,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),
+ISBLANK( WOD_2__Active_From__c )
+)",,WOD_2__Rates_Details__c,True,Active From cannot be null,,VRM_Active_From_cannot_be_blank
+VRM_Active_Until_cannot_be_blank,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),
+ISBLANK( WOD_2__Active_From__c )
+)",,WOD_2__Rates_Details__c,True,Active Until cannot be null,,VRM_Active_Until_cannot_be_blank
+VRM_Cannot_Change_Owner,"AND(
+   ISCHANGED(OwnerId),
+   $Profile.Name <> 'System Administrator'
+)",,WOD_2__Rates_Details__c,True,"You are not allowed to change owner, Please contact System Admin.",,VRM_Cannot_Change_Owner

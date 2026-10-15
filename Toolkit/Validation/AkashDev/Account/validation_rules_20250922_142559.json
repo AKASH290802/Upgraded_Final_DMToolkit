@@ -1,0 +1,164 @@
+{
+  "object_name": "Account",
+  "org_name": "AkashDev",
+  "extracted_date": "2025-09-22T14:25:59.862261",
+  "total_rules": 13,
+  "validation_rules": [
+    {
+      "Id": "field_validation_Name",
+      "FullName": "Account_Name_FieldValidation",
+      "Active": true,
+      "ErrorDisplayField": "Name",
+      "ErrorMessage": "Field validation for Account Name",
+      "Description": "Field-level validation: Required field",
+      "RuleType": "Field-Level Validation",
+      "ValidationPattern": [
+        "Required field"
+      ]
+    },
+    {
+      "Id": "field_validation_BillingStateCode",
+      "FullName": "Account_BillingStateCode_FieldValidation",
+      "Active": true,
+      "ErrorDisplayField": "BillingStateCode",
+      "ErrorMessage": "Field validation for Billing State/Province Code",
+      "Description": "Field-level validation: Restricted picklist",
+      "RuleType": "Field-Level Validation",
+      "ValidationPattern": [
+        "Restricted picklist"
+      ]
+    },
+    {
+      "Id": "field_validation_BillingCountryCode",
+      "FullName": "Account_BillingCountryCode_FieldValidation",
+      "Active": true,
+      "ErrorDisplayField": "BillingCountryCode",
+      "ErrorMessage": "Field validation for Billing Country Code",
+      "Description": "Field-level validation: Restricted picklist",
+      "RuleType": "Field-Level Validation",
+      "ValidationPattern": [
+        "Restricted picklist"
+      ]
+    },
+    {
+      "Id": "field_validation_BillingGeocodeAccuracy",
+      "FullName": "Account_BillingGeocodeAccuracy_FieldValidation",
+      "Active": true,
+      "ErrorDisplayField": "BillingGeocodeAccuracy",
+      "ErrorMessage": "Field validation for Billing Geocode Accuracy",
+      "Description": "Field-level validation: Restricted picklist",
+      "RuleType": "Field-Level Validation",
+      "ValidationPattern": [
+        "Restricted picklist"
+      ]
+    },
+    {
+      "Id": "field_validation_ShippingStateCode",
+      "FullName": "Account_ShippingStateCode_FieldValidation",
+      "Active": true,
+      "ErrorDisplayField": "ShippingStateCode",
+      "ErrorMessage": "Field validation for Shipping State/Province Code",
+      "Description": "Field-level validation: Restricted picklist",
+      "RuleType": "Field-Level Validation",
+      "ValidationPattern": [
+        "Restricted picklist"
+      ]
+    },
+    {
+      "Id": "field_validation_ShippingCountryCode",
+      "FullName": "Account_ShippingCountryCode_FieldValidation",
+      "Active": true,
+      "ErrorDisplayField": "ShippingCountryCode",
+      "ErrorMessage": "Field validation for Shipping Country Code",
+      "Description": "Field-level validation: Restricted picklist",
+      "RuleType": "Field-Level Validation",
+      "ValidationPattern": [
+        "Restricted picklist"
+      ]
+    },
+    {
+      "Id": "field_validation_ShippingGeocodeAccuracy",
+      "FullName": "Account_ShippingGeocodeAccuracy_FieldValidation",
+      "Active": true,
+      "ErrorDisplayField": "ShippingGeocodeAccuracy",
+      "ErrorMessage": "Field validation for Shipping Geocode Accuracy",
+      "Description": "Field-level validation: Restricted picklist",
+      "RuleType": "Field-Level Validation",
+      "ValidationPattern": [
+        "Restricted picklist"
+      ]
+    },
+    {
+      "Id": "field_validation_Phone",
+      "FullName": "Account_Phone_FieldValidation",
+      "Active": true,
+      "ErrorDisplayField": "Phone",
+      "ErrorMessage": "Field validation for Account Phone",
+      "Description": "Field-level validation: Phone format validation",
+      "RuleType": "Field-Level Validation",
+      "ValidationPattern": [
+        "Phone format validation"
+      ]
+    },
+    {
+      "Id": "field_validation_Fax",
+      "FullName": "Account_Fax_FieldValidation",
+      "Active": true,
+      "ErrorDisplayField": "Fax",
+      "ErrorMessage": "Field validation for Account Fax",
+      "Description": "Field-level validation: Phone format validation",
+      "RuleType": "Field-Level Validation",
+      "ValidationPattern": [
+        "Phone format validation"
+      ]
+    },
+    {
+      "Id": "field_validation_Website",
+      "FullName": "Account_Website_FieldValidation",
+      "Active": true,
+      "ErrorDisplayField": "Website",
+      "ErrorMessage": "Field validation for Website",
+      "Description": "Field-level validation: URL format validation",
+      "RuleType": "Field-Level Validation",
+      "ValidationPattern": [
+        "URL format validation"
+      ]
+    },
+    {
+      "Id": "field_validation_PhotoUrl",
+      "FullName": "Account_PhotoUrl_FieldValidation",
+      "Active": true,
+      "ErrorDisplayField": "PhotoUrl",
+      "ErrorMessage": "Field validation for Photo URL",
+      "Description": "Field-level validation: URL format validation",
+      "RuleType": "Field-Level Validation",
+      "ValidationPattern": [
+        "URL format validation"
+      ]
+    },
+    {
+      "Id": "field_validation_CleanStatus",
+      "FullName": "Account_CleanStatus_FieldValidation",
+      "Active": true,
+      "ErrorDisplayField": "CleanStatus",
+      "ErrorMessage": "Field validation for Clean Status",
+      "Description": "Field-level validation: Restricted picklist",
+      "RuleType": "Field-Level Validation",
+      "ValidationPattern": [
+        "Restricted picklist"
+      ]
+    },
+    {
+      "Id": "Account_required_fields_summary",
+      "FullName": "Account_RequiredFieldsSummary",
+      "Active": true,
+      "ErrorDisplayField": "Object Level",
+      "ErrorMessage": "Required fields validation for Account",
+      "Description": "Object has 1 required fields",
+      "RuleType": "Object-Level Summary",
+      "RequiredFields": [
+        "Name"
+      ]
+    }
+  ]
+}

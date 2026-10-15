@@ -1,0 +1,36 @@
+{
+  "YourOrgAlias": {
+    "username": "",
+    "password": "",
+    "security_token": "",
+    "domain": "login"
+  },
+  "sql_SQL Server": {
+    "server": "",
+    "database": "",
+    "driver": "ODBC Driver 18 for SQL Server",
+    "port": "",
+    "encrypt": "yes",
+    "trust_server_cert": false,
+    "connection_timeout": 30,
+    "application_name": "DM_Toolkit",
+    "mars_connection": false,
+    "command_timeout": 300,
+    "auto_commit": true,
+    "username": "",
+    "password": "",
+    "Trusted_Connection": "no"
+  },
+  "openai_config": {
+    "provider": "azure",
+    "azure_openai_endpoint": "",
+    "gpt4o_api_key": "",
+    "gpt4o_deployment": "GPT4O_GLOBAL",
+    "gpt4o_model": "GPT4O_GLOBAL",
+    "gpt4o_api_version": "2025-01-01-preview",
+    "embed_api_key": "",
+    "embed_deployment": "embeddingada003",
+    "embed_model": "text-embedding-3-large",
+    "embed_api_version": "2023-05-15"
+  }
+}

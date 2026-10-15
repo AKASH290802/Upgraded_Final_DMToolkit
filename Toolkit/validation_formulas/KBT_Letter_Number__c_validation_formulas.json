@@ -1,0 +1,21 @@
+{
+  "object_name": "KBT_Letter_Number__c",
+  "extracted_date": "2025-10-09 16:49:08",
+  "total_rules": 1,
+  "active_rules": 1,
+  "validation_rules": [
+    {
+      "id": "03dH100000024JmIAI",
+      "name": "Letter_Send_Date_Validation",
+      "display_name": "Letter_Send_Date_Validation",
+      "formula": "",
+      "error_message": "Output Status should be Done",
+      "active": true,
+      "description": "Letter Send Date only be added if the Output status is Done.",
+      "error_field": "Letter Send Date",
+      "extracted_date": "2025-10-09 16:49:08",
+      "source": "sf_validation_client"
+    }
+  ],
+  "source": "real_salesforce_rules"
+}

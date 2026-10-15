@@ -1,0 +1,30 @@
+=== VALIDATION SUMMARY ===
+Metric,Value
+Total Records,5
+Passed Records,0
+Failed Records,5
+Total Errors,5
+Success Rate,0.00%
+
+
+=== VALIDATED DATASET WITH RESULTS ===
+Name,WOD_2__Dealer__c,WOD_2__Active_From__c,WOD_2__Active_Until__c,WOD_2__Status__c,WOD_2__Labor_Rate__c,VRM_Travel_Rate__c,Validation_Status,Validation_Errors
+00914021-001,914021,2023-01-01,2023-12-31,Active,10,100,FAILED,Row 1: Invalid Salesforce ID format in field 'WOD_2__Dealer__c' (mapped to 'WOD_2__Dealer__c'): 914021 (should be 15 or 18 characters)
+00914021-002,914021,2024-01-01,2024-12-31,Active,12,100,FAILED,Row 2: Invalid Salesforce ID format in field 'WOD_2__Dealer__c' (mapped to 'WOD_2__Dealer__c'): 914021 (should be 15 or 18 characters)
+00914021-003,914021,2025-01-01,2025-12-31,Active,13,100,FAILED,Row 3: Invalid Salesforce ID format in field 'WOD_2__Dealer__c' (mapped to 'WOD_2__Dealer__c'): 914021 (should be 15 or 18 characters)
+00000259-004,259,2024-01-01,2024-12-31,Active,15,100,FAILED,Row 4: Invalid Salesforce ID format in field 'WOD_2__Dealer__c' (mapped to 'WOD_2__Dealer__c'): 259 (should be 15 or 18 characters)
+00000259-005,259,2025-01-01,2025-12-31,Active,13,100,FAILED,Row 5: Invalid Salesforce ID format in field 'WOD_2__Dealer__c' (mapped to 'WOD_2__Dealer__c'): 259 (should be 15 or 18 characters)
+
+
+=== DETAILED VALIDATION ERRORS ===
+Error_Description
+Row 1: Invalid Salesforce ID format in field 'WOD_2__Dealer__c' (mapped to 'WOD_2__Dealer__c'): 914021 (should be 15 or 18 characters)
+Row 2: Invalid Salesforce ID format in field 'WOD_2__Dealer__c' (mapped to 'WOD_2__Dealer__c'): 914021 (should be 15 or 18 characters)
+Row 3: Invalid Salesforce ID format in field 'WOD_2__Dealer__c' (mapped to 'WOD_2__Dealer__c'): 914021 (should be 15 or 18 characters)
+Row 4: Invalid Salesforce ID format in field 'WOD_2__Dealer__c' (mapped to 'WOD_2__Dealer__c'): 259 (should be 15 or 18 characters)
+Row 5: Invalid Salesforce ID format in field 'WOD_2__Dealer__c' (mapped to 'WOD_2__Dealer__c'): 259 (should be 15 or 18 characters)
+
+
+=== FIELD-WISE ERROR SUMMARY ===
+Field_Name,Error_Count,Error_Rate_Percent,Sample_Errors
+WOD_2__Dealer__c,5,100.00,Row 1: Invalid Salesforce ID format in field 'WOD_2__Dealer__c' (mapped to 'WOD_2__Dealer__c'): 914021 (should be 15 or 18 characters); Row 2: Invalid Salesforce ID format in field 'WOD_2__Dealer__c' (mapped to 'WOD_2__Dealer__c'): 914021 (should be 15 or 18 characters); Row 3: Invalid Salesforce ID format in field 'WOD_2__Dealer__c' (mapped to 'WOD_2__Dealer__c'): 914021 (should be 15 or 18 characters)...

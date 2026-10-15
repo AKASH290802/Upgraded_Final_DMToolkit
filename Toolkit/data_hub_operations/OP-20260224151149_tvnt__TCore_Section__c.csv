@@ -1,0 +1,9 @@
+tvnt__Section_Guideline__c,tvnt__Question_Display_Preference__c,tvnt__Questionnaire__c,Name,tvnt__Sequence__c,tvnt__Section_Header__c
+,Single Column,a8gVF00001SkYVmYAN,Gearbox Failure Details,2.0,Gearbox Failure Information
+,Single Column,a8gVF00001SkYVmYAN,Claim & Product Information,1.0,Claim & Product Information
+,Single Column,a8gVF00001SkYVnYAN,Claim info,1.0,"Claim, Installation & Service Details"
+,Single Column,a8gVF00001SkYVnYAN,Failure info and Occurance,2.0,Failure Details & Occurrence
+,Single Column,a8gVF00001SkYVnYAN,Failure Code Classification,3.0,Failure Code Classification
+,Single Column,a8gVF00001SkYVoYAN,Gearbox Failure Details,1.0,Gearbox Failure Information
+,,a8gVF00001SkYVoYAN,Gearbox Image Section,2.0,Gearbox Image Section
+,Single Column,a8gVF00001SkYVmYAN,Motor Failure Details,3.0,Motor Failure Information

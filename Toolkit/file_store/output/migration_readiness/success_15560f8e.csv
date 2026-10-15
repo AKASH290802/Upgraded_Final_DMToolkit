@@ -1,0 +1,109 @@
+Name,VRM_Failure_Code__c,VRM_Resolution_Code__c,WOD_2__Standard_Labor_Hour__c,WOD_2__Business_Units__c
+Coil Failure-Replace Component-1hr,Coil Failure,Replace Component,1,VRM-NA
+Mis-manufactured-Replace Component-1hr,Mis-manufactured,Replace Component,1,VRM-NA
+Leaking-Replace Component-1hr,Leaking,Replace Component,1,VRM-NA
+Won't close-Replace Component-1hr,Won't close,Replace Component,1,VRM-NA
+Shipment Damage-Replace Component-0hr,Shipment Damage,Replace Component,0,VRM-NA
+Will Not Rotate-Replace Component-1.5hr,Will Not Rotate,Replace Component,1.5,VRM-NA
+Housing Damaged-Replace Component-1hr,Housing Damaged,Replace Component,1,VRM-NA
+Cracked Liner-Replace Component-1hr,Cracked Liner,Replace Component,1,VRM-NA
+Signal Weak-Replace Component-1hr,Signal Weak,Replace Component,1,VRM-NA
+Hose Pulled off-Replace Component-2hr,Hose Pulled off,Replace Component,2,VRM-NA
+Hose Split-Replace Component-2hr,Hose Split,Replace Component,2,VRM-NA
+Mis-manufactured-Replace Component-2hr,Mis-manufactured,Replace Component,2,VRM-NA
+Signal Weak-Replace Component-2hr,Signal Weak,Replace Component,2,VRM-NA
+Dent in Pipe-Replace Component-1hr,Dent in Pipe,Replace Component,1,VRM-NA
+Flanges not Square-Replace Component-1hr,Flanges not Square,Replace Component,1,VRM-NA
+Hole in Pipe-Replace Component-1hr,Hole in Pipe,Replace Component,1,VRM-NA
+Seam Split-Replace Component-1hr,Seam Split,Replace Component,1,VRM-NA
+Seam Split-Weld In Field-1hr,Seam Split,Weld In Field,1,VRM-NA
+Hole in Pipe-Weld In Field-1hr,Hole in Pipe,Weld In Field,1,VRM-NA
+Weld Failure-Replace Component-1hr,Weld Failure,Replace Component,1,VRM-NA
+Weld Failure-Weld In Field-1hr,Weld Failure,Weld In Field,1,VRM-NA
+Weld Missing-Replace Component-1hr,Weld Missing,Replace Component,1,VRM-NA
+Weld Missing-Repair Component-1hr,Weld Missing,Repair Component,1,VRM-NA
+Plug Removal-Remove Plugs-2hr,Plug Removal,Remove Plugs,2,VRM-NA
+Backlight Failure-Replace Component-1hr,Backlight Failure,Replace Component,1,VRM-NA
+Cold Solder Joint-Replace Component-1hr,Cold Solder Joint,Replace Component,1,VRM-NA
+Display Failure-Replace Component-1hr,Display Failure,Replace Component,1,VRM-NA
+Encoder Failure-Replace Component-1hr,Encoder Failure,Replace Component,1,VRM-NA
+Harness Failure-Replace Component-1hr,Harness Failure,Replace Component,1,VRM-NA
+Keypad Failure-Replace Component-1hr,Keypad Failure,Replace Component,1,VRM-NA
+PCB Cracked-Replace Component-1hr,PCB Cracked,Replace Component,1,VRM-NA
+Relay Failure-Replace Component-1hr,Relay Failure,Replace Component,1,VRM-NA
+Screen Failure-Replace Component-1hr,Screen Failure,Replace Component,1,VRM-NA
+Trace Failure-Replace Component-1hr,Trace Failure,Replace Component,1,VRM-NA
+Cable End Failure-Replace Component-1hr,Cable End Failure,Replace Component,1,VRM-NA
+Excessive Steering-Replace Component-1.5hr,Excessive Steering,Replace Component,1.5,VRM-NA
+Won't Break Safety-Replace Component-1hr,Won't Break Safety,Replace Component,1,VRM-NA
+Won't Hold Safety-Replace Component-1hr,Won't Hold Safety,Replace Component,1,VRM-NA
+Weld Missing-Weld In Field-1hr,Weld Missing,Weld In Field,1,VRM-NA
+Signal Weak-Replace Component-1.5hr,Signal Weak,Replace Component,1.5,VRM-NA
+Switch Failure-Replace Component-1hr,Switch Failure,Replace Component,1,VRM-NA
+Hose Pulled off-Replace Component-1hr,Hose Pulled off,Replace Component,1,VRM-NA
+Hose Split-Replace Component-1hr,Hose Split,Replace Component,1,VRM-NA
+Gears Locked Up-Replace Component-2hr,Gears Locked Up,Replace Component,2,VRM-NA
+Mis-manufactured-Repair Component-1hr,Mis-manufactured,Repair Component,1,VRM-NA
+No holes in shaft-Replace Component-1hr,No holes in shaft,Replace Component,1,VRM-NA
+Noise Excessive-Replace Component-1.5hr,Noise Excessive,Replace Component,1.5,VRM-NA
+Seal Leaking-Replace Seal-0.75hr,Seal Leaking,Replace Seal,0.75,VRM-NA
+Seam Leaking-Replace Component-1.5hr,Seam Leaking,Replace Component,1.5,VRM-NA
+Steering arm loose-Replace Component-1hr,Steering arm loose,Replace Component,1,VRM-NA
+Tow Pin Failure-Replace Component-1hr,Tow Pin Failure,Replace Component,1,VRM-NA
+Worm Broken-Replace Component-3hr,Worm Broken,Replace Component,3,VRM-NA
+Case Broken-Replace Gearmotor-1.5hr,Case Broken,Replace Gearmotor,1.5,VRM-NA
+Gears Locked Up-Replace Gearmotor-1.5hr,Gears Locked Up,Replace Gearmotor,1.5,VRM-NA
+Noise Excessive-Replace Gearmotor-1.5hr,Noise Excessive,Replace Gearmotor,1.5,VRM-NA
+Seal Missing-Replace Component-1.5hr,Seal Missing,Replace Component,1.5,VRM-NA
+Seam Leaking-Replace Gearmotor-1.5hr,Seam Leaking,Replace Gearmotor,1.5,VRM-NA
+Case Broken-Replace Component-1.5hr,Case Broken,Replace Component,1.5,VRM-NA
+Gears Locked Up-Replace Component-1.5hr,Gears Locked Up,Replace Component,1.5,VRM-NA
+Rotor Failed-Replace Component-1.5hr,Rotor Failed,Replace Component,1.5,VRM-NA
+Seal Leaking-Replace Component-1.5hr,Seal Leaking,Replace Component,1.5,VRM-NA
+Single Phasing-Replace Component-1.5hr,Single Phasing,Replace Component,1.5,VRM-NA
+Bull Gear Broken-Replace Component-2hr,Bull Gear Broken,Replace Component,2,VRM-NA
+Case Broken-Replace Component-2hr,Case Broken,Replace Component,2,VRM-NA
+Coupling Failure-Replace Component-2hr,Coupling Failure,Replace Component,2,VRM-NA
+Input Seal Leaking-Replace Component-2hr,Input Seal Leaking,Replace Component,2,VRM-NA
+Input Seal Leaking-Rebuild Gearbox-3hr,Input Seal Leaking,Rebuild Gearbox,3,VRM-NA
+Input Shaft Broken-Replace Component-2hr,Input Shaft Broken,Replace Component,2,VRM-NA
+Lug Bolts Broken-Replace Component-2hr,Lug Bolts Broken,Replace Component,2,VRM-NA
+Snap Ring Failed-Replace Component-2hr,Snap Ring Failed,Replace Component,2,VRM-NA
+Threads Missing-Replace Component-2hr,Threads Missing,Replace Component,2,VRM-NA
+Worm Broken-Replace Component-2hr,Worm Broken,Replace Component,2,VRM-NA
+Mis-manufactured-Replace Component-0.25hr,Mis-manufactured,Replace Component,0.25,VRM-NA
+Input Seal Leaking-Repair GB-1hr,Input Seal Leaking,Repair GB,1,VRM-NA
+Bull Gear Broken-Rebuild Gearbox-3hr,Bull Gear Broken,Rebuild Gearbox,3,VRM-NA
+Case Broken-Rebuild Gearbox-3hr,Case Broken,Rebuild Gearbox,3,VRM-NA
+Diaphragm Faulty-Repair GB-0.25hr,Diaphragm Faulty,Repair GB,0.25,VRM-NA
+Gears Locked Up-Rebuild Gearbox-3hr,Gears Locked Up,Rebuild Gearbox,3,VRM-NA
+Lug Bolts Broken-Repair GB-1hr,Lug Bolts Broken,Repair GB,1,VRM-NA
+Snap Ring Failed-Rebuild Gearbox-3hr,Snap Ring Failed,Rebuild Gearbox,3,VRM-NA
+Bead Damaged-Repair Component-1hr,Bead Damaged,Repair Component,1,VRM-NA
+Corrosion On Wheel-Replace Component-1hr,Corrosion On Wheel,Replace Component,1,VRM-NA
+Galvanizing Burrs-Replace Component-1hr,Galvanizing Burrs,Replace Component,1,VRM-NA
+Rim Damaged-Replace Component-1hr,Rim Damaged,Replace Component,1,VRM-NA
+Tire Leaking Air-Replace Component-1hr,Tire Leaking Air,Replace Component,1,VRM-NA
+Tire Leaking Air-Repair Component-1hr,Tire Leaking Air,Repair Component,1,VRM-NA
+Tire Split-Repair Component-1hr,Tire Split,Repair Component,1,VRM-NA
+Tire Split-Replace Component-1hr,Tire Split,Replace Component,1,VRM-NA
+Tube Pinched-Replace Component-1hr,Tube Pinched,Replace Component,1,VRM-NA
+Tube Pinched-Repair Component-1hr,Tube Pinched,Repair Component,1,VRM-NA
+Valve Stem Leaking-Replace Component-1hr,Valve Stem Leaking,Replace Component,1,VRM-NA
+Valve Stem Leaking-Repair Component-1hr,Valve Stem Leaking,Repair Component,1,VRM-NA
+Valve Stem Missing-Replace Component-1hr,Valve Stem Missing,Replace Component,1,VRM-NA
+Housing Damaged-Replace Component-0hr,Housing Damaged,Replace Component,0,VRM-NA
+Latch Inoperable-Replace Component-1hr,Latch Inoperable,Replace Component,1,VRM-NA
+Single Phasing-Replace Component-1hr,Single Phasing,Replace Component,1,VRM-NA
+Bearing Seized-Replace Component-2hr,Bearing Seized,Replace Component,2,VRM-NA
+Keypad Error 13-Replace Component-1hr,Keypad Error 13,Replace Component,1,VRM-NA
+Impeller Seized-Repair Component-1.5hr,Impeller Seized,Repair Component,1.5,VRM-NA
+Light Burned Out-Replace Component-1hr,Light Burned Out,Replace Component,1,VRM-NA
+Weld Cracked-Replace Component-1hr,Weld Cracked,Replace Component,1,VRM-NA
+Weld Cracked-Weld In Field-1hr,Weld Cracked,Weld In Field,1,VRM-NA
+Cable Broken-Replace Component-2hr,Cable Broken,Replace Component,2,VRM-NA
+Cable End Failure-Replace Component-2hr,Cable End Failure,Replace Component,2,VRM-NA
+Cable Pulled Out-Replace Component-2hr,Cable Pulled Out,Replace Component,2,VRM-NA
+Gasket Degrading-Replace Component-1hr,Gasket Degrading,Replace Component,1,VRM-NA
+Gasket Pushing Out-Replace Component-1hr,Gasket Pushing Out,Replace Component,1,VRM-NA
+Will Not Rotate-Replace Component-1hr,Will Not Rotate,Replace Component,1,VRM-NA

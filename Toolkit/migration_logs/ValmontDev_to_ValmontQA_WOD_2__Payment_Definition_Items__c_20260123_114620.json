@@ -1,0 +1,68 @@
+{
+  "source_org": "ValmontDev",
+  "target_org": "ValmontQA",
+  "object": "WOD_2__Payment_Definition_Items__c",
+  "execution_date": "2026-01-23T11:46:20.192465",
+  "execution_time_seconds": 17.01,
+  "migration_operation": "INSERT",
+  "main_match_strategy": "field_combination",
+  "main_match_fields": [
+    "Name",
+    "WOD_2__Dealer__c"
+  ],
+  "field_mappings": {
+    "Name": "Name",
+    "WOD_2__Payment_Definition__c": "WOD_2__Payment_Definition__c",
+    "WOD_2__Cost_Category__c": "WOD_2__Cost_Category__c",
+    "WOD_2__Coverage_Percent__c": "WOD_2__Coverage_Percent__c",
+    "WOD_2__Dealer_Group__c": "WOD_2__Dealer_Group__c",
+    "WOD_2__Dealer__c": "WOD_2__Dealer__c",
+    "WOD_2__Payment_Configuration__c": "WOD_2__Payment_Configuration__c",
+    "WOD_2__Payment_Modifiers__c": "WOD_2__Payment_Modifiers__c"
+  },
+  "field_mapping_count": 8,
+  "lookup_configs": {
+    "WOD_2__Payment_Definition__c": {
+      "parent_object": "WOD_2__Payment_Definitions__c",
+      "match_strategy": "field_combination",
+      "match_fields": [
+        "Name"
+      ]
+    },
+    "WOD_2__Dealer__c": {
+      "parent_object": "Account",
+      "match_strategy": "external_id",
+      "match_fields": [
+        "Dealer_Number__c"
+      ]
+    },
+    "WOD_2__Payment_Modifiers__c": {
+      "parent_object": "WOD_2__Payment_Modifiers__c",
+      "match_strategy": "external_id",
+      "match_fields": [
+        "VRM_External_Id__c"
+      ]
+    },
+    "WOD_2__Dealer_Group__c": {
+      "parent_object": "WOD_2__Group__c",
+      "match_strategy": "field_combination",
+      "match_fields": [
+        "Name"
+      ]
+    },
+    "WOD_2__Payment_Configuration__c": {
+      "parent_object": "WOD_2__Payment_Configuration__c",
+      "match_strategy": "field_combination",
+      "match_fields": [
+        "Name"
+      ]
+    }
+  },
+  "lookup_count": 5,
+  "results": {
+    "total_records": 13,
+    "success_count": 1,
+    "error_count": 12,
+    "success_rate": 7.69
+  }
+}

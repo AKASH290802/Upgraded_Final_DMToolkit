@@ -1,0 +1,29 @@
+{
+  "executive_summary": {
+    "object_name": "Account",
+    "total_test_cases": 15,
+    "coverage_level": "Comprehensive",
+    "complexity_assessment": "High",
+    "quality_score": 70.1,
+    "quality_assessment": "Good",
+    "grade_assessment": "Production Ready",
+    "recommendation": "Test suite good, consider additional test cases for critical areas",
+    "estimated_execution_time": "3-5 minutes",
+    "risk_assessment": "\ud83d\udfe1 Medium - Adequate coverage identified"
+  },
+  "test_breakdown": {
+    "total_tests": 15,
+    "data_loading_tests": 7,
+    "schema_validation_tests": 4,
+    "business_rule_tests": 0,
+    "integration_tests": 0,
+    "negative_tests": 2,
+    "edge_case_tests": 2
+  },
+  "business_value": {
+    "data_integrity_assurance": "Medium",
+    "process_validation": "Good",
+    "risk_mitigation": "Adequate",
+    "compliance_coverage": "Complete"
+  }
+}

@@ -1,0 +1,160 @@
+CatalogId,ParentCategoryId,Name,IsNavigational
+0ZScf0000001NgvGAE,,Ancillary Valves,True
+0ZScf0000001NgvGAE,,Butterfly Valves,True
+0ZScf0000001NgvGAE,,Direct Buried Cable,True
+0ZScf0000001NgvGAE,,Disconnect Panels,True
+0ZScf0000001NgvGAE,,Fertigation and Chemigation,True
+0ZScf0000001NgvGAE,,Flowmeters,True
+0ZScf0000001NgvGAE,,Generators and Engines,True
+0ZScf0000001NgvGAE,,Hook-Up Options,True
+0ZScf0000001NgvGAE,,Phase Converters,True
+0ZScf0000001NgvGAE,,Pump Panels,True
+0ZScf0000001NgvGAE,,Ring Lock Fittings,True
+0ZScf0000001NgvGAE,,Soft Starters,True
+0ZScf0000001NgvGAE,,Steel Tubing,True
+0ZScf0000001NgvGAE,,Variable Frequency Drives,True
+0ZScf0000001NgvGAE,,Control Valves,True
+0ZScf0000001NgvGAE,,Pumping Options,True
+0ZScf0000001NgvGAE,,AgSense,True
+0ZScf0000001NgvGAE,,Complete Control Panels,True
+0ZScf0000001NgvGAE,,Control Panel Options,True
+0ZScf0000001NgvGAE,,Control Panel Upgrades,True
+0ZScf0000001NgvGAE,,Panel Auxiliary Options,True
+0ZScf0000001NgvGAE,,Solar,True
+0ZScf0000001NgvGAE,,Telemetry,True
+0ZScf0000001NgvGAE,,Control Panel Repair,True
+0ZScf0000001NgvGAE,,Pump Control Options,True
+0ZScf0000001NgvGAE,,Air Compressor,True
+0ZScf0000001NgvGAE,,Below Ground Guidance,True
+0ZScf0000001NgvGAE,,Cam Lines,True
+0ZScf0000001NgvGAE,,Corner Overhang Package,True
+0ZScf0000001NgvGAE,,Corner Sensor Box,True
+0ZScf0000001NgvGAE,,Corner Sequencing,True
+0ZScf0000001NgvGAE,,Corner Span Package,True
+0ZScf0000001NgvGAE,,Corner Spans and Overhangs,True
+0ZScf0000001NgvGAE,,Corner Upgrade,True
+0ZScf0000001NgvGAE,,Encompass,True
+0ZScf0000001NgvGAE,,GPS Guidance,True
+0ZScf0000001NgvGAE,,LRDU,True
+0ZScf0000001NgvGAE,,Sprinkler,True
+0ZScf0000001NgvGAE,,Steerable Drive Unit,True
+0ZScf0000001NgvGAE,,Tubing Harnesses,True
+0ZScf0000001NgvGAE,,Center Drive Repair,True
+0ZScf0000001NgvGAE,,Complete Center Drives,True
+0ZScf0000001NgvGAE,,Complete Gearboxes,True
+0ZScf0000001NgvGAE,,Drive Shaft Shields,True
+0ZScf0000001NgvGAE,,Drive Shafts,True
+0ZScf0000001NgvGAE,,Drive Train Conversions,True
+0ZScf0000001NgvGAE,,Engine Drive,True
+0ZScf0000001NgvGAE,,Gear Lube,True
+0ZScf0000001NgvGAE,,Gearbox Repair,True
+0ZScf0000001NgvGAE,,Tires and Rims,True
+0ZScf0000001NgvGAE,,T-L Conversion,True
+0ZScf0000001NgvGAE,,U-Joints,True
+0ZScf0000001NgvGAE,,Complete Tower Boxes,True
+0ZScf0000001NgvGAE,,Pivot Alignment,True
+0ZScf0000001NgvGAE,,Solid State Motor Controller,True
+0ZScf0000001NgvGAE,,Tower Box Conversion,True
+0ZScf0000001NgvGAE,,Tower Box Mechanical,True
+0ZScf0000001NgvGAE,,Tower Box Upgrades,True
+0ZScf0000001NgvGAE,,X-Tec,True
+0ZScf0000001NgvGAE,,Batteries,True
+0ZScf0000001NgvGAE,,Cable Accessories,True
+0ZScf0000001NgvGAE,,Collector Rings,True
+0ZScf0000001NgvGAE,,Control Boards and Modules,True
+0ZScf0000001NgvGAE,,Din Rails and Snap Tracks,True
+0ZScf0000001NgvGAE,,Electrical Cables,True
+0ZScf0000001NgvGAE,,Electrical Contactors,True
+0ZScf0000001NgvGAE,,Electrical Disconnect,True
+0ZScf0000001NgvGAE,,Electrical Meters,True
+0ZScf0000001NgvGAE,,Electrical Protective Devices,True
+0ZScf0000001NgvGAE,,Electrical Timers,True
+0ZScf0000001NgvGAE,,Electrical Transformers,True
+0ZScf0000001NgvGAE,,Electrical Wire,True
+0ZScf0000001NgvGAE,,Fuses & Circuit Breakers,True
+0ZScf0000001NgvGAE,,Micro Switches,True
+0ZScf0000001NgvGAE,,Percent Timers,True
+0ZScf0000001NgvGAE,,Power Supply,True
+0ZScf0000001NgvGAE,,Pressure Transducers,True
+0ZScf0000001NgvGAE,,Relays,True
+0ZScf0000001NgvGAE,,Solenoids,True
+0ZScf0000001NgvGAE,,Speciality Cables,True
+0ZScf0000001NgvGAE,,Switches,True
+0ZScf0000001NgvGAE,,Terminal Strips,True
+0ZScf0000001NgvGAE,,Battery,True
+0ZScf0000001NgvGAE,,Electrical Relays and Bases,True
+0ZScf0000001NgvGAE,,Pressure Switches,True
+0ZScf0000001NgvGAE,,Terminal Options,True
+0ZScf0000001NgvGAE,,3 Wheel Drive,True
+0ZScf0000001NgvGAE,,Agri-TRAC,True
+0ZScf0000001NgvGAE,,Articulating 4-Wheel Drive,True
+0ZScf0000001NgvGAE,,Articulating Track Drive,True
+0ZScf0000001NgvGAE,,Loegering Tracks,True
+0ZScf0000001NgvGAE,,RAAFT Track,True
+0ZScf0000001NgvGAE,,Spider Wheel,True
+0ZScf0000001NgvGAE,,Track Drive,True
+0ZScf0000001NgvGAE,,Below Ground Guidance,True
+0ZScf0000001NgvGAE,,Furrow Guidance,True
+0ZScf0000001NgvGAE,,GPS Guidance,True
+0ZScf0000001NgvGAE,,Inlet Components,True
+0ZScf0000001NgvGAE,,Linear Alignment,True
+0ZScf0000001NgvGAE,,Linear Carts,True
+0ZScf0000001NgvGAE,,Linear Options,True
+0ZScf0000001NgvGAE,,Power Pedestal,True
+0ZScf0000001NgvGAE,,Above Ground Guidance,True
+0ZScf0000001NgvGAE,,Bender Options,True
+0ZScf0000001NgvGAE,,Booster Pumps,True
+0ZScf0000001NgvGAE,,Cable Protection Options,True
+0ZScf0000001NgvGAE,,Drive Unit Auto-Reverse Options,True
+0ZScf0000001NgvGAE,,Drop Span Options,True
+0ZScf0000001NgvGAE,,End Gun Control Options,True
+0ZScf0000001NgvGAE,,End of Field Stops Options,True
+0ZScf0000001NgvGAE,,Pump Connect,True
+0ZScf0000001NgvGAE,,Running Lights,True
+0ZScf0000001NgvGAE,,VRI,True
+0ZScf0000001NgvGAE,,X-TEC Options,True
+0ZScf0000001NgvGAE,,Machine Diagnostics,True
+0ZScf0000001NgvGAE,,Installation Manuals,True
+0ZScf0000001NgvGAE,,Owner's Manuals,True
+0ZScf0000001NgvGAE,,Owner's Manual,True
+0ZScf0000001NgvGAE,,Installation Manual,True
+0ZScf0000001NgvGAE,,Electrical Tools,True
+0ZScf0000001NgvGAE,,Field Mapping Tools,True
+0ZScf0000001NgvGAE,,Mechanical Tools,True
+0ZScf0000001NgvGAE,,Bracket and Mounts,True
+0ZScf0000001NgvGAE,,Drains and Couplers,True
+0ZScf0000001NgvGAE,,Fasteners,True
+0ZScf0000001NgvGAE,,Flanges and End Plates,True
+0ZScf0000001NgvGAE,,Flex Boots,True
+0ZScf0000001NgvGAE,,Half Clamps,True
+0ZScf0000001NgvGAE,,Hardware,True
+0ZScf0000001NgvGAE,,Overhang Accessories,True
+0ZScf0000001NgvGAE,,Overhang Cables,True
+0ZScf0000001NgvGAE,,Rubber Gaskets,True
+0ZScf0000001NgvGAE,,Span Clamps,True
+0ZScf0000001NgvGAE,,Span Transitions,True
+0ZScf0000001NgvGAE,,Truss Components,True
+0ZScf0000001NgvGAE,,Weldment Options,True
+0ZScf0000001NgvGAE,,Overhang Cable,True
+0ZScf0000001NgvGAE,,Boombacks,True
+0ZScf0000001NgvGAE,,Drop Options,True
+0ZScf0000001NgvGAE,,End Guns,True
+0ZScf0000001NgvGAE,,Fixed Sprays,True
+0ZScf0000001NgvGAE,,Impact Sprinklers,True
+0ZScf0000001NgvGAE,,Rotating Sprays,True
+0ZScf0000001NgvGAE,,Sprinkler Fittings,True
+0ZScf0000001NgvGAE,,Sprinkler Gauges,True
+0ZScf0000001NgvGAE,,Sprinkler Nozzles,True
+0ZScf0000001NgvGAE,,Sprinkler Regulators,True
+0ZScf0000001NgvGAE,,Sprinkler Repair,True
+0ZScf0000001NgvGAE,,U-Pipes,True
+0ZScf0000001NgvGAE,,Valves,True
+0ZScf0000001NgvGAE,,Add Span Packages,True
+0ZScf0000001NgvGAE,,Drive Unit Structure,True
+0ZScf0000001NgvGAE,,Overhang Packages,True
+0ZScf0000001NgvGAE,,Pipe & Stubs,True
+0ZScf0000001NgvGAE,,Pivot Flex Options,True
+0ZScf0000001NgvGAE,,Pivot Point,True
+0ZScf0000001NgvGAE,,Truss Angles,True
+0ZScf0000001NgvGAE,,Truss Rods,True
+0ZScf0000001NgvGAE,,Miscellaneous Merchandising,True

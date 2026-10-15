@@ -1,0 +1,44 @@
+{
+  "object_name": "Contact",
+  "extracted_date": "2025-09-30 13:30:25",
+  "total_rules": 3,
+  "active_rules": 3,
+  "validation_rules": [
+    {
+      "id": "sample_genai_rule_1",
+      "name": "Contact_Required_Name",
+      "display_name": "Contact Name Required",
+      "formula": "ISBLANK(Name)",
+      "error_message": "Name field is required for Contact.",
+      "active": true,
+      "description": "Sample GenAI validation rule for Contact - Name field validation",
+      "error_field": "Name",
+      "extracted_date": "2025-09-30 13:30:25",
+      "source": "sample_data"
+    },
+    {
+      "id": "sample_genai_rule_2",
+      "name": "Contact_Email_Format",
+      "display_name": "Contact Email Format Check",
+      "formula": "AND(NOT(ISBLANK(Email)), NOT(REGEX(Email, \"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$\")))",
+      "error_message": "Please enter a valid email address for Contact.",
+      "active": true,
+      "description": "Sample email validation rule using regex pattern",
+      "error_field": "Email",
+      "extracted_date": "2025-09-30 13:30:25",
+      "source": "sample_data"
+    },
+    {
+      "id": "sample_genai_rule_3",
+      "name": "Contact_Phone_Length",
+      "display_name": "Contact Phone Length Check",
+      "formula": "AND(NOT(ISBLANK(Phone)), LEN(Phone) < 10)",
+      "error_message": "Phone number must be at least 10 digits for Contact.",
+      "active": true,
+      "description": "Sample phone validation rule with length check",
+      "error_field": "Phone",
+      "extracted_date": "2025-09-30 13:30:25",
+      "source": "sample_data"
+    }
+  ]
+}

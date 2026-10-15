@@ -1,0 +1,16 @@
+{
+    "org_name": "AkashDev",
+    "object_name": "Account",
+    "last_updated": "2025-12-29 18:43:12",
+    "fields": {
+        "Type": {
+            "csv_column": "Type",
+            "mappings": {
+                "Another": "Other",
+                "Other": "Other",
+                "Prospect": "Prospect",
+                "Technology Partner": "Technology Partner"
+            }
+        }
+    }
+}

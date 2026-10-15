@@ -1,0 +1,51 @@
+{
+  "source_org": "ValmontDev",
+  "target_org": "ValmontQA",
+  "object": "WOD_2__Warranty_Code__c",
+  "execution_date": "2026-03-12T11:20:15.611035",
+  "execution_time_seconds": 4.76,
+  "migration_operation": "INSERT",
+  "main_match_strategy": "field_combination",
+  "main_match_fields": [
+    "Name"
+  ],
+  "field_mappings": {
+    "Name": "Name",
+    "WOD_2__Business_Units__c": "WOD_2__Business_Units__c",
+    "WOD_2__Description__c": "WOD_2__Description__c",
+    "VRM_Failure_Code__c": "VRM_Failure_Code__c",
+    "VRM_Resolution_Code__c": "VRM_Resolution_Code__c",
+    "VRM_External_Id__c": "VRM_External_Id__c"
+  },
+  "field_mapping_count": 6,
+  "lookup_configs": {
+    "WOD_2__Parent_Warranty_Code__c": {
+      "parent_object": "WOD_2__Warranty_Code__c",
+      "match_strategy": "external_id",
+      "match_fields": [
+        "WOD_2__Parent_Warranty_Code__r.OwnerId"
+      ]
+    },
+    "VRM_Resolution_Code__c": {
+      "parent_object": "WOD_2__Warranty_Code__c",
+      "match_strategy": "field_combination",
+      "match_fields": [
+        "Name"
+      ]
+    },
+    "VRM_Failure_Code__c": {
+      "parent_object": "WOD_2__Warranty_Code__c",
+      "match_strategy": "field_combination",
+      "match_fields": [
+        "Name"
+      ]
+    }
+  },
+  "lookup_count": 3,
+  "results": {
+    "total_records": 9,
+    "success_count": 9,
+    "error_count": 0,
+    "success_rate": 100.0
+  }
+}

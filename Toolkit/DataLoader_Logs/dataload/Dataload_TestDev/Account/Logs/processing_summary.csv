@@ -1,0 +1,2 @@
+Start_Time,End_Time,Processing_Duration_Seconds,Processing_Duration_Formatted,Total_Records,Total_Success,Total_Errors,Total_Unprocessed,Success_Rate_Percent,Error_Rate_Percent,Operation,Salesforce_Object,Salesforce_Org,Total_Batches,Parallel_Processing,Log_Generated_At
+2025-07-08 15:06:16,2025-07-08 15:06:28,11.21,0:00:11,10,2,8,0,20.00,80.00,insert,Account,TestDev,1,False,2025-07-08 15:06:28

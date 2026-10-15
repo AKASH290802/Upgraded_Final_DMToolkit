@@ -1,0 +1,40 @@
+{
+  "source_org": "ValmontDev",
+  "target_org": "ValmontQA",
+  "object": "tvnt__TCore_Section__c",
+  "execution_date": "2026-02-24T15:11:51.788783",
+  "execution_time_seconds": 13.66,
+  "migration_operation": "INSERT",
+  "main_match_strategy": "field_combination",
+  "main_match_fields": [
+    "Name",
+    "tvnt__Questionnaire__c"
+  ],
+  "field_mappings": {
+    "Name": "Name",
+    "tvnt__Questionnaire__c": "tvnt__Questionnaire__c",
+    "tvnt__Question_Display_Preference__c": "tvnt__Question_Display_Preference__c",
+    "tvnt__Section_Guideline__c": "tvnt__Section_Guideline__c",
+    "tvnt__Section_Header__c": "tvnt__Section_Header__c",
+    "tvnt__Sequence__c": "tvnt__Sequence__c",
+    "tvnt__Questionnaire__r.name": "tvnt__Questionnaire__c"
+  },
+  "field_mapping_count": 7,
+  "lookup_configs": {
+    "tvnt__Questionnaire__c": {
+      "parent_object": "tvnt__TCore_Questionnaire__c",
+      "match_strategy": "field_combination",
+      "match_fields": [
+        "Name",
+        "tvnt__Questionnaire_Type__c"
+      ]
+    }
+  },
+  "lookup_count": 1,
+  "results": {
+    "total_records": 8,
+    "success_count": 8,
+    "error_count": 0,
+    "success_rate": 100.0
+  }
+}

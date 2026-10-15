@@ -1,0 +1,69 @@
+streamlit>=1.40.0
+pandas>=1.5.0
+simple-salesforce>=1.12.0
+pyodbc>=4.0.0
+sqlalchemy>=1.4.0
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+requests>=2.28.0
+cryptography>=3.4.0
+
+# ── Multi-Source Connectors (install the ones you need) ──────────────────────
+# Oracle — pip install oracledb
+oracledb>=1.4.0
+
+# Snowflake — pip install snowflake-connector-python
+snowflake-connector-python>=3.0.0
+
+# PostgreSQL — pip install psycopg2-binary
+psycopg2-binary>=2.9.0
+# ─────────────────────────────────────────────────────────────────────────────
+
+# NEW LIBRARIES FOR ENHANCED ETL FUNCTIONALITY
+# Date/Time Processing
+python-dateutil>=2.8.0
+
+# Advanced Data Processing
+numpy>=1.21.0
+
+# Configuration Management & Validation
+PyYAML>=6.0
+jsonschema>=4.17.0
+
+# Enhanced Progress Tracking & User Experience
+tqdm>=4.64.0
+colorama>=0.4.6
+
+# Data Quality Visualization
+plotly>=5.15.0
+seaborn>=0.12.0
+matplotlib>=3.6.0
+
+# Memory Optimization for Large Files
+memory-profiler>=0.60.0
+
+# ── Migration Readiness (toolkit_sales_engine) ───────────────────────────────
+# Fuzzy string matching (Tool 3 — Jaro-Winkler)
+jellyfish>=1.1.0
+
+# Vector similarity search (Tool 4 — embedding index)
+chromadb>=0.5.11
+
+# LLM Agent (Tool 5 — GPT-4o / Azure OpenAI)
+openai>=1.51.0
+
+# Data validation models
+pydantic>=2.8.2
+pydantic-settings>=2.4.0
+
+# Multipart form upload support
+python-multipart>=0.0.12
+
+# ── Multi Data File tab ───────────────────────────────────────────────────────
+# Drag-and-drop field reassignment between object cards (falls back to
+# dropdown-based reassignment automatically if not installed)
+streamlit-sortables>=0.3.1
+
+# Image processing (transitive dep for chromadb)
+Pillow>=9.0.0
+# ─────────────────────────────────────────────────────────────────────────────

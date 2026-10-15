@@ -1,0 +1,44 @@
+ValidationName,ErrorConditionFormula,FieldName,ObjectName,Active,ErrorMessage,Description,ValidationRuleName
+Fault_Location_Level,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),
+    IF(ISPICKVAL( WOD_2__Fault_Location_Level__c , 'Level 4'),
+   ISPICKVAL( WOD_2__Parent_Warranty_Code__r.WOD_2__Fault_Location_Level__c , 'Level 4') ,
+        IF(ISPICKVAL( WOD_2__Fault_Location_Level__c , 'Level 3'),
+              OR(
+                   ISPICKVAL( WOD_2__Parent_Warranty_Code__r.WOD_2__Fault_Location_Level__c , 'Level 3'),
+                   ISPICKVAL( WOD_2__Parent_Warranty_Code__r.WOD_2__Fault_Location_Level__c , 'Level 4')
+                ),
+             IF( ISPICKVAL( WOD_2__Fault_Location_Level__c , 'Level 2'),
+                   OR(
+                       ISPICKVAL( WOD_2__Parent_Warranty_Code__r.WOD_2__Fault_Location_Level__c , 'Level 2'),
+                       ISPICKVAL( WOD_2__Parent_Warranty_Code__r.WOD_2__Fault_Location_Level__c , 'Level 3'),
+                       ISPICKVAL( WOD_2__Parent_Warranty_Code__r.WOD_2__Fault_Location_Level__c , 'Level 4')
+                     ),
+			       IF( ISPICKVAL( WOD_2__Fault_Location_Level__c , 'Level 1'),
+                         OR(
+                            ISPICKVAL( WOD_2__Parent_Warranty_Code__r.WOD_2__Fault_Location_Level__c , 'Level 1'),
+                            ISPICKVAL( WOD_2__Parent_Warranty_Code__r.WOD_2__Fault_Location_Level__c , 'Level 2'),
+                            ISPICKVAL( WOD_2__Parent_Warranty_Code__r.WOD_2__Fault_Location_Level__c , 'Level 3'),
+                            ISPICKVAL( WOD_2__Parent_Warranty_Code__r.WOD_2__Fault_Location_Level__c , 'Level 4')
+                           ),
+			            false
+                    )
+            )
+    )
+)
+    )","WOD_2__Fault_Location_Level__c,WOD_2__Parent_Warranty_Code__r",WOD_2__Warranty_Code__c,True,Please select proper Fault Location Level,,Fault_Location_Level
+Standard_Labor_Time,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),AND(NOT(ISBLANK(WOD_2__Standard_Labor_Minutes__c)),
+(WOD_2__Standard_Labor_Minutes__c >0),
+NOT(ISBLANK(WOD_2__Standard_Labor_Hour__c)),
+(WOD_2__Standard_Labor_Hour__c >0)))","WOD_2__Standard_Labor_Minutes__c,WOD_2__Standard_Labor_Hour__c",WOD_2__Warranty_Code__c,True,Please Enter Standard Labor Hour or Minutes,,Standard_Labor_Time
+VRM_Cannot_Change_Owner,"AND(
+ISCHANGED(OwnerId),
+$Profile.Name <> 'System Administrator'
+)",OwnerId,WOD_2__Warranty_Code__c,True,"You are not allowed to change owner, Please contact System Admin.",,VRM_Cannot_Change_Owner

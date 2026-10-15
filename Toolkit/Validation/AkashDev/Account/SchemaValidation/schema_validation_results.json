@@ -1,0 +1,9 @@
+{
+  "total_records": 7,
+  "validation_errors": [],
+  "field_errors": {},
+  "record_errors": {},
+  "passed_records": 7,
+  "failed_records": 0,
+  "validated_data": "  FirstName     Phone No. Billing Street\n0     Alice  123-456-7890    Springfield\n1       Bob  234-567-8901      Rivertown\n2   Charlie  345-678-9012       Lakeview\n3     Diana  456-789-0123        Hilltop\n4     Ethan  567-890-1234     Brookfield\n5     Fiona  678-901-2345     Greenfield\n6       NaN       9546785     Mountfield"
+}

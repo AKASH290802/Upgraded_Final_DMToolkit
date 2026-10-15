@@ -1,0 +1,195 @@
+<script type="text/javascript">
+        var gk_isXlsx = false;
+        var gk_xlsxFileLookup = {};
+        var gk_fileData = {};
+        function filledCell(cell) {
+          return cell !== '' && cell != null;
+        }
+        function loadFileData(filename) {
+        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
+            try {
+                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
+                var firstSheetName = workbook.SheetNames[0];
+                var worksheet = workbook.Sheets[firstSheetName];
+
+                // Convert sheet to JSON to filter blank rows
+                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
+                // Filter out blank rows (rows where all cells are empty, null, or undefined)
+                var filteredData = jsonData.filter(row => row.some(filledCell));
+
+                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
+                var headerRowIndex = filteredData.findIndex((row, index) =>
+                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
+                );
+                // Fallback
+                if (headerRowIndex === -1 || headerRowIndex > 25) {
+                  headerRowIndex = 0;
+                }
+
+                // Convert filtered JSON back to CSV
+                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
+                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
+                return csv;
+            } catch (e) {
+                console.error(e);
+                return "";
+            }
+        }
+        return gk_fileData[filename] || "";
+        }
+        </script>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DM Toolkit Execution Guide</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.8.0/reveal.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.8.0/css/reveal.min.css" rel="stylesheet">
+    <style>
+        .reveal h1, .reveal h2, .reveal h3 {
+            color: #1e3a8a;
+            font-family: 'Arial', sans-serif;
+        }
+        .reveal .slide-background {
+            background: linear-gradient(to bottom, #e0f0ff, #ffffff);
+        }
+        .reveal .text-content {
+            font-size: 1.1em;
+            color: #333;
+            font-family: 'Arial', sans-serif;
+        }
+        .reveal .code-block {
+            background: #f8f8f8;
+            padding: 10px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+        }
+        .reveal .highlight {
+            background: #4caf50;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Slide 1: Title Slide -->
+            <section class="flex items-center justify-center bg-blue-100">
+                <div class="text-center">
+                    <h1 class="text-5xl font-bold mb-4">DM Toolkit Execution Guide</h1>
+                    <h2 class="text-2xl">Step-by-Step Guide to Running the DM Toolkit</h2>
+                </div>
+            </section>
+
+            <!-- Slide 2: Step 1 - Clone the Repository -->
+            <section>
+                <h2 class="text-3xl mb-4">Step 1: Clone the Repository</h2>
+                <div class="text-content">
+                    <p class="highlight mb-2">Action:</p> Open Command Prompt and navigate to the C: drive.
+                    <p class="mt-2"><span class="highlight">Command:</span></p>
+                    <div class="code-block">
+                        git clone -b dm_tools --single-branch https://gitlab.tavant.com/g.akash/toolkit.git
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 3: Step 2 - Install Dependencies -->
+            <section>
+                <h2 class="text-3xl mb-4">Step 2: Install Dependencies</h2>
+                <div class="text-content">
+                    <p class="highlight mb-2">Action:</p> Navigate to the <code>DM_toolkit</code> directory in Command Prompt Or In Terminal of the code Editor where you have the application, You can type
+                    <p class="mt-2"><span class="highlight">Command:</span></p>
+                    <div class="code-block">
+                        pip install -r requirements.txt
+                    </div>
+                    <p class="mt-2"><span class="highlight">Details:</span></p>
+                    The <code>requirements.txt</code> file lists all necessary Python packages for the toolkit.
+                </div>
+            </section>
+
+            <!-- Slide 4: Step 3 - Get Application in Browser -->
+            <section>
+                <h2 class="text-3xl mb-4">Step 3: Get application in your browser</h2>
+                <div class="text-content">
+                    <p class="highlight mb-2">Commands:</p>
+                    First open the saved Folder in any of the code Editor present in your laptop, then Type <code>"streamlit run streamlit_app.py"</code> in the Terminal of the code Editor, then the application gets opened in your browser
+                </div>
+            </section>
+
+            <!-- Slide 5: Step 4 - Add your Org -->
+            <section>
+                <h2 class="text-3xl mb-4">Step 4: Add your Org</h2>
+                <div class="text-content">
+                    <p class="highlight mb-2">Commands:</p>
+                    In the application go to Configuration tab and add your salesforce org by giving the credentials.
+                    <p class="mt-2"><span class="highlight">Credentials needed:</span></p>
+                    <ul class="list-disc ml-6">
+                        <li>Username</li>
+                        <li>Password</li>
+                        <li>Security Token</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Slide 6: Step 5 - Perform Action -->
+            <section>
+                <h2 class="text-3xl mb-4">Step 5: Perform Action</h2>
+                <div class="text-content">
+                    <p class="highlight mb-2">Commands:</p>
+                    Mandatory to do Data Validation
+                    <p class="mt-2"><span class="highlight">Validation Types:</span></p>
+                    <ul class="list-disc ml-6">
+                        <li><strong>Schema-level</strong>: Validates required fields, data types, date formats, etc.</li>
+                        <li><strong>Custom-level</strong>: Uses custom error formulas to prevent invalid data entry in Salesforce.</li>
+                        <li><strong>GenAI Validation</strong>: Converts the apex code of the Validation formulas to Python functions and will validates the data uploaded.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Slide 7: Step 6 - Further Actions -->
+            <section>
+                <h2 class="text-3xl mb-4">Step 6: Further Actions</h2>
+                <div class="text-content">
+                    <p class="highlight mb-2">Commands:</p>
+                    <ul class="list-disc ml-6">
+                        <li>The data for a Object could be extracted(inserted few days back, all records or even can write a SOQL query).</li>
+                        <li>The Valid Data only to be inserted(can be either inserted, updated or upserted).</li>
+                        <li>The Unit Test Cases can be Generated for the selected Object.</li>
+                        <li>Explore !!!</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Slide 8: Summary -->
+            <section class="flex items-center justify-center bg-blue-100">
+                <div class="text-center">
+                    <h2 class="text-3xl mb-4">Summary</h2>
+                    <div class="text-content">
+                        <p class="highlight mb-2">Key Steps:</p>
+                        <ol class="list-decimal ml-6 text-left">
+                            <li>Clone the repository from GitLab.</li>
+                            <li>Install dependencies using <code>requirements.txt</code>.</li>
+                            <li>Run the application in your browser using Streamlit.</li>
+                            <li>Add your Salesforce org credentials in Configuration.</li>
+                            <li>Perform mandatory Data Validation (Schema, Custom, GenAI).</li>
+                            <li>Execute further actions: data extraction, insertion, unit testing.</li>
+                        </ol>
+                        <p class="mt-4"><span class="highlight">Next Steps:</span></p>
+                        Explore the application and start your data validation journey!
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            transition: 'slide',
+            backgroundTransition: 'fade'
+        });
+    </script>
+</body>
+</html>
+```

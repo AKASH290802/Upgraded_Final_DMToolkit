@@ -1,0 +1,36 @@
+{
+  "source_org": "ValmontDev",
+  "target_org": "ValmontQA",
+  "object": "tvnt__TCore_Condition__c",
+  "execution_date": "2026-02-24T14:45:23.641717",
+  "execution_time_seconds": 6.83,
+  "migration_operation": "INSERT",
+  "main_match_strategy": "field_combination",
+  "main_match_fields": [
+    "tvnt__Criteria_Value__c",
+    "tvnt__Field_Path__c"
+  ],
+  "field_mappings": {
+    "tvnt__Criteria_Value_Text__c": "tvnt__Criteria_Value_Text__c",
+    "tvnt__Criteria_Value__c": "tvnt__Criteria_Value__c",
+    "tvnt__Delimiter__c": "tvnt__Delimiter__c",
+    "tvnt__Display_Format__c": "tvnt__Display_Format__c",
+    "tvnt__Field_Path_Label__c": "tvnt__Field_Path_Label__c",
+    "tvnt__Field_Path__c": "tvnt__Field_Path__c",
+    "tvnt__Field_Type__c": "tvnt__Field_Type__c",
+    "tvnt__IsNullBehaviour__c": "tvnt__IsNullBehaviour__c",
+    "tvnt__Object_Name__c": "tvnt__Object_Name__c",
+    "tvnt__Operator__c": "tvnt__Operator__c",
+    "tvnt__Rule_Object_Name__c": "tvnt__Rule_Object_Name__c",
+    "tvnt__Value_Type__c": "tvnt__Value_Type__c"
+  },
+  "field_mapping_count": 12,
+  "lookup_configs": {},
+  "lookup_count": 0,
+  "results": {
+    "total_records": 5,
+    "success_count": 5,
+    "error_count": 0,
+    "success_rate": 100.0
+  }
+}

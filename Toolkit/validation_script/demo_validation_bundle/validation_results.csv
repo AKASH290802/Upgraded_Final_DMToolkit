@@ -1,0 +1,6 @@
+Id,Name,Email,Phone,Website,AnnualRevenue,is_valid,failed_validations
+1,Test Account 1,test@example.com,1234567890,http://example.com,100000,False,Phone_Length_Check
+2,Test Account 2,,1234567890,http://example.com,50000,False,"Email_Required, Phone_Length_Check"
+3,Test Account 3,test3@example.com,123,http://example.com,75000,False,Phone_Length_Check
+4,,test4@example.com,1234567890,example.com,0,False,"Phone_Length_Check, Name_Not_Empty, Annual_Revenue_Positive"
+5,Test Account 5,test5@example.com,1234567890,http://example.com,-5000,False,"Phone_Length_Check, Annual_Revenue_Positive"

@@ -1,0 +1,11 @@
+FirstName,Phone No.,Billing Street,Type,Transform_Status,Transform_Reason,Validation_Details
+Alice,123-456-7890,Springfield,Other,SUCCESS,No validations required (no lookup/picklist/unique fields),All validations passed
+Bob,234-567-8901,Rivertown,Prospect,SUCCESS,No validations required (no lookup/picklist/unique fields),All validations passed
+Charlie,345-678-9012, Lakeview,Prospect,SUCCESS,No validations required (no lookup/picklist/unique fields),All validations passed
+Diana,456-789-0123, Hilltop,Other,SUCCESS,No validations required (no lookup/picklist/unique fields),All validations passed
+Ethan,567-890-1234, Brookfield,Technology Partner,SUCCESS,No validations required (no lookup/picklist/unique fields),All validations passed
+Fiona,678-901-2345,Greenfield,Prospect,SUCCESS,No validations required (no lookup/picklist/unique fields),All validations passed
+George,789-012-3456,Meadow Park,Prospect,SUCCESS,No validations required (no lookup/picklist/unique fields),All validations passed
+Hannah,890-123-4567,Pinecrest,Prospect,SUCCESS,No validations required (no lookup/picklist/unique fields),All validations passed
+Isaac,901-234-5678,Maple Ridge,Other,SUCCESS,No validations required (no lookup/picklist/unique fields),All validations passed
+Julia,012-345-6789,Oakwood,Prospect,SUCCESS,No validations required (no lookup/picklist/unique fields),All validations passed

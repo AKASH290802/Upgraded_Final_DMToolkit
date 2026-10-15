@@ -1,0 +1,2 @@
+FirstName,Phone No.,Billing Street,Type,Transform_Status,Transform_Reason,Validation_Details,Data_Issue_Details
+Julia,012-345-6789,Oakwood,Another,FAILURE,Invalid picklist values: ['Type'],Invalid picklist Type: 'Another',"Wrong picklist value 'Another' for Type (valid: Prospect, Customer - Direct, Customer - Channel, Channel Partner / Reseller, Installation Partner...)"

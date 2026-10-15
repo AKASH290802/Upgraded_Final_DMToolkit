@@ -1,0 +1,19 @@
+{
+  "object_name": "WOD_2__Warranty_Code__c",
+  "fields": {
+    "Name": "Name",
+    "VRM_Failure_Code__c": "WOD_2__Parent_Warranty_Code__c",
+    "VRM_Resolution_Code__c": "VRM_Resolution_Code__c",
+    "WOD_2__Standard_Labor_Hour__c": "WOD_2__Standard_Labor_Hour__c",
+    "WOD_2__Business_Units__c": "WOD_2__Business_Units__c"
+  },
+  "metadata": {
+    "created_date": "2026-05-11T13:28:33.418929",
+    "mapping_type": "Auto-detect from Data",
+    "include_readonly": false,
+    "include_system": false,
+    "field_filter": "",
+    "total_fields": 5,
+    "org_name": "ValmontDev"
+  }
+}

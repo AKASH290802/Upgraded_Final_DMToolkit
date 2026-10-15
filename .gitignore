@@ -1,0 +1,3 @@
+# Real credentials - never commit. Use Services/linkedservices.example.json as the template.
+Services/linkedservices.json
+Toolkit/Services/linkedservices.json

@@ -1,0 +1,93 @@
+{
+  "object_name": "WOD_2__Inventory__c",
+  "extracted_date": "2025-10-07 12:09:36",
+  "total_rules": 7,
+  "active_rules": 1,
+  "validation_rules": [
+    {
+      "id": "03d5j000001VionAAC",
+      "name": "Account_Is_Required",
+      "display_name": "Account_Is_Required",
+      "formula": "",
+      "error_message": "Please provide Account.",
+      "active": true,
+      "description": "Account should be required on Inventory record",
+      "error_field": "Sales Company",
+      "extracted_date": "2025-10-07 12:09:36",
+      "source": "sf_validation_client"
+    },
+    {
+      "id": "03dH100000023wGIAQ",
+      "name": "KBT_Business_Unit_mandatory",
+      "display_name": "KBT_Business_Unit_mandatory",
+      "formula": "",
+      "error_message": "Business Category Configuration",
+      "active": false,
+      "description": "Business Category Configuration Field Is Required",
+      "error_field": "Top of Page",
+      "extracted_date": "2025-10-07 12:09:36",
+      "source": "sf_validation_client"
+    },
+    {
+      "id": "03dH100000023wHIAQ",
+      "name": "KBT_Manufacturing_Date_Mandatory",
+      "display_name": "KBT_Manufacturing_Date_Mandatory",
+      "formula": "",
+      "error_message": "Manufacturing Date",
+      "active": false,
+      "description": "Manufacturing Date Field is Required",
+      "error_field": "Top of Page",
+      "extracted_date": "2025-10-07 12:09:36",
+      "source": "sf_validation_client"
+    },
+    {
+      "id": "03dH100000023wIIAQ",
+      "name": "KBT_Serial_Number_Mandatory",
+      "display_name": "KBT_Serial_Number_Mandatory",
+      "formula": "",
+      "error_message": "Serial Number",
+      "active": false,
+      "description": "Serial Number Field Is Required",
+      "error_field": "Top of Page",
+      "extracted_date": "2025-10-07 12:09:36",
+      "source": "sf_validation_client"
+    },
+    {
+      "id": "03dH100000023wJIAQ",
+      "name": "KBT_Shipment_Date_Mandatory",
+      "display_name": "KBT_Shipment_Date_Mandatory",
+      "formula": "",
+      "error_message": "Shipment Date",
+      "active": false,
+      "description": "Shipment Date Field Is Required",
+      "error_field": "Top of Page",
+      "extracted_date": "2025-10-07 12:09:36",
+      "source": "sf_validation_client"
+    },
+    {
+      "id": "03dH100000023wKIAQ",
+      "name": "KBT_Type_Mandatory",
+      "display_name": "KBT_Type_Mandatory",
+      "formula": "",
+      "error_message": "Type",
+      "active": false,
+      "description": "Type Field is Required",
+      "error_field": "Top of Page",
+      "extracted_date": "2025-10-07 12:09:36",
+      "source": "sf_validation_client"
+    },
+    {
+      "id": "03dH100000023wLIAQ",
+      "name": "KBT_Units_Usage_Mandatory",
+      "display_name": "KBT_Units_Usage_Mandatory",
+      "formula": "",
+      "error_message": "Units Usage",
+      "active": false,
+      "description": "Units Usage Field Is Required",
+      "error_field": "Top of Page",
+      "extracted_date": "2025-10-07 12:09:36",
+      "source": "sf_validation_client"
+    }
+  ],
+  "source": "real_salesforce_rules"
+}

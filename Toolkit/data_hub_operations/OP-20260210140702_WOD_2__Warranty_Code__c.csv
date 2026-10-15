@@ -1,0 +1,251 @@
+Name,WOD_2__Description__c,WOD_2__Business_Units__c
+F20,,VRM-NA
+R-20,,VRM-NA
+R-15,Test R15,VRM-NA
+R-10,Test R10,VRM-NA
+F100-R10,Test F100-R10,VRM-NA
+F125,TEST F125,VRM-NA
+R-250,Test R-250,VRM-NA
+F125 - R250,Test F125 - R250,VRM-NA
+-12 Volt Power Supply-F1,-12 Volt Power Supply,VRM-NA
+Bearing Race Missing-F100,Bearing Race Missing,VRM-NA
+Diaphragm Faulty-F101,Diaphragm Faulty,VRM-NA
+Input Bearing Failed-F102,Input Bearing Failed,VRM-NA
+Mounting Bolts Broken-F103,Mounting Bolts Broken,VRM-NA
+Output Bearing Failed-F104,Output Bearing Failed,VRM-NA
+Output Seal Missing-F105,Output Seal Missing,VRM-NA
+Factory Wiring Incorrect-F106,Factory Wiring Incorrect,VRM-NA
+Finish Appearance Faulty-F107,Finish Appearance Faulty,VRM-NA
+Contactor not pulling in-F108,Contactor not pulling in,VRM-NA
+Run Microswitch Fails Open-F111,Run Microswitch Fails Open,VRM-NA
+Safety Microswitch Fails Closed-F112,Safety Microswitch Fails Closed,VRM-NA
+OW Timer Doesn't Break Safety-F113,OW Timer Doesn't Break Safety,VRM-NA
+OW Timer Doesn't Hold Safety-F114,OW Timer Doesn't Hold Safety,VRM-NA
+Solenoid Valve Fails-F115,Solenoid Valve Fails,VRM-NA
+Disconnect Switch Fails Open-F116,Disconnect Switch Fails Open,VRM-NA
+Disconnect Switch Fails Closed-F117,Disconnect Switch Fails Closed,VRM-NA
+Low Pressure Switch Fails Open-F118,Low Pressure Switch Fails Open,VRM-NA
+Low Pressure Switch Fails Closed-F119,Low Pressure Switch Fails Closed,VRM-NA
+Bull Gear Broken-F12,Bull Gear Broken,VRM-NA
+Tower Box Cover Fell Off-F120,Tower Box Cover Fell Off,VRM-NA
+Fuse Block Defective-F121,Fuse Block Defective,VRM-NA
+Grounding Block Defective-F122,Grounding Block Defective,VRM-NA
+Run Microswitch Fails Closed-F123,Run Microswitch Fails Closed,VRM-NA
+Safety Microswitch Fails Open-F124,Safety Microswitch Fails Open,VRM-NA
+Terminal Block Defective-F125,Terminal Block Defective,VRM-NA
+Calibration changed/out of spec-F127,Calibration changed/out of spec,VRM-NA
+Leads corroded/broken-F128,Leads corroded/broken,VRM-NA
+Service Tool Test Failed-F129,Service Tool Test Failed,VRM-NA
+STB ER 01 - Software Checksum-F130,STB ER 01 - Software Checksum,VRM-NA
+STB ER 02 - Setup Constants-F131,STB ER 02 - Setup Constants,VRM-NA
+STB ER 03 - Communications-F132,STB ER 03 - Communications,VRM-NA
+STB ER 05 - Power Supply failure LRDU-F133,STB ER 05 - Power Supply failure LRDU,VRM-NA
+STB ER 06 - Power Supply failure SDU-F134,STB ER 06 - Power Supply failure SDU,VRM-NA
+STB Other input or output failure-F135,STB Other input or output failure,VRM-NA
+STB Trace failure-F136,STB Trace failure,VRM-NA
+Case Broken-F14,Case Broken,VRM-NA
+Steering arm loose-F144,Steering arm loose,VRM-NA
+VSD Dinverter ERR 1-F145,VSD Dinverter ERR 1,VRM-NA
+VSD Dinverter ERR 2-F146,VSD Dinverter ERR 2,VRM-NA
+VSD Dinverter ERR 3-F147,VSD Dinverter ERR 3,VRM-NA
+VSD Dinverter ERR 4-F148,VSD Dinverter ERR 4,VRM-NA
+VSD Dinverter ERR 5-F149,VSD Dinverter ERR 5,VRM-NA
+Casting Broken-F15,Casting Broken,VRM-NA
+VSD Dinverter ERR 6-F150,VSD Dinverter ERR 6,VRM-NA
+VSD Dinverter ERR 7-F151,VSD Dinverter ERR 7,VRM-NA
+VSD Dinverter ERR 8-F152,VSD Dinverter ERR 8,VRM-NA
+VSD Dinverter ERR 9-F153,VSD Dinverter ERR 9,VRM-NA
+VSD Dinverter ERR 10-F154,VSD Dinverter ERR 10,VRM-NA
+VSD Dinverter ERR EE-F155,VSD Dinverter ERR EE,VRM-NA
+VSD Dinverter ERR cL-F156,VSD Dinverter ERR cL,VRM-NA
+VSD Dinverter ERR UU-F157,VSD Dinverter ERR UU,VRM-NA
+VSD Dinverter ERR oU-F158,VSD Dinverter ERR oU,VRM-NA
+VSD Dinverter ERR Et-F159,VSD Dinverter ERR Et,VRM-NA
+Coil Failure-F16,Coil Failure,VRM-NA
+VSD Dinverter ERR Ph-F160,VSD Dinverter ERR Ph,VRM-NA
+VSD Dinverter ERR th-F161,VSD Dinverter ERR th,VRM-NA
+VSD Dinverter fan failure-F162,VSD Dinverter fan failure,VRM-NA
+VSD Dinverter LRDU stalling-F163,VSD Dinverter LRDU stalling,VRM-NA
+VSD Dinverter SDU stalling-F164,VSD Dinverter SDU stalling,VRM-NA
+VSD Saftronics dbh-F165,VSD Saftronics dbh,VRM-NA
+VSD Saftronics Er 1-F166,VSD Saftronics Er 1,VRM-NA
+VSD Saftronics Er 2-F167,VSD Saftronics Er 2,VRM-NA
+VSD Saftronics Er 3-F168,VSD Saftronics Er 3,VRM-NA
+VSD Saftronics Er 4-F169,VSD Saftronics Er 4,VRM-NA
+Communication Failure-F17,Communication Failure,VRM-NA
+VSD Saftronics Er 5-F170,VSD Saftronics Er 5,VRM-NA
+VSD Saftronics Er 6-F171,VSD Saftronics Er 6,VRM-NA
+VSD Saftronics Er 7-F172,VSD Saftronics Er 7,VRM-NA
+VSD Saftronics Er 8-F173,VSD Saftronics Er 8,VRM-NA
+VSD Saftronics oL2-F174,VSD Saftronics oL2,VRM-NA
+VSD Saftronics L In-F175,VSD Saftronics L In,VRM-NA
+VSD Saftronics LU-F176,VSD Saftronics LU,VRM-NA
+VSD Saftronics oc1-F177,VSD Saftronics oc1,VRM-NA
+VSD Saftronics oc2-F178,VSD Saftronics oc2,VRM-NA
+VSD Saftronics oc3-F179,VSD Saftronics oc3,VRM-NA
+Contact Points Burned-F18,Contact Points Burned,VRM-NA
+VSD Saftronics oh1-F180,VSD Saftronics oh1,VRM-NA
+VSD Saftronics oh2-F181,VSD Saftronics oh2,VRM-NA
+VSD Saftronics oLU-F182,VSD Saftronics oLU,VRM-NA
+VSD Saftronics oU1-F183,VSD Saftronics oU1,VRM-NA
+VSD Saftronics oU2-F184,VSD Saftronics oU2,VRM-NA
+VSD Saftronics oU3-F185,VSD Saftronics oU3,VRM-NA
+Bearing Seized-F186,Bearing Seized,VRM-NA
+Precision Corner Adjustment-F187,Precision Corner Adjustment,VRM-NA
+Tire flat upon arrival-F188,Tire flat upon arrival,VRM-NA
+Tire flat out of season-F189,Tire flat out of season,VRM-NA
+Contact Points Damaged-F19,Contact Points Damaged,VRM-NA
+Tire flat in season-F190,Tire flat in season,VRM-NA
+Service Response Guarantee-F192,Service Response Guarantee,VRM-NA
+Nozzles Plugged-F193,Nozzles Plugged,VRM-NA
+Sprinklers fell out-F194,Sprinklers fell out,VRM-NA
+Weld Missing-F195,Weld Missing,VRM-NA
+Mis-manufactured-F196,Mis-manufactured,VRM-NA
+Galvanizing Excessive-F197,Galvanizing Excessive,VRM-NA
+Plastic End Cap Missing-F198,Plastic End Cap Missing,VRM-NA
+Aluminum Casting Failure-F199,Aluminum Casting Failure,VRM-NA
+12 Volt Power Supply-F2,12 Volt Power Supply,VRM-NA
+Contactor Chattering-F20,Contactor Chattering,VRM-NA
+Flex Joint Insert Failure-F200,Flex Joint Insert Failure,VRM-NA
+Ultraviolet Degradation-F201,Ultraviolet Degradation,VRM-NA
+Tow Pin Failure-F202,Tow Pin Failure,VRM-NA
+Cable Broken-F203,Cable Broken,VRM-NA
+Cable End Failure-F204,Cable End Failure,VRM-NA
+Cable Pulled Out-F205,Cable Pulled Out,VRM-NA
+Insufficient Clamping Force-F206,Insufficient Clamping Force,VRM-NA
+Hose Pulled off-F207,Hose Pulled off,VRM-NA
+Hose Split-F208,Hose Split,VRM-NA
+Threads Mismanufactured-F209,Threads Mismanufactured,VRM-NA
+Contactor Locked in-F21,Contactor Locked in,VRM-NA
+Electrical Specs Not Met-F210,Electrical Specs Not Met,VRM-NA
+Intermittent Operations-F211,Intermittent Operations,VRM-NA
+Steering Gearmotor Failed-F212,Steering Gearmotor Failed,VRM-NA
+Steering Motor Failed-F213,Steering Motor Failed,VRM-NA
+Travel-F214,Travel,VRM-NA
+Excessive Steering-F215,Excessive Steering,VRM-NA
+Won't Hold Safety-F216,Won't Hold Safety,VRM-NA
+Won't Steer Forward-F217,Won't Steer Forward,VRM-NA
+Won't Steer Reverse-F218,Won't Steer Reverse,VRM-NA
+Output Voltage Low-F219,Output Voltage Low,VRM-NA
+Control Bearing Seized-F22,Control Bearing Seized,VRM-NA
+Output Current Low-F220,Output Current Low,VRM-NA
+Frequency Incorrect-F221,Frequency Incorrect,VRM-NA
+Signal Weak-F222,Signal Weak,VRM-NA
+Incorrect Resistance Reading-F223,Incorrect Resistance Reading,VRM-NA
+Dent in Pipe-F224,Dent in Pipe,VRM-NA
+Cold Solder Joint-F225,Cold Solder Joint,VRM-NA
+External Connection Failure-F226,External Connection Failure,VRM-NA
+Relay Failure-F227,Relay Failure,VRM-NA
+Leaking-F228,Leaking,VRM-NA
+Coil Bad-F229,Coil Bad,VRM-NA
+Corrosion-F23,Corrosion,VRM-NA
+Won't close-F230,Won't close,VRM-NA
+Will Not Rotate-F231,Will Not Rotate,VRM-NA
+STB ER 20 - Override Table Checksum-F232,STB ER 20 - Override Table Checksum,VRM-NA
+120 Volt Input/Output Failure-F233,120 Volt Input/Output Failure,VRM-NA
+5 Volt Input/Output Failure-F234,5 Volt Input/Output Failure,VRM-NA
+Coupling Failure-F235,Coupling Failure,VRM-NA
+Terminal Strip Stripped Out-F236,Terminal Strip Stripped Out,VRM-NA
+Flanges not Square-F237,Flanges not Square,VRM-NA
+Flanges Out of Time-F238,Flanges Out of Time,VRM-NA
+Weld Cracked-F239,Weld Cracked,VRM-NA
+Corrosion On Wheel-F24,Corrosion On Wheel,VRM-NA
+Won't Break Safety-F240,Won't Break Safety,VRM-NA
+Shim Gearboxes-F241,Shim Gearboxes,VRM-NA
+Plug Removal-F242,Plug Removal,VRM-NA
+Software Update-F245,Software Update,VRM-NA
+Freight to Return Parts-F246,Freight to Return Parts,VRM-NA
+Phase Burned One End-F247,Phase Burned One End,VRM-NA
+Phase Burned Both Ends-F248,Phase Burned Both Ends,VRM-NA
+Charred Failure one end-F249,Charred Failure one end,VRM-NA
+Damaged In Shipment-F25,Damaged In Shipment,VRM-NA
+Charred Failure Both Ends-F250,Charred Failure Both Ends,VRM-NA
+Software Update-F251,Software Update,VRM-NA
+Galvanizing Burrs-F252,Galvanizing Burrs,VRM-NA
+System out of Alignment-F253,System out of Alignment,VRM-NA
+Impeller Seized-F254,Impeller Seized,VRM-NA
+Percent timer runs at 100% at all times-F255,Percent timer runs at 100% at all times,VRM-NA
+Cracked Pivot Swivel-F256,Cracked Pivot Swivel,VRM-NA
+Contact Warranty Department - Not within-F258,Contact Warranty Department - Not within,VRM-NA
+No holes in shaft-F259,No holes in shaft,VRM-NA
+Display Failure-F26,Display Failure,VRM-NA
+Rims Wallowed/Lug Nuts Loose-F260,Rims Wallowed/Lug Nuts Loose,VRM-NA
+Input Shaft Broken-F261,Input Shaft Broken,VRM-NA
+Cracking/Pealing-F262,Cracking/Pealing,VRM-NA
+Threads Missing-F263,Threads Missing,VRM-NA
+Factory Wiring Loose-F264,Factory Wiring Loose,VRM-NA
+Coasting-F265,Coasting,VRM-NA
+Encoder Failure-F266,Encoder Failure,VRM-NA
+Electrical Component Failure-F27,Electrical Component Failure,VRM-NA
+Galvanizing Bare Spots-F29,Galvanizing Bare Spots,VRM-NA
+5 Volt Power Supply-F3,5 Volt Power Supply,VRM-NA
+Galvanizing Quality-F30,Galvanizing Quality,VRM-NA
+Gears Locked Up-F32,Gears Locked Up,VRM-NA
+Harness Failure-F35,Harness Failure,VRM-NA
+High Voltage Short-F36,High Voltage Short,VRM-NA
+Housing Damaged-F37,Housing Damaged,VRM-NA
+Inconsistent Position-F38,Inconsistent Position,VRM-NA
+5 Volt Power Supply Failure-F4,5 Volt Power Supply Failure,VRM-NA
+Input Seal Leaking-F40,Input Seal Leaking,VRM-NA
+Keypad Error 13-F41,Keypad Error 13,VRM-NA
+Keypad Failure-F42,Keypad Failure,VRM-NA
+Latch Inoperable-F43,Latch Inoperable,VRM-NA
+Lug Bolts Broken-F44,Lug Bolts Broken,VRM-NA
+Motor Using Excessive Current-F49,Motor Using Excessive Current,VRM-NA
+A - D Failure-F5,A - D Failure,VRM-NA
+No Response From Keypad-F50,No Response From Keypad,VRM-NA
+Noise Excessive-F51,Noise Excessive,VRM-NA
+Oil Reservoir Empty-F52,Oil Reservoir Empty,VRM-NA
+Other -- Fill in Comments-F53,Other -- Fill in Comments,VRM-NA
+Output Seal Leaking-F55,Output Seal Leaking,VRM-NA
+Output Shaft Broken-F56,Output Shaft Broken,VRM-NA
+Part Dimensions Incorrect-F57,Part Dimensions Incorrect,VRM-NA
+PCB Cracked-F58,PCB Cracked,VRM-NA
+Phase To Ground Short-F59,Phase To Ground Short,VRM-NA
+Phase To Phase Open-F60,Phase To Phase Open,VRM-NA
+Phase To Phase Short-F61,Phase To Phase Short,VRM-NA
+Phase To Phase Resistance Unbalanced-F62,Phase To Phase Resistance Unbalanced,VRM-NA
+Pressure Reading Incorrect-F63,Pressure Reading Incorrect,VRM-NA
+Resolver Input Error-F64,Resolver Input Error,VRM-NA
+Resolver Volts Incorrect-F65,Resolver Volts Incorrect,VRM-NA
+Rim Damaged-F66,Rim Damaged,VRM-NA
+Rotor Failed-F67,Rotor Failed,VRM-NA
+Screen Failure-F68,Screen Failure,VRM-NA
+Seal Leaking-F69,Seal Leaking,VRM-NA
+Seal Missing-F70,Seal Missing,VRM-NA
+Seam Leaking-F71,Seam Leaking,VRM-NA
+Seam Split-F72,Seam Split,VRM-NA
+Shipment Damage-F73,Shipment Damage,VRM-NA
+Short In Junction Box-F74,Short In Junction Box,VRM-NA
+Single Phasing-F75,Single Phasing,VRM-NA
+Snap Ring Failed-F76,Snap Ring Failed,VRM-NA
+Hitch ball bolt failed-F77,Hitch ball bolt failed,VRM-NA
+Switch Failure-F78,Switch Failure,VRM-NA
+Backlight Failure-F8,Backlight Failure,VRM-NA
+Thermal Protection Failure-F80,Thermal Protection Failure,VRM-NA
+Tire Leaking Air-F82,Tire Leaking Air,VRM-NA
+Tire Split-F83,Tire Split,VRM-NA
+Tower Ahead Forward-F84,Tower Ahead Forward,VRM-NA
+Tower Ahead Reverse-F85,Tower Ahead Reverse,VRM-NA
+Tower Behind Forward-F86,Tower Behind Forward,VRM-NA
+Tower Behind Reverse-F87,Tower Behind Reverse,VRM-NA
+Trace Failure-F88,Trace Failure,VRM-NA
+Hole in Pipe-F90,Hole in Pipe,VRM-NA
+Tube Pinched-F91,Tube Pinched,VRM-NA
+Valve Stem Leaking-F92,Valve Stem Leaking,VRM-NA
+Valve Stem Missing-F93,Valve Stem Missing,VRM-NA
+Voltage Display Inconsistent-F94,Voltage Display Inconsistent,VRM-NA
+Weld Failure-F95,Weld Failure,VRM-NA
+Worm Broken-F96,Worm Broken,VRM-NA
+Coupler Failure (Worm)-F97,Coupler Failure (Worm),VRM-NA
+Bead Damaged-F98,Bead Damaged,VRM-NA
+Repair In Season-R10,Repair In Season,VRM-NA
+Repair Out of Season-R11,Repair Out of Season,VRM-NA
+Replace Component-R13,Replace Component,VRM-NA
+Replace In Season-R14,Replace In Season,VRM-NA
+Replace Out of Season-R15,Replace Out of Season,VRM-NA
+Replace Gearmotor-R16,Replace Gearmotor,VRM-NA
+Replace Motor Module-R17,Replace Motor Module,VRM-NA
+Replace Tower Box-R18,Replace Tower Box,VRM-NA
+Replace Multiple Components-R20,Replace Multiple Components,VRM-NA
+Replace Part After Assembly-R22,Replace Part After Assembly,VRM-NA

@@ -1,0 +1,6 @@
+tvnt__Value_Type__c,tvnt__Field_Path_Label__c,tvnt__IsNullBehaviour__c,tvnt__Object_Name__c,tvnt__Rule_Object_Name__c,tvnt__Field_Type__c,tvnt__Criteria_Value_Text__c,tvnt__Display_Format__c,tvnt__Criteria_Value__c,tvnt__Operator__c,tvnt__Field_Path__c,tvnt__Delimiter__c
+Static,Failed Part> Sub Category,,WOD_2__Claim__c,,STRING,Gearbox,String,Gearbox,Contains,WOD_2__CausalPartNumber_P2__r.Sub_Category__c,","
+Static,Failed Part> Category,,WOD_2__Claim__c,,STRING,Electrical,String,Electrical,Contains,WOD_2__CausalPartNumber_P2__r.Category__c,","
+Static,Failed Part> Category,,WOD_2__Claim__c,,STRING,Drive Train,String,Drive Train,Equals,WOD_2__CausalPartNumber_P2__r.Category__c,","
+Static,Failed Part> Category,,WOD_2__Claim__c,,STRING,Machine Options,String,Machine Options,Equals,WOD_2__CausalPartNumber_P2__r.Category__c,","
+Static,Failed Part> Sub Category,,WOD_2__Claim__c,,STRING,Running Lights,String,Running Lights,Equals,WOD_2__CausalPartNumber_P2__r.Sub_Category__c,","

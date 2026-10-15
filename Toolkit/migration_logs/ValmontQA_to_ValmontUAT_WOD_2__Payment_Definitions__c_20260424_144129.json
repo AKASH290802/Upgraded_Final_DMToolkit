@@ -1,0 +1,30 @@
+{
+  "source_org": "ValmontQA",
+  "target_org": "ValmontUAT",
+  "object": "WOD_2__Payment_Definitions__c",
+  "execution_date": "2026-04-24T14:41:29.997582",
+  "execution_time_seconds": 71.54,
+  "migration_operation": "INSERT",
+  "main_match_strategy": "external_id",
+  "main_match_fields": [
+    "VRM_External_Id__c"
+  ],
+  "field_mappings": {
+    "Name": "Name",
+    "CurrencyIsoCode": "CurrencyIsoCode",
+    "WOD_2__Business_Units__c": "WOD_2__Business_Units__c",
+    "WOD_2__Cost_Categories__c": "WOD_2__Cost_Categories__c",
+    "WOD_2__Is_Default__c": "WOD_2__Is_Default__c",
+    "WOD_2__Status__c": "WOD_2__Status__c",
+    "VRM_External_Id__c": "VRM_External_Id__c"
+  },
+  "field_mapping_count": 7,
+  "lookup_configs": {},
+  "lookup_count": 0,
+  "results": {
+    "total_records": 1,
+    "success_count": 1,
+    "error_count": 0,
+    "success_rate": 100.0
+  }
+}

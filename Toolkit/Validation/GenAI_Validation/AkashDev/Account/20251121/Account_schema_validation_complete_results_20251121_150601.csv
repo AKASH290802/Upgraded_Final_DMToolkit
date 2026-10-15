@@ -1,0 +1,31 @@
+=== VALIDATION SUMMARY ===
+Metric,Value
+Total Records,9
+Passed Records,7
+Failed Records,2
+Total Errors,2
+Success Rate,77.78%
+
+
+=== VALIDATED DATASET WITH RESULTS ===
+FirstName,Phone No.,Billing Street,Validation_Status,Validation_Errors
+Alice,123-456-7890,Springfield,PASSED,
+Bob,234-567-8901,Rivertown,PASSED,
+Charlie,345-678-9012, Lakeview,PASSED,
+Diana,456-789-0123, Hilltop,PASSED,
+Ethan,567-890-1234, Brookfield,PASSED,
+Fiona,678-901-2345,Greenfield,PASSED,
+,9546785,Mountfield,PASSED,Row 7: Required field 'FirstName' (mapped to 'Name') is empty
+,111-222-3333,Northville,FAILED,Row 8: Required field 'FirstName' (mapped to 'Name') is empty
+George,,Eastwood,FAILED,Validation failed (details not specified)
+
+
+=== DETAILED VALIDATION ERRORS ===
+Error_Description
+Row 7: Required field 'FirstName' (mapped to 'Name') is empty
+Row 8: Required field 'FirstName' (mapped to 'Name') is empty
+
+
+=== FIELD-WISE ERROR SUMMARY ===
+Field_Name,Error_Count,Error_Rate_Percent,Sample_Errors
+FirstName,2,22.22,Row 7: Required field 'FirstName' (mapped to 'Name') is empty; Row 8: Required field 'FirstName' (mapped to 'Name') is empty

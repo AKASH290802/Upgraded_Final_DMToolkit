@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DM Toolkit - Security Workflow Guide</title>
+    
+    <!-- Error handling and loading indicators -->
+    <style id="loading-styles">
+        .loading-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #f0f8ff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            font-family: Arial, sans-serif;
+        }
+        .loading-spinner {
+            border: 4px solid #e3f2fd;
+            border-top: 4px solid #1976d2;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .error-container {
+            background: #ffebee;
+            border: 2px solid #f44336;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px;
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+        }
+        .fallback-presentation {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            display: none;
+        }
+        .fallback-slide {
+            margin-bottom: 40px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #f9f9f9;
+        }
+    </style>
+    
+    <!-- Loading indicator with faster timeout -->
+    <div id="loading-container" class="loading-container">
+        <div class="loading-spinner"></div>
+        <p style="margin-top: 20px; font-size: 18px; color: #1976d2;">Loading DM Toolkit Security Guide...</p>
+        <p style="margin-top: 10px; font-size: 14px; color: #666;">Self-contained presentation - no internet required!</p>
+    </div>
+    
+    <!-- Reveal.js with error handling -->
+    <script>
+        let revealLoaded = false;
+        let tailwindLoaded = false;
+        let loadingTimeout;
+        
+        // Set a timeout to show error if resources don't load
+        loadingTimeout = setTimeout(function() {
+            if (!revealLoaded) {
+                showLoadingError();
+            }
+        }, 10000); // 10 second timeout
+        
+        function showLoadingError() {
+            // This should rarely be called now since everything is self-contained
+            document.getElementById('loading-container').innerHTML = `
+                <div class="error-container">
+                    <h2 style="color: #d32f2f; margin-bottom: 15px;">🔧 Switching to Fallback Mode</h2>
+                    <p><strong>Loading the enhanced presentation mode...</strong></p>
+                    <p>The presentation is switching to a compatible mode that works on all browsers.</p>
+                    <button onclick="switchToFallback()" style="background: #1976d2; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; margin-top: 15px;">
+                        View Presentation
+                    </button>
+                </div>
+            `;
+        }
+        
+        function switchToFallback() {
+            document.getElementById('loading-container').style.display = 'none';
+            document.querySelector('.reveal').style.display = 'none';
+            document.querySelector('.fallback-presentation').style.display = 'block';
+        }
+        
+        function hideLoading() {
+            clearTimeout(loadingTimeout);
+            document.getElementById('loading-container').style.display = 'none';
+        }
+    </script>
+    
+    <!-- Self-contained presentation - no external dependencies needed -->
+    <script>
+        // Mock Reveal.js for complete self-contained operation
+        window.Reveal = {
+            initialize: function(config) {
+                console.log('✅ Self-contained presentation initializing...');
+                
+                // Set up slide navigation
+                let currentSlide = 0;
+                const slides = document.querySelectorAll('.reveal .slides section');
+                
+                // Hide all slides except the first one
+                slides.forEach((slide, index) => {
+                    slide.style.display = index === 0 ? 'block' : 'none';
+                    slide.style.position = 'relative';
+                    slide.style.width = '100%';
+                    slide.style.height = '100vh';
+                    slide.style.padding = '40px';
+                    slide.style.boxSizing = 'border-box';
+                    slide.style.overflow = 'auto';
+                });
+                
+                function showSlide(n) {
+                    if (n >= 0 && n < slides.length) {
+                        slides.forEach((slide, index) => {
+                            slide.style.display = index === n ? 'block' : 'none';
+                        });
+                        currentSlide = n;
+                        updateSlideCounter();
+                    }
+                }
+                
+                function updateSlideCounter() {
+                    const counter = document.getElementById('slide-counter');
+                    if (counter) {
+                        counter.textContent = `${currentSlide + 1} / ${slides.length}`;
+                    }
+                }
+                
+                // Keyboard navigation
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'ArrowRight' || e.key === ' ') {
+                        e.preventDefault();
+                        if (currentSlide < slides.length - 1) {
+                            showSlide(currentSlide + 1);
+                        }
+                    } else if (e.key === 'ArrowLeft') {
+                        e.preventDefault();
+                        if (currentSlide > 0) {
+                            showSlide(currentSlide - 1);
+                        }
+                    } else if (e.key === 'Home') {
+                        e.preventDefault();
+                        showSlide(0);
+                    } else if (e.key === 'End') {
+                        e.preventDefault();
+                        showSlide(slides.length - 1);
+                    }
+                });
+                
+                // Create navigation controls
+                const controls = document.createElement('div');
+                controls.innerHTML = `
+                    <div style="position: fixed; bottom: 20px; right: 20px; z-index: 1000; background: rgba(0,0,0,0.8); padding: 10px; border-radius: 8px;">
+                        <button onclick="navigateSlide(-1)" style="background: #1976d2; color: white; border: none; padding: 8px 12px; margin: 2px; border-radius: 4px; cursor: pointer; font-size: 14px;">‹ Prev</button>
+                        <span style="color: white; padding: 8px 12px; font-size: 14px; font-weight: bold;" id="slide-counter">1 / ${slides.length}</span>
+                        <button onclick="navigateSlide(1)" style="background: #1976d2; color: white; border: none; padding: 8px 12px; margin: 2px; border-radius: 4px; cursor: pointer; font-size: 14px;">Next ›</button>
+                    </div>
+                `;
+                document.body.appendChild(controls);
+                
+                // Instructions overlay
+                const instructions = document.createElement('div');
+                instructions.innerHTML = `
+                    <div id="instructions-overlay" style="position: fixed; top: 20px; left: 20px; background: rgba(0,0,0,0.9); color: white; padding: 15px; border-radius: 8px; font-size: 14px; z-index: 1001; max-width: 300px; line-height: 1.4;">
+                        <strong>📱 Navigation Help:</strong><br>
+                        • Arrow keys: ← → to navigate<br>
+                        • Space bar: Next slide<br>
+                        • Home/End: First/Last slide<br>
+                        • Click buttons: Prev/Next<br>
+                        <button onclick="document.getElementById('instructions-overlay').style.display='none'" style="background: #4caf50; color: white; border: none; padding: 5px 10px; border-radius: 4px; cursor: pointer; margin-top: 10px; font-size: 12px;">Got it!</button>
+                    </div>
+                `;
+                document.body.appendChild(instructions);
+                
+                // Auto-hide instructions after 8 seconds
+                setTimeout(function() {
+                    const overlay = document.getElementById('instructions-overlay');
+                    if (overlay) {
+                        overlay.style.display = 'none';
+                    }
+                }, 8000);
+                
+                // Global navigation function
+                window.navigateSlide = function(direction) {
+                    const newSlide = currentSlide + direction;
+                    showSlide(newSlide);
+                };
+                
+                // Initialize
+                showSlide(0);
+                hideLoading();
+                
+                return Promise.resolve();
+            }
+        };
+        
+        // Set flags to indicate everything is loaded
+        revealLoaded = true;
+        tailwindLoaded = true;
+        console.log('✅ Self-contained presentation framework ready');
+    </script>
+    
+    <!-- Comprehensive self-contained styles -->
+    <style>
+        /* Complete presentation framework styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        
+        .reveal {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        .reveal .slides {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .reveal .slides section {
+            background: linear-gradient(to bottom, #e0f0ff, #ffffff);
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+        }
+        
+        /* Typography */
+        .reveal h1 {
+            color: #1e3a8a;
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .reveal h2 {
+            color: #1e3a8a;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            border-bottom: 3px solid #1976d2;
+            padding-bottom: 10px;
+        }
+        
+        .reveal h3 {
+            color: #1e3a8a;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+        
+        .reveal h4 {
+            color: #2c5282;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Layout utilities */
+        .flex { display: flex; }
+        .items-center { align-items: center; }
+        .justify-center { justify-content: center; }
+        .bg-blue-100 { background: linear-gradient(135deg, #dbeafe, #bfdbfe); }
+        .text-center { text-align: center; }
+        .text-5xl { font-size: 3rem; line-height: 1; }
+        .text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+        .text-2xl { font-size: 1.5rem; line-height: 2rem; }
+        .text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+        .text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+        .font-bold { font-weight: 700; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-3 { margin-bottom: 0.75rem; }
+        .mb-2 { margin-bottom: 0.5rem; }
+        .mt-4 { margin-top: 1rem; }
+        .mt-3 { margin-top: 0.75rem; }
+        .mt-2 { margin-top: 0.5rem; }
+        .ml-6 { margin-left: 1.5rem; }
+        .list-disc { list-style-type: disc; }
+        .list-decimal { list-style-type: decimal; }
+        .list-none { list-style-type: none; }
+        
+        /* Specialized content styles */
+        .text-content {
+            font-size: 1.1em;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .code-block {
+            background: #f8f8f8;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            border-left: 4px solid #1976d2;
+        }
+        
+        .highlight {
+            background: linear-gradient(45deg, #4caf50, #66bb6a);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-weight: 600;
+            display: inline-block;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        
+        .warning-highlight {
+            background: linear-gradient(45deg, #f44336, #ef5350);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-weight: 600;
+            display: inline-block;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        
+        .info-highlight {
+            background: linear-gradient(45deg, #2196f3, #42a5f5);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-weight: 600;
+            display: inline-block;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        
+        .security-box {
+            background: linear-gradient(135deg, #fff8e1, #ffecb3);
+            border: 3px solid #ffc107;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 15px 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .workflow-box {
+            background: linear-gradient(135deg, #e1f5fe, #b3e5fc);
+            border: 3px solid #17a2b8;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 15px 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .validation-gate {
+            background: linear-gradient(135deg, #ffebee, #ffcdd2);
+            border: 3px solid #dc3545;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 15px 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-left: 8px solid #dc3545;
+        }
+        
+        .flow-diagram {
+            background: linear-gradient(135deg, #f1f8e9, #dcedc8);
+            border: 3px solid #28a745;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 15px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85em;
+            white-space: pre-line;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .module-section {
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-left: 6px solid #007bff;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        
+        /* Lists */
+        .reveal ul, .reveal ol {
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+        
+        .reveal .small-text {
+            font-size: 0.85em;
+            line-height: 1.5;
+        }
+        
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .reveal h1 { font-size: 2rem; }
+            .reveal h2 { font-size: 1.5rem; }
+            .reveal .slides section { margin: 10px; padding: 20px; }
+            .text-5xl { font-size: 2rem; }
+            .text-3xl { font-size: 1.5rem; }
+            .text-2xl { font-size: 1.25rem; }
+        }
+        
+        /* Fallback presentation styles */
+        .fallback-presentation {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px;
+            background: white;
+            display: none;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        
+        .fallback-slide {
+            margin-bottom: 40px;
+            padding: 25px;
+            border: 2px solid #e0e7ff;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #f8faff, #ffffff);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        
+        .fallback-presentation h1 {
+            color: #1e3a8a;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            border-bottom: 3px solid #1976d2;
+            padding-bottom: 15px;
+        }
+        
+        .fallback-presentation h2 {
+            color: #1e3a8a;
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            border-left: 4px solid #1976d2;
+            padding-left: 15px;
+        }
+        
+        .fallback-presentation h3 {
+            color: #2c5282;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+        
+        /* Animation for smooth transitions */
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        
+        .reveal .slides section {
+            animation: slideIn 0.5s ease-in-out;
+        }
+        
+        /* Print styles */
+        @media print {
+            .reveal .slides section {
+                page-break-after: always;
+                box-shadow: none;
+                margin: 0;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Slide 1: Title Slide -->
+            <section class="flex items-center justify-center bg-blue-100">
+                <div class="text-center">
+                    <h1 class="text-5xl font-bold mb-4">🔒 DM Toolkit Security Workflow Guide</h1>
+                    <h2 class="text-2xl mb-4">Complete Step-by-Step Guide for Secure Data Migration</h2>
+                    <div class="warning-highlight text-lg">
+                        VALIDATION-FIRST APPROACH • NO DATA LOADING WITHOUT VALIDATION
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 2: Critical Security Principle -->
+            <section>
+                <h2 class="text-3xl mb-4">🚨 Critical Security Principle</h2>
+                <div class="validation-gate">
+                    <h3 class="text-2xl mb-3">MANDATORY VALIDATION GATE</h3>
+                    <p class="text-lg mb-4"><strong>Data Loading ONLY After Complete Validation</strong></p>
+                    <div class="flow-diagram">
+Configuration → Extraction → Mapping → VALIDATION GATE → Unit Testing → Data Loading
+                                                    ↑
+                                         SECURITY CHECKPOINT
+                                         (Cannot be bypassed)
+                    </div>
+                </div>
+                <div class="text-content mt-4">
+                    <p class="warning-highlight">⚠️ NEVER skip validation for convenience!</p>
+                    <p class="mt-2">This prevents data corruption, system damage, and compliance violations.</p>
+                </div>
+            </section>
+
+            <!-- Slide 3: Application Overview -->
+            <section>
+                <h2 class="text-3xl mb-4">🏗️ Application Overview</h2>
+                <div class="workflow-box">
+                    <h3 class="text-xl mb-3">Module Hierarchy & Purpose:</h3>
+                    <ul class="list-none text-left">
+                        <li>🏠 <strong>Dashboard</strong> → System overview & health monitoring</li>
+                        <li>⚙️ <strong>Configuration</strong> → Setup organizations & connections</li>
+                        <li>📥 <strong>Data Operations</strong> → Extract data & Load data (after validation only)</li>
+                        <li>🗺️ <strong>Mapping</strong> → View & analyze field mappings for objects</li>
+                        <li>✅ <strong>Validation</strong> → Validate data BEFORE loading (MANDATORY)</li>
+                        <li>🧪 <strong>Unit Testing</strong> → Generate/Execute tests for quality assurance</li>
+                        <li>📋 <strong>Logs & Reports</strong> → Monitor activities & audit trails</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Slide 4: Security Flow Control -->
+            <section>
+                <h2 class="text-3xl mb-4">🔐 Security Flow Control</h2>
+                <div class="flow-diagram">
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   Data Extract  │───▶│   Mapping View  │───▶│   Validation    │
+│   (Safe - Read  │    │   (Analysis)    │    │   (MANDATORY)   │
+│   Only)         │    │                 │    │                 │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
+                                                        │
+                                                        ▼
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   Data Loading  │◀───│   Unit Testing  │◀───│   Validation    │
+│   (LOCKED until │    │   (Quality      │    │   PASSED ✅     │
+│   validation)   │    │   Assurance)    │    │                 │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
+                </div>
+                <div class="security-box mt-4">
+                    <p class="highlight">🛡️ Security Features:</p>
+                    <ul class="list-disc ml-6 mt-2">
+                        <li>Data loading operations locked until validation passes</li>
+                        <li>Multi-layer validation system (Schema + Custom + GenAI)</li>
+                        <li>Complete audit trail of all operations</li>
+                        <li>Real-time monitoring and alerts</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Slide 5: Step 0 & 1 - Initial Setup -->
+            <section>
+                <h2 class="text-3xl mb-4">⚙️ Initial Setup & Configuration</h2>
+                <!-- <div class="module-section">
+                    <h3 class="text-xl mb-3">Step 0: Application Launch</h3>
+                    <div class="code-block mb-3">
+# Windows - Double click
+run_streamlit_app.bat
+
+# Or manually
+streamlit run streamlit_app.py
+                    </div> -->
+                    <!-- <p class="small-text">Access Application: Open browser to <code>http://localhost:8501</code></p>
+                </div> -->
+                <div class="module-section">
+                    <h3 class="text-xl mb-3">Step 1: Organization Selection (MANDATORY FIRST STEP)</h3>
+                    <ol class="list-decimal ml-6">
+                        <li>Look at the Sidebar → Find "🏢 Select Organization"</li>
+                        <li>Choose Your Target Org from the dropdown</li>
+                        <li>Verify Connection Status → Should show green checkmark</li>
+                        <li>Note: All subsequent operations will use this organization</li>
+                    </ol>
+                </div>
+            </section>
+
+            <!-- Slide 6: Phase 1 - Data Discovery -->
+            <section>
+                <h2 class="text-3xl mb-4">📊 Phase 1: Data Discovery & Preparation</h2>
+                <div class="workflow-box">
+                    <h3 class="text-xl mb-3">Navigate to 📥 Data Operations → Data Extraction</h3>
+                    <p class="highlight">PURPOSE:</p> Extract data to understand structure and prepare for validation
+                </div>
+                <div class="text-content">
+                    <h4 class="text-lg mb-2">🔍 Data Extraction Options:</h4>
+                    <ul class="list-disc ml-6">
+                        <li><strong>Option A: Extract from Salesforce (Recommended First)</strong>
+                            <ul class="list-disc ml-6 small-text">
+                                <li>Purpose: See existing data structure in your org</li>
+                                <li>Security: Read-only operation - completely safe</li>
+                                <li>Result: CSV/Excel files for analysis</li>
+                            </ul>
+                        </li>
+                        <li><strong>Option B: Extract from SQL Server</strong>
+                            <ul class="list-disc ml-6 small-text">
+                                <li>Purpose: Get data from legacy database systems</li>
+                                <li>Security: External system - verify credentials</li>
+                            </ul>
+                        </li>
+                        <li><strong>Option C: Upload File (CSV/Excel)</strong>
+                            <ul class="list-disc ml-6 small-text">
+                                <li>Purpose: Prepare external data files for migration</li>
+                                <li>Security: Local file processing only</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="info-highlight mt-3">Next Step: Proceed to Mapping to understand field relationships</div>
+            </section>
+
+            <!-- Slide 7: Phase 2 - Field Mapping -->
+            <section>
+                <h2 class="text-3xl mb-4">📊 Phase 2: Field Mapping Analysis</h2>
+                <div class="workflow-box">
+                    <h3 class="text-xl mb-3">Navigate to 🗺️ Mapping</h3>
+                    <p class="highlight">PURPOSE:</p> Understand how your data fields map to Salesforce object fields
+                </div>
+                <div class="text-content">
+                    <h4 class="text-lg mb-2">🗺️ Mapping Operations:</h4>
+                    <ul class="list-disc ml-6">
+                        <li><strong>Tab 1: Generate Mapping</strong>
+                            <ul class="list-disc ml-6 small-text">
+                                <li>🤖 Auto-detect: AI analyzes your data and suggests mappings</li>
+                                <li>📋 Standard: Use common field patterns (Name→Name, Email→Email)</li>
+                                <li>✏️ Custom: Manually define each field mapping</li>
+                            </ul>
+                        </li>
+                        <li><strong>Tab 2: View Mappings</strong> - Browse existing mapping configurations</li>
+                        <li><strong>Tab 3: Edit Mapping</strong> - Modify existing field mappings</li>
+                        <li><strong>Tab 4: Mapping Analytics</strong> - Analyze mapping quality and coverage</li>
+                    </ul>
+                </div>
+                <div class="security-box mt-3">
+                    <p class="info-highlight">🔒 Security Note:</p> This is analysis only - no data is moved to Salesforce
+                </div>
+                <div class="info-highlight mt-3">Next Step: Proceed to Validation to ensure data quality</div>
+            </section>
+
+            <!-- Slide 8: Phase 3 - Validation Gate -->
+            <section>
+                <h2 class="text-3xl mb-4">📊 Phase 3: Comprehensive Validation (MANDATORY GATE)</h2>
+                <div class="validation-gate">
+                    <h3 class="text-xl mb-3">Navigate to ✅ Validation</h3>
+                    <p class="warning-highlight">🚨 CRITICAL: This is your SECURITY GATE - No data loading without passing validation!</p>
+                </div>
+                <div class="text-content">
+                    <h4 class="text-lg mb-2">✅ Validation Operations (All Must Pass):</h4>
+                    <ul class="list-disc ml-6">
+                        <li><strong>Tab 1: Schema Validation</strong>
+                            <ul class="list-disc ml-6 small-text">
+                                <li>✓ Required fields have data</li>
+                                <li>✓ Data types match Salesforce field types</li>
+                                <li>✓ Email formats, date formats, picklist values</li>
+                                <li>✓ Reference fields exist in related objects</li>
+                            </ul>
+                        </li>
+                        <li><strong>Tab 2: Custom Validation</strong>
+                            <ul class="list-disc ml-6 small-text">
+                                <li>✓ Salesforce validation rules compliance</li>
+                                <li>✓ Workflow rule requirements</li>
+                                <li>✓ Custom business logic validation</li>
+                            </ul>
+                        </li>
+                        <li><strong>Tab 3: GenAI Validation (Advanced)</strong>
+                            <ul class="list-disc ml-6 small-text">
+                                <li>✓ AI-powered pattern recognition</li>
+                                <li>✓ Complex business logic validation</li>
+                                <li>✓ Intelligent error detection</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Slide 9: Validation Requirements -->
+            <section>
+                <h2 class="text-3xl mb-4">🚨 Validation Gate Requirements</h2>
+                <div class="validation-gate">
+                    <h3 class="text-xl mb-3">VALIDATION GATE REQUIREMENTS:</h3>
+                    <ul class="list-disc ml-6">
+                        <li>✅ Schema Validation: >95% pass rate required</li>
+                        <li>✅ Custom Validation: All business rules must pass</li>
+                        <li>✅ Data Quality: No critical issues detected</li>
+                        <li>✅ Unit Testing: >95% test pass rate required</li>
+                        <li>✅ Stakeholder Approval: Business sign-off obtained</li>
+                        <li>✅ Environment Verification: Correct target org confirmed</li>
+                        <li>✅ Security Scan: No security vulnerabilities detected</li>
+                    </ul>
+                </div>
+                <div class="workflow-box mt-4">
+                    <p class="warning-highlight">🚫 IF VALIDATION FAILS:</p>
+                    <ol class="list-decimal ml-6 mt-2">
+                        <li><strong>DO NOT PROCEED</strong> to data loading</li>
+                        <li>Fix issues in source data</li>
+                        <li>Re-run validation until all checks pass</li>
+                    </ol>
+                </div>
+                <div class="info-highlight mt-3">Next Step: Once validation passes, proceed to Unit Testing</div>
+            </section>
+
+            <!-- Slide 10: Phase 4 - Unit Testing -->
+            <section>
+                <h2 class="text-3xl mb-4">📊 Phase 4: Quality Assurance Testing</h2>
+                <div class="workflow-box">
+                    <h3 class="text-xl mb-3">Navigate to 🧪 Unit Testing</h3>
+                    <p class="highlight">PURPOSE:</p> Generate and execute comprehensive tests to ensure system reliability
+                </div>
+                <div class="text-content">
+                    <h4 class="text-lg mb-2">🧪 Unit Testing Operations:</h4>
+                    <ul class="list-disc ml-6">
+                        <li><strong>Tab 1: Generate Tests</strong>
+                            <ul class="list-disc ml-6 small-text">
+                                <li>🔍 Analyzes your selected Salesforce object</li>
+                                <li>🧪 Generates 15-25 professional test cases</li>
+                                <li>✅ Creates validation tests for business rules</li>
+                                <li>⚡ Builds performance tests for data loading</li>
+                                <li>🔒 Includes security and error handling tests</li>
+                            </ul>
+                        </li>
+                        <li><strong>Tab 2: Execute Tests</strong>
+                            <ul class="list-disc ml-6 small-text">
+                                <li>🏃 Executes all test cases in selected test suite</li>
+                                <li>📊 Provides real-time progress monitoring</li>
+                                <li>✅ Shows pass/fail results for each test</li>
+                                <li>📈 Generates performance metrics</li>
+                            </ul>
+                        </li>
+                        <li><strong>Tab 3: Test Reports</strong> - Review test history and analyze trends</li>
+                    </ul>
+                </div>
+                <div class="security-box mt-3">
+                    <p class="highlight">🎯 Testing Success Criteria:</p>
+                    <ul class="list-disc ml-6 mt-2">
+                        <li>✅ Test generation completed successfully</li>
+                        <li>✅ Test execution shows >95% pass rate</li>
+                        <li>✅ No critical failures detected</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Slide 11: Phase 5 - Authorized Data Loading -->
+            <section>
+                <h2 class="text-3xl mb-4">📊 Phase 5: Authorized Data Loading</h2>
+                <div class="workflow-box">
+                    <h3 class="text-xl mb-3">Return to 📥 Data Operations → Data Loading</h3>
+                    <p class="highlight">🔐 NOW UNLOCKED:</p> Data loading operations after successful validation
+                </div>
+                <div class="security-box">
+                    <h4 class="text-lg mb-2">✅ PRE-LOADING VERIFICATION:</h4>
+                    <ul class="list-disc ml-6">
+                        <li>✓ Schema validation passed</li>
+                        <li>✓ Custom validation completed</li>
+                        <li>✓ Unit tests executed successfully</li>
+                        <li>✓ All quality gates satisfied</li>
+                        <li>✓ Stakeholder approval obtained</li>
+                    </ul>
+                </div>
+                <div class="text-content mt-4">
+                    <h4 class="text-lg mb-2">📥 Data Loading Configuration:</h4>
+                    <ul class="list-disc ml-6">
+                        <li><strong>Operation Type:</strong> Insert (new records) or Upsert (insert/update)</li>
+                        <li><strong>Batch Size:</strong> 200 records recommended for safety</li>
+                        <li><strong>Error Handling:</strong> Stop on error vs Continue processing</li>
+                        <li><strong>Duplicate Handling:</strong> Based on business rules</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Slide 12: Phase 6 - Monitoring & Audit -->
+            <section>
+                <h2 class="text-3xl mb-4">📊 Phase 6: Monitoring & Audit Review</h2>
+                <div class="workflow-box">
+                    <h3 class="text-xl mb-3">Navigate to 📋 Logs & Reports</h3>
+                    <p class="highlight">PURPOSE:</p> Monitor all activities and maintain comprehensive audit trails
+                </div>
+                <div class="text-content">
+                    <h4 class="text-lg mb-2">📋 Monitoring & Reporting Operations:</h4>
+                    <ul class="list-disc ml-6">
+                        <li><strong>Tab 1: Processing Logs</strong>
+                            <ul class="list-disc ml-6 small-text">
+                                <li>📤 Data extraction activities and results</li>
+                                <li>🗺️ Mapping generation and modifications</li>
+                                <li>✅ Validation execution results and issues</li>
+                                <li>📥 Data loading operations and outcomes</li>
+                            </ul>
+                        </li>
+                        <li><strong>Tab 2: Activity Reports</strong> - Analyze system usage and performance</li>
+                        <li><strong>Tab 3: Error Analysis</strong> - Analyze errors and identify improvements</li>
+                        <li><strong>Tab 4: File Management</strong> - Manage all data files and reports</li>
+                        <li><strong>Tab 5: System Diagnostics</strong> - Monitor system health and performance</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Slide 13: Common Questions & Answers -->
+            <section>
+                <h2 class="text-3xl mb-4">🚨 Common Questions & Answers</h2>
+                <div class="text-content">
+                    <div class="module-section">
+                        <h4 class="text-lg mb-2">Q: What's the difference between Mapping and Validation?</h4>
+                        <p><strong>🗺️ Mapping:</strong> Analyzes field relationships (CSV columns → Salesforce fields)</p>
+                        <p><strong>✅ Validation:</strong> Quality gate to ensure data is safe to load</p>
+                    </div>
+                    <div class="module-section">
+                        <h4 class="text-lg mb-2">Q: Can I skip validation and go straight to loading?</h4>
+                        <p class="warning-highlight">NO! Absolutely not!</p>
+                        <ul class="list-disc ml-6 small-text">
+                            <li>Validation is a security gate that cannot be bypassed</li>
+                            <li>Loading operations are locked until validation passes</li>
+                            <li>This prevents data corruption and system damage</li>
+                        </ul>
+                    </div>
+                    <div class="module-section">
+                        <h4 class="text-lg mb-2">Q: Generate Tests vs Execute Tests - what's the difference?</h4>
+                        <p><strong>🔧 Generate Tests:</strong> Create new test cases for an object (first time)</p>
+                        <p><strong>🏃 Execute Tests:</strong> Run existing test cases to verify quality</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 14: Quick Reference - What to Do When -->
+            <section>
+                <h2 class="text-3xl mb-4">🎯 Quick Reference - What to Do When</h2>
+                <div class="workflow-box">
+                    <h3 class="text-xl mb-3">Starting a New Migration Project:</h3>
+                    <ol class="list-decimal ml-6 small-text">
+                        <li>🏠 Dashboard → Check system health</li>
+                        <li>⚙️ Configuration → Select target Salesforce org</li>
+                        <li>📥 Data Operations → Extract current SF data for reference</li>
+                        <li>📥 Data Operations → Upload your migration data</li>
+                        <li>🗺️ Mapping → Generate field mappings</li>
+                        <li>✅ Validation → Run schema validation</li>
+                        <li>✅ Validation → Run custom validation</li>
+                        <li>🧪 Unit Testing → Generate comprehensive tests</li>
+                        <li>🧪 Unit Testing → Execute test suite</li>
+                        <li>📥 Data Operations → Load data (now authorized)</li>
+                        <li>📋 Logs & Reports → Monitor and audit</li>
+                    </ol>
+                </div>
+                <div class="security-box mt-4">
+                    <h3 class="text-xl mb-3">Quality Check Only (No Loading):</h3>
+                    <p class="small-text">Steps 1-7 + Stop here - no loading needed</p>
+                </div>
+            </section>
+
+            <!-- Slide 15: Security Best Practices -->
+            <section>
+                <h2 class="text-3xl mb-4">🛡️ Security Best Practices</h2>
+                <div class="security-box">
+                    <h3 class="text-xl mb-3">Best Practices for Success:</h3>
+                    <ul class="list-disc ml-6">
+                        <li><strong>Always Start Small:</strong> Test with 100-500 records first</li>
+                        <li><strong>Use Sandbox First:</strong> Never test in production</li>
+                        <li><strong>Validate Everything:</strong> Don't skip any validation steps</li>
+                        <li><strong>Monitor Continuously:</strong> Watch for errors and performance issues</li>
+                        <li><strong>Document Everything:</strong> Keep records of all mappings and validations</li>
+                        <li><strong>Plan for Rollback:</strong> Always have a backup and recovery plan</li>
+                    </ul>
+                </div>
+                <div class="validation-gate mt-4">
+                    <h3 class="text-xl mb-3">Performance Optimization:</h3>
+                    <ul class="list-disc ml-6">
+                        <li><strong>Batch Size:</strong> Use 200 records for safety, 500-1000 for speed</li>
+                        <li><strong>Off-Peak Hours:</strong> Schedule large loads during low-usage times</li>
+                        <li><strong>Governor Limits:</strong> Monitor API usage and stay under limits</li>
+                        <li><strong>Error Handling:</strong> Stop on first error for data integrity</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Slide 16: Summary -->
+            <section class="flex items-center justify-center bg-blue-100">
+                <div class="text-center">
+                    <h2 class="text-3xl mb-4">📋 Summary</h2>
+                    <div class="workflow-box text-left">
+                        <h3 class="text-xl mb-3">Key Workflow Steps:</h3>
+                        <ol class="list-decimal ml-6">
+                            <li>Organization Selection → Data Extraction</li>
+                            <li>Field Mapping Analysis</li>
+                            <li><strong>VALIDATION (MANDATORY GATE)</strong></li>
+                            <li>Unit Testing for Quality Assurance</li>
+                            <li>Authorized Data Loading</li>
+                            <li>Monitoring & Audit Review</li>
+                        </ol>
+                    </div>
+                    <div class="validation-gate mt-4">
+                        <p class="warning-highlight text-lg">🔒 Remember: Validation is your safety net - never bypass it for convenience!</p>
+                    </div>
+                    <div class="info-highlight mt-4">
+                        <p><strong>Document Version:</strong> 2.0 | <strong>Last Updated:</strong> September 30, 2025</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <!-- Fallback presentation (visible when Reveal.js fails) -->
+    <div class="fallback-presentation">
+        <h1>🔒 DM Toolkit Security Workflow Guide</h1>
+        <p style="text-align: center; font-size: 1.2em; margin-bottom: 2rem;">
+            <span class="warning-highlight">VALIDATION-FIRST APPROACH • NO DATA LOADING WITHOUT VALIDATION</span>
+        </p>
+        
+        <div class="fallback-slide">
+            <h2>🚨 Critical Security Principle</h2>
+            <div style="background: #f8d7da; border: 2px solid #dc3545; padding: 15px; border-radius: 8px; margin: 10px 0;">
+                <h3>MANDATORY VALIDATION GATE</h3>
+                <p><strong>Data Loading ONLY After Complete Validation</strong></p>
+                <p style="background: #f44336; color: white; padding: 5px 10px; border-radius: 4px; display: inline-block;">
+                    ⚠️ NEVER skip validation for convenience!
+                </p>
+            </div>
+        </div>
+        
+        <div class="fallback-slide">
+            <h2>🎯 Quick Reference - Key Steps</h2>
+            <ol style="line-height: 1.6;">
+                <li><strong>Organization Selection</strong> → Select target Salesforce org</li>
+                <li><strong>Data Extraction</strong> → Extract data for analysis</li>
+                <li><strong>Field Mapping</strong> → Analyze field relationships</li>
+                <li><strong>VALIDATION (MANDATORY)</strong> → Schema + Custom + GenAI validation</li>
+                <li><strong>Unit Testing</strong> → Quality assurance testing</li>
+                <li><strong>Data Loading</strong> → Authorized loading after validation</li>
+                <li><strong>Monitoring</strong> → Audit and monitor activities</li>
+            </ol>
+        </div>
+        
+        <div style="background: linear-gradient(135deg, #e8f5e8, #f0fff0); border: 3px solid #28a745; padding: 20px; border-radius: 12px; margin: 20px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+            <p><span class="info-highlight">📢 Universal Compatibility Mode:</span> This presentation works on all browsers and devices without requiring an internet connection.</p>
+            <p style="margin-top: 10px; font-size: 14px; color: #666;">
+                <strong>Navigation:</strong> Use the scroll wheel or arrow keys to navigate through sections. All content is optimized for offline viewing.
+            </p>
+        </div>
+    </div>
+    
+    <script>
+        // Enhanced initialization for self-contained presentation
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🔄 Self-contained presentation initializing...');
+            
+            // Initialize immediately since everything is self-contained
+            if (typeof Reveal !== 'undefined') {
+                Reveal.initialize({
+                    hash: false,
+                    transition: 'slide',
+                    backgroundTransition: 'fade',
+                    controls: true,
+                    progress: true,
+                    keyboard: true,
+                    touch: true,
+                    center: true
+                }).then(function() {
+                    console.log('✅ Self-contained presentation ready');
+                }).catch(function(error) {
+                    console.error('❌ Presentation initialization error:', error);
+                    // Fallback to manual navigation if there's an issue
+                    switchToFallback();
+                });
+            } else {
+                console.error('❌ Presentation framework not found');
+                switchToFallback();
+            }
+        });
+        
+        // Simplified error handling since everything is self-contained
+        window.addEventListener('error', function(event) {
+            console.error('🚨 Error caught:', event.error);
+        });
+        
+        // No timeout needed since everything loads instantly
+        setTimeout(function() {
+            if (document.getElementById('loading-container').style.display !== 'none') {
+                console.log('🚀 Self-contained presentation should be ready');
+                hideLoading();
+            }
+        }, 100);
+    </script>
+</body>
+</html>

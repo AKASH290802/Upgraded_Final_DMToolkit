@@ -1,0 +1,287 @@
+ValidationName,ErrorConditionFormula,FieldName,ObjectName,Active,ErrorMessage,Description,ValidationRuleName
+CLM_NonSerializedPartCannotHaveSerialNo,"AND(
+    OR(
+        $Permission.WOD_2__DisableSkipTriggerNValidation, NOT($Permission.WOD_2__SkipTriggerNValidations)
+    )
+    ,OR(
+        AND(
+            ISPICKVAL( WOD_2__Causal_Part_Number__r.WOD_2__Track_Type__c , 'Non-Serialized')
+            ,NOT(ISBLANK(WOD_2__Causal_Part_Serial_Number__c))
+        )
+        ,AND(
+            NOT(WOD_2__CausalPartNumber_P2__r.WOD_2__Is_Serialized__c)
+            ,NOT(ISBLANK(WOD_2__Causal_Part_Serial_Number__c))
+        )    
+    )
+)",,WOD_2__Claim__c,False,Non-Serialized Causal Part can not have serial number,,CLM_NonSerializedPartCannotHaveSerialNo
+GW_REASON_MANDATORY,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),AND(ISPICKVAL(WOD_2__Claim_Type__c, 'Goodwill'), ISPICKVAL(WOD_2__Goodwill_Reason__c,'')))",,WOD_2__Claim__c,False,Please select Goodwill Reason,,GW_REASON_MANDATORY
+MC_PC_ACCOUNT_MANDATORY,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),IF(AND(OR(ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'),ISPICKVAL(WOD_2__Claim_Type__c, 'Part')), ISBLANK(WOD_2__Account__c)),true,false))",,WOD_2__Claim__c,False,Service Dealer is required,,MC_PC_ACCOUNT_MANDATORY
+MC_PC_CASUAL_MANDATORY,"IF( AND( OR(ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'),ISPICKVAL(WOD_2__Claim_Type__c, 'Part')) ,ISBLANK( WOD_2__Causal_Part_Number__c )) , true, false)",,WOD_2__Claim__c,False,DEPRECATED,,MC_PC_CASUAL_MANDATORY
+MC_PC_CAUSAL_MANDATORY,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),IF( AND( OR(ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'),ISPICKVAL(WOD_2__Claim_Type__c, 'Part'),ISPICKVAL(WOD_2__Claim_Type__c, 'Field Modification')) ,AND(ISBLANK( WOD_2__Causal_Part_Number__c ),ISBLANK(WOD_2__CausalPartNumber_P2__c))) , true, false))",,WOD_2__Claim__c,False,Please select Causal Part,,MC_PC_CAUSAL_MANDATORY
+MC_PC_CAUSAL_PART_SNO_MANDATORY,"AND(
+    OR(
+        $Permission.WOD_2__DisableSkipTriggerNValidation, NOT($Permission.WOD_2__SkipTriggerNValidations)
+    )
+    ,IF(
+        OR(
+            AND(
+                ISBLANK(TRIM( WOD_2__Causal_Part_Serial_Number__c ))
+                ,ISPICKVAL( WOD_2__Causal_Part_Number__r.WOD_2__Track_Type__c ,'Serialized')
+                ,!ISPICKVAL(WOD_2__Claim_Type__c, 'Claim Template')
+            ) 
+            ,AND(
+                ISBLANK(TRIM( WOD_2__Causal_Part_Serial_Number__c ))
+                ,WOD_2__CausalPartNumber_P2__r.WOD_2__Is_Serialized__c
+                ,!ISPICKVAL(WOD_2__Claim_Type__c, 'Claim Template')
+            ) 
+        
+        )
+        , true
+        ,false
+    )
+)",,WOD_2__Claim__c,False,Causal Part Serial Number is required for Serialized Part,,MC_PC_CAUSAL_PART_SNO_MANDATORY
+MC_PC_FAILUREDATE_LESS_REPAIRDATE,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),IF(AND(OR(ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'),ISPICKVAL(WOD_2__Claim_Type__c, 'Part'),ISPICKVAL(WOD_2__Claim_Type__c, 'Field Modification')),   WOD_2__Date_Of_Repair__c < WOD_2__Date_Of_Failure__c
+) ,true,false))",,WOD_2__Claim__c,False,Failure Date can't be greater than Repair Date,,MC_PC_FAILUREDATE_LESS_REPAIRDATE
+MC_PC_FAILUREDATE_MANDATORY,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),IF(AND(OR(ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'),ISPICKVAL(WOD_2__Claim_Type__c, 'Part')), ISBLANK( WOD_2__Date_Of_Failure__c)),true,false))",,WOD_2__Claim__c,False,Date of failure is required,,MC_PC_FAILUREDATE_MANDATORY
+MC_PC_INVENTORY_MANDATORY,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),IF(
+OR(AND(ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'), AND(ISBLANK(WOD_2__Inventory__c),ISBLANK(WOD_2__Asset__c))),
+AND(ISPICKVAL(WOD_2__Claim_Type__c, 'Part'), AND(ISBLANK(WOD_2__Inventory__c),ISBLANK(WOD_2__Asset__c)),ISPICKVAL(WOD_2__Host_NonHost__c,'Installed on OEM machine'))),true,false))",,WOD_2__Claim__c,False,Please Select Inventory,,MC_PC_INVENTORY_MANDATORY
+MC_PC_MODELNO_MANDATORY,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),IF(
+OR(AND(ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'), AND(ISBLANK(WOD_2__Model_Number__c),ISBLANK(WOD_2__ModelNumber_P2__c))),
+AND(ISPICKVAL(WOD_2__Claim_Type__c, 'Part'), AND(ISBLANK(WOD_2__Model_Number__c),ISBLANK(WOD_2__ModelNumber_P2__c)),ISPICKVAL(WOD_2__Host_NonHost__c,'Installed on OEM machine'))),true,false))",,WOD_2__Claim__c,False,Material/Model Number is required,,MC_PC_MODELNO_MANDATORY
+MC_PC_PRE_AUTH_COMMENTS_MANDATORY,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),IF(AND(OR(ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'),ISPICKVAL(WOD_2__Claim_Type__c, 'Part')), WOD_2__Is_Pre_Authorization_Required__c==true,ISBLANK(TRIM( 	WOD_2__Pre_Authorization_Comments__c)) ),true,false))",,WOD_2__Claim__c,True,Pre Authorization Comments is mandatory,,MC_PC_PRE_AUTH_COMMENTS_MANDATORY
+MC_PC_PRE_AUTH_REASON_MANDATORY,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),IF(AND(OR(ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'),ISPICKVAL(WOD_2__Claim_Type__c, 'Part')), WOD_2__Is_Pre_Authorization_Required__c==true,ISPICKVAL(WOD_2__Pre_Authorization_Reason__c,'') ),true,false))",,WOD_2__Claim__c,True,Pre Authorization Reason is mandatory,,MC_PC_PRE_AUTH_REASON_MANDATORY
+MC_PC_REPAIRDATE_MANDATORY,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),IF( AND( OR(ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'),ISPICKVAL(WOD_2__Claim_Type__c, 'Part')) ,ISBLANK(  WOD_2__Date_Of_Repair__c)) , true, false))",,WOD_2__Claim__c,False,Date of repair is required,,MC_PC_REPAIRDATE_MANDATORY
+MC_PurchaseDate_Less_REPAIRDATE_FAILURE,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),IF(  OR(WOD_2__Date_Of_Purchase__c> WOD_2__Date_Of_Repair__c ,WOD_2__Date_Of_Purchase__c> WOD_2__Date_Of_Failure__c ), true, false))",,WOD_2__Claim__c,True,purchase Date can't be greater,,MC_PurchaseDate_Less_REPAIRDATE_FAILURE
+OSD_RECEIVEDATE_LESS_TODAY,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),WOD_2__Received_Date__c > TODAY())",,WOD_2__Claim__c,True,Received Date cannot be in future.,,OSD_RECEIVEDATE_LESS_TODAY
+PC_PART_MANDATORY,"AND(
+    OR(
+        $Permission.WOD_2__DisableSkipTriggerNValidation, NOT($Permission.WOD_2__SkipTriggerNValidations)
+    )
+    ,IF(
+        AND(
+            ISPICKVAL(WOD_2__Claim_Type__c, 'Part')
+            ,AND(
+                ISBLANK(WOD_2__Part__c )
+                ,ISBLANK(WOD_2__PartNumber_P2__c )
+            ) 
+        )
+        ,true
+        ,false
+    )
+)",,WOD_2__Claim__c,False,Please Select Part,,PC_PART_MANDATORY
+PC_PART_SNO_MANDATORY,"AND(
+    OR(
+        $Permission.WOD_2__DisableSkipTriggerNValidation,
+        NOT($Permission.WOD_2__SkipTriggerNValidations)
+    )
+    ,OR(
+        AND(
+            ISPICKVAL(WOD_2__Claim_Type__c, 'Part')
+            , ISPICKVAL(WOD_2__Part__r.WOD_2__Track_Type__c, 'Serialized')
+            , ISBLANK(WOD_2__Part_Serial_Number__c)
+        )
+        ,AND(
+            ISPICKVAL(WOD_2__Claim_Type__c, 'Part')
+            , WOD_2__PartNumber_P2__r.WOD_2__Is_Serialized__c
+            , ISBLANK(WOD_2__Part_Serial_Number__c)
+        )
+    )    
+)",,WOD_2__Claim__c,True,Part Serial Number is required for Serialized Part,,PC_PART_SNO_MANDATORY
+PC_PURCHASEDATE_MANDATORY,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),IF(AND(ISPICKVAL(WOD_2__Claim_Type__c, 'Part'), ISBLANK(  WOD_2__Date_Of_Purchase__c )),true,false))",,WOD_2__Claim__c,False,Please Provide Purchase Date,,PC_PURCHASEDATE_MANDATORY
+PREAUTH_EXPIRY_DATE_CHECK,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),WOD_2__Pre_Authorization__r.WOD_2__Expiry_Date__c<TODAY())",,WOD_2__Claim__c,True,Record is expired. Please create a new Pre-Approval record.,,PREAUTH_EXPIRY_DATE_CHECK
+PREAUTH_FULFILLED_CHECK,"AND(
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),WOD_2__Pre_Authorization__r.WOD_2__Fulfilled__c == true)",,WOD_2__Claim__c,True,PreAuthorization is already fulfilled,,PREAUTH_FULFILLED_CHECK
+KBT_Order_Number_Is_Blank,"AND(
+OR($User.KBT_Is_Adjudicator__c, $User.KBT_Is_Approver__c),
+ISBLANK(KBT_Order_Number__c)
+)",,WOD_2__Claim__c,False,Order Number field is blank,,KBT_Order_Number_Is_Blank
+KBT_Unit_Usage_Valid_Range_Validation,"AND(
+    NOT(ISBLANK(WOD_2__Units_Usage__c)),
+    NOT(
+        REGEX(
+            TEXT(WOD_2__Units_Usage__c),
+            ""^(?:[0-9]{1,14}|[0-9]{1,14}\\.[0-9]{1,2})$""
+        )
+    )
+)",,WOD_2__Claim__c,True,Units Usage cannot exceed 16 digits (14 before decimal and 2 after decimal),,KBT_Unit_Usage_Valid_Range_Validation
+Claim_Is_Locked,"If(AND(KBT_Is_Locked__c, PRIORVALUE(KBT_Is_Locked__c), NOT($User.KBT_Do_Not_Validate__c) ),
+true,false)",,WOD_2__Claim__c,True,This action cannot be performed because the claim has been locked.,,Claim_Is_Locked
+Failure_Date_validation_rule,"IF(AND(OR(ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'),ISPICKVAL(WOD_2__Claim_Type__c, 'Part')),    KBT_FirstUseDate__c  > WOD_2__Date_Of_Failure__c
+) ,true,false)",,WOD_2__Claim__c,True,Failure Date cannot be earlier than first usage date.,,Failure_Date_validation_rule
+Goodwill_Type_Is_Missing,"if(KBT_Goodwill_Claim__c =true, If(ISPICKVAL( KBT_Goodwill_Type__c ,''),true,false),false)",,WOD_2__Claim__c,True,Please select a value for goodwill type,,Goodwill_Type_Is_Missing
+KBT_Description_Null_Check,"AND(
+ISBLANK(WOD_2__Description__c),
+ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'),
+NOT(ISPICKVAL(WOD_2__Claim_Status__c, 'Initial Draft'))
+)",,WOD_2__Claim__c,False,Description field is blank,,KBT_Description_Null_Check
+KBT_Initial_Draft_Validation_Check,"AND(
+    NOT(KBT_Create_as_Initial_Draft__c),
+    ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'),
+    NOT(ISPICKVAL(WOD_2__Claim_Status__c, 'Initial Draft'))
+)",,WOD_2__Claim__c,False,Claim cannot be submitted with initial draft status,,KBT_Initial_Draft_Validation_Check
+KBT_MC_PC_ACCOUNT_MANDATORY,"IF(AND(OR(ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'),ISPICKVAL(WOD_2__Claim_Type__c, 'Part')), ISBLANK(WOD_2__Account__c), NOT( ISPICKVAL( WOD_2__Claim_Status__c , 'Initial Draft') ) ),true,false)",,WOD_2__Claim__c,False,Service Dealer is required,,KBT_MC_PC_ACCOUNT_MANDATORY
+KBT_MC_PC_CAUSAL_MANDATORY,"IF(AND(OR(
+ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'),
+ISPICKVAL(WOD_2__Claim_Type__c, 'Part'),
+ISPICKVAL(WOD_2__Claim_Type__c, 'Claim Template'),
+ISPICKVAL(WOD_2__Claim_Type__c, 'Field Modification')
+),
+ISBLANK(WOD_2__Causal_Part_Number__c),
+NOT(ISPICKVAL(WOD_2__Claim_Status__c , 'Initial Draft')),
+NOT(ISPICKVAL(KBT_Claim_Source_System__c, 'RBOX'))
+),
+TRUE , FALSE
+)",,WOD_2__Claim__c,True,Please select Causal Part,,KBT_MC_PC_CAUSAL_MANDATORY
+KBT_MC_PC_FAILUREDATE_MANDATORY,"IF(AND(OR(ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'),ISPICKVAL(WOD_2__Claim_Type__c, 'Part')), ISBLANK( WOD_2__Date_Of_Failure__c),NOT( ISPICKVAL( WOD_2__Claim_Status__c , 'Initial Draft') )),true,false)",,WOD_2__Claim__c,False,Date of failure is required,,KBT_MC_PC_FAILUREDATE_MANDATORY
+KBT_MC_PC_INVENTORY_MANDATORY,"IF(OR(AND(ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'), ISBLANK(WOD_2__Inventory__c), NOT(ISPICKVAL( WOD_2__Claim_Status__c , 'Initial Draft'))),AND(ISPICKVAL(WOD_2__Claim_Type__c, 'Part'), ISBLANK(WOD_2__Inventory__c), ISPICKVAL(WOD_2__Host_NonHost__c, 'Installed on OEM machine'), NOT( ISPICKVAL( WOD_2__Claim_Status__c , 'Initial Draft') ))),true,false)",,WOD_2__Claim__c,True,Please Select Inventory,,KBT_MC_PC_INVENTORY_MANDATORY
+KBT_MC_PC_MODELNO_MANDATORY,"IF(
+OR(AND(ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'), ISBLANK(WOD_2__Model_Number__c), NOT(ISPICKVAL( WOD_2__Claim_Status__c , 'Initial Draft'))),
+AND(ISPICKVAL(WOD_2__Claim_Type__c, 'Part'), ISBLANK(WOD_2__Model_Number__c),ISPICKVAL(WOD_2__Host_NonHost__c,'Installed on OEM machine'), NOT( ISPICKVAL( WOD_2__Claim_Status__c , 'Initial Draft') ) )),true,false)",,WOD_2__Claim__c,False,Material/Model Number is required,,KBT_MC_PC_MODELNO_MANDATORY
+KBT_MC_PC_REPAIRDATE_MANDATORY,"IF( AND( OR(ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'),ISPICKVAL(WOD_2__Claim_Type__c, 'Part')) ,ISBLANK(  WOD_2__Date_Of_Repair__c), NOT( ISPICKVAL( WOD_2__Claim_Status__c , 'Initial Draft') ) ) , true, false)",,WOD_2__Claim__c,False,Date of repair is required,,KBT_MC_PC_REPAIRDATE_MANDATORY
+KBT_Order_Number_Null_Check,"AND(
+ISBLANK(KBT_Order_Number__c),
+ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'),
+NOT(ISPICKVAL(WOD_2__Claim_Status__c, 'Initial Draft'))
+)",,WOD_2__Claim__c,False,Order number field is blank,,KBT_Order_Number_Null_Check
+KBT_Unit_Usages_Null_Check,"AND(
+ISBLANK(WOD_2__Units_Usage__c),
+ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'),
+NOT(ISPICKVAL(WOD_2__Claim_Status__c, 'Initial Draft'))
+)",,WOD_2__Claim__c,False,Unit usage field is blank,,KBT_Unit_Usages_Null_Check
+KBT_WO_NUMBER_NULL_CHECK,"AND(
+    ISBLANK( WOD_2__Work_Order__c),
+    ISPICKVAL(WOD_2__Claim_Type__c, 'Machine'),
+    NOT(ISPICKVAL(WOD_2__Claim_Status__c, 'Initial Draft'))
+)",,WOD_2__Claim__c,False,The work order field is empty.,,KBT_WO_NUMBER_NULL_CHECK
+Incomplete_Mandotory_Fields,"IF(
+    ISPICKVAL(WOD_2__Claim_Type__c, ""Claim Template""),
+    null,
+    
+    OR(
+        ISBLANK(WOD_2__Account__c),
+        ISBLANK(WOD_2__Date_Of_Failure__c),
+        ISBLANK(WOD_2__Date_Of_Repair__c)
+    )
+)",,WOD_2__Claim__c,True,Please Fill Mandatory Fields.,,Incomplete_Mandotory_Fields
+KBT_Hinpo_Code_Must_match,"(
+    NOT(
+        OR(
+            ISPICKVAL(WOD_2__Claim_Type__c, ""Bulletin""),
+            ISPICKVAL(WOD_2__Claim_Type__c, ""Keito Bulletin""),
+            ISPICKVAL(WOD_2__Claim_Type__c, ""Part"")
+        )
+    ) 
+    &&  NOT(ISBLANK(KBT_Order_Number__c))
+    &&  KBT_Defect_Hinpo_Series_Code__c <> KBT_Order_Number__r.Hinpo_Series__c
+    &&  OR($User.KBT_Is_Adjudicator__c, $User.KBT_Is_Approver__c)
+)",,WOD_2__Claim__c,False,The Hinpo Code of the Claim Inventory Must match the Hinpo Code of the Order Number,,KBT_Hinpo_Code_Must_match
+KBT_PC_PART_MANDATORY,"IF(AND(AND(ISPICKVAL(WOD_2__Claim_Type__c, 'Part'), ISBLANK(WOD_2__Part__c )), NOT(ISPICKVAL(WOD_2__Claim_Status__c , ""Initial Draft"")),NOT(ISPICKVAL( KBT_Claim_Source_System__c  , ""RBOX""))), true, false)",,WOD_2__Claim__c,True,Please Select Part,,KBT_PC_PART_MANDATORY
+KBT_PC_PURCHASEDATE_MANDATORY,"IF(AND(AND(ISPICKVAL(WOD_2__Claim_Type__c, 'Part'), ISBLANK(  WOD_2__Date_Of_Purchase__c )), NOT(ISPICKVAL(WOD_2__Claim_Status__c , ""Initial Draft"")),NOT(ISPICKVAL( KBT_Claim_Source_System__c  , ""RBOX""))), true, false)",,WOD_2__Claim__c,True,Please Provide Purchase Date,,KBT_PC_PURCHASEDATE_MANDATORY
+MC_PC_CAUSAL_CLAIM_TEMPLATE_MANDATORY,"AND(
+        OR(
+            $Permission.WOD_2__DisableSkipTriggerNValidation,
+            NOT($Permission.WOD_2__SkipTriggerNValidations)
+        ),
+        IF(
+            AND(
+                ISPICKVAL(WOD_2__Claim_Type__c, 'Claim Template'),
+                ISBLANK(WOD_2__Causal_Part_Number__c),
+                ISBLANK(WOD_2__CausalPartNumber_P2__c)
+            ),
+            true,
+            false
+        )
+    )",,WOD_2__Claim__c,True,Please select Causal Part,,MC_PC_CAUSAL_CLAIM_TEMPLATE_MANDATORY
+First_UseDate_Mandatory,"AND(
+    ISPICKVAL(KBT_Inventory_Type__c, 'Retail'),
+    ISBLANK(KBT_FirstUseDate__c)
+)",,WOD_2__Claim__c,True,First Use Date is mandatory for Retail inventory type.,,First_UseDate_Mandatory
+KBT_HinpoSeriesCode_Mandatory,"AND(
+    NOT(ISBLANK(WOD_2__Inventory__r.WOD_2__Item__c)),
+    NOT(ISBLANK(WOD_2__Inventory__r.WOD_2__Item__r.WOD_2__Parent_Product__c)),
+    WOD_2__Inventory__r.WOD_2__Item__r.WOD_2__Parent_Product__r.KBT_HinpoSeriesCode__c  = ""121"",
+    ISBLANK(KBT_Shipping_Company__c),
+    ISBLANK(KBT_Reference_tracking_number__c)
+)",,WOD_2__Claim__c,True,shipping company and tracking/reference number are required,,KBT_HinpoSeriesCode_Mandatory
+KBT_HinpoCodeSeriesLevel,"AND(
+    OR($User.KBT_Is_Adjudicator__c, $User.KBT_Is_Approver__c),
+    NOT(
+        OR(
+            ISPICKVAL(WOD_2__Claim_Type__c, ""Bulletin""),
+            ISPICKVAL(WOD_2__Claim_Type__c, ""Keito Bulletin""),
+            ISPICKVAL(WOD_2__Claim_Type__c, ""Part"")
+        )
+    ),
+    ISBLANK(KBT_Defect_Inventory__r.WOD_2__Item__r.WOD_2__Parent_Product__r.WOD_2__Parent_Product__r.KBT_HinpoSeriesCode__c),
+    NOT(ISBLANK(KBT_Defect_Inventory__r.WOD_2__Item__c))
+)",,WOD_2__Claim__c,False,Hinpo Series Code not found for the selected Model,,KBT_HinpoCodeSeriesLevel
+MC_PC_CAUSAL_PART_SNO_MANDATORY_Cloned,"AND(NOT(ISPICKVAL( KBT_Claim_Source_System__c ,'RBOX')),
+OR(
+$Permission.WOD_2__DisableSkipTriggerNValidation,
+NOT($Permission.WOD_2__SkipTriggerNValidations)
+),IF( AND(ISBLANK(TRIM( WOD_2__Causal_Part_Serial_Number__c )),ISPICKVAL( WOD_2__Causal_Part_Number__r.WOD_2__Track_Type__c ,'Serialized'),!ISPICKVAL(WOD_2__Claim_Type__c, 'Claim Template')) , true,false))",,WOD_2__Claim__c,False,Causal Part Serial Number is required for Serialized Part,,MC_PC_CAUSAL_PART_SNO_MANDATORY_Cloned
+ShippingCompany_and_Ref_Num_Mandatory,"AND( NOT(ISPICKVAL( WOD_2__Claim_Status__c ,'Initial Draft')),
+KBT_Hinpo_Code__c  = ""121"",OR(
+ISBLANK(KBT_Shipping_Company__c),
+ISBLANK(KBT_Reference_tracking_number__c))
+)",,WOD_2__Claim__c,True,shipping company and tracking/reference number are required,,ShippingCompany_and_Ref_Num_Mandatory

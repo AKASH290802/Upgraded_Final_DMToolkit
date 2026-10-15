@@ -1,0 +1,63 @@
+{
+  "source_org": "ValmontQA",
+  "target_org": "ValmontUAT",
+  "object": "tvnt__TCore_Question_Association__c",
+  "execution_date": "2026-04-27T16:38:25.065106",
+  "execution_time_seconds": 11.49,
+  "migration_operation": "INSERT",
+  "main_match_strategy": "field_combination",
+  "main_match_fields": [
+    "Name"
+  ],
+  "field_mappings": {
+    "Name": "Name",
+    "CurrencyIsoCode": "CurrencyIsoCode",
+    "tvnt__Display_criteria__c": "tvnt__Display_criteria__c",
+    "tvnt__Mandatory__c": "tvnt__Mandatory__c",
+    "tvnt__Matching_criteria__c": "tvnt__Matching_criteria__c",
+    "tvnt__Parent_Question_Association__c": "tvnt__Parent_Question_Association__c",
+    "tvnt__Question__c": "tvnt__Question__c",
+    "tvnt__Questionnaire__c": "tvnt__Questionnaire__c",
+    "tvnt__Section__c": "tvnt__Section__c",
+    "tvnt__Sequence__c": "tvnt__Sequence__c"
+  },
+  "field_mapping_count": 10,
+  "lookup_configs": {
+    "tvnt__Parent_Question_Association__c": {
+      "parent_object": "tvnt__TCore_Question_Association__c",
+      "match_strategy": "field_combination",
+      "match_fields": [
+        "Name"
+      ]
+    },
+    "tvnt__Section__c": {
+      "parent_object": "tvnt__TCore_Section__c",
+      "match_strategy": "field_combination",
+      "match_fields": [
+        "Name",
+        "tvnt__Questionnaire__r.Name"
+      ]
+    },
+    "tvnt__Question__c": {
+      "parent_object": "tvnt__TCore_Question__c",
+      "match_strategy": "field_combination",
+      "match_fields": [
+        "Name"
+      ]
+    },
+    "tvnt__Questionnaire__c": {
+      "parent_object": "tvnt__TCore_Questionnaire__c",
+      "match_strategy": "field_combination",
+      "match_fields": [
+        "Name"
+      ]
+    }
+  },
+  "lookup_count": 4,
+  "results": {
+    "total_records": 6,
+    "success_count": 6,
+    "error_count": 0,
+    "success_rate": 100.0
+  }
+}

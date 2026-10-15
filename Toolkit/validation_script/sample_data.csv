@@ -1,0 +1,6 @@
+Id,Name,Email,Phone,Website,AnnualRevenue
+1,Test Account 1,test@example.com,1234567890,http://example.com,100000
+2,Test Account 2,,1234567890,http://example.com,50000
+3,Test Account 3,test3@example.com,123,http://example.com,75000
+4,,test4@example.com,1234567890,example.com,0
+5,Test Account 5,test5@example.com,1234567890,http://example.com,-5000

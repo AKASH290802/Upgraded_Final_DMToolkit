@@ -1,0 +1,442 @@
+Id,Name
+a83cf0000002qNVAAY,Coil Failure
+a83cf0000002qNWAAY,Mis-manufactured
+a83cf0000002qNXAAY,Leaking
+a83cf0000002qNYAAY,Won't close
+a83cf0000002qNZAAY,Other -- Fill in Comments
+a83cf0000002qNaAAI,Part Dimensions Incorrect
+a83cf0000002qNbAAI,Shipment Damage
+a83cf0000002qNcAAI,Will Not Rotate
+a83cf0000002qNdAAI,Calibration changed/out of spec
+a83cf0000002qNeAAI,Contact Points Burned
+a83cf0000002qNfAAI,Contactor Chattering
+a83cf0000002qNgAAI,Contactor Locked in
+a83cf0000002qNhAAI,Contactor not pulling in
+a83cf0000002qNiAAI,Disconnect Switch Fails Closed
+a83cf0000002qNjAAI,Disconnect Switch Fails Open
+a83cf0000002qNkAAI,Electrical Component Failure
+a83cf0000002qNlAAI,Electrical Specs Not Met
+a83cf0000002qNmAAI,Fuse Block Defective
+a83cf0000002qNnAAI,Grounding Block Defective
+a83cf0000002qNoAAI,Housing Damaged
+a83cf0000002qNpAAI,Intermittent Operations
+a83cf0000002qNqAAI,Leads corroded/broken
+a83cf0000002qNrAAI,Cracked Liner
+a83cf0000002qNsAAI,Flow not registering
+a83cf0000002qNtAAI,Head Filling with Water
+a83cf0000002qNuAAI,Signal Weak
+a83cf0000002qNvAAI,Contact Warranty Department - Not within
+a83cf0000002qNwAAI,Hose Pulled off
+a83cf0000002qNxAAI,Hose Split
+a83cf0000002qNyAAI,Insufficient Clamping Force
+a83cf0000002qNzAAI,Ultraviolet Degradation
+a83cf0000002qO0AAI,Dent in Pipe
+a83cf0000002qO1AAI,Finish Appearance Faulty
+a83cf0000002qO2AAI,Flanges not Square
+a83cf0000002qO3AAI,Flanges Out of Time
+a83cf0000002qO4AAI,Galvanizing Bare Spots
+a83cf0000002qO5AAI,Galvanizing Quality
+a83cf0000002qO6AAI,Hitch ball bolt failed
+a83cf0000002qO7AAI,Hole in Pipe
+a83cf0000002qO8AAI,Seam Split
+a83cf0000002qO9AAI,Galvanizing Excessive
+a83cf0000002qOAAAY,Weld Failure
+a83cf0000002qOBAAY,Weld Missing
+a83cf0000002qOCAAY,Plug Removal
+a83cf0000002qODAAY,Communication Failure
+a83cf0000002qOEAAY,5 Volt Power Supply
+a83cf0000002qOFAAY,Backlight Failure
+a83cf0000002qOGAAY,Cold Solder Joint
+a83cf0000002qOHAAY,Display Failure
+a83cf0000002qOIAAY,Encoder Failure
+a83cf0000002qOJAAY,External Connection Failure
+a83cf0000002qOKAAY,Harness Failure
+a83cf0000002qOLAAY,Keypad Failure
+a83cf0000002qOMAAY,PCB Cracked
+a83cf0000002qONAAY,Percent timer runs at 100% at all times
+a83cf0000002qOOAAY,Pressure Reading Incorrect
+a83cf0000002qOPAAY,Relay Failure
+a83cf0000002qOQAAY,Screen Failure
+a83cf0000002qORAAY,Trace Failure
+a83cf0000002qOSAAY,Voltage Display Inconsistent
+a83cf0000002qOTAAY,Cable End Failure
+a83cf0000002qOUAAY,Excessive Steering
+a83cf0000002qOVAAY,Inconsistent Position
+a83cf0000002qOWAAY,Incorrect Resistance Reading
+a83cf0000002qOXAAY,Resolver Input Error
+a83cf0000002qOYAAY,Resolver Volts Incorrect
+a83cf0000002qOZAAY,Won't Break Safety
+a83cf0000002qOaAAI,Won't Hold Safety
+a83cf0000002qObAAI,Won't Steer Forward
+a83cf0000002qOcAAI,Won't Steer Reverse
+a83cf0000002qOdAAI,-12 Volt Power Supply
+a83cf0000002qOeAAI,Factory Wiring Incorrect
+a83cf0000002qOfAAI,Precision Corner Adjustment
+a83cf0000002qOgAAI,Contact Points Damaged
+a83cf0000002qOhAAI,Low Pressure Switch Fails Closed
+a83cf0000002qOiAAI,Low Pressure Switch Fails Open
+a83cf0000002qOjAAI,Switch Failure
+a83cf0000002qOkAAI,Aluminum Casting Failure
+a83cf0000002qOlAAI,Bearing Race Missing
+a83cf0000002qOmAAI,Bull Gear Broken
+a83cf0000002qOnAAI,Case Broken
+a83cf0000002qOoAAI,Charred Failure Both Ends
+a83cf0000002qOpAAI,Charred Failure one end
+a83cf0000002qOqAAI,Control Bearing Seized
+a83cf0000002qOrAAI,Factory Wiring Loose
+a83cf0000002qOsAAI,Flex Joint Insert Failure
+a83cf0000002qOtAAI,Gears Locked Up
+a83cf0000002qOuAAI,Input Bearing Failed
+a83cf0000002qOvAAI,Motor Using Excessive Current
+a83cf0000002qOwAAI,No holes in shaft
+a83cf0000002qOxAAI,Noise Excessive
+a83cf0000002qOyAAI,Output Bearing Failed
+a83cf0000002qOzAAI,Output Seal Leaking
+a83cf0000002qP0AAI,Output Seal Missing
+a83cf0000002qP1AAI,Output Shaft Broken
+a83cf0000002qP2AAI,Phase Burned Both Ends
+a83cf0000002qP3AAI,Phase Burned One End
+a83cf0000002qP4AAI,Phase To Ground Short
+a83cf0000002qP5AAI,Phase To Phase Open
+a83cf0000002qP6AAI,Phase To Phase Short
+a83cf0000002qP7AAI,Seal Leaking
+a83cf0000002qP8AAI,Seam Leaking
+a83cf0000002qP9AAI,Snap Ring Failed
+a83cf0000002qPAAAY,Steering arm loose
+a83cf0000002qPBAAY,Steering Gearmotor Failed
+a83cf0000002qPCAAY,Steering Motor Failed
+a83cf0000002qPDAAY,Thermal Protection Failure
+a83cf0000002qPEAAY,Tow Pin Failure
+a83cf0000002qPFAAY,Worm Broken
+a83cf0000002qPGAAY,Oil Reservoir Empty
+a83cf0000002qPHAAY,Seal Missing
+a83cf0000002qPIAAY,Phase To Phase Resistance Unbalanced
+a83cf0000002qPJAAY,Plastic End Cap Missing
+a83cf0000002qPKAAY,Rotor Failed
+a83cf0000002qPLAAY,Short In Junction Box
+a83cf0000002qPMAAY,Single Phasing
+a83cf0000002qPNAAY,Coupling Failure
+a83cf0000002qPOAAY,Input Seal Leaking
+a83cf0000002qPPAAY,Input Shaft Broken
+a83cf0000002qPQAAY,Lug Bolts Broken
+a83cf0000002qPRAAY,Mounting Bolts Broken
+a83cf0000002qPSAAY,Threads Missing
+a83cf0000002qPTAAY,Diaphragm Faulty
+a83cf0000002qPUAAY,Bead Damaged
+a83cf0000002qPVAAY,Corrosion On Wheel
+a83cf0000002qPWAAY,Galvanizing Burrs
+a83cf0000002qPXAAY,Rim Damaged
+a83cf0000002qPYAAY,Tire Leaking Air
+a83cf0000002qPZAAY,Tire Split
+a83cf0000002qPaAAI,Tube Pinched
+a83cf0000002qPbAAI,Valve Stem Leaking
+a83cf0000002qPcAAI,Valve Stem Missing
+a83cf0000002qPdAAI,Latch Inoperable
+a83cf0000002qPeAAI,OW Timer Doesn't Break Safety
+a83cf0000002qPfAAI,OW Timer Doesn't Hold Safety
+a83cf0000002qPgAAI,Run Microswitch Fails Closed
+a83cf0000002qPhAAI,Run Microswitch Fails Open
+a83cf0000002qPiAAI,Safety Microswitch Fails Closed
+a83cf0000002qPjAAI,Safety Microswitch Fails Open
+a83cf0000002qPkAAI,Solenoid Valve Fails
+a83cf0000002qPlAAI,Terminal Block Defective
+a83cf0000002qPmAAI,Terminal Strip Stripped Out
+a83cf0000002qPnAAI,Tower Ahead Forward
+a83cf0000002qPoAAI,Tower Behind Forward
+a83cf0000002qPpAAI,Tower Behind Reverse
+a83cf0000002qPqAAI,Tower Box Cover Fell Off
+a83cf0000002qPrAAI,Tower Ahead Reverse
+a83cf0000002qPsAAI,Bearing Seized
+a83cf0000002qPtAAI,120 Volt Input/Output Failure
+a83cf0000002qPuAAI,5 Volt Power Supply Failure
+a83cf0000002qPvAAI,Keypad Error 13
+a83cf0000002qPwAAI,Service Tool Test Failed
+a83cf0000002qPxAAI,12 Volt Power Supply
+a83cf0000002qPyAAI,System out of Alignment
+a83cf0000002qPzAAI,Corrosion
+a83cf0000002qQ0AAI,Impeller Seized
+a83cf0000002qQ1AAI,Light Burned Out
+a83cf0000002qQ2AAI,Weld Cracked
+a83cf0000002qQ3AAI,Cable Broken
+a83cf0000002qQ4AAI,Cable Pulled Out
+a83cf0000002qQ5AAI,Gasket Degrading
+a83cf0000002qQ6AAI,Gasket Pushing Out
+a83cf0000002qQ7AAI,Threads Mismanufactured
+a83cf0000002qQ8AAI,Cracked Pivot Swivel
+a83cf0000002qQjAAI,Replace Component
+a83cf0000002qQkAAI,Contact Warranty Department
+a83cf0000002qQlAAI,Weld In Field
+a83cf0000002qQmAAI,Repair Component
+a83cf0000002qQnAAI,Remove Plugs
+a83cf0000002qQoAAI,Repair Wiring
+a83cf0000002qQpAAI,Adjust Span Sensor
+a83cf0000002qQqAAI,Replace Steering Gearbox
+a83cf0000002qQrAAI,Replace Tower Box
+a83cf0000002qQsAAI,Replace Seal
+a83cf0000002qQtAAI,Replace Gearmotor
+a83cf0000002qQuAAI,Replace Motor Module
+a83cf0000002qQvAAI,Rebuild Gearbox
+a83cf0000002qQwAAI,Repair GB
+a83cf0000002qQxAAI,Replace Span Cable
+a83cf0000002qQyAAI,Re-align System
+a83cf0000002qQzAAI,Replace 2hp BP Motor
+a83cf0000002qR0AAI,Replace 2hp BP Complete
+a83cf0000002qR1AAI,Replace 5 or 7.5 hp BP Motor
+a83cf0000002qR2AAI,Replace 5 or 7.5 hp BP Complete
+a83cf0000002qR3AAI,Replace Pivot Swivel
+a83cf0000002qSLAAY,Coil Failure-Replace Component-1hr
+a83cf0000002qSMAAY,Mis-manufactured-Replace Component-1hr
+a83cf0000002qSNAAY,Leaking-Replace Component-1hr
+a83cf0000002qSOAAY,Won't close-Replace Component-1hr
+a83cf0000002qSPAAY,Other -- Fill in Comments-Replace Component-1hr
+a83cf0000002qSQAAY,Part Dimensions Incorrect-Replace Component-1hr
+a83cf0000002qSRAAY,Shipment Damage-Replace Component-0hr
+a83cf0000002qSSAAY,Will Not Rotate-Replace Component-1.5hr
+a83cf0000002qSTAAY,Calibration changed/out of spec-Replace Component-1hr
+a83cf0000002qSUAAY,Contact Points Burned-Replace Component-1hr
+a83cf0000002qSVAAY,Contactor Chattering-Replace Component-1hr
+a83cf0000002qSWAAY,Contactor Locked in-Replace Component-1hr
+a83cf0000002qSXAAY,Contactor not pulling in-Replace Component-1hr
+a83cf0000002qSYAAY,Disconnect Switch Fails Closed-Replace Component-1hr
+a83cf0000002qSZAAY,Disconnect Switch Fails Open-Replace Component-1hr
+a83cf0000002qSaAAI,Electrical Component Failure-Replace Component-1hr
+a83cf0000002qSbAAI,Electrical Specs Not Met-Replace Component-1hr
+a83cf0000002qScAAI,Fuse Block Defective-Replace Component-1hr
+a83cf0000002qSdAAI,Grounding Block Defective-Replace Component-1hr
+a83cf0000002qSeAAI,Housing Damaged-Replace Component-1hr
+a83cf0000002qSfAAI,Intermittent Operations-Replace Component-1hr
+a83cf0000002qSgAAI,Leads corroded/broken-Replace Component-1hr
+a83cf0000002qShAAI,Cracked Liner-Replace Component-1hr
+a83cf0000002qSiAAI,Flow not registering-Replace Component-1hr
+a83cf0000002qSjAAI,Head Filling with Water-Replace Component-1hr
+a83cf0000002qSkAAI,Signal Weak-Replace Component-1hr
+a83cf0000002qSlAAI,Contact Warranty Department - Not within-Contact Warranty Department-0hr
+a83cf0000002qSmAAI,Hose Pulled off-Replace Component-2hr
+a83cf0000002qSnAAI,Hose Split-Replace Component-2hr
+a83cf0000002qSoAAI,Insufficient Clamping Force-Replace Component-2hr
+a83cf0000002qSpAAI,Mis-manufactured-Replace Component-2hr
+a83cf0000002qSqAAI,Part Dimensions Incorrect-Replace Component-2hr
+a83cf0000002qSrAAI,Ultraviolet Degradation-Replace Component-2hr
+a83cf0000002qSsAAI,Signal Weak-Replace Component-2hr
+a83cf0000002qStAAI,Electrical Component Failure-Replace Component-2hr
+a83cf0000002qSuAAI,Dent in Pipe-Replace Component-1hr
+a83cf0000002qSvAAI,Finish Appearance Faulty-Replace Component-1hr
+a83cf0000002qSwAAI,Flanges not Square-Replace Component-1hr
+a83cf0000002qSxAAI,Flanges Out of Time-Replace Component-1hr
+a83cf0000002qSyAAI,Galvanizing Bare Spots-Replace Component-1hr
+a83cf0000002qSzAAI,Galvanizing Quality-Replace Component-1hr
+a83cf0000002qT0AAI,Hitch ball bolt failed-Replace Component-1hr
+a83cf0000002qT1AAI,Hole in Pipe-Replace Component-1hr
+a83cf0000002qT2AAI,Seam Split-Replace Component-1hr
+a83cf0000002qT3AAI,Seam Split-Weld In Field-1hr
+a83cf0000002qT4AAI,Galvanizing Excessive-Replace Component-1hr
+a83cf0000002qT5AAI,Hole in Pipe-Weld In Field-1hr
+a83cf0000002qT6AAI,Weld Failure-Replace Component-1hr
+a83cf0000002qT7AAI,Weld Failure-Weld In Field-1hr
+a83cf0000002qT8AAI,Weld Missing-Replace Component-1hr
+a83cf0000002qT9AAI,Weld Missing-Repair Component-1hr
+a83cf0000002qTAAAY,Plug Removal-Remove Plugs-2hr
+a83cf0000002qTBAAY,Communication Failure-Replace Component-1hr
+a83cf0000002qTCAAY,5 Volt Power Supply-Replace Component-1hr
+a83cf0000002qTDAAY,Backlight Failure-Replace Component-1hr
+a83cf0000002qTEAAY,Cold Solder Joint-Replace Component-1hr
+a83cf0000002qTFAAY,Display Failure-Replace Component-1hr
+a83cf0000002qTGAAY,Encoder Failure-Replace Component-1hr
+a83cf0000002qTHAAY,External Connection Failure-Replace Component-1hr
+a83cf0000002qTIAAY,Harness Failure-Replace Component-1hr
+a83cf0000002qTJAAY,Keypad Failure-Replace Component-1hr
+a83cf0000002qTKAAY,PCB Cracked-Replace Component-1hr
+a83cf0000002qTLAAY,Percent timer runs at 100% at all times-Replace Component-1hr
+a83cf0000002qTMAAY,Pressure Reading Incorrect-Replace Component-1hr
+a83cf0000002qTNAAY,Relay Failure-Replace Component-1hr
+a83cf0000002qTOAAY,Screen Failure-Replace Component-1hr
+a83cf0000002qTPAAY,Trace Failure-Replace Component-1hr
+a83cf0000002qTQAAY,Voltage Display Inconsistent-Replace Component-1hr
+a83cf0000002qTRAAY,Cable End Failure-Replace Component-1hr
+a83cf0000002qTSAAY,Excessive Steering-Replace Component-1.5hr
+a83cf0000002qTTAAY,Inconsistent Position-Replace Component-1hr
+a83cf0000002qTUAAY,Incorrect Resistance Reading-Replace Component-1hr
+a83cf0000002qTVAAY,Resolver Input Error-Replace Component-1hr
+a83cf0000002qTWAAY,Resolver Volts Incorrect-Replace Component-1hr
+a83cf0000002qTXAAY,Won't Break Safety-Replace Component-1hr
+a83cf0000002qTYAAY,Won't Hold Safety-Replace Component-1hr
+a83cf0000002qTZAAY,Won't Steer Forward-Replace Component-1.5hr
+a83cf0000002qTaAAI,Won't Steer Reverse-Replace Component-1.5hr
+a83cf0000002qTbAAI,Incorrect Resistance Reading-Replace Component-1.5hr
+a83cf0000002qTcAAI,-12 Volt Power Supply-Replace Component-1hr
+a83cf0000002qTdAAI,Won't Steer Forward-Replace Component-1hr
+a83cf0000002qTeAAI,Won't Steer Reverse-Replace Component-1hr
+a83cf0000002qTfAAI,Factory Wiring Incorrect-Repair Wiring-1hr
+a83cf0000002qTgAAI,Precision Corner Adjustment-Adjust Span Sensor-1hr
+a83cf0000002qThAAI,Weld Missing-Weld In Field-1hr
+a83cf0000002qTiAAI,Signal Weak-Replace Component-1.5hr
+a83cf0000002qTjAAI,Factory Wiring Incorrect-Replace Component-1hr
+a83cf0000002qTkAAI,Contact Points Damaged-Replace Component-1hr
+a83cf0000002qTlAAI,Low Pressure Switch Fails Closed-Replace Component-1hr
+a83cf0000002qTmAAI,Low Pressure Switch Fails Open-Replace Component-1hr
+a83cf0000002qTnAAI,Switch Failure-Replace Component-1hr
+a83cf0000002qToAAI,Hose Pulled off-Replace Component-1hr
+a83cf0000002qTpAAI,Hose Split-Replace Component-1hr
+a83cf0000002qTqAAI,Ultraviolet Degradation-Replace Component-1hr
+a83cf0000002qTrAAI,Aluminum Casting Failure-Replace Component-1hr
+a83cf0000002qTsAAI,Bearing Race Missing-Replace Steering Gearbox-4hr
+a83cf0000002qTtAAI,Bull Gear Broken-Replace Steering Gearbox-4hr
+a83cf0000002qTuAAI,Case Broken-Replace Steering Gearbox-4hr
+a83cf0000002qTvAAI,Charred Failure Both Ends-Replace Component-1.5hr
+a83cf0000002qTwAAI,Charred Failure one end-Replace Component-1.5hr
+a83cf0000002qTxAAI,Control Bearing Seized-Replace Tower Box-1hr
+a83cf0000002qTyAAI,Factory Wiring Loose-Repair Wiring-1hr
+a83cf0000002qTzAAI,Flex Joint Insert Failure-Replace Component-0.25hr
+a83cf0000002qU0AAI,Gears Locked Up-Replace Component-2hr
+a83cf0000002qU1AAI,Gears Locked Up-Replace Steering Gearbox-4hr
+a83cf0000002qU2AAI,Input Bearing Failed-Replace Steering Gearbox-4hr
+a83cf0000002qU3AAI,Mis-manufactured-Repair Component-1hr
+a83cf0000002qU4AAI,Motor Using Excessive Current-Replace Component-1.5hr
+a83cf0000002qU5AAI,No holes in shaft-Replace Component-1hr
+a83cf0000002qU6AAI,Noise Excessive-Replace Component-1.5hr
+a83cf0000002qU7AAI,Output Bearing Failed-Replace Steering Gearbox-4hr
+a83cf0000002qU8AAI,Output Seal Leaking-Replace Steering Gearbox-4hr
+a83cf0000002qU9AAI,Output Seal Missing-Replace Steering Gearbox-4hr
+a83cf0000002qUAAAY,Output Shaft Broken-Replace Steering Gearbox-4hr
+a83cf0000002qUBAAY,Phase Burned Both Ends-Replace Component-1.5hr
+a83cf0000002qUCAAY,Phase Burned One End-Replace Component-1.5hr
+a83cf0000002qUDAAY,Phase To Ground Short-Replace Component-1.5hr
+a83cf0000002qUEAAY,Phase To Phase Open-Replace Component-1.5hr
+a83cf0000002qUFAAY,Phase To Phase Short-Replace Component-1.5hr
+a83cf0000002qUGAAY,Seal Leaking-Replace Seal-0.75hr
+a83cf0000002qUHAAY,Seam Leaking-Replace Component-1.5hr
+a83cf0000002qUIAAY,Snap Ring Failed-Replace Steering Gearbox-4hr
+a83cf0000002qUJAAY,Steering arm loose-Replace Component-1hr
+a83cf0000002qUKAAY,Steering Gearmotor Failed-Replace Gearmotor-2hr
+a83cf0000002qULAAY,Steering Motor Failed-Replace Motor Module-1.5hr
+a83cf0000002qUMAAY,Thermal Protection Failure-Replace Component-1.5hr
+a83cf0000002qUNAAY,Tow Pin Failure-Replace Component-1hr
+a83cf0000002qUOAAY,Worm Broken-Replace Component-3hr
+a83cf0000002qUPAAY,Case Broken-Replace Gearmotor-1.5hr
+a83cf0000002qUQAAY,Gears Locked Up-Replace Gearmotor-1.5hr
+a83cf0000002qURAAY,Motor Using Excessive Current-Replace Gearmotor-1.5hr
+a83cf0000002qUSAAY,Noise Excessive-Replace Gearmotor-1.5hr
+a83cf0000002qUTAAY,Oil Reservoir Empty-Replace Component-1.5hr
+a83cf0000002qUUAAY,Other -- Fill in Comments-Replace Component-1.5hr
+a83cf0000002qUVAAY,Seal Missing-Replace Component-1.5hr
+a83cf0000002qUWAAY,Seam Leaking-Replace Gearmotor-1.5hr
+a83cf0000002qUXAAY,Case Broken-Replace Component-1.5hr
+a83cf0000002qUYAAY,Gears Locked Up-Replace Component-1.5hr
+a83cf0000002qUZAAY,Phase To Phase Resistance Unbalanced-Replace Component-1.5hr
+a83cf0000002qUaAAI,Plastic End Cap Missing-Replace Component-1.5hr
+a83cf0000002qUbAAI,Rotor Failed-Replace Component-1.5hr
+a83cf0000002qUcAAI,Seal Leaking-Replace Component-1.5hr
+a83cf0000002qUdAAI,Short In Junction Box-Replace Component-1.5hr
+a83cf0000002qUeAAI,Single Phasing-Replace Component-1.5hr
+a83cf0000002qUfAAI,Bearing Race Missing-Repair Component-2hr
+a83cf0000002qUgAAI,Bull Gear Broken-Replace Component-2hr
+a83cf0000002qUhAAI,Case Broken-Replace Component-2hr
+a83cf0000002qUiAAI,Coupling Failure-Replace Component-2hr
+a83cf0000002qUjAAI,Input Bearing Failed-Replace Component-2hr
+a83cf0000002qUkAAI,Input Seal Leaking-Replace Component-2hr
+a83cf0000002qUlAAI,Input Seal Leaking-Rebuild Gearbox-3hr
+a83cf0000002qUmAAI,Input Shaft Broken-Replace Component-2hr
+a83cf0000002qUnAAI,Lug Bolts Broken-Replace Component-2hr
+a83cf0000002qUoAAI,Mounting Bolts Broken-Replace Component-2hr
+a83cf0000002qUpAAI,Oil Reservoir Empty-Replace Component-2hr
+a83cf0000002qUqAAI,Other -- Fill in Comments-Replace Component-2hr
+a83cf0000002qUrAAI,Output Bearing Failed-Replace Component-2hr
+a83cf0000002qUsAAI,Output Seal Leaking-Replace Component-2hr
+a83cf0000002qUtAAI,Output Seal Leaking-Rebuild Gearbox-3hr
+a83cf0000002qUuAAI,Output Seal Missing-Repair Component-2hr
+a83cf0000002qUvAAI,Output Seal Missing-Replace Component-2hr
+a83cf0000002qUwAAI,Output Shaft Broken-Replace Component-2hr
+a83cf0000002qUxAAI,Snap Ring Failed-Replace Component-2hr
+a83cf0000002qUyAAI,Threads Missing-Replace Component-2hr
+a83cf0000002qUzAAI,Worm Broken-Replace Component-2hr
+a83cf0000002qV0AAI,Mis-manufactured-Replace Component-0.25hr
+a83cf0000002qV1AAI,Other -- Fill in Comments-Replace Component-4hr
+a83cf0000002qV2AAI,Part Dimensions Incorrect-Replace Component-4hr
+a83cf0000002qV3AAI,Input Seal Leaking-Repair GB-1hr
+a83cf0000002qV4AAI,Output Seal Leaking-Repair Component-1hr
+a83cf0000002qV5AAI,Bearing Race Missing-Rebuild Gearbox-3hr
+a83cf0000002qV6AAI,Bull Gear Broken-Rebuild Gearbox-3hr
+a83cf0000002qV7AAI,Case Broken-Rebuild Gearbox-3hr
+a83cf0000002qV8AAI,Diaphragm Faulty-Repair GB-0.25hr
+a83cf0000002qV9AAI,Flex Joint Insert Failure-Replace Component-1hr
+a83cf0000002qVAAAY,Gears Locked Up-Rebuild Gearbox-3hr
+a83cf0000002qVBAAY,Input Bearing Failed-Rebuild Gearbox-3hr
+a83cf0000002qVCAAY,Lug Bolts Broken-Repair GB-1hr
+a83cf0000002qVDAAY,Mounting Bolts Broken-Repair GB-0.25hr
+a83cf0000002qVEAAY,Oil Reservoir Empty-Replace Component-3hr
+a83cf0000002qVFAAY,Output Bearing Failed-Rebuild Gearbox-3hr
+a83cf0000002qVGAAY,Output Seal Missing-Rebuild Gearbox-3hr
+a83cf0000002qVHAAY,Snap Ring Failed-Rebuild Gearbox-3hr
+a83cf0000002qVIAAY,Bead Damaged-Repair Component-1hr
+a83cf0000002qVJAAY,Corrosion On Wheel-Replace Component-1hr
+a83cf0000002qVKAAY,Galvanizing Burrs-Replace Component-1hr
+a83cf0000002qVLAAY,Rim Damaged-Replace Component-1hr
+a83cf0000002qVMAAY,Tire Leaking Air-Replace Component-1hr
+a83cf0000002qVNAAY,Tire Leaking Air-Repair Component-1hr
+a83cf0000002qVOAAY,Tire Split-Repair Component-1hr
+a83cf0000002qVPAAY,Tire Split-Replace Component-1hr
+a83cf0000002qVQAAY,Tube Pinched-Replace Component-1hr
+a83cf0000002qVRAAY,Tube Pinched-Repair Component-1hr
+a83cf0000002qVSAAY,Valve Stem Leaking-Replace Component-1hr
+a83cf0000002qVTAAY,Valve Stem Leaking-Repair Component-1hr
+a83cf0000002qVUAAY,Valve Stem Missing-Replace Component-1hr
+a83cf0000002qVVAAY,Control Bearing Seized-Replace Component-1hr
+a83cf0000002qVWAAY,Housing Damaged-Replace Component-0hr
+a83cf0000002qVXAAY,Latch Inoperable-Replace Component-1hr
+a83cf0000002qVYAAY,OW Timer Doesn't Break Safety-Replace Component-1hr
+a83cf0000002qVZAAY,OW Timer Doesn't Hold Safety-Replace Component-1hr
+a83cf0000002qVaAAI,Run Microswitch Fails Closed-Replace Component-1hr
+a83cf0000002qVbAAI,Run Microswitch Fails Open-Replace Component-1hr
+a83cf0000002qVcAAI,Safety Microswitch Fails Closed-Replace Component-1hr
+a83cf0000002qVdAAI,Safety Microswitch Fails Open-Replace Component-1hr
+a83cf0000002qVeAAI,Single Phasing-Replace Component-1hr
+a83cf0000002qVfAAI,Solenoid Valve Fails-Replace Component-1hr
+a83cf0000002qVgAAI,Terminal Block Defective-Replace Component-1hr
+a83cf0000002qVhAAI,Terminal Strip Stripped Out-Replace Component-1hr
+a83cf0000002qViAAI,Tower Ahead Forward-Replace Component-1hr
+a83cf0000002qVjAAI,Tower Behind Forward-Replace Component-1hr
+a83cf0000002qVkAAI,Tower Behind Reverse-Replace Component-1hr
+a83cf0000002qVlAAI,Tower Box Cover Fell Off-Replace Component-1hr
+a83cf0000002qVmAAI,Tower Ahead Reverse-Replace Component-1hr
+a83cf0000002qVnAAI,Bearing Seized-Replace Component-2hr
+a83cf0000002qVoAAI,Terminal Strip Stripped Out-Replace Component-2hr
+a83cf0000002qVpAAI,120 Volt Input/Output Failure-Replace Component-1.5hr
+a83cf0000002qVqAAI,5 Volt Power Supply Failure-Replace Component-1hr
+a83cf0000002qVrAAI,Keypad Error 13-Replace Component-1hr
+a83cf0000002qVsAAI,Service Tool Test Failed-Replace Component-1hr
+a83cf0000002qVtAAI,Other -- Fill in Comments-Replace Span Cable-1hr
+a83cf0000002qVuAAI,12 Volt Power Supply-Replace Component-1hr
+a83cf0000002qVvAAI,Galvanizing Excessive-Repair Component-1hr
+a83cf0000002qVwAAI,System out of Alignment-Re-align System-2hr
+a83cf0000002qVxAAI,120 Volt Input/Output Failure-Replace 2hp BP Motor-2hr
+a83cf0000002qVyAAI,120 Volt Input/Output Failure-Replace 2hp BP Complete-2.5hr
+a83cf0000002qVzAAI,120 Volt Input/Output Failure-Replace 5 or 7.5 hp BP Motor-2hr
+a83cf0000002qW0AAI,120 Volt Input/Output Failure-Replace 5 or 7.5 hp BP Complete-4hr
+a83cf0000002qW1AAI,Bearing Seized-Replace 2hp BP Motor-2hr
+a83cf0000002qW2AAI,Bearing Seized-Replace 2hp BP Complete-2.5hr
+a83cf0000002qW3AAI,Bearing Seized-Replace 5 or 7.5 hp BP Motor-2hr
+a83cf0000002qW4AAI,Bearing Seized-Replace 5 or 7.5 hp BP Complete-4hr
+a83cf0000002qW5AAI,Corrosion-Replace 2hp BP Motor-2hr
+a83cf0000002qW6AAI,Corrosion-Replace 2hp BP Complete-2.5hr
+a83cf0000002qW7AAI,Corrosion-Replace 5 or 7.5 hp BP Motor-2hr
+a83cf0000002qW8AAI,Corrosion-Replace 5 or 7.5 hp BP Complete-4hr
+a83cf0000002qW9AAI,Housing Damaged-Replace 2hp BP Motor-2hr
+a83cf0000002qWAAAY,Housing Damaged-Replace 2hp BP Complete-2.5hr
+a83cf0000002qWBAAY,Housing Damaged-Replace 5 or 7.5 hp BP Motor-2hr
+a83cf0000002qWCAAY,Housing Damaged-Replace 5 or 7.5 hp BP Complete-4hr
+a83cf0000002qWDAAY,Impeller Seized-Repair Component-1.5hr
+a83cf0000002qWEAAY,Shipment Damage-Replace 2hp BP Motor-0hr
+a83cf0000002qWFAAY,Shipment Damage-Replace 2hp BP Complete-0hr
+a83cf0000002qWGAAY,Shipment Damage-Replace 5 or 7.5 hp BP Motor-0hr
+a83cf0000002qWHAAY,Shipment Damage-Replace 5 or 7.5 hp BP Complete-0hr
+a83cf0000002qWIAAY,Light Burned Out-Replace Component-1hr
+a83cf0000002qWJAAY,Weld Cracked-Replace Component-1hr
+a83cf0000002qWKAAY,Weld Cracked-Weld In Field-1hr
+a83cf0000002qWLAAY,Cable Broken-Replace Component-2hr
+a83cf0000002qWMAAY,Cable End Failure-Replace Component-2hr
+a83cf0000002qWNAAY,Cable Pulled Out-Replace Component-2hr
+a83cf0000002qWOAAY,Gasket Degrading-Replace Component-1hr
+a83cf0000002qWPAAY,Gasket Pushing Out-Replace Component-1hr
+a83cf0000002qWQAAY,Threads Mismanufactured-Replace Component-1hr
+a83cf0000002qWRAAY,Will Not Rotate-Replace Component-1hr
+a83cf0000002qWSAAY,Cracked Pivot Swivel-Replace Pivot Swivel-1hr

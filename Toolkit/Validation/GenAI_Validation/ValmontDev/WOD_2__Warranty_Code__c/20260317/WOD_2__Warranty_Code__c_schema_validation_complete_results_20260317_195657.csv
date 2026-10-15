@@ -1,0 +1,22 @@
+=== VALIDATION SUMMARY ===
+Metric,Value
+Total Records,3
+Passed Records,3
+Failed Records,0
+Total Errors,0
+Success Rate,100.00%
+
+
+=== VALIDATED DATASET WITH RESULTS ===
+Name,WOD_2__Description__c,WOD_2__Business_Units__c,Validation_Status,Validation_Errors
+ABC,ABC,VRM-NA,PASSED,
+CDE,CDE,VRM-NA,PASSED,
+EFG,EFG,VRM-NA,PASSED,
+
+
+=== DETAILED VALIDATION ERRORS ===
+No validation errors found.
+
+
+=== FIELD-WISE ERROR SUMMARY ===
+No field-specific errors found.

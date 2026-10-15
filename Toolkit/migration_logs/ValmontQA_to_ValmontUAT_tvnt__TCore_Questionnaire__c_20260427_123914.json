@@ -1,0 +1,43 @@
+{
+  "source_org": "ValmontQA",
+  "target_org": "ValmontUAT",
+  "object": "tvnt__TCore_Questionnaire__c",
+  "execution_date": "2026-04-27T12:39:14.672976",
+  "execution_time_seconds": 9.73,
+  "migration_operation": "INSERT",
+  "main_match_strategy": "field_combination",
+  "main_match_fields": [
+    "Name"
+  ],
+  "field_mappings": {
+    "Name": "Name",
+    "CurrencyIsoCode": "CurrencyIsoCode",
+    "tvnt__Allow_Acknowledgement__c": "tvnt__Allow_Acknowledgement__c",
+    "tvnt__Allow_Attachments__c": "tvnt__Allow_Attachments__c",
+    "tvnt__Allow_Draft__c": "tvnt__Allow_Draft__c",
+    "tvnt__Allow_Multiple_Response__c": "tvnt__Allow_Multiple_Response__c",
+    "tvnt__Allow_Questionnaire_Sequence__c": "tvnt__Allow_Questionnaire_Sequence__c",
+    "tvnt__Allow_Signature__c": "tvnt__Allow_Signature__c",
+    "tvnt__AllowedFieldTypes__c": "tvnt__AllowedFieldTypes__c",
+    "tvnt__Disable_PDF_Download__c": "tvnt__Disable_PDF_Download__c",
+    "tvnt__Display_Footer__c": "tvnt__Display_Footer__c",
+    "tvnt__End_Date__c": "tvnt__End_Date__c",
+    "tvnt__Footer_Text__c": "tvnt__Footer_Text__c",
+    "tvnt__Questionnaire_Guideline_Allignment__c": "tvnt__Questionnaire_Guideline_Allignment__c",
+    "tvnt__Questionnaire_Guideline__c": "tvnt__Questionnaire_Guideline__c",
+    "tvnt__Questionnaire_Type__c": "tvnt__Questionnaire_Type__c",
+    "tvnt__Signature_Mandatory__c": "tvnt__Signature_Mandatory__c",
+    "tvnt__Start_Date__c": "tvnt__Start_Date__c",
+    "tvnt__Object_Name__c": "tvnt__Object_Name__c",
+    "tvnt__Sequence_Preference__c": "tvnt__Sequence_Preference__c"
+  },
+  "field_mapping_count": 20,
+  "lookup_configs": {},
+  "lookup_count": 0,
+  "results": {
+    "total_records": 3,
+    "success_count": 3,
+    "error_count": 0,
+    "success_rate": 100.0
+  }
+}

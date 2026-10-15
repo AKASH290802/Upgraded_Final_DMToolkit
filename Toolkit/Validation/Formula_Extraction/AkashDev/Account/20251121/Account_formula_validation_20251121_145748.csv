@@ -1,0 +1,7 @@
+ValidationName,ErrorConditionFormula,FieldName,ObjectName,Active,ErrorMessage,Description,ValidationRuleName
+Name_is_null,ISBLANK(Name),,Account,True,Name cannot be blank,,Name_is_null
+PhoneRule,ISBLANK(Phone),,Account,True,Phone required,,PhoneRule
+phone_no_only_10_digit,"AND(
+  NOT(ISBLANK(Phone)),
+  NOT(REGEX(Phone, ""^[0-9]{10}$""))
+)",,Account,True,please format the phone number to 10 digit,,phone_no_only_10_digit

@@ -1,0 +1,217 @@
+ValidationName,ErrorConditionFormula,FieldName,ObjectName,Active,ErrorMessage,Description,ValidationRuleName
+TCSNALA_Prevent_BlankSN,"AND(OR ( ISBLANK(Quantity) ,  Quantity < 2), 
+$Permission.ETL_Validation_Rule_Bypass = FALSE,
+TCSNALA_Serial_Number_Unknown__c = FALSE,
+ISBLANK(SerialNumber),
+OR(
+RecordType.DeveloperName = ""CHVAC_Americas"",
+RecordType.DeveloperName = ""CHVAC_Latin_America""))","Quantity,TCSNALA_Serial_Number_Unknown__c,SerialNumber,RecordType,DeveloperName",Asset,True,You must either fill in a valid Serial Number or check the Serial Number Unknown box.,,TCSNALA_Prevent_BlankSN
+TCSNALA_Prevent_Lg_Quantity,"AND(
+$Permission.ETL_Validation_Rule_Bypass = FALSE,
+Quantity > 999,
+OR(
+RecordType.DeveloperName = ""CHVAC_Americas"",
+RecordType.DeveloperName = ""CHVAC_Latin_America""))","Quantity,RecordType,DeveloperName",Asset,True,"The quantity of the Assets must be less than 1,000.",,TCSNALA_Prevent_Lg_Quantity
+TCSNALA_Prevent_SN_And_Unknown,"AND(
+$Permission.ETL_Validation_Rule_Bypass = FALSE,
+TCSNALA_Serial_Number_Unknown__c = TRUE,
+NOT(ISBLANK(SerialNumber)),
+NOT(LEFT(SerialNumber, 2) = ""NS""),
+OR(
+RecordType.DeveloperName = ""CHVAC_Americas"",
+RecordType.DeveloperName = ""CHVAC_Latin_America""))","TCSNALA_Serial_Number_Unknown__c,SerialNumber,RecordType,DeveloperName",Asset,True,You cannot have a value in the Serial Number field and have the Serial Number Unknown checked. Confirm the Serial Number is correct and uncheck the Serial Number Unknown or remove the Serial Number.,,TCSNALA_Prevent_SN_And_Unknown
+TCSNALA_Prevent_Strings_in_Serial_Num,"AND(OR ( ISBLANK(Quantity) ,  Quantity < 2), 
+$Permission.ETL_Validation_Rule_Bypass = FALSE,
+TCSNALA_Serial_Number_Unknown__c = False,
+OR(
+   RecordType.DeveloperName = ""CHVAC_Americas"",
+   RecordType.DeveloperName = ""CHVAC_Latin_America""
+),
+OR(
+ISBLANK(SerialNumber),
+SerialNumber=""UNKNOWN"",
+SerialNumber=""PLEASE OBTAIN"",
+SerialNumber=""NEED M/S #"",
+SerialNumber=""NEED SERIAL #"",
+SerialNumber=""NEED"",
+SerialNumber=""NS-1"",
+SerialNumber=""NS-2"",
+SerialNumber=""No Tag"",
+SerialNumber=""UNREADABLE"",
+SerialNumber=""DUPLICATE"",
+SerialNumber=""NONE"",
+SerialNumber=""TBD1"",
+SerialNumber=""Unknown"",
+SerialNumber=""Please obtain"",
+SerialNumber=""Need M/S #"",
+SerialNumber=""Need Serial #"",
+SerialNumber=""Need"",
+SerialNumber=""NS-1"",
+SerialNumber=""NS-2"",
+SerialNumber=""No Tag"",
+SerialNumber=""Unreadable"",
+SerialNumber=""Duplicate"",
+SerialNumber=""None"",
+SerialNumber=""Tbd1"",
+SerialNumber=""unknown"",
+SerialNumber=""please obtain"",
+SerialNumber=""need M/S #"",
+SerialNumber=""need serial #"",
+SerialNumber=""need"",
+SerialNumber=""ns-1"",
+SerialNumber=""ns-2"",
+SerialNumber=""no tag"",
+SerialNumber=""unreadable"",
+SerialNumber=""duplicate"",
+SerialNumber=""none"",
+SerialNumber=""tbd1"",
+SerialNumber=""1234"",
+SerialNumber=""1111"",
+LEN(SerialNumber)<4))","Quantity,TCSNALA_Serial_Number_Unknown__c,RecordType,DeveloperName,SerialNumber",Asset,True,"Entries like this are not allowed in the Serial Number field. If the serial number isn't known, simply check the Unknown checkbox instead of putting bad data into the serial number field including less than 4 characters.",,TCSNALA_Prevent_Strings_in_Serial_Num
+Serial_Number_Means_Qty_1,"AND(
+OR(
+   RecordType.DeveloperName = ""CHVAC_Americas"",
+   RecordType.DeveloperName = ""CHVAC_Latin_America""
+),
+SerialNumber != NULL,
+Quantity > 1
+)","RecordType,DeveloperName,SerialNumber,Quantity",Asset,True,Serial Number entry can only be entered when Quantity = 1. Please add another Asset record for any remaining quantities.,,Serial_Number_Means_Qty_1
+TCSNALA_Asset_Quantity_Greater_Equal_One,"AND(
+    OR(
+        RecordType.DeveloperName = ""CHVAC_Americas"",
+        RecordType.DeveloperName = ""CHVAC_Latin_America""
+    ),
+    Quantity < 1
+)","RecordType,DeveloperName,Quantity",Asset,True,Quantity must be equal to or greater than 1,,TCSNALA_Asset_Quantity_Greater_Equal_One
+TCSNALA_Credit_Job_Name_Not_Editable,"AND(
+    RecordType.DeveloperName = ""CHVAC_Americas"",
+    TCSNALA_SIL__c,
+    ISCHANGED(TCSNALA_Credit_Job_Name__c)
+)","RecordType,DeveloperName,TCSNALA_SIL__c,TCSNALA_Credit_Job_Name__c",Asset,True,Credit Job Name cannot be edited for a SIL Asset,,TCSNALA_Credit_Job_Name_Not_Editable
+TCSNALA_Credit_Job_Number_Not_Editable,"AND(
+    RecordType.DeveloperName = ""CHVAC_Americas"",
+    TCSNALA_SIL__c,
+    ISCHANGED(TCSNALA_Legacy_Job_Number__c)
+)","RecordType,DeveloperName,TCSNALA_SIL__c,TCSNALA_Legacy_Job_Number__c",Asset,True,Credit Job Number cannot be edited for a SIL Asset,,TCSNALA_Credit_Job_Number_Not_Editable
+TCSNALA_Known_Serial_Number,"AND(
+   (RecordType.DeveloperName = ""CHVAC_Americas"" || RecordType.DeveloperName = ""CHVAC_Latin_America""),
+   Quantity = 1, 
+   NOT (TCSNALA_Serial_Number_Unknown__c), 
+   ISBLANK (SerialNumber)
+
+
+)","RecordType,DeveloperName,Quantity,TCSNALA_Serial_Number_Unknown__c,SerialNumber",Asset,True,Serial Number is required.,,TCSNALA_Known_Serial_Number
+TCSNALA_Other_Asset_Manufacturer_Require,"AND(
+    (RecordType.DeveloperName = ""CHVAC_Americas"" || RecordType.DeveloperName = ""CHVAC_Latin_America""),
+    ISPICKVAL(TCSNALA_Asset_Manufacturer__c, ""Other""),
+    ISBLANK(TCSNALA_Other_Manufacturer__c)
+)","RecordType,DeveloperName,TCSNALA_Asset_Manufacturer__c,TCSNALA_Other_Manufacturer__c",Asset,True,Other Manufacturer field is required.,,TCSNALA_Other_Asset_Manufacturer_Require
+TCSNALA_Quantity_Not_Editable,"AND(
+    RecordType.DeveloperName = ""CHVAC_Americas"",
+    TCSNALA_SIL__c,
+    ISCHANGED(Quantity)
+)","RecordType,DeveloperName,TCSNALA_SIL__c,Quantity",Asset,True,Quantity cannot be edited for a SIL Asset,,TCSNALA_Quantity_Not_Editable
+TCSNALA_Sales_Order_Number_Not_Editable,"AND(
+    RecordType.DeveloperName = ""CHVAC_Americas"",
+    TCSNALA_SIL__c,
+    ISCHANGED(TCSNALA_Legacy_Order_Number__c)
+)","RecordType,DeveloperName,TCSNALA_SIL__c,TCSNALA_Legacy_Order_Number__c",Asset,True,Sales Order Number  cannot be edited for a SIL Asset,,TCSNALA_Sales_Order_Number_Not_Editable
+TCSNALA_Serial_Number_Not_Editable,"AND(
+    RecordType.DeveloperName = ""CHVAC_Americas"",
+    TCSNALA_SIL__c,
+    ISCHANGED(SerialNumber)
+)","RecordType,DeveloperName,TCSNALA_SIL__c,SerialNumber",Asset,True,Serial Number cannot be edited for a SIL Asset,,TCSNALA_Serial_Number_Not_Editable
+TCSNALA_Serial_Number_Unkn_Not_Editable,"AND(
+    RecordType.DeveloperName = ""CHVAC_Americas"",
+    TCSNALA_SIL__c,
+    ISCHANGED(TCSNALA_Serial_Number_Unknown__c)
+)","RecordType,DeveloperName,TCSNALA_SIL__c,TCSNALA_Serial_Number_Unknown__c",Asset,True,Serial Number Unknown cannot be edited for a SIL Asset,,TCSNALA_Serial_Number_Unkn_Not_Editable
+TCSNALA_Ship_Date_Not_Editable,"AND(
+    RecordType.DeveloperName = ""CHVAC_Americas"",
+    TCSNALA_SIL__c,
+    ISCHANGED(TCSNALA_Ship_Date__c)
+)","RecordType,DeveloperName,TCSNALA_SIL__c,TCSNALA_Ship_Date__c",Asset,True,Ship Date cannot be edited for a SIL Asset,,TCSNALA_Ship_Date_Not_Editable
+TCSNALA_Unknown_Serial_Number,"AND(
+   RecordType.DeveloperName = ""CHVAC_Americas"",
+   Quantity = 1, 
+   TCSNALA_Serial_Number_Unknown__c, 
+   NOT(LEFT(SerialNumber, 3) = ""NS-""), 
+   NOT(ISBLANK(SerialNumber))
+   )","RecordType,DeveloperName,Quantity,TCSNALA_Serial_Number_Unknown__c,SerialNumber",Asset,True,Serial Number must either be blank or start with the prefix ‘NS-’ (auto-generated).,,TCSNALA_Unknown_Serial_Number
+TK_Model_Year_Number,"AND(
+					OR(
+				    NOT(ISNUMBER(TK_ModelYear__c)),
+        LEN(TK_ModelYear__c) < 4
+				    ),
+					 RecordType.DeveloperName == 'TK_Transport'
+					)","ISNUMBER,TK_ModelYear__c,RecordType,DeveloperName",Asset,True,This field needs to be numeric and 4 digits.,,TK_Model_Year_Number
+Asset_Required_Fields,"IF(RecordTypeName__c = 'TK_EMEA_Fleet_Monitoring', 
+		AND(
+		   	AND(
+        Product2.RecordType.DeveloperName = 'TK_Transport_EMEA',
+	    	  ISPICKVAL(Product2.Type__c, 'Base Product')
+						  ),
+  				OR(
+								 ISBLANK( AccountId ) ,
+									ISBLANK( Product2Id ) ,
+									ISBLANK( SerialNumber ) 
+		  				  )
+			   ),
+		FALSE
+		)","RecordTypeName__c,Product2,RecordType,DeveloperName,Type__c,AccountId,Product2Id,SerialNumber",Asset,True,"Account, Product, and Serial Number are required to save an Asset.",,Asset_Required_Fields
+CHVAC_APAC_Asset_Required_Fields,"AND(
+$Permission.ETL_Validation_Rule_Bypass = FALSE,
+OR(
+RecordType.DeveloperName == ""CHVAC_China"",
+RecordType.DeveloperName == ""CHVAC_Thailand"",
+RecordType.DeveloperName == ""CHVAC_Singapore""
+),
+OR(
+ISBLANK( Model_Name__c ) ,
+ISBLANK(SerialNumber )
+)
+)","RecordType,DeveloperName,Model_Name__c,SerialNumber",Asset,True,APAC Assets must have Serial Number and Model fields populated.,,CHVAC_APAC_Asset_Required_Fields
+CTS_Dryer_Make_Other_Require_Other_Value,"ISPICKVAL( Dryer_Make__c ,""Other"") && ISBLANK( Dryer_Make_Other__c )&& $Permission.ETL_Validation_Rule_Bypass = FALSE","Dryer_Make__c,Dryer_Make_Other__c",Asset,True,Specify Other Dryer Make,,CTS_Dryer_Make_Other_Require_Other_Value
+CTS_Dryer_Type_Other_Require_Other_Value,"ISPICKVAL(Dryer_Type__c, ""Other"") && ISBLANK(Dryer_Type_Other__c) && $Permission.ETL_Validation_Rule_Bypass = FALSE","Dryer_Type__c,Dryer_Type_Other__c",Asset,True,Specify Other Dryer Type,,CTS_Dryer_Type_Other_Require_Other_Value
+CTS_VFD_Used_Require_Make_KW,"AND (
+$Permission.ETL_Validation_Rule_Bypass = FALSE,
+ISPICKVAL(Is_VFD_Used__c , ""Yes""),
+ OR((ISPICKVAL( VFD_Make__c ,"""")),
+    (ISBLANK(  VFD_KW__c  ))))","Is_VFD_Used__c,VFD_Make__c,VFD_KW__c",Asset,True,"If VFD Is Used, Specify VFD Make and KW",,CTS_VFD_Used_Require_Make_KW
+Name_Product_Contact_Disabled_from_edit,"AND(
+$Permission.ETL_Validation_Rule_Bypass = FALSE,
+OR(ISCHANGED(Name),
+    ISCHANGED(ContactId ),
+    ISCHANGED(Product2Id )
+    ),
+NOT( $Setup.IR_API_Bypass__c.IR_Validation_Bypass__c ),
+$RecordType.DeveloperName = ""NA_Air_Edit""
+
+)","Name,ContactId,Product2Id",Asset,True,"Only ""Operating Status"" and ""Ownership"" can be edited from Salesforce. All other edits must be done in Siebel.",,Name_Product_Contact_Disabled_from_edit
+Ship_Date_less_or_equal_to_Install_Date,"AND(
+$Permission.ETL_Validation_Rule_Bypass = FALSE,
+NOT(ISNULL(InstallDate)),
+    NOT(ISNULL(Ship_Date__c)),
+    NOT((Ship_Date__c <=  InstallDate))
+   )","InstallDate,Ship_Date__c",Asset,True,Install date must be greater than or equal to Ship Date,,Ship_Date_less_or_equal_to_Install_Date
+TK_EMEA_Fleet_Monitoring_Asset,"IF(Account.TKEMEAFM_24_7_Fleet_Monitoring__c = TRUE,
+		 (AND(
+					RecordType.DeveloperName='TK_EMEA_Fleet_Monitoring',
+				    NOT(ISBLANK(Product2Id)),
+				    NOT(ISBLANK(AccountId)),
+				    NOT(ISBLANK( SerialNumber))
+				    )
+				),
+			 TRUE)","Account,TKEMEAFM_24_7_Fleet_Monitoring__c,RecordType,DeveloperName,Product2Id,AccountId,SerialNumber",Asset,False,"Requires Serial Number, Account, Product and Base Product Type for TK EMEA Fleet Monitoring",,TK_EMEA_Fleet_Monitoring_Asset
+TCLA_Sales_Office_Required,"AND(
+  ISPICKVAL(TCLA_Sales_Office__c, """"),
+ OR(
+ $Profile.Name = ""CHVAC LAR Service Technician"",
+ $Profile.Name = ""CHVAC LAR Services"",
+ $Profile.Name = ""CHVAC LAR ASM"",
+ $Profile.Name = ""Commercial Leadership - LAM"",
+ $Profile.Name = ""Commercial Sales - LAM""
+    )
+
+  )",TCLA_Sales_Office__c,Asset,True,Sales Office Field is required,,TCLA_Sales_Office_Required
+TKM_Validation,RecordType.DeveloperName == 'Thermo_King_Marine'  &&  ISCHANGED( Name ),"RecordType,DeveloperName,Name",Asset,True,You cant edit this record,,TKM_Validation

@@ -1,0 +1,24 @@
+=== VALIDATION SUMMARY ===
+Metric,Value
+Total Records,3
+Passed Records,2
+Failed Records,1
+Total Errors,1
+Success Rate,66.67%
+
+
+=== VALIDATED DATASET WITH RESULTS ===
+Name,WOD_2__Description__c,WOD_2__Business_Units__c,Validation_Status,Validation_Errors
+ABC,ABC,VRM-NA,PASSED,
+CDE,CDE,VRM-NA,PASSED,
+EFG,EFG,VRM-AN,FAILED,"Row 3: Invalid picklist value in field 'WOD_2__Business_Units__c' (mapped to 'WOD_2__Business_Units__c'): 'VRM-AN'. No mapping defined. Expected: VRM-NA, VRM-ANZ, VRM-EU, ... (6 total)"
+
+
+=== DETAILED VALIDATION ERRORS ===
+Error_Description
+"Row 3: Invalid picklist value in field 'WOD_2__Business_Units__c' (mapped to 'WOD_2__Business_Units__c'): 'VRM-AN'. No mapping defined. Expected: VRM-NA, VRM-ANZ, VRM-EU, ... (6 total)"
+
+
+=== FIELD-WISE ERROR SUMMARY ===
+Field_Name,Error_Count,Error_Rate_Percent,Sample_Errors
+WOD_2__Business_Units__c,1,33.33,"Row 3: Invalid picklist value in field 'WOD_2__Business_Units__c' (mapped to 'WOD_2__Business_Units__c'): 'VRM-AN'. No mapping defined. Expected: VRM-NA, VRM-ANZ, VRM-EU, ... (6 total)"

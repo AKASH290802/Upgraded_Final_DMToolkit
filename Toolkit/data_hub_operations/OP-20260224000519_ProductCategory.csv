@@ -1,0 +1,160 @@
+CatalogId,ParentCategoryId,Name,IsNavigational
+0ZSRj00000002rROAQ,,Ancillary Valves,True
+0ZSRj00000002rROAQ,,Butterfly Valves,True
+0ZSRj00000002rROAQ,,Direct Buried Cable,True
+0ZSRj00000002rROAQ,,Disconnect Panels,True
+0ZSRj00000002rROAQ,,Fertigation and Chemigation,True
+0ZSRj00000002rROAQ,,Flowmeters,True
+0ZSRj00000002rROAQ,,Generators and Engines,True
+0ZSRj00000002rROAQ,,Hook-Up Options,True
+0ZSRj00000002rROAQ,,Phase Converters,True
+0ZSRj00000002rROAQ,,Pump Panels,True
+0ZSRj00000002rROAQ,,Ring Lock Fittings,True
+0ZSRj00000002rROAQ,,Soft Starters,True
+0ZSRj00000002rROAQ,,Steel Tubing,True
+0ZSRj00000002rROAQ,,Variable Frequency Drives,True
+0ZSRj00000002rROAQ,,Control Valves,True
+0ZSRj00000002rROAQ,,Pumping Options,True
+0ZSRj00000002rROAQ,,AgSense,True
+0ZSRj00000002rROAQ,,Complete Control Panels,True
+0ZSRj00000002rROAQ,,Control Panel Options,True
+0ZSRj00000002rROAQ,,Control Panel Upgrades,True
+0ZSRj00000002rROAQ,,Panel Auxiliary Options,True
+0ZSRj00000002rROAQ,,Solar,True
+0ZSRj00000002rROAQ,,Telemetry,True
+0ZSRj00000002rROAQ,,Control Panel Repair,True
+0ZSRj00000002rROAQ,,Pump Control Options,True
+0ZSRj00000002rROAQ,,Air Compressor,True
+0ZSRj00000002rROAQ,,Below Ground Guidance,True
+0ZSRj00000002rROAQ,,Cam Lines,True
+0ZSRj00000002rROAQ,,Corner Overhang Package,True
+0ZSRj00000002rROAQ,,Corner Sensor Box,True
+0ZSRj00000002rROAQ,,Corner Sequencing,True
+0ZSRj00000002rROAQ,,Corner Span Package,True
+0ZSRj00000002rROAQ,,Corner Spans and Overhangs,True
+0ZSRj00000002rROAQ,,Corner Upgrade,True
+0ZSRj00000002rROAQ,,Encompass,True
+0ZSRj00000002rROAQ,,GPS Guidance,True
+0ZSRj00000002rROAQ,,LRDU,True
+0ZSRj00000002rROAQ,,Sprinkler,True
+0ZSRj00000002rROAQ,,Steerable Drive Unit,True
+0ZSRj00000002rROAQ,,Tubing Harnesses,True
+0ZSRj00000002rROAQ,,Center Drive Repair,True
+0ZSRj00000002rROAQ,,Complete Center Drives,True
+0ZSRj00000002rROAQ,,Complete Gearboxes,True
+0ZSRj00000002rROAQ,,Drive Shaft Shields,True
+0ZSRj00000002rROAQ,,Drive Shafts,True
+0ZSRj00000002rROAQ,,Drive Train Conversions,True
+0ZSRj00000002rROAQ,,Engine Drive,True
+0ZSRj00000002rROAQ,,Gear Lube,True
+0ZSRj00000002rROAQ,,Gearbox Repair,True
+0ZSRj00000002rROAQ,,Tires and Rims,True
+0ZSRj00000002rROAQ,,T-L Conversion,True
+0ZSRj00000002rROAQ,,U-Joints,True
+0ZSRj00000002rROAQ,,Complete Tower Boxes,True
+0ZSRj00000002rROAQ,,Pivot Alignment,True
+0ZSRj00000002rROAQ,,Solid State Motor Controller,True
+0ZSRj00000002rROAQ,,Tower Box Conversion,True
+0ZSRj00000002rROAQ,,Tower Box Mechanical,True
+0ZSRj00000002rROAQ,,Tower Box Upgrades,True
+0ZSRj00000002rROAQ,,X-Tec,True
+0ZSRj00000002rROAQ,,Batteries,True
+0ZSRj00000002rROAQ,,Cable Accessories,True
+0ZSRj00000002rROAQ,,Collector Rings,True
+0ZSRj00000002rROAQ,,Control Boards and Modules,True
+0ZSRj00000002rROAQ,,Din Rails and Snap Tracks,True
+0ZSRj00000002rROAQ,,Electrical Cables,True
+0ZSRj00000002rROAQ,,Electrical Contactors,True
+0ZSRj00000002rROAQ,,Electrical Disconnect,True
+0ZSRj00000002rROAQ,,Electrical Meters,True
+0ZSRj00000002rROAQ,,Electrical Protective Devices,True
+0ZSRj00000002rROAQ,,Electrical Timers,True
+0ZSRj00000002rROAQ,,Electrical Transformers,True
+0ZSRj00000002rROAQ,,Electrical Wire,True
+0ZSRj00000002rROAQ,,Fuses & Circuit Breakers,True
+0ZSRj00000002rROAQ,,Micro Switches,True
+0ZSRj00000002rROAQ,,Percent Timers,True
+0ZSRj00000002rROAQ,,Power Supply,True
+0ZSRj00000002rROAQ,,Pressure Transducers,True
+0ZSRj00000002rROAQ,,Relays,True
+0ZSRj00000002rROAQ,,Solenoids,True
+0ZSRj00000002rROAQ,,Speciality Cables,True
+0ZSRj00000002rROAQ,,Switches,True
+0ZSRj00000002rROAQ,,Terminal Strips,True
+0ZSRj00000002rROAQ,,Battery,True
+0ZSRj00000002rROAQ,,Electrical Relays and Bases,True
+0ZSRj00000002rROAQ,,Pressure Switches,True
+0ZSRj00000002rROAQ,,Terminal Options,True
+0ZSRj00000002rROAQ,,3 Wheel Drive,True
+0ZSRj00000002rROAQ,,Agri-TRAC,True
+0ZSRj00000002rROAQ,,Articulating 4-Wheel Drive,True
+0ZSRj00000002rROAQ,,Articulating Track Drive,True
+0ZSRj00000002rROAQ,,Loegering Tracks,True
+0ZSRj00000002rROAQ,,RAAFT Track,True
+0ZSRj00000002rROAQ,,Spider Wheel,True
+0ZSRj00000002rROAQ,,Track Drive,True
+0ZSRj00000002rROAQ,,Below Ground Guidance,True
+0ZSRj00000002rROAQ,,Furrow Guidance,True
+0ZSRj00000002rROAQ,,GPS Guidance,True
+0ZSRj00000002rROAQ,,Inlet Components,True
+0ZSRj00000002rROAQ,,Linear Alignment,True
+0ZSRj00000002rROAQ,,Linear Carts,True
+0ZSRj00000002rROAQ,,Linear Options,True
+0ZSRj00000002rROAQ,,Power Pedestal,True
+0ZSRj00000002rROAQ,,Above Ground Guidance,True
+0ZSRj00000002rROAQ,,Bender Options,True
+0ZSRj00000002rROAQ,,Booster Pumps,True
+0ZSRj00000002rROAQ,,Cable Protection Options,True
+0ZSRj00000002rROAQ,,Drive Unit Auto-Reverse Options,True
+0ZSRj00000002rROAQ,,Drop Span Options,True
+0ZSRj00000002rROAQ,,End Gun Control Options,True
+0ZSRj00000002rROAQ,,End of Field Stops Options,True
+0ZSRj00000002rROAQ,,Pump Connect,True
+0ZSRj00000002rROAQ,,Running Lights,True
+0ZSRj00000002rROAQ,,VRI,True
+0ZSRj00000002rROAQ,,X-TEC Options,True
+0ZSRj00000002rROAQ,,Machine Diagnostics,True
+0ZSRj00000002rROAQ,,Installation Manuals,True
+0ZSRj00000002rROAQ,,Owner's Manuals,True
+0ZSRj00000002rROAQ,,Owner's Manual,True
+0ZSRj00000002rROAQ,,Installation Manual,True
+0ZSRj00000002rROAQ,,Electrical Tools,True
+0ZSRj00000002rROAQ,,Field Mapping Tools,True
+0ZSRj00000002rROAQ,,Mechanical Tools,True
+0ZSRj00000002rROAQ,,Bracket and Mounts,True
+0ZSRj00000002rROAQ,,Drains and Couplers,True
+0ZSRj00000002rROAQ,,Fasteners,True
+0ZSRj00000002rROAQ,,Flanges and End Plates,True
+0ZSRj00000002rROAQ,,Flex Boots,True
+0ZSRj00000002rROAQ,,Half Clamps,True
+0ZSRj00000002rROAQ,,Hardware,True
+0ZSRj00000002rROAQ,,Overhang Accessories,True
+0ZSRj00000002rROAQ,,Overhang Cables,True
+0ZSRj00000002rROAQ,,Rubber Gaskets,True
+0ZSRj00000002rROAQ,,Span Clamps,True
+0ZSRj00000002rROAQ,,Span Transitions,True
+0ZSRj00000002rROAQ,,Truss Components,True
+0ZSRj00000002rROAQ,,Weldment Options,True
+0ZSRj00000002rROAQ,,Overhang Cable,True
+0ZSRj00000002rROAQ,,Boombacks,True
+0ZSRj00000002rROAQ,,Drop Options,True
+0ZSRj00000002rROAQ,,End Guns,True
+0ZSRj00000002rROAQ,,Fixed Sprays,True
+0ZSRj00000002rROAQ,,Impact Sprinklers,True
+0ZSRj00000002rROAQ,,Rotating Sprays,True
+0ZSRj00000002rROAQ,,Sprinkler Fittings,True
+0ZSRj00000002rROAQ,,Sprinkler Gauges,True
+0ZSRj00000002rROAQ,,Sprinkler Nozzles,True
+0ZSRj00000002rROAQ,,Sprinkler Regulators,True
+0ZSRj00000002rROAQ,,Sprinkler Repair,True
+0ZSRj00000002rROAQ,,U-Pipes,True
+0ZSRj00000002rROAQ,,Valves,True
+0ZSRj00000002rROAQ,,Add Span Packages,True
+0ZSRj00000002rROAQ,,Drive Unit Structure,True
+0ZSRj00000002rROAQ,,Overhang Packages,True
+0ZSRj00000002rROAQ,,Pipe & Stubs,True
+0ZSRj00000002rROAQ,,Pivot Flex Options,True
+0ZSRj00000002rROAQ,,Pivot Point,True
+0ZSRj00000002rROAQ,,Truss Angles,True
+0ZSRj00000002rROAQ,,Truss Rods,True
+0ZSRj00000002rROAQ,,Miscellaneous Merchandising,True

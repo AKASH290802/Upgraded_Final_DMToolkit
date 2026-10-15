@@ -1,0 +1,32 @@
+=== VALIDATION SUMMARY ===
+Metric,Value
+Total Records,4
+Passed Records,0
+Failed Records,4
+Total Errors,7
+Success Rate,0.00%
+
+
+=== VALIDATED DATASET WITH RESULTS ===
+Name,RecordTypeId,WOD_2__Asset__c,VRM_Claim_Date__c,WOD_2__Claim_Type__c,WOD_2__Claim_Status__c,VRM_Parent_Order__c,VRM_Invoice_Date__c,VRM_Commissioning_Completion_Date__c,VRM_Customer__c,WOD_2__ModelNumber_P2__c,WOD_2__Account__c,VRM_Dealer_PO__c,VRM_Drive_Units__c,VRM_V2O_Username__c,VRM_Site__c,WOD_2__Comments__c,WOD_2__Approval_Comments__c,WOD_2__Approved_Rejected_Date__c,VRM_Approved_By__c,WOD_2__Date_Of_Failure__c,WOD_2__Date_Of_Repair__c,WOD_2__CausalPartNumber_P2__c,WOD_2__Description__c,WOD_2__Fault_Code__c,VRM_Resolution_Code__c,VRM_Location__c,VRM_Tower_Number__c,Validation_Status,Validation_Errors
+CA179393,SYSTWARR,<Opp No>-11385061,12/3/2025,System,Partially Approved,11385061,5/31/2020,5/31/2020,40305774,8098,00011164,S23683,5,hjv,1011,"DIAGNOSE PIVOT FAULTRitter Farm, Pivot will not moveStart up at panel. Suspected gps fault.Open ggs panel - one of the relays clicking, otherwise gpssystem okay",,,,11/27/2025,11/27/2025,03E3873,ELC MR BALDOR/REGAL - 56 RPM WORM/2HP/INV DUTY,F59,R16,Drive Unit,2,FAILED,Row 1: Warning: Large numeric value '11385061' in text field 'VRM_Parent_Order__c' (mapped to 'VRM_Parent_Order__c') - verify this is appropriate; Row 1: Warning: Large numeric value '40305774' in text field 'VRM_Customer__c' (mapped to 'VRM_Customer__c') - verify this is appropriate
+CA179414,PARTWARR,<Opp No>-15148337,12/3/2025,Part,Partially Approved,15148337,9/25/2025,9/25/2025,00000136,,00000136,,0,kc703762,1011,,Added drop ship parts cost per invoice - Labor and travel per dealer e-mail - KC 12/3/25,,,10/3/2025,10/3/2025,5250158,CONTROL PANEL PHASE TECH 1LH 30HP 32A AUX,F27,R45,,,FAILED,Row 2: Warning: Large numeric value '15148337' in text field 'VRM_Parent_Order__c' (mapped to 'VRM_Parent_Order__c') - verify this is appropriate
+CA179393_1,SYSTWARR,<Opp No>-11276538,12/2/2025,System,Additional Information Required,11276538,2/16/2018,2/16/2018,40503271,8858-108,00000235,J251113,9,mih2,1011,Leaking out of input seal.,,,,11/24/2025,11/24/2025,03E4751,ELC MR 34 RPM GEARBOX ASSM W/BREATHER,F69,R13,Drive Unit,6,FAILED,Row 3: Warning: Large numeric value '11276538' in text field 'VRM_Parent_Order__c' (mapped to 'VRM_Parent_Order__c') - verify this is appropriate; Row 3: Warning: Large numeric value '40503271' in text field 'VRM_Customer__c' (mapped to 'VRM_Customer__c') - verify this is appropriate
+CA179393_2,SYSTWARR,<Opp No>-11276538,12/2/2025,System,Additional Information Required,11276538,2/16/2018,2/16/2018,40503271,8858-108,00000235,J251113,9,mih2,1011,Leaking out of input seal.,,,,11/24/2025,11/24/2025,03E4751,ELC MR 34 RPM GEARBOX ASSM W/BREATHER,F69,R13,Drive Unit,9,FAILED,Row 4: Warning: Large numeric value '11276538' in text field 'VRM_Parent_Order__c' (mapped to 'VRM_Parent_Order__c') - verify this is appropriate; Row 4: Warning: Large numeric value '40503271' in text field 'VRM_Customer__c' (mapped to 'VRM_Customer__c') - verify this is appropriate
+
+
+=== DETAILED VALIDATION ERRORS ===
+Error_Description
+Row 1: Warning: Large numeric value '11385061' in text field 'VRM_Parent_Order__c' (mapped to 'VRM_Parent_Order__c') - verify this is appropriate
+Row 1: Warning: Large numeric value '40305774' in text field 'VRM_Customer__c' (mapped to 'VRM_Customer__c') - verify this is appropriate
+Row 2: Warning: Large numeric value '15148337' in text field 'VRM_Parent_Order__c' (mapped to 'VRM_Parent_Order__c') - verify this is appropriate
+Row 3: Warning: Large numeric value '11276538' in text field 'VRM_Parent_Order__c' (mapped to 'VRM_Parent_Order__c') - verify this is appropriate
+Row 3: Warning: Large numeric value '40503271' in text field 'VRM_Customer__c' (mapped to 'VRM_Customer__c') - verify this is appropriate
+Row 4: Warning: Large numeric value '11276538' in text field 'VRM_Parent_Order__c' (mapped to 'VRM_Parent_Order__c') - verify this is appropriate
+Row 4: Warning: Large numeric value '40503271' in text field 'VRM_Customer__c' (mapped to 'VRM_Customer__c') - verify this is appropriate
+
+
+=== FIELD-WISE ERROR SUMMARY ===
+Field_Name,Error_Count,Error_Rate_Percent,Sample_Errors
+VRM_Parent_Order__c,4,100.00,Row 1: Warning: Large numeric value '11385061' in text field 'VRM_Parent_Order__c' (mapped to 'VRM_Parent_Order__c') - verify this is appropriate; Row 2: Warning: Large numeric value '15148337' in text field 'VRM_Parent_Order__c' (mapped to 'VRM_Parent_Order__c') - verify this is appropriate; Row 3: Warning: Large numeric value '11276538' in text field 'VRM_Parent_Order__c' (mapped to 'VRM_Parent_Order__c') - verify this is appropriate...
+VRM_Customer__c,3,75.00,Row 1: Warning: Large numeric value '40305774' in text field 'VRM_Customer__c' (mapped to 'VRM_Customer__c') - verify this is appropriate; Row 3: Warning: Large numeric value '40503271' in text field 'VRM_Customer__c' (mapped to 'VRM_Customer__c') - verify this is appropriate; Row 4: Warning: Large numeric value '40503271' in text field 'VRM_Customer__c' (mapped to 'VRM_Customer__c') - verify this is appropriate

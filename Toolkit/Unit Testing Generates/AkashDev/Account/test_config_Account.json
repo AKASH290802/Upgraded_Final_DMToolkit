@@ -1,0 +1,40 @@
+{
+  "generation_metadata": {
+    "object_name": "Account",
+    "test_types": [
+      "Data Loading Tests",
+      "Schema Validation Tests"
+    ],
+    "test_coverage": "Comprehensive",
+    "include_negative_tests": true,
+    "include_edge_cases": true,
+    "sample_size": 100,
+    "data_source": "Generate Synthetic",
+    "generated_at": "2025-11-03 16:31:15",
+    "complexity_level": "High",
+    "complexity_score": 109.6
+  },
+  "object_analysis": {
+    "total_fields": 71,
+    "required_fields": 9,
+    "updateable_fields": 56,
+    "picklist_fields": 16,
+    "lookup_fields": 7,
+    "custom_fields": 8
+  },
+  "test_metrics": {
+    "total_tests": 15,
+    "data_loading_tests": 7,
+    "schema_validation_tests": 4,
+    "business_rule_tests": 0,
+    "integration_tests": 0,
+    "negative_tests": 2,
+    "edge_case_tests": 2
+  },
+  "coverage_analysis": {
+    "field_coverage": 100.0,
+    "business_rule_coverage": 85.5,
+    "integration_coverage": 92.3,
+    "security_coverage": 88.7
+  }
+}

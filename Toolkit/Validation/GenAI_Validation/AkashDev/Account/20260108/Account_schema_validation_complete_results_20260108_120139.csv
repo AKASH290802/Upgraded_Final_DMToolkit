@@ -1,0 +1,25 @@
+=== VALIDATION SUMMARY ===
+Metric,Value
+Total Records,3
+Passed Records,1
+Failed Records,2
+Total Errors,2
+Success Rate,33.33%
+
+
+=== VALIDATED DATASET WITH RESULTS ===
+FirstName,Phone No.,Billing Street,Validation_Status,Validation_Errors
+,9546785,Mountfield,FAILED,Row 1: Required field 'FirstName' (mapped to 'Name') is empty
+,111-222-3333,Northville,FAILED,Row 2: Required field 'FirstName' (mapped to 'Name') is empty
+George,,Eastwood,PASSED,
+
+
+=== DETAILED VALIDATION ERRORS ===
+Error_Description
+Row 1: Required field 'FirstName' (mapped to 'Name') is empty
+Row 2: Required field 'FirstName' (mapped to 'Name') is empty
+
+
+=== FIELD-WISE ERROR SUMMARY ===
+Field_Name,Error_Count,Error_Rate_Percent,Sample_Errors
+FirstName,2,66.67,Row 1: Required field 'FirstName' (mapped to 'Name') is empty; Row 2: Required field 'FirstName' (mapped to 'Name') is empty

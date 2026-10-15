@@ -1,0 +1,4 @@
+Name,VRM_Failure_Code__c,VRM_Resolution_Code__c,WOD_2__Standard_Labor_Hour__c,WOD_2__Business_Units__c
+ABC-XYZ-1hr,a83cf0000002tlBAAQ,a83cf0000002tmnAAA,1,VRM-NA
+CDE-UVW-1hr,a83cf0000002tlCAAQ,a83cf0000002tmoAAA,1,VRM-NA
+EFG-PST-1hr,a83cf0000002tlDAAQ,a83cf0000002tmpAAA,1,VRM-NA

@@ -1,0 +1,20 @@
+ENHANCED VALIDATION SUMMARY REPORT
+==================================================
+
+Generated: 2026-05-06 16:15:46
+Salesforce Org: Valmont_Industries
+Target Object: WOD_2__Claim__c
+
+OVERALL STATISTICS:
+Total Records Processed: 4303
+Transform Success: 2442 (56.8%)
+Transform Failure: 1861 (43.2%)
+
+FAILURE BREAKDOWN:
+- Lookup transformation failures: 0
+- Picklist validation failures: 0
+- Unique field constraint failures: 0
+
+LOOKUP FIELDS PROCESSED:
+- WOD_2__ACCOUNT__C -> {'referenced_object': 'Account', 'sf_field_name': 'WOD_2__Account__c', 'label': 'WOD_2__Account__c'} (180 values resolved)
+- WOD_2__MODELNUMBER_P2__C -> {'referenced_object': 'Product2', 'sf_field_name': 'WOD_2__ModelNumber_P2__c', 'label': 'WOD_2__ModelNumber_P2__c'} (1 values resolved)

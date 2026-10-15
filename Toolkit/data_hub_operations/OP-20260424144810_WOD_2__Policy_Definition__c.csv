@@ -1,0 +1,48 @@
+Name,CurrencyIsoCode,WOD_2__Active_From__c,WOD_2__Active_Until__c,WOD_2__Business_Units__c,WOD_2__Months_Covered__c,WOD_2__Payment_Definition__c,WOD_2__Priority__c,WOD_2__Status__c,WOD_2__Sub_Type__c,WOD_2__Type__c,VRM_External_Id__c,WOD_2__Expression__c,VRM_WR_Expression__c
+VS7000 Gearboxes and Center Drives 6yrs,USD,2025-12-01,2060-12-01,VRM-NA,72.0,a7WVF000000A3Pd2AK,511.0,Inactive,,Standard,,,
+System_All Pivots and Parts,USD,2000-01-01,2050-12-31,VRM-NA,24.0,a7WVF000000A3O12AK,1.0,Active,,Standard,System_All Pivots and Parts,,"{""AND"":[""C28""]}"
+System_Gearboxes 7000,USD,2000-01-01,2050-12-31,VRM-NA,72.0,a7WVF000000A3Pd2AK,10.0,Active,,Standard,System_Gearboxes 7000,"{""AND"":[""C32""]}","{""AND"":[""C31""]}"
+System_Center Drives 7000,USD,2000-01-01,2050-12-31,VRM-NA,72.0,a7WVF000000A3Pd2AK,20.0,Active,,Standard,System_Center Drives 7000,"{""AND"":[""C33""]}","{""AND"":[""C31""]}"
+System_Gearboxes 8000,USD,2000-01-01,2050-12-31,VRM-NA,96.0,a7WVF000000A3Pd2AK,110.0,Active,,Standard,System_Gearboxes 8000,"{""AND"":[""C32""]}","{""AND"":[""C34""]}"
+System_Center Drives 8000,USD,2000-01-01,2050-12-31,VRM-NA,96.0,a7WVF000000A3Pd2AK,120.0,Active,,Standard,System_Center Drives 8000,"{""AND"":[""C33""]}","{""AND"":[""C34""]}"
+System_Pivot Structure,USD,2000-01-01,2050-12-31,VRM-NA,60.0,a7WVF000000A3UT2A0,30.0,Active,,Standard,System_Pivot Structure,"{""AND"":[""C35""]}","{""AND"":[""C28""]}"
+System_Control Panel,USD,2000-01-01,2050-12-31,VRM-NA,60.0,a7WVF000000A3Pd2AK,40.0,Active,,Standard,System_Control Panel,"{""AND"":[""C36""]}","{""AND"":[""C28""]}"
+System_Tires,USD,2000-01-01,2050-12-31,VRM-NA,24.0,a7WVF000000A3Sr2AK,50.0,Active,,Standard,System_Tires,"{""AND"":[""C37""]}","{""AND"":[""C28""]}"
+System_Corrosion,USD,2000-01-01,2050-12-31,VRM-NA,240.0,a7WVF000000A3RF2A0,60.0,Active,,Standard,System_Corrosion,"{""AND"":[""C27""]}","{""AND"":[""C28""]}"
+System_Water Application,USD,2000-01-01,2050-12-31,VRM-NA,120.0,a7WVF000000A3Pd2AK,70.0,Active,,Standard,System_Water Application,,"{""AND"":[""C28""]}"
+System_GPS Components,USD,2000-01-01,2050-12-31,VRM-NA,24.0,a7WVF000000A3Pd2AK,80.0,Active,,Standard,System_GPS Components,"{""AND"":[""C38""]}","{""AND"":[""C28""]}"
+System_Variable Speed Drives,USD,2000-01-01,2050-12-31,VRM-NA,60.0,a7WVF000000A3Pd2AK,90.0,Active,,Standard,System_Variable Speed Drives,"{""AND"":[""C39""]}","{""AND"":[""C28""]}"
+System_FlowMeters,USD,2000-01-01,2050-12-31,VRM-NA,60.0,a7WVF000000A3Pd2AK,100.0,Active,,Standard,System_FlowMeters,"{""AND"":[""C40""]}","{""AND"":[""C28""]}"
+Policy Automation7,USD,2008-12-04,2023-12-04,VRM-NA,12.0,a7WVF000000A3O12AK,805.0,Active,Part,Standard,,,"{""OR"":[{""NOT"":[{""AND"":[{""OR"":[{""NOT"":[{""OR"":[{""AND"":[""C15"",""C15""]},""C15""]}]},""C12""]},""C15""]}]}]}"
+PolicyDefinitionTest212,USD,2026-01-05,2056-01-13,VRM-NA,24.0,a7WVF000000A53F2AS,1611.0,Draft,Stock,Special,,,
+Policy Automation7,USD,2008-12-04,2023-12-04,VRM-NA,80.0,a7WVF000000A3O12AK,803.0,Active,Part,Standard,,,"{""AND"":[""C96""]}"
+Policy Automation7 - Clone,USD,2008-12-05,2030-12-05,VRM-NA,80.0,a7WVF000000A3O12AK,904.0,Active,Part,Standard,,,
+Clone Policy Automation,USD,2008-12-05,2030-12-05,VRM-NA,80.0,a7WVF000000A3O12AK,905.0,Active,Part,Standard,,,
+Policy Automation7 - Clone2,USD,2008-12-05,2030-12-05,VRM-NA,80.0,a7WVF000000A3O12AK,909.0,Active,Part,Standard,,,
+Sample Policy Automation2,USD,2009-12-04,2023-12-04,VRM-NA,12.0,a7WVF000000A3O12AK,810.0,Active,Part,Standard,,,
+Sample Policy Automation2,USD,2009-12-04,2023-12-04,VRM-NA,12.0,a7WVF000000A3O12AK,811.0,Active,Part,Standard,,,
+Equipment Use and Maintenance Policy,USD,2015-03-10,2026-03-10,VRM-NA,36.0,a7WVF000000A3RF2A0,710.0,Draft,,Standard,,,
+Safe Operating Procedures,USD,2015-03-10,2026-03-10,VRM-NA,36.0,a7WVF000000A3RF2A0,712.0,Draft,,Standard,,,
+Safe Operating Policies,USD,2009-12-04,2023-12-04,VRM-NA,12.0,a7WVF000000A3O12AK,501.0,Draft,,Standard,,,
+Safe Operating Policies,USD,2009-12-04,2023-12-04,VRM-NA,12.0,a7WVF000000A3O12AK,502.0,Draft,,Standard,,,
+Safe Operating Policies-Auto,USD,2009-12-04,2023-12-04,VRM-NA,12.0,a7WVF000000A3O12AK,503.0,Draft,,Standard,,,
+Smoke Standard Coverage Policy,USD,2026-03-01,2030-03-01,VRM-NA,12.0,a7WVF000000A3O12AK,55486.0,Active,Part,Standard,,,
+Smoke Standard Coverage Policy26988,USD,2026-03-01,2030-03-01,VRM-NA,12.0,a7WVF000000A3O12AK,58033.0,Active,Part,Standard,,,
+Smoke Standard Coverage Policy68587,USD,2026-03-01,2030-03-01,VRM-NA,12.0,a7WVF000000A3O12AK,55981.0,Active,Part,Standard,,,
+Goodwill Policy,USD,2024-01-01,2030-04-01,VRM-NA,36.0,a7WVF000000A53F2AS,88499.0,Active,,Goodwill,,,
+TestPolicy,USD,2026-04-01,2027-03-30,VRM-NA,15.0,a7WVF000000A3O12AK,1701.0,Draft,,Standard,,,
+Test Corrosion Policy,USD,2025-04-01,2036-04-01,VRM-NA,132.0,a7WVF000000AERV2A4,544.0,Active,Corrosion,Standard,,,
+Part Return Policy,USD,2026-01-01,2040-04-30,VRM-NA,12.0,a7WVF000000AdPt2AK,1300.0,Active,Part Return,Standard,,"{""AND"":[""C42""]}",
+Part_All Pivots and Parts,USD,2000-01-01,2050-12-31,VRM-NA,12.0,a7WVF000000A3O12AK,2.0,Active,Part,Standard,Part_All Pivots and Parts,,"{""AND"":[""C28""]}"
+Part_Gearboxes 7000,USD,2000-01-01,2050-12-31,VRM-NA,24.0,a7WVF000000A3Pd2AK,11.0,Active,Part,Standard,Part_Gearboxes 7000,"{""AND"":[""C32""]}","{""AND"":[""C31""]}"
+Part_Center Drives 7000,USD,2000-01-01,2050-12-31,VRM-NA,24.0,a7WVF000000A3Pd2AK,21.0,Active,Part,Standard,Part_Center Drives 7000,"{""AND"":[""C33""]}","{""AND"":[""C31""]}"
+Part_Gearboxes 8000,USD,2000-01-01,2050-12-31,VRM-NA,48.0,a7WVF000000A3Pd2AK,111.0,Active,Part,Standard,Part_Gearboxes 8000,"{""AND"":[""C32""]}","{""AND"":[""C34""]}"
+Part_Center Drives 8000,USD,2000-01-01,2050-12-31,VRM-NA,48.0,a7WVF000000A3Pd2AK,121.0,Active,Part,Standard,Part_Center Drives 8000,"{""AND"":[""C33""]}","{""AND"":[""C34""]}"
+Part_Pivot Structure,USD,2000-01-01,2050-12-31,VRM-NA,60.0,a7WVF000000A3UT2A0,31.0,Active,Part,Standard,Part_Pivot Structure,"{""AND"":[""C35""]}","{""AND"":[""C28""]}"
+Part_Control Panel,USD,2000-01-01,2050-12-31,VRM-NA,60.0,a7WVF000000A3Pd2AK,41.0,Active,Part,Standard,Part_Control Panel,"{""AND"":[""C36""]}","{""AND"":[""C28""]}"
+Part_Tires,USD,2000-01-01,2050-12-31,VRM-NA,12.0,a7WVF000000A3Sr2AK,51.0,Active,Part,Standard,Part_Tires,"{""AND"":[""C37""]}","{""AND"":[""C28""]}"
+Part_Corrosion,USD,2000-01-01,2050-12-31,VRM-NA,240.0,a7WVF000000A3RF2A0,61.0,Active,Part,Standard,Part_Corrosion,"{""AND"":[""C27""]}","{""AND"":[""C28""]}"
+Part_Water Application,USD,2000-01-01,2050-12-31,VRM-NA,120.0,a7WVF000000A3Pd2AK,71.0,Active,Part,Standard,Part_Water Application,,"{""AND"":[""C28""]}"
+Part_GPS Components,USD,2000-01-01,2050-12-31,VRM-NA,24.0,a7WVF000000A3Pd2AK,81.0,Active,Part,Standard,Part_GPS Components,"{""AND"":[""C38""]}","{""AND"":[""C28""]}"
+Part_Variable Speed Drives,USD,2000-01-01,2050-12-31,VRM-NA,60.0,a7WVF000000A3Pd2AK,91.0,Active,Part,Standard,Part_Variable Speed Drives,"{""AND"":[""C39""]}","{""AND"":[""C28""]}"
+Part_FlowMeters,USD,2000-01-01,2050-12-31,VRM-NA,60.0,a7WVF000000A3Pd2AK,101.0,Active,Part,Standard,Part_FlowMeters,"{""AND"":[""C40""]}","{""AND"":[""C28""]}"

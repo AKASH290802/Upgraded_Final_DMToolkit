@@ -1,0 +1,10 @@
+WOD_2__Business_Units__c,VRM_Failure_Code__c,VRM_Resolution_Code__c,VRM_External_Id__c,WOD_2__Description__c,Name
+VRM-NA,,,ABC,ABC,ABC
+VRM-NA,,,CDE,CDE,CDE
+VRM-NA,,,EFG,EFG,EFG
+VRM-NA,,,XYZ,XYZ,XYZ
+VRM-NA,,,UVW,UVW,UVW
+VRM-NA,,,PST,PST,PST
+VRM-NA,,,ABC-XYZ-1hr,,ABC-XYZ-1hr
+VRM-NA,,,CDE-UVW-1hr,,CDE-UVW-1hr
+VRM-NA,,,EFG-PST-1hr,,EFG-PST-1hr

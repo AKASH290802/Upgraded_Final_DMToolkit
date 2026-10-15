@@ -1,0 +1,83 @@
+{
+  "object_name": "Account",
+  "validation_date": "2025-10-24 10:29:32",
+  "total_records": 7,
+  "valid_records": 0,
+  "invalid_records": 7,
+  "success_rate": 0.0,
+  "validation_errors": [
+    {
+      "Record Index": 0,
+      "Error": "validate_Name_is_null (error: 'NoneType' object has no attribute 'iloc')",
+      "Rule Results": "{'validate_Name_is_null': False, 'validate_PhoneRule': False}"
+    },
+    {
+      "Record Index": 0,
+      "Error": "validate_PhoneRule (error: 'NoneType' object has no attribute 'iloc')",
+      "Rule Results": "{'validate_Name_is_null': False, 'validate_PhoneRule': False}"
+    },
+    {
+      "Record Index": 1,
+      "Error": "validate_Name_is_null (error: 'NoneType' object has no attribute 'iloc')",
+      "Rule Results": "{'validate_Name_is_null': False, 'validate_PhoneRule': False}"
+    },
+    {
+      "Record Index": 1,
+      "Error": "validate_PhoneRule (error: 'NoneType' object has no attribute 'iloc')",
+      "Rule Results": "{'validate_Name_is_null': False, 'validate_PhoneRule': False}"
+    },
+    {
+      "Record Index": 2,
+      "Error": "validate_Name_is_null (error: 'NoneType' object has no attribute 'iloc')",
+      "Rule Results": "{'validate_Name_is_null': False, 'validate_PhoneRule': False}"
+    },
+    {
+      "Record Index": 2,
+      "Error": "validate_PhoneRule (error: 'NoneType' object has no attribute 'iloc')",
+      "Rule Results": "{'validate_Name_is_null': False, 'validate_PhoneRule': False}"
+    },
+    {
+      "Record Index": 3,
+      "Error": "validate_Name_is_null (error: 'NoneType' object has no attribute 'iloc')",
+      "Rule Results": "{'validate_Name_is_null': False, 'validate_PhoneRule': False}"
+    },
+    {
+      "Record Index": 3,
+      "Error": "validate_PhoneRule (error: 'NoneType' object has no attribute 'iloc')",
+      "Rule Results": "{'validate_Name_is_null': False, 'validate_PhoneRule': False}"
+    },
+    {
+      "Record Index": 4,
+      "Error": "validate_Name_is_null (error: 'NoneType' object has no attribute 'iloc')",
+      "Rule Results": "{'validate_Name_is_null': False, 'validate_PhoneRule': False}"
+    },
+    {
+      "Record Index": 4,
+      "Error": "validate_PhoneRule (error: 'NoneType' object has no attribute 'iloc')",
+      "Rule Results": "{'validate_Name_is_null': False, 'validate_PhoneRule': False}"
+    },
+    {
+      "Record Index": 5,
+      "Error": "validate_Name_is_null (error: 'NoneType' object has no attribute 'iloc')",
+      "Rule Results": "{'validate_Name_is_null': False, 'validate_PhoneRule': False}"
+    },
+    {
+      "Record Index": 5,
+      "Error": "validate_PhoneRule (error: 'NoneType' object has no attribute 'iloc')",
+      "Rule Results": "{'validate_Name_is_null': False, 'validate_PhoneRule': False}"
+    },
+    {
+      "Record Index": 6,
+      "Error": "validate_Name_is_null (error: 'NoneType' object has no attribute 'iloc')",
+      "Rule Results": "{'validate_Name_is_null': False, 'validate_PhoneRule': False}"
+    },
+    {
+      "Record Index": 6,
+      "Error": "validate_PhoneRule (error: 'NoneType' object has no attribute 'iloc')",
+      "Rule Results": "{'validate_Name_is_null': False, 'validate_PhoneRule': False}"
+    }
+  ],
+  "result_files": {
+    "invalid": "C:\\DM_toolkit\\genai_validation_results\\Account_invalid_records_20251024_102932.csv"
+  }
+}

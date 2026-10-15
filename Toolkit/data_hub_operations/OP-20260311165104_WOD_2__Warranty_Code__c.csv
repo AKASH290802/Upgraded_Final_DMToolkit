@@ -1,0 +1,251 @@
+Name,WOD_2__Business_Units__c,WOD_2__Description__c,VRM_Failure_Code__c,VRM_Resolution_Code__c,WOD_2__Parent_Warranty_Code__c
+Coil Failure,VRM-NA,Coil Failure,,,
+Mis-manufactured,VRM-NA,Mis-manufactured,,,
+Leaking,VRM-NA,Leaking,,,
+Won't close,VRM-NA,Won't close,,,
+Other -- Fill in Comments,VRM-NA,Other -- Fill in Comments,,,
+Part Dimensions Incorrect,VRM-NA,Part Dimensions Incorrect,,,
+Shipment Damage,VRM-NA,Shipment Damage,,,
+Will Not Rotate,VRM-NA,Will Not Rotate,,,
+Calibration changed/out of spec,VRM-NA,Calibration changed/out of spec,,,
+Contact Points Burned,VRM-NA,Contact Points Burned,,,
+Contactor Chattering,VRM-NA,Contactor Chattering,,,
+Contactor Locked in,VRM-NA,Contactor Locked in,,,
+Contactor not pulling in,VRM-NA,Contactor not pulling in,,,
+Disconnect Switch Fails Closed,VRM-NA,Disconnect Switch Fails Closed,,,
+Disconnect Switch Fails Open,VRM-NA,Disconnect Switch Fails Open,,,
+Electrical Component Failure,VRM-NA,Electrical Component Failure,,,
+Electrical Specs Not Met,VRM-NA,Electrical Specs Not Met,,,
+Fuse Block Defective,VRM-NA,Fuse Block Defective,,,
+Grounding Block Defective,VRM-NA,Grounding Block Defective,,,
+Housing Damaged,VRM-NA,Housing Damaged,,,
+Intermittent Operations,VRM-NA,Intermittent Operations,,,
+Leads corroded/broken,VRM-NA,Leads corroded/broken,,,
+Cracked Liner,VRM-NA,Cracked Liner,,,
+Flow not registering,VRM-NA,Flow not registering,,,
+Head Filling with Water,VRM-NA,Head Filling with Water,,,
+Signal Weak,VRM-NA,Signal Weak,,,
+Contact Warranty Department - Not within,VRM-NA,Contact Warranty Department - Not within,,,
+Hose Pulled off,VRM-NA,Hose Pulled off,,,
+Hose Split,VRM-NA,Hose Split,,,
+Insufficient Clamping Force,VRM-NA,Insufficient Clamping Force,,,
+Ultraviolet Degradation,VRM-NA,Ultraviolet Degradation,,,
+Dent in Pipe,VRM-NA,Dent in Pipe,,,
+Finish Appearance Faulty,VRM-NA,Finish Appearance Faulty,,,
+Flanges not Square,VRM-NA,Flanges not Square,,,
+Flanges Out of Time,VRM-NA,Flanges Out of Time,,,
+Galvanizing Bare Spots,VRM-NA,Galvanizing Bare Spots,,,
+Galvanizing Quality,VRM-NA,Galvanizing Quality,,,
+Hitch ball bolt failed,VRM-NA,Hitch ball bolt failed,,,
+Hole in Pipe,VRM-NA,Hole in Pipe,,,
+Seam Split,VRM-NA,Seam Split,,,
+Galvanizing Excessive,VRM-NA,Galvanizing Excessive,,,
+Weld Failure,VRM-NA,Weld Failure,,,
+Weld Missing,VRM-NA,Weld Missing,,,
+Plug Removal,VRM-NA,Plug Removal,,,
+Communication Failure,VRM-NA,Communication Failure,,,
+5 Volt Power Supply,VRM-NA,5 Volt Power Supply,,,
+Backlight Failure,VRM-NA,Backlight Failure,,,
+Cold Solder Joint,VRM-NA,Cold Solder Joint,,,
+Display Failure,VRM-NA,Display Failure,,,
+Encoder Failure,VRM-NA,Encoder Failure,,,
+External Connection Failure,VRM-NA,External Connection Failure,,,
+Harness Failure,VRM-NA,Harness Failure,,,
+Keypad Failure,VRM-NA,Keypad Failure,,,
+PCB Cracked,VRM-NA,PCB Cracked,,,
+Percent timer runs at 100% at all times,VRM-NA,Percent timer runs at 100% at all times,,,
+Pressure Reading Incorrect,VRM-NA,Pressure Reading Incorrect,,,
+Relay Failure,VRM-NA,Relay Failure,,,
+Screen Failure,VRM-NA,Screen Failure,,,
+Trace Failure,VRM-NA,Trace Failure,,,
+Voltage Display Inconsistent,VRM-NA,Voltage Display Inconsistent,,,
+Cable End Failure,VRM-NA,Cable End Failure,,,
+Excessive Steering,VRM-NA,Excessive Steering,,,
+Inconsistent Position,VRM-NA,Inconsistent Position,,,
+Incorrect Resistance Reading,VRM-NA,Incorrect Resistance Reading,,,
+Resolver Input Error,VRM-NA,Resolver Input Error,,,
+Resolver Volts Incorrect,VRM-NA,Resolver Volts Incorrect,,,
+Won't Break Safety,VRM-NA,Won't Break Safety,,,
+Won't Hold Safety,VRM-NA,Won't Hold Safety,,,
+Won't Steer Forward,VRM-NA,Won't Steer Forward,,,
+Won't Steer Reverse,VRM-NA,Won't Steer Reverse,,,
+-12 Volt Power Supply,VRM-NA,-12 Volt Power Supply,,,
+Factory Wiring Incorrect,VRM-NA,Factory Wiring Incorrect,,,
+Precision Corner Adjustment,VRM-NA,Precision Corner Adjustment,,,
+Contact Points Damaged,VRM-NA,Contact Points Damaged,,,
+Low Pressure Switch Fails Closed,VRM-NA,Low Pressure Switch Fails Closed,,,
+Low Pressure Switch Fails Open,VRM-NA,Low Pressure Switch Fails Open,,,
+Switch Failure,VRM-NA,Switch Failure,,,
+Aluminum Casting Failure,VRM-NA,Aluminum Casting Failure,,,
+Bearing Race Missing,VRM-NA,Bearing Race Missing,,,
+Bull Gear Broken,VRM-NA,Bull Gear Broken,,,
+Case Broken,VRM-NA,Case Broken,,,
+Charred Failure Both Ends,VRM-NA,Charred Failure Both Ends,,,
+Charred Failure one end,VRM-NA,Charred Failure one end,,,
+Control Bearing Seized,VRM-NA,Control Bearing Seized,,,
+Factory Wiring Loose,VRM-NA,Factory Wiring Loose,,,
+Flex Joint Insert Failure,VRM-NA,Flex Joint Insert Failure,,,
+Gears Locked Up,VRM-NA,Gears Locked Up,,,
+Input Bearing Failed,VRM-NA,Input Bearing Failed,,,
+Motor Using Excessive Current,VRM-NA,Motor Using Excessive Current,,,
+No holes in shaft,VRM-NA,No holes in shaft,,,
+Noise Excessive,VRM-NA,Noise Excessive,,,
+Output Bearing Failed,VRM-NA,Output Bearing Failed,,,
+Output Seal Leaking,VRM-NA,Output Seal Leaking,,,
+Output Seal Missing,VRM-NA,Output Seal Missing,,,
+Output Shaft Broken,VRM-NA,Output Shaft Broken,,,
+Phase Burned Both Ends,VRM-NA,Phase Burned Both Ends,,,
+Phase Burned One End,VRM-NA,Phase Burned One End,,,
+Phase To Ground Short,VRM-NA,Phase To Ground Short,,,
+Phase To Phase Open,VRM-NA,Phase To Phase Open,,,
+Phase To Phase Short,VRM-NA,Phase To Phase Short,,,
+Seal Leaking,VRM-NA,Seal Leaking,,,
+Seam Leaking,VRM-NA,Seam Leaking,,,
+Snap Ring Failed,VRM-NA,Snap Ring Failed,,,
+Steering arm loose,VRM-NA,Steering arm loose,,,
+Steering Gearmotor Failed,VRM-NA,Steering Gearmotor Failed,,,
+Steering Motor Failed,VRM-NA,Steering Motor Failed,,,
+Thermal Protection Failure,VRM-NA,Thermal Protection Failure,,,
+Tow Pin Failure,VRM-NA,Tow Pin Failure,,,
+Worm Broken,VRM-NA,Worm Broken,,,
+Oil Reservoir Empty,VRM-NA,Oil Reservoir Empty,,,
+Seal Missing,VRM-NA,Seal Missing,,,
+Phase To Phase Resistance Unbalanced,VRM-NA,Phase To Phase Resistance Unbalanced,,,
+Plastic End Cap Missing,VRM-NA,Plastic End Cap Missing,,,
+Rotor Failed,VRM-NA,Rotor Failed,,,
+Short In Junction Box,VRM-NA,Short In Junction Box,,,
+Single Phasing,VRM-NA,Single Phasing,,,
+Coupling Failure,VRM-NA,Coupling Failure,,,
+Input Seal Leaking,VRM-NA,Input Seal Leaking,,,
+Input Shaft Broken,VRM-NA,Input Shaft Broken,,,
+Lug Bolts Broken,VRM-NA,Lug Bolts Broken,,,
+Mounting Bolts Broken,VRM-NA,Mounting Bolts Broken,,,
+Threads Missing,VRM-NA,Threads Missing,,,
+Diaphragm Faulty,VRM-NA,Diaphragm Faulty,,,
+Bead Damaged,VRM-NA,Bead Damaged,,,
+Corrosion On Wheel,VRM-NA,Corrosion On Wheel,,,
+Galvanizing Burrs,VRM-NA,Galvanizing Burrs,,,
+Rim Damaged,VRM-NA,Rim Damaged,,,
+Tire Leaking Air,VRM-NA,Tire Leaking Air,,,
+Tire Split,VRM-NA,Tire Split,,,
+Tube Pinched,VRM-NA,Tube Pinched,,,
+Valve Stem Leaking,VRM-NA,Valve Stem Leaking,,,
+Valve Stem Missing,VRM-NA,Valve Stem Missing,,,
+Latch Inoperable,VRM-NA,Latch Inoperable,,,
+OW Timer Doesn't Break Safety,VRM-NA,OW Timer Doesn't Break Safety,,,
+OW Timer Doesn't Hold Safety,VRM-NA,OW Timer Doesn't Hold Safety,,,
+Run Microswitch Fails Closed,VRM-NA,Run Microswitch Fails Closed,,,
+Run Microswitch Fails Open,VRM-NA,Run Microswitch Fails Open,,,
+Safety Microswitch Fails Closed,VRM-NA,Safety Microswitch Fails Closed,,,
+Safety Microswitch Fails Open,VRM-NA,Safety Microswitch Fails Open,,,
+Solenoid Valve Fails,VRM-NA,Solenoid Valve Fails,,,
+Terminal Block Defective,VRM-NA,Terminal Block Defective,,,
+Terminal Strip Stripped Out,VRM-NA,Terminal Strip Stripped Out,,,
+Tower Ahead Forward,VRM-NA,Tower Ahead Forward,,,
+Tower Behind Forward,VRM-NA,Tower Behind Forward,,,
+Tower Behind Reverse,VRM-NA,Tower Behind Reverse,,,
+Tower Box Cover Fell Off,VRM-NA,Tower Box Cover Fell Off,,,
+Tower Ahead Reverse,VRM-NA,Tower Ahead Reverse,,,
+Bearing Seized,VRM-NA,Bearing Seized,,,
+120 Volt Input/Output Failure,VRM-NA,120 Volt Input/Output Failure,,,
+5 Volt Power Supply Failure,VRM-NA,5 Volt Power Supply Failure,,,
+Keypad Error 13,VRM-NA,Keypad Error 13,,,
+Service Tool Test Failed,VRM-NA,Service Tool Test Failed,,,
+12 Volt Power Supply,VRM-NA,12 Volt Power Supply,,,
+System out of Alignment,VRM-NA,System out of Alignment,,,
+Corrosion,VRM-NA,Corrosion,,,
+Impeller Seized,VRM-NA,Impeller Seized,,,
+Light Burned Out,VRM-NA,Light Burned Out,,,
+Weld Cracked,VRM-NA,Weld Cracked,,,
+Cable Broken,VRM-NA,Cable Broken,,,
+Cable Pulled Out,VRM-NA,Cable Pulled Out,,,
+Gasket Degrading,VRM-NA,Gasket Degrading,,,
+Gasket Pushing Out,VRM-NA,Gasket Pushing Out,,,
+Threads Mismanufactured,VRM-NA,Threads Mismanufactured,,,
+Cracked Pivot Swivel,VRM-NA,Cracked Pivot Swivel,,,
+Replace Component,VRM-NA,Replace Component,,,
+Contact Warranty Department,VRM-NA,Contact Warranty Department,,,
+Weld In Field,VRM-NA,Weld In Field,,,
+Repair Component,VRM-NA,Repair Component,,,
+Remove Plugs,VRM-NA,Remove Plugs,,,
+Repair Wiring,VRM-NA,Repair Wiring,,,
+Adjust Span Sensor,VRM-NA,Adjust Span Sensor,,,
+Replace Steering Gearbox,VRM-NA,Replace Steering Gearbox,,,
+Replace Tower Box,VRM-NA,Replace Tower Box,,,
+Replace Seal,VRM-NA,Replace Seal,,,
+Replace Gearmotor,VRM-NA,Replace Gearmotor,,,
+Replace Motor Module,VRM-NA,Replace Motor Module,,,
+Rebuild Gearbox,VRM-NA,Rebuild Gearbox,,,
+Repair GB,VRM-NA,Repair GB,,,
+Replace Span Cable,VRM-NA,Replace Span Cable,,,
+Re-align System,VRM-NA,Re-align System,,,
+Replace 2hp BP Motor,VRM-NA,Replace 2hp BP Motor,,,
+Replace 2hp BP Complete,VRM-NA,Replace 2hp BP Complete,,,
+Replace 5 or 7.5 hp BP Motor,VRM-NA,Replace 5 or 7.5 hp BP Motor,,,
+Replace 5 or 7.5 hp BP Complete,VRM-NA,Replace 5 or 7.5 hp BP Complete,,,
+Replace Pivot Swivel,VRM-NA,Replace Pivot Swivel,,,
+Coil Failure-Replace Component-1hr,VRM-NA,,a83cf0000002qNVAAY,a83cf0000002qQjAAI,a83cf0000002qNVAAY
+Mis-manufactured-Replace Component-1hr,VRM-NA,,a83cf0000002qNWAAY,a83cf0000002qQjAAI,a83cf0000002qNWAAY
+Leaking-Replace Component-1hr,VRM-NA,,a83cf0000002qNXAAY,a83cf0000002qQjAAI,a83cf0000002qNXAAY
+Won't close-Replace Component-1hr,VRM-NA,,a83cf0000002qNYAAY,a83cf0000002qQjAAI,a83cf0000002qNYAAY
+Other -- Fill in Comments-Replace Component-1hr,VRM-NA,,a83cf0000002qNZAAY,a83cf0000002qQjAAI,a83cf0000002qNZAAY
+Part Dimensions Incorrect-Replace Component-1hr,VRM-NA,,a83cf0000002qNaAAI,a83cf0000002qQjAAI,a83cf0000002qNaAAI
+Shipment Damage-Replace Component-0hr,VRM-NA,,a83cf0000002qNbAAI,a83cf0000002qQjAAI,a83cf0000002qNbAAI
+Will Not Rotate-Replace Component-1.5hr,VRM-NA,,a83cf0000002qNcAAI,a83cf0000002qQjAAI,a83cf0000002qNcAAI
+Calibration changed/out of spec-Replace Component-1hr,VRM-NA,,a83cf0000002qNdAAI,a83cf0000002qQjAAI,a83cf0000002qNdAAI
+Contact Points Burned-Replace Component-1hr,VRM-NA,,a83cf0000002qNeAAI,a83cf0000002qQjAAI,a83cf0000002qNeAAI
+Contactor Chattering-Replace Component-1hr,VRM-NA,,a83cf0000002qNfAAI,a83cf0000002qQjAAI,a83cf0000002qNfAAI
+Contactor Locked in-Replace Component-1hr,VRM-NA,,a83cf0000002qNgAAI,a83cf0000002qQjAAI,a83cf0000002qNgAAI
+Contactor not pulling in-Replace Component-1hr,VRM-NA,,a83cf0000002qNhAAI,a83cf0000002qQjAAI,a83cf0000002qNhAAI
+Disconnect Switch Fails Closed-Replace Component-1hr,VRM-NA,,a83cf0000002qNiAAI,a83cf0000002qQjAAI,a83cf0000002qNiAAI
+Disconnect Switch Fails Open-Replace Component-1hr,VRM-NA,,a83cf0000002qNjAAI,a83cf0000002qQjAAI,a83cf0000002qNjAAI
+Electrical Component Failure-Replace Component-1hr,VRM-NA,,a83cf0000002qNkAAI,a83cf0000002qQjAAI,a83cf0000002qNkAAI
+Electrical Specs Not Met-Replace Component-1hr,VRM-NA,,a83cf0000002qNlAAI,a83cf0000002qQjAAI,a83cf0000002qNlAAI
+Fuse Block Defective-Replace Component-1hr,VRM-NA,,a83cf0000002qNmAAI,a83cf0000002qQjAAI,a83cf0000002qNmAAI
+Grounding Block Defective-Replace Component-1hr,VRM-NA,,a83cf0000002qNnAAI,a83cf0000002qQjAAI,a83cf0000002qNnAAI
+Housing Damaged-Replace Component-1hr,VRM-NA,,a83cf0000002qNoAAI,a83cf0000002qQjAAI,a83cf0000002qNoAAI
+Intermittent Operations-Replace Component-1hr,VRM-NA,,a83cf0000002qNpAAI,a83cf0000002qQjAAI,a83cf0000002qNpAAI
+Leads corroded/broken-Replace Component-1hr,VRM-NA,,a83cf0000002qNqAAI,a83cf0000002qQjAAI,a83cf0000002qNqAAI
+Cracked Liner-Replace Component-1hr,VRM-NA,,a83cf0000002qNrAAI,a83cf0000002qQjAAI,a83cf0000002qNrAAI
+Flow not registering-Replace Component-1hr,VRM-NA,,a83cf0000002qNsAAI,a83cf0000002qQjAAI,a83cf0000002qNsAAI
+Head Filling with Water-Replace Component-1hr,VRM-NA,,a83cf0000002qNtAAI,a83cf0000002qQjAAI,a83cf0000002qNtAAI
+Signal Weak-Replace Component-1hr,VRM-NA,,a83cf0000002qNuAAI,a83cf0000002qQjAAI,a83cf0000002qNuAAI
+Contact Warranty Department - Not within-Contact Warranty Department-0hr,VRM-NA,,a83cf0000002qNvAAI,a83cf0000002qQkAAI,a83cf0000002qNvAAI
+Hose Pulled off-Replace Component-2hr,VRM-NA,,a83cf0000002qNwAAI,a83cf0000002qQjAAI,a83cf0000002qNwAAI
+Hose Split-Replace Component-2hr,VRM-NA,,a83cf0000002qNxAAI,a83cf0000002qQjAAI,a83cf0000002qNxAAI
+Insufficient Clamping Force-Replace Component-2hr,VRM-NA,,a83cf0000002qNyAAI,a83cf0000002qQjAAI,a83cf0000002qNyAAI
+Mis-manufactured-Replace Component-2hr,VRM-NA,,a83cf0000002qNWAAY,a83cf0000002qQjAAI,a83cf0000002qNWAAY
+Part Dimensions Incorrect-Replace Component-2hr,VRM-NA,,a83cf0000002qNaAAI,a83cf0000002qQjAAI,a83cf0000002qNaAAI
+Ultraviolet Degradation-Replace Component-2hr,VRM-NA,,a83cf0000002qNzAAI,a83cf0000002qQjAAI,a83cf0000002qNzAAI
+Signal Weak-Replace Component-2hr,VRM-NA,,a83cf0000002qNuAAI,a83cf0000002qQjAAI,a83cf0000002qNuAAI
+Electrical Component Failure-Replace Component-2hr,VRM-NA,,a83cf0000002qNkAAI,a83cf0000002qQjAAI,a83cf0000002qNkAAI
+Dent in Pipe-Replace Component-1hr,VRM-NA,,a83cf0000002qO0AAI,a83cf0000002qQjAAI,a83cf0000002qO0AAI
+Finish Appearance Faulty-Replace Component-1hr,VRM-NA,,a83cf0000002qO1AAI,a83cf0000002qQjAAI,a83cf0000002qO1AAI
+Flanges not Square-Replace Component-1hr,VRM-NA,,a83cf0000002qO2AAI,a83cf0000002qQjAAI,a83cf0000002qO2AAI
+Flanges Out of Time-Replace Component-1hr,VRM-NA,,a83cf0000002qO3AAI,a83cf0000002qQjAAI,a83cf0000002qO3AAI
+Galvanizing Bare Spots-Replace Component-1hr,VRM-NA,,a83cf0000002qO4AAI,a83cf0000002qQjAAI,a83cf0000002qO4AAI
+Galvanizing Quality-Replace Component-1hr,VRM-NA,,a83cf0000002qO5AAI,a83cf0000002qQjAAI,a83cf0000002qO5AAI
+Hitch ball bolt failed-Replace Component-1hr,VRM-NA,,a83cf0000002qO6AAI,a83cf0000002qQjAAI,a83cf0000002qO6AAI
+Hole in Pipe-Replace Component-1hr,VRM-NA,,a83cf0000002qO7AAI,a83cf0000002qQjAAI,a83cf0000002qO7AAI
+Seam Split-Replace Component-1hr,VRM-NA,,a83cf0000002qO8AAI,a83cf0000002qQjAAI,a83cf0000002qO8AAI
+Seam Split-Weld In Field-1hr,VRM-NA,,a83cf0000002qO8AAI,a83cf0000002qQlAAI,a83cf0000002qO8AAI
+Galvanizing Excessive-Replace Component-1hr,VRM-NA,,a83cf0000002qO9AAI,a83cf0000002qQjAAI,a83cf0000002qO9AAI
+Hole in Pipe-Weld In Field-1hr,VRM-NA,,a83cf0000002qO7AAI,a83cf0000002qQlAAI,a83cf0000002qO7AAI
+Weld Failure-Replace Component-1hr,VRM-NA,,a83cf0000002qOAAAY,a83cf0000002qQjAAI,a83cf0000002qOAAAY
+Weld Failure-Weld In Field-1hr,VRM-NA,,a83cf0000002qOAAAY,a83cf0000002qQlAAI,a83cf0000002qOAAAY
+Weld Missing-Replace Component-1hr,VRM-NA,,a83cf0000002qOBAAY,a83cf0000002qQjAAI,a83cf0000002qOBAAY
+Weld Missing-Repair Component-1hr,VRM-NA,,a83cf0000002qOBAAY,a83cf0000002qQmAAI,a83cf0000002qOBAAY
+Plug Removal-Remove Plugs-2hr,VRM-NA,,a83cf0000002qOCAAY,a83cf0000002qQnAAI,a83cf0000002qOCAAY
+Communication Failure-Replace Component-1hr,VRM-NA,,a83cf0000002qODAAY,a83cf0000002qQjAAI,a83cf0000002qODAAY
+5 Volt Power Supply-Replace Component-1hr,VRM-NA,,a83cf0000002qOEAAY,a83cf0000002qQjAAI,a83cf0000002qOEAAY
+Backlight Failure-Replace Component-1hr,VRM-NA,,a83cf0000002qOFAAY,a83cf0000002qQjAAI,a83cf0000002qOFAAY
+Cold Solder Joint-Replace Component-1hr,VRM-NA,,a83cf0000002qOGAAY,a83cf0000002qQjAAI,a83cf0000002qOGAAY
+Display Failure-Replace Component-1hr,VRM-NA,,a83cf0000002qOHAAY,a83cf0000002qQjAAI,a83cf0000002qOHAAY
+Encoder Failure-Replace Component-1hr,VRM-NA,,a83cf0000002qOIAAY,a83cf0000002qQjAAI,a83cf0000002qOIAAY
+External Connection Failure-Replace Component-1hr,VRM-NA,,a83cf0000002qOJAAY,a83cf0000002qQjAAI,a83cf0000002qOJAAY
+Harness Failure-Replace Component-1hr,VRM-NA,,a83cf0000002qOKAAY,a83cf0000002qQjAAI,a83cf0000002qOKAAY
+Keypad Failure-Replace Component-1hr,VRM-NA,,a83cf0000002qOLAAY,a83cf0000002qQjAAI,a83cf0000002qOLAAY
+PCB Cracked-Replace Component-1hr,VRM-NA,,a83cf0000002qOMAAY,a83cf0000002qQjAAI,a83cf0000002qOMAAY
+Percent timer runs at 100% at all times-Replace Component-1hr,VRM-NA,,a83cf0000002qONAAY,a83cf0000002qQjAAI,a83cf0000002qONAAY
+Pressure Reading Incorrect-Replace Component-1hr,VRM-NA,,a83cf0000002qOOAAY,a83cf0000002qQjAAI,a83cf0000002qOOAAY
+Relay Failure-Replace Component-1hr,VRM-NA,,a83cf0000002qOPAAY,a83cf0000002qQjAAI,a83cf0000002qOPAAY

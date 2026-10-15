@@ -1,0 +1,1085 @@
+Field Name,Label,Type,Length,Required,Updateable,Custom
+Id,Account ID,id,18,True,False,False
+IsDeleted,Deleted,boolean,,True,False,False
+MasterRecordId,Master Record ID,reference,18,False,False,False
+Name,Account Name,string,255,False,True,False
+LastName,Last Name,string,80,False,True,False
+FirstName,First Name,string,40,False,True,False
+Salutation,Salutation,picklist,40,False,True,False
+Type,Account Type,picklist,255,False,True,False
+RecordTypeId,Record Type ID,reference,18,False,True,False
+ParentId,Parent Account ID,reference,18,False,True,False
+BillingStreet,Billing Street,textarea,255,False,True,False
+BillingCity,Billing City,string,40,False,True,False
+BillingState,Billing State/Province,string,80,False,True,False
+BillingPostalCode,Billing Zip/Postal Code,string,20,False,True,False
+BillingCountry,Billing Country,string,80,False,True,False
+BillingLatitude,Billing Latitude,double,,False,True,False
+BillingLongitude,Billing Longitude,double,,False,True,False
+BillingGeocodeAccuracy,Billing Geocode Accuracy,picklist,40,False,True,False
+BillingAddress,Billing Address,address,,False,False,False
+ShippingStreet,Shipping Street,textarea,255,False,True,False
+ShippingCity,Shipping City,string,40,False,True,False
+ShippingState,Shipping State/Province,string,80,False,True,False
+ShippingPostalCode,Shipping Zip/Postal Code,string,20,False,True,False
+ShippingCountry,Shipping Country,string,80,False,True,False
+ShippingLatitude,Shipping Latitude,double,,False,True,False
+ShippingLongitude,Shipping Longitude,double,,False,True,False
+ShippingGeocodeAccuracy,Shipping Geocode Accuracy,picklist,40,False,True,False
+ShippingAddress,Shipping Address,address,,False,False,False
+Phone,Account Phone,phone,40,False,True,False
+Fax,Account Fax,phone,40,False,True,False
+AccountNumber,Account Number,string,40,False,True,False
+Website,Website,url,255,False,True,False
+PhotoUrl,Photo URL,url,255,False,False,False
+Sic,SIC Code,string,20,False,True,False
+Industry,Industry,picklist,255,False,True,False
+AnnualRevenue,Annual Revenue,currency,,False,True,False
+NumberOfEmployees,Employees,int,,False,True,False
+Ownership,Ownership,picklist,255,False,True,False
+TickerSymbol,Ticker Symbol,string,20,False,True,False
+Description,Account Description,textarea,32000,False,True,False
+Rating,Account Rating,picklist,255,False,True,False
+Site,Account Site,string,80,False,True,False
+CurrencyIsoCode,Account Currency,picklist,3,False,True,False
+OwnerId,Owner ID,reference,18,True,True,False
+CreatedDate,Created Date,datetime,,True,False,False
+CreatedById,Created By ID,reference,18,True,False,False
+LastModifiedDate,Last Modified Date,datetime,,True,False,False
+LastModifiedById,Last Modified By ID,reference,18,True,False,False
+SystemModstamp,System Modstamp,datetime,,True,False,False
+LastActivityDate,Last Activity,date,,False,False,False
+LastViewedDate,Last Viewed Date,datetime,,False,False,False
+LastReferencedDate,Last Referenced Date,datetime,,False,False,False
+SourceSystemIdentifier,Source System ID,string,85,False,True,False
+IsPartner,Partner Account,boolean,,True,True,False
+IsCustomerPortal,Customer Portal Account,boolean,,True,True,False
+PersonContactId,Contact ID,reference,18,False,False,False
+IsPersonAccount,Is Person Account,boolean,,True,False,False
+ChannelProgramName,Channel Program Name,string,255,False,False,False
+ChannelProgramLevelName,Channel Program Level Name,string,255,False,False,False
+PersonMailingStreet,Mailing Street,textarea,255,False,True,False
+PersonMailingCity,Mailing City,string,40,False,True,False
+PersonMailingState,Mailing State/Province,string,80,False,True,False
+PersonMailingPostalCode,Mailing Zip/Postal Code,string,20,False,True,False
+PersonMailingCountry,Mailing Country,string,80,False,True,False
+PersonMailingLatitude,Mailing Latitude,double,,False,True,False
+PersonMailingLongitude,Mailing Longitude,double,,False,True,False
+PersonMailingGeocodeAccuracy,Mailing Geocode Accuracy,picklist,40,False,True,False
+PersonMailingAddress,Mailing Address,address,,False,False,False
+PersonOtherStreet,Other Street,textarea,255,False,True,False
+PersonOtherCity,Other City,string,40,False,True,False
+PersonOtherState,Other State/Province,string,80,False,True,False
+PersonOtherPostalCode,Other Zip/Postal Code,string,20,False,True,False
+PersonOtherCountry,Other Country,string,80,False,True,False
+PersonOtherLatitude,Other Latitude,double,,False,True,False
+PersonOtherLongitude,Other Longitude,double,,False,True,False
+PersonOtherGeocodeAccuracy,Other Geocode Accuracy,picklist,40,False,True,False
+PersonOtherAddress,Other Address,address,,False,False,False
+PersonMobilePhone,Mobile,phone,40,False,True,False
+PersonHomePhone,Home Phone,phone,40,False,True,False
+PersonOtherPhone,Other Phone,phone,40,False,True,False
+PersonAssistantPhone,Asst. Phone,phone,40,False,True,False
+PersonEmail,Email,email,80,False,True,False
+PersonTitle,Title,string,80,False,True,False
+PersonDepartment,Department,string,80,False,True,False
+PersonAssistantName,Assistant,string,40,False,True,False
+PersonLeadSource,Lead Source,picklist,255,False,True,False
+PersonBirthdate,Birthdate,date,,False,True,False
+PersonHasOptedOutOfEmail,Email Opt Out,boolean,,True,True,False
+PersonHasOptedOutOfFax,Fax Opt Out,boolean,,True,True,False
+PersonDoNotCall,Do Not Call,boolean,,True,True,False
+PersonLastCURequestDate,Last Stay-in-Touch Request Date,datetime,,False,False,False
+PersonLastCUUpdateDate,Last Stay-in-Touch Save Date,datetime,,False,False,False
+PersonEmailBouncedReason,Email Bounced Reason,string,255,False,True,False
+PersonEmailBouncedDate,Email Bounced Date,datetime,,False,True,False
+PersonIndividualId,Individual ID,reference,18,False,True,False
+PersonPronouns,Pronouns,picklist,255,False,True,False
+PersonGenderIdentity,Gender Identity,picklist,255,False,True,False
+Jigsaw,Data.com Key,string,20,False,True,False
+JigsawCompanyId,Jigsaw Company ID,string,20,False,False,False
+AccountSource,Account Source,picklist,255,False,True,False
+SicDesc,SIC Description,string,80,False,True,False
+OperatingHoursId,Operating Hour ID,reference,18,False,True,False
+IsBuyer,Buyer Account,boolean,,True,False,False
+CC_Customer_Number__c,Customer Number,string,10,False,True,True
+CC_Global_Region__c,Global Region,picklist,255,False,True,True
+RHVAC_Last_Success_Huddle__c,Last Success Huddle,date,,False,True,True
+CHVAC_NationalAccount__c,National Account,boolean,,True,True,True
+Oxbox_Service_Tier_Level__c,Service Tier Level,picklist,255,False,True,True
+Oxbox_Credit_Terms__c,Credit Terms,string,100,False,True,True
+County__c,County,string,50,False,True,True
+Customer_Segment__c,Customer Segment,string,10,False,True,True
+Face_to_Face_Date__c,Face to Face Date,date,,False,True,True
+COOPNumber__c,COOP Number,string,50,False,True,True
+datefield1__c,Close Date,date,,False,True,True
+RecordTypeName__c,RecordTypeName,string,1300,False,False,True
+Internal__c,Internal,boolean,,True,True,True
+Is_Active__c,Is Active,boolean,,True,True,True
+NationalAccountPricingEligible__c,National Account Pricing Eligible,boolean,,True,True,True
+AP_Pincode__c,Pincode,string,30,False,True,True
+AP_Sales_Engineer__c,AP Sales Engineer,string,80,False,True,True
+AP_Service_Engineer__c,Service Engineer,string,100,False,True,True
+AccountPlanCreatedDate__c,Account Plan Created Date,date,,False,True,True
+AccountPlan_Count__c,AccountPlan Count,double,,False,True,True
+P21_Delete_Flag__c,P21 Delete Flag,boolean,,True,True,True
+Account_Category__c,Account Category,picklist,255,False,True,True
+PrimaryWHSId__c,Primary WHS Id,textarea,32768,False,True,True
+Account_History_Including_Previous_Iss__c,Account History - Including Previous Iss,textarea,100000,False,True,True
+Account_ID__c,Account ID,string,40,False,True,True
+Account_Lifecycle_Stage__c,Account Lifecycle Stage,picklist,255,False,True,True
+Account_Location__c,Account Location,string,50,False,True,True
+Account_Objective_1__c,Account Objective #1,textarea,100000,False,True,True
+Account_Objective_2__c,Account Objective #2,textarea,131072,False,True,True
+Account_Objective_3__c,Account Objective #3,textarea,32768,False,True,True
+Account_Overview_and_Key_Business_Drive__c,Account Overview and  Key Business Drive,textarea,100000,False,True,True
+Account_Owner_Role__c,Account Owner Role,string,1300,False,False,True
+Account_Owner_SFID__c,Account Owner SFID,string,1300,False,False,True
+Account_Region__c,Account Region,picklist,255,False,True,True
+Account_Satisfaction_1_10__c,Account Satisfaction (1-10),picklist,255,False,True,True
+Address3__c,Address3,string,255,False,True,True
+Address_1__c,Address 1,string,255,False,True,True
+Address_2__c,Address 2,string,255,False,True,True
+Address_3__c,Address 3,string,255,False,True,True
+Alias_Name__c,Alias Name,string,255,False,True,True
+BDM_edu__c,BDM.edu,reference,18,False,True,True
+RHVAC_OracleAccountNumber__c,RS Oracle Account Number,string,40,False,True,True
+Business_Unit__c,Business Unit,picklist,255,False,True,True
+RSUPPLY_Account_Site__c,Supply Account Site,string,20,False,True,True
+textfield1__c,Class,string,48,False,True,True
+maps__AssignmentRule__c,Maps Assignment Rule,reference,18,False,True,True
+Oxbox_HeadquartersLocation__c,Headquarters Location,boolean,,True,True,True
+TK_EMEA_Regional_Director__c,Regional Director,string,255,False,True,True
+Oxbox_BranchLocation__c,Branch Location,boolean,,True,True,True
+RSUPPLY_Alias_Name__c,Supply Alias Name,string,255,False,True,True
+TK_Opportunities__c,Opportunities,double,,False,False,True
+Oxbox_Market_Segmentation__c,Market Segmentation,multipicklist,4099,False,True,True
+Oxbox_Pricing_Region__c,Pricing Region,picklist,255,False,True,True
+RSUPPLY_DefaultBranch__c,Supply Default Branch,string,240,False,True,True
+TKRefer_Large_Truck_Competitive_Position__c,Reefer Diesel Truck Competitive Position,picklist,255,False,True,True
+TKRefer_Small_Truck_Competitive_Position__c,Reefer VP Truck Competitive Position,picklist,255,False,True,True
+Oxbox_Pricing_Tier__c,Pricing Tier,picklist,255,False,True,True
+Oxbox_Product_Mix__c,Product Mix,textarea,32768,False,True,True
+TKTotal_Fleet_Size__c,Total Fleet Size,double,,False,False,True
+TK_APU_Competitive_Position__c,APU Competitive Position,picklist,255,False,True,True
+Oxbox_Reason_for_Loss__c,Reason for Loss,picklist,255,False,True,True
+Oxbox_ReasonforLoss_AdditionalDetails__c,Reason for Loss - Additional Details,textarea,255,False,True,True
+Oxbox_Residential_Ducted_Equip_Purchases__c,Residential Ducted Equipment Purchases?,currency,,False,True,True
+CC_Billing_Address_Siebel_Row_ID__c,Billing Address Siebel Row ID,string,25,False,True,True
+TKT_Created_At__c,Created At,datetime,,False,True,True
+TK_APU_Fleet_Size__c,Class 8 Sleeper Tractor Fleet Size,double,,False,True,True
+Oxbox_Who_are_their_direct_competitors__c,Who are their direct competitors?,textarea,255,False,True,True
+RSUPPLY_OracleAccountNumber__c,Supply Oracle Account Number,string,40,False,True,True
+RSUPPLY_Parent_Account_Name__c,Supply Parent Account,string,255,False,True,True
+Oxbox_X12_Month_Amount__c,12 Month $ Amount,currency,,False,True,True
+RSUPPLY_Site_Status__c,Supply Site Status,string,40,False,True,True
+Oxbox_X1st_PO_Amount__c,1st PO $ Amount,currency,,False,True,True
+Other_Email__c,Secondary Email,email,80,False,True,True
+TK_Branch__c,Branch,picklist,255,False,True,True
+Oxbox_X2021_DOAP__c,Distributor AOP,currency,,False,True,True
+RS_Trane_Ductless_Pro_Dealer_Type__c,Trane Ductless Pro Dealer Type,picklist,255,False,True,True
+TKT_NA_Request_Merge_Duplicate_Account__c,Request Merge/Duplicate Account,boolean,,True,True,True
+CHVAC_Anniversary_Date__c,CHVAC Anniversary Date,date,,False,True,True
+TK_Bus_Competitive_Position__c,Bus Competitive Position,picklist,255,False,True,True
+TK_Bus_Fleet_Size__c,Bus Fleet Size,double,,False,True,True
+TK_CRMODID__c,CRMOD ID,string,40,False,True,True
+TK_Corporate_Street__c,Street,string,255,False,True,True
+Other_Phone_Number__c,Secondary Phone Number,phone,40,False,True,True
+TCNALA_QuoteSequenceNumber__c,QuoteSequenceNumber,string,11,False,True,True
+CHVAC_FIRM_ID__c,CHVAC FIRM ID,string,30,True,False,True
+CHVAC_GSA_Account__c,CHVAC GSA Account,boolean,,True,True,True
+CC_Course_Type__c,Course Type,picklist,255,False,True,True
+CHVAC_OLD_FIRM_ID__c,CHVAC OLD FIRM ID,string,25,False,True,True
+CHVAC_OSC_Business_Contact__c,CHVAC OSC Business Contact,reference,18,False,True,True
+CHVAC_OSC_ORG_ID__c,CHVAC OSC ORG ID,string,25,False,True,True
+CHVAC_PO_Number__c,CHVAC PO Number,string,255,False,True,True
+TK_District__c,District,picklist,255,False,True,True
+CHVAC_PS_ENTR_Account_Number__c,CHVAC PS ENTR Account Number,string,40,False,True,True
+CC_Dealer_Geolocation__Latitude__s,Dealer Geolocation (Latitude),double,,False,True,True
+CC_Dealer_Geolocation__Longitude__s,Dealer Geolocation (Longitude),double,,False,True,True
+CC_Dealer_Geolocation__c,Dealer Geolocation,location,,False,False,True
+TK_Fleet_Description__c,Fleet Description,textarea,32768,False,True,True
+TK_General_Comments__c,General Comments,textarea,40000,False,True,True
+TK_Heater_Competitive_Postition__c,Heater Competitive Postition,picklist,255,False,True,True
+CHVAC_Purchasing_Agent__c,CHVAC Purchasing Agent,reference,18,False,True,True
+CHVAC_SPECTRUM_ORDER_NUMBER__c,CHVAC SPECTRUM ORDER NUMBER,string,25,False,True,True
+CHVAC_Status__c,CHVAC Status,picklist,255,False,True,True
+TK_Heater_Fleet_Size__c,Heater Fleet Size,double,,False,True,True
+TCSNALA_Account_Id__c,Account Id,string,1300,False,False,True
+TK_INCO_Terms__c,INCO Terms,string,25,False,True,True
+CHVAC_Strategic_Partner__c,CHVAC Strategic Partner,boolean,,True,True,True
+TK_Installation_Rate__c,Installation Rate,currency,,False,True,True
+TK_Key_Account__c,Key Account,boolean,,True,True,True
+TK_Labor_Rate__c,Labor Rate,currency,,False,True,True
+TK_Marked_for_Deletion__c,Marked for Deletion,boolean,,True,True,True
+TCSNALA_Authorized_Sales_Offices__c,Authorized Sales Offices,multipicklist,4099,False,True,True
+TK_Primary_Dealer_EMEA__c,EMEA Primary Dealer,reference,18,False,True,True
+TK_Region__c,Region,picklist,255,False,True,True
+TK_RevenueGoalMonth__c,Revenue Goal (Month),currency,,False,True,True
+TK_RevenueGoalYear__c,Revenue Goal (Year),currency,,False,True,True
+TK_RevenueMTD__c,Revenue MTD,currency,,False,True,True
+TK_RevenueYTD__c,Revenue YTD,currency,,False,True,True
+TCSNALA_Backlog_Unbilled_Bookings__c,Backlog/Unbilled Bookings,currency,,False,True,True
+TK_Secondary_Fleet_Type__c,Secondary Fleet Type,picklist,255,False,True,True
+TK_ShippingInstructions__c,Shipping Instructions,textarea,32768,False,True,True
+TK_Small_Truck_Fleet_Size__c,Refrigerated VP Truck Fleet Size,double,,False,True,True
+TCSNALA_Billings_Amt__c,Billings $,currency,,False,True,True
+TCSNALA_Government_Type__c,Government Type,picklist,255,False,True,True
+TK_Trailer_Fleet_Size__c,Refrigerated Trailer Fleet Size,double,,False,True,True
+TCSNALA_Legacy_PSCRM_Company_Id__c,Legacy PSCRM Company Id,string,18,False,True,True
+TK_Truck_Fleet_Size__c,Refrigerated Large Truck Fleet Size,double,,False,True,True
+TCSNALA_Not_To_Exceed_Account__c,Not To Exceed - Account,currency,,False,True,True
+TCSNALA_Not_To_Exceed_Contractor__c,Not To Exceed - Contractor,currency,,False,True,True
+TCSNALA_Sales_Region_Formula__c,Sales Region (Formula),string,1300,False,False,True
+TKSecondaryDealer__c,Secondary Dealer,reference,18,False,True,True
+ALP_Status__c,ALP Status,picklist,255,False,True,True
+Account_Class__c,Account Class,picklist,255,False,True,True
+Trailer_Fleet_Size__c,Refrigerated Trailer Fleet Size OLD,double,,False,True,True
+iSell__OSKeyID__c,D&B ID,string,16,False,True,True
+TK_Bill_To_Location__c,Bill To Location,string,25,False,True,True
+TK_Bill_to_Site_Use_Id__c,Bill to Site Use Id,string,25,False,True,True
+CHVAC_CompanyTier__c,Company Tier,picklist,255,False,True,True
+CHVAC_LeadSource__c,Lead Source,picklist,255,False,True,True
+CHVAC_Office__c,Office,picklist,255,False,True,True
+LSS_Discount_off_List__c,Discount off List,percent,,False,True,True
+TK_Rebuild_Account_Team__c,Rebuild Account Team,boolean,,True,True,True
+DCM_Approved_For_Credit__c,Approved For Credit?,boolean,,True,True,True
+TK_Dealer_Logo_Image__c,Dealer Logo Image,string,1300,False,False,True
+TK_Dealer_Logo_URL__c,Dealer Logo URL,url,255,False,True,True
+RS_Price_Adjustment__c,Pricing Adjustment,string,30,False,True,True
+Oracle_Identifier__c,Oracle Identifier,string,30,False,True,True
+TKT_Strategic_Account_Rep_for_Approval__c,Strategic Account Rep for Approval,reference,18,False,True,True
+TKT_Market_Size__c,Market Size,double,,False,True,True
+TK_EMEA_Share_to_Country__c,Share to Country,boolean,,True,True,True
+Oxbox_Last_Stage_Change_Date__c,Last Stage Change Date,date,,False,True,True
+RHVAC_Prior_Account_Status__c,RHVAC Prior Account Status,string,20,False,True,True
+RHVAC_Dealer_Account__c,Dealer Account,reference,18,False,True,True
+TKT_Parent_Oracle_Account_Number__c,Parent Oracle Account Number,string,1300,False,False,True
+ccrz__CustomField1__c,Custom Field 1,string,255,False,True,True
+ccrz__CustomField2__c,Custom Field 2,string,255,False,True,True
+ccrz__DataId__c,DataId,string,255,False,True,True
+ccrz__E_AccountGroup__c,Account Group,reference,18,False,True,True
+ccrz__PreventAddrBookSave__c,Prevent Address Book Saves,boolean,,True,True,True
+ccrz__PreventNewAddrCheckout__c,Prevent New Addresses at Checkout,boolean,,True,True,True
+ccrz__PreventNewBillAddrCO__c,Prevent New Checkout Billing Address,boolean,,True,True,True
+ccrz__SourceSystem__c,Source System,string,100,False,True,True
+ccrz__TaxExemptAccount__c,TaxExemptAccount,boolean,,True,True,True
+ccrz__UsedByCloudcraze__c,Used by Cloudcraze Customer Portal,boolean,,True,True,True
+TK_Active_Partner_User_Count__c,Active Partner User Count,double,,False,True,True
+TKCRMOD_Trane_Region__c,Adjacent Port or City,string,60,False,True,True
+TKCRMOD_TRUE_Account__c,TRUE Account,boolean,,True,True,True
+RHVAC_NDD_End_Date__c,New Dealer End Date,date,,False,True,True
+RHVAC_NDD_Start_Date__c,New Dealer Start Date,date,,False,True,True
+LSS_Last_Activity_Date__c,Last Activity Date,date,,False,False,True
+RHVAC_Potential_Date__c,Potential Date,date,,False,True,True
+RSHVAC_Latest_XV_Certification_Date__c,Latest VS Certification Date,date,,False,True,True
+TT_Prospect_Date__c,Prospect Date,date,,False,True,True
+TKCRMOD_WSPhone__c,Workshop 24/7 Phone,phone,40,False,True,True
+DCM_Credit_Card_Payment_Available__c,Credit Card Payment Available?,boolean,,True,True,True
+TT_Setup_Date__c,Setup Date,date,,False,True,True
+TKCRMOD_WS_Contact_NonLookup__c,WS Contact,string,60,False,True,True
+RSHVAC_Open_New_Customer_Count__c,RSHVAC Open New Customer Count,double,,False,False,True
+TCSNALA_Co_Account_Owner__c,Co-Account Owner,reference,18,False,True,True
+TKCRMOD_Workshop_Map__c,Other Dealer Agreements,string,60,False,True,True
+TKTCRMOD_AuthorisedService__c,Frigoblock Service,picklist,255,False,True,True
+TKTCRMOD_BusService__c,Bus Service,boolean,,True,True,True
+LSS_Service_Provider__c,Service Provider,string,100,False,True,True
+TKTCRMOD_GPSGeolocation__Latitude__s,GPS Geolocation (Latitude),double,,False,True,True
+TKTCRMOD_GPSGeolocation__Longitude__s,GPS Geolocation (Longitude),double,,False,True,True
+TKTCRMOD_GPSGeolocation__c,GPS Geolocation,location,,False,False,True
+LSS_Target_Category__c,Target Category,picklist,255,False,True,True
+Office__c,Office,picklist,255,False,True,True
+TKTCRMOD_HQMSWS__c,HQ/MS/WS,multipicklist,4099,False,True,True
+Strategic_Account_Contact__c,Strategic Account Contact,picklist,255,False,True,True
+TKTCRMOD_IndustrialZonePOBox__c,Industrial Zone/PO Box,string,60,False,True,True
+TKTCRMOD_LegalEntity__c,Legal Entity,picklist,255,False,True,True
+TKTCRMOD_Legal_Entity_Name__c,Legal Entity Name,string,255,False,True,True
+TKTCRMOD_Location__c,Location,string,50,False,True,True
+TKTCRMOD_MarineService__c,Marine Service,boolean,,True,True,True
+TKTCRMOD_Mobile__c,Mobile,phone,40,False,True,True
+TKTCRMOD_OpeningHoursWE__c,Opening Hours WE,textarea,255,False,True,True
+TKTCRMOD_OpeningHours__c,Opening Hours,textarea,255,False,True,True
+TKTCRMOD_OracleCode__c,Oracle Code,string,10,False,True,True
+TKTCRMOD_RailService__c,Rail Service,boolean,,True,True,True
+TKTCRMOD_TKRegionDirector__c,TK Region Director,picklist,255,False,True,True
+TKTCRMOD_TKRegion__c,TK Region,picklist,255,False,True,True
+TKTCRMOD_TKSales__c,TK Sales,picklist,255,False,True,True
+TKTCRMOD_TKService__c,TK Service,picklist,255,False,True,True
+TKTCRMOD_X247Phone__c,24/7 Phone,phone,40,False,True,True
+TKTCRMOD_DealerCode__c,Dealer Code,string,50,False,True,True
+TK_External_ID__c,External ID,string,40,False,True,True
+TK_EMEA_Billing_Country__c,Billing Country,picklist,255,False,True,True
+RHVAC_Enterprise_Customer_Number__c,Enterprise Customer Number,string,15,False,True,True
+TT_Legal_Entity__c,TT Legal Entity,picklist,255,False,True,True
+Last_Dealer_Inventory_Update__c,Last Dealer Inventory Update,datetime,,False,False,True
+chvacb2b_Is_International_Account__c,Is International Account,boolean,,True,True,True
+RHVAC_Site_Status__c,RHVAC Site Status,string,15,False,True,True
+Strategic_Account_Name__c,Strategic Account Name,picklist,255,False,True,True
+TKT_CEPP_CEPP_Receivable_Location__c,CEPP Receivable Location,string,20,False,True,True
+Oxbox_Status__c,Oxbox Account Status,picklist,255,False,True,True
+TK_NA_Terms__c,Terms,textarea,255,False,True,True
+Strategic_Account_del__c,Strategic Account,boolean,,True,True,True
+RS_CS_Company_Guid__c,CS Company Guid,string,36,False,True,True
+TKT_Telematics_Account__c,Telematics Account,boolean,,True,True,True
+TKCRMOD_Region__c,Region,picklist,255,False,True,True
+TKT_EMEA_BCN_Shipping_Method__c,TKT EMEA BCN Shipping Code,picklist,255,False,True,True
+Associated_Dealer__c,Associated Dealer,reference,18,False,True,True
+TKAMB2B_Company_Registration_Number__c,Company Registration #,string,255,False,True,True
+TKAMB2B_Dealer_Registration_Number__c,Dealer Registration #,string,255,False,True,True
+TKAMB2B_VAT__c,VAT #,string,255,False,True,True
+TKAM_Region__c,Region,string,255,False,True,True
+CHVACB2B_Duplicated__c,CHVACB2B Duplicated,boolean,,True,True,True
+RS_CY_Revenue__c,CY Revenue,double,,False,False,True
+CreatedByName__c,Created By Name,string,1300,False,False,True
+OpportunityCount__c,Opportunity Count,double,,False,False,True
+IndustrySub__c,Sub Industry,picklist,255,False,True,True
+Is_this_a_Root_Parent__c,Is this a Root Parent ?,boolean,,True,True,True
+Key_Accounts_Service__c,Key Accounts Service,boolean,,True,True,True
+Last_Activity_Date__c,Last Activity Date,date,,False,False,True
+PO_Required__c,PO Required,boolean,,True,True,True
+Root_Parent_Account__c,Root Parent Account,reference,18,False,True,True
+TK_BusEndCustomerType__c,Bus End Customer Type,picklist,255,False,True,True
+TCNALA_Legacy_PSCRM_Company_Id__c,CRM ID,string,30,True,False,True
+TCSNALA_Account_Tier__c,Account Tier,picklist,255,False,True,True
+TCSNALA_Available_Un_Secured_Credit__c,Available (Un)Secured Credit,currency,,False,True,True
+TCSNALA_Bookings_Amt__c,Bookings $,currency,,False,True,True
+TCSNALA_Business_Profile_and_Financials__c,Business Profile and Financials,textarea,32768,False,True,True
+TCSNALA_COOP_Agreement__c,COOP Agreement,boolean,,True,True,True
+TCSNALA_Classification_Code__c,Classification Code,string,255,False,True,True
+TCSNALA_Company_Cooperative_Number__c,Account Cooperative Number,string,255,False,True,True
+TCSNALA_DUNS_Number__c,DUNS Number,string,255,False,True,True
+TCSNALA_Facebook__c,Facebook,url,255,False,True,True
+TCSNALA_GPO_Program__c,GPO Program,picklist,255,False,True,True
+TCSNALA_Growth_Opportunity__c,Growth Opportunity,picklist,255,False,True,True
+TCSNALA_Instagram__c,Instagram,string,255,False,True,True
+TCSNALA_Investment_and_Buying_Decisions__c,Investment and Buying Decisions,textarea,500,False,True,True
+TCSNALA_Key_Account__c,Key Account,picklist,255,False,True,True
+TCSNALA_Legacy_CRM_Customer_ID__c,Legacy CRM Customer ID,string,255,False,True,True
+TCSNALA_LinkedIn__c,LinkedIn,url,255,False,True,True
+TCSNALA_Primary_Account_Role__c,Primary Account Role,picklist,255,False,True,True
+TCSNALA_R12_Account_Nbr__c,R12 Account #,string,255,False,True,True
+TCSNALA_Relationship_Mode__c,Relationship Mode,picklist,255,False,True,True
+TCSNALA_SAR__c,SAR,picklist,255,False,True,True
+TCSNALA_Tax_ID_Nbr__c,Tax ID #,string,255,False,True,True
+TCSNALA_Twitter__c,Twitter,string,255,False,True,True
+TT_Days_Since_Activity__c,Days Since Activity,double,,False,False,True
+nAICSCodeDescription__c,NAICS Description,string,255,False,True,True
+nAICSCode__c,NAICS Code,string,255,False,True,True
+TK_BusFleetFuelTypeConventional__c,Bus Fleet Fuel Type - Conventional,double,,False,True,True
+tCSalesOffice__c,Sales Office,picklist,255,False,True,True
+tCSalesRegion__c,Sales Region,picklist,255,False,True,True
+tCVerticalMarket__c,Vertical,picklist,255,False,True,True
+TK_APU_Haul_Type__c,APU Haul Type,picklist,255,False,True,True
+TK_DealerPerformance__c,Dealer Performance,picklist,255,False,True,True
+TK_Heater_Haul_Type__c,Heater Haul Type,picklist,255,False,True,True
+TK_Non_Refrigerated_Type__c,Non-Refrigerated Type,picklist,255,False,True,True
+TK_Trailer_Haul_Type__c,Trailer Haul Type,picklist,255,False,True,True
+TK_Truck_Haul_Type__c,Truck Haul Type,picklist,255,False,True,True
+Target_Account_Reason__c,Target Account Reason,multipicklist,4099,False,True,True
+Target_Account__c,Target Account,boolean,,True,True,True
+Target_Currency__c,Target Currency   ,picklist,255,False,True,True
+Target_Source__c,Target Source,picklist,255,False,True,True
+VerticalMarketSub__c,Vertical Market Sub,picklist,255,False,True,True
+Visage_Server__c,Visage Server,picklist,255,False,True,True
+MAX_Number__c,MAX Number,string,15,False,True,True
+RS_CRM_Product__c,CRM Product,string,50,False,True,True
+RS_RMS_Id__c,RMS Id,string,10,False,True,True
+TCS_CC_Initial_Year__c,TCS/CC Initial Year,string,4,False,True,True
+TCS_CC_Program_Benefits__c,TCS/CC Program Benefits,multipicklist,4099,False,True,True
+RS_PY_Revenue__c,PY Revenue,double,,False,False,True
+TK_BusFleetFuelTypeElectric__c,Bus Fleet Fuel Type - Electric,double,,False,True,True
+TK_BusFleetSizeCoach__c,Bus Fleet Size - Coach,double,,False,True,True
+TK_BusFleetSizeDiesel__c,Bus Fleet Size - Diesel,double,,False,True,True
+TK_BusFleetSizeElectric__c,Bus Fleet Size - Electric,double,,False,True,True
+TK_BusFleetSizeSchool__c,Bus Fleet Size - School,double,,False,True,True
+TK_BusFleetSizeShuttle__c,Bus Fleet Size - Shuttle,double,,False,True,True
+TK_BusFleetSizeTransit__c,Bus Fleet Size - Transit,double,,False,True,True
+TK_BusFleetUnitTypeElectric__c,Bus Fleet Unit Type - Electric,double,,False,True,True
+TK_BusFleetUnitTypeStandard__c,Bus Fleet Unit Type - Standard,double,,False,True,True
+TK_BusPrimaryFleetType__c,Bus Primary Fleet Type,picklist,255,False,True,True
+TK_BusSecondaryFleetType__c,Bus Secondary Fleet Type,picklist,255,False,True,True
+TK_CompetitivePositionCoach__c,Competitive Position - Coach,picklist,255,False,True,True
+TK_CompetitivePositionSchool__c,Competitive Position - School,picklist,255,False,True,True
+TK_CompetitivePositionShuttle__c,Competitive Position - Shuttle,picklist,255,False,True,True
+TK_CompetitivePositionTransit__c,Competitive Position - Transit,picklist,255,False,True,True
+TK_TKType__c,TK Type,picklist,255,False,True,True
+TK_TopAccount__c,Top 100 Account,boolean,,True,True,True
+TT_Billing_address__c,Billing address,string,1300,False,False,True
+TT_Shipping_address__c,Shipping address,string,1300,False,False,True
+TCSNALA_Credit_Hold__c,Credit Hold,boolean,,True,True,True
+TCSNALA_Inactive__c,Inactive,boolean,,True,True,True
+TCSNALA_Legal_Hold__c,Legal Hold,boolean,,True,True,True
+Due_Date_excel__c,Due Date excel,date,,False,True,True
+Current_year_conquest_target__c,Current Year Conquest Target,boolean,,True,True,True
+Credit_Hold_SFS__c,Credit Hold,boolean,,True,True,True
+Location__c,Location,reference,18,False,True,True
+Account_Name_National__c,Account Name National,string,1300,False,False,True
+TK_DealerChampion__c,Dealer Champion,reference,18,False,True,True
+TK_DealerTrack__c,Dealer Track,picklist,255,False,True,True
+TK_Dealer_Champion_Name__c,TK Dealer Champion Name,string,1300,False,False,True
+TK_if_Non_Blue_Track__c,TK if Non Blue Track,boolean,,True,False,True
+TKEMEAFM_24_7_Fleet_Monitoring__c,24/7 Fleet Monitoring Customer,boolean,,True,True,True
+TCSNALA_Appointment_Driven_Field_Reports__c,Appointment Driven Field Reports,boolean,,True,True,True
+Vertex__BillingAddressValid__c,Billing Address Valid,boolean,,True,True,True
+Vertex__ShippingAddressValid__c,Shipping Address Valid,boolean,,True,True,True
+TKAAB2BL_Active_Dealer__c,Active Dealer,reference,18,False,True,True
+TKAAB2BL_Address__c,Address,textarea,2000,False,True,True
+TKAAB2BL_Blue_Track_Dealer__c,Blue Track Dealer,boolean,,True,True,True
+TKAAB2BL_Contact_Email__c,Contact Email,email,80,False,True,True
+TKAAB2BL_Contact_Phone_Number__c,Contact Phone Number,phone,40,False,True,True
+TKAAB2BL_Dealer_FAQ__c,Enable Dealer FAQ,boolean,,True,True,True
+TKAAB2BL_Dealer_Logo__c,Dealer Logo,textarea,32768,False,True,True
+TKAAB2BL_Dealer_MID__c,Enable Dealer MID,boolean,,True,True,True
+TKAAB2BL_Dealer_Status__c,eCommerce Status,picklist,255,False,True,True
+TKAAB2BL_DeliveryMethodsAvailabile__c,Delivery Methods Availabile,multipicklist,4099,False,True,True
+TKAAB2BL_Key__c,Key,encryptedstring,36,False,True,True
+TKAAB2BL_Location_Hours__c,Location Hours,textarea,2000,False,True,True
+TKAAB2BL_Merchant_ID__c,Merchant ID,encryptedstring,100,False,True,True
+TKAAB2BL_Pick_Up_City__c,Pick Up City,string,255,False,True,True
+TKAAB2BL_Pick_Up_Country__c,Pick Up Country,string,255,False,True,True
+CC_Mailing_Address_Siebel_Row_ID__c,Mailing Address Siebel Row ID,string,25,False,True,True
+TKAAB2BL_Pick_Up_Location__Latitude__s,Pick Up Location (Latitude),double,,False,True,True
+TKAAB2BL_Pick_Up_Location__Longitude__s,Pick Up Location (Longitude),double,,False,True,True
+TKAAB2BL_Pick_Up_Location__c,Pick Up Location,location,,False,False,True
+TKAAB2BL_Pick_Up_PostalCode__c,Pick Up Postal Code,string,255,False,True,True
+TKAAB2BL_Pick_Up_State__c,Pick Up State,string,255,False,True,True
+TKAAB2BL_Pick_Up_Street2__c,Pick Up Street 2,string,255,False,True,True
+TKAAB2BL_Pick_Up_Street__c,Pick Up Street,string,255,False,True,True
+TKAAB2BL_Return_Policy__c,Return Policy,textarea,10000,False,True,True
+TKAAB2BL_Shared_Secret_Key__c,Shared Secret Key,encryptedstring,44,False,True,True
+TKAAB2BL_Terms_Conditions__c,Terms & Conditions,textarea,10000,False,True,True
+TKAAB2BL_Website_Link__c,Website Link,url,255,False,True,True
+TKAAB2BL_BuyerGroupLevel1Code__c,Buyer Group Level 1 Code,string,1300,False,False,True
+RSHVAC_Account_Type__c,RSHVAC Account Type,string,1300,False,False,True
+Business_Segment_Type__c,Business Segment Type,picklist,255,False,True,True
+Geography_Footprint__c,Geography (Footprint),picklist,255,False,True,True
+RSUPPLY_Last_Contact_Date__c,Last Contact Date,date,,False,True,True
+TT_Credit_Limit_Used__c,P21 Orders in Process,double,,False,True,True
+TT_Credit_Limit__c,TT Available Credit,double,,False,True,True
+TT_Credit_Status_Description__c,Credit Status Description,string,255,False,True,True
+TT_Credit_Status__c,Credit Status,picklist,255,False,True,True
+TT_Program_Participation__c,Supply Program Participation,multipicklist,4099,False,True,True
+TT_Strategic_Account__c,Strategic Account,multipicklist,4099,False,True,True
+TK_LATAM_Country__c,Country,picklist,255,False,True,True
+TK_LATAM_Primary_Dealer__c,Primary Dealer,reference,18,False,True,True
+TK_LATAM_Region__c,Region,picklist,255,False,True,True
+TT_P21_Available_Credit__c,P21 Available Credit,double,,False,False,True
+TCSNA_KAS_Service_Type__c,KAS Service Type,picklist,255,False,True,True
+mkto_si__Sales_Insight__c,Sales Insight,string,1300,False,False,True
+mkto_si__Current_Sales_Campaign__c,Current Sales Campaign,string,100,False,True,True
+mkto_si__Last_Activity_By_Sales__c,Last Activity by Sales,datetime,,False,True,True
+mkto_si__Last_Sales_Engagement__c,Last Sales Engagement,datetime,,False,True,True
+mkto_si__Sales_Last_Replied__c,Sales Last Replied,datetime,,False,True,True
+engagio__Competitive_Intent_Keywords__c,Competitive Intent Keywords - legacy,multipicklist,4099,False,True,True
+engagio__Competitive_Intent_Keywords_longtext__c,Competitive Intent Keywords,textarea,2000,False,True,True
+engagio__CustomerDate__c,Customer Date,datetime,,False,True,True
+engagio__EngagedPeople__c,Engaged People,double,,False,True,True
+engagio__EngagementMinutesLast30Days__c,Engagement Minutes (1 mo.),double,,False,True,True
+engagio__EngagementMinutesLast3Months__c,Engagement Minutes (3 mo.),double,,False,True,True
+engagio__EngagementMinutesLast7Days__c,Engagement Minutes (7 days),double,,False,True,True
+engagio__FirstEngagementDate__c,First Engagement Date,datetime,,False,True,True
+engagio__HighIntentKeywords__c,High Intent Keywords - legacy,multipicklist,4099,False,True,True
+engagio__HighIntentKeywords_longtext__c,High Intent Keywords,textarea,2000,False,True,True
+engagio__IntentMinutesLast30Days__c,High Intent Engagement Mins (1 mo.),double,,False,True,True
+engagio__MQADate__c,MQA Date,datetime,,False,True,True
+engagio__NumberOfPeople__c,Number of People,double,,False,True,True
+engagio__PipelineDate__c,Pipeline Date,datetime,,False,True,True
+CC_Primary_Country__c,Country,picklist,255,False,True,True
+engagio__Sales_Touches_14_days__c,Sales Touches (14 days),double,,False,True,True
+CC_Primary_Siebel_Row_Id__c,Primary Siebel Row Id,string,30,False,True,True
+engagio__Sales_Touches_7_days__c,Sales Touches (7 days),double,,False,True,True
+engagio__Status__c,Demandbase Journey Stage,string,120,False,True,True
+engagio__Top_Web_Traffic_URLs__c,Top Web Traffic URLs (14 days),textarea,32768,False,True,True
+engagio__WebVisitsLast3Months__c,Web Traffic (3 mo.),double,,False,True,True
+engagio__pipeline_predict_score__c,Pipeline Predict Score,double,,False,True,True
+engagio__qualification_score__c,Qualification Score,double,,False,True,True
+Feedback_Request__c,Feedback Request,picklist,255,False,True,True
+TK_LATAM_Product_of_Interest__c,Product of Interest,multipicklist,4099,False,True,True
+DNBConnect__D_B_Connect_Company_Profile__c,D&B Connect Company Profile,reference,18,False,True,True
+DNBConnect__D_B_Match_Confidence_Code__c,D&B Match Confidence Code,double,,False,True,True
+DNBConnect__D_B_Match_Data_Profile__c,D&B Match Data Profile,string,28,False,True,True
+DNBConnect__D_B_Match_Grade__c,D&B Match Grade,string,11,False,True,True
+DNBConnect__D_B_Match_Type__c,D&B Match Type,string,255,False,True,True
+DNBConnect__D_B_Name_Match_Score__c,D&B Name Match Score,double,,False,True,True
+dnb_exclude_company__c,Exclude from D&B Connect,boolean,,True,False,True
+dnb_Headquarters_DUNS__c,Headquarters DUNS,string,9,False,True,True
+CC_Shipping_Billing_Address_Same__c,Shipping/Billing Address Same,boolean,,True,True,True
+dnb_Parent_DUNS__c,Parent DUNS,string,9,False,True,True
+dnb_Tax_ID__c,Tax ID,string,1300,False,False,True
+TT_PriceList__c,PriceList,string,255,False,True,True
+TC_Central_Business_Unit__c,Customer Business Unit,picklist,255,False,True,True
+TKT_EMEA_Comments__c,Comments,string,70,False,True,True
+TKT_EMEA_Dealer_Agreement_End_Date__c,Dealer Agreement End Date,date,,False,True,True
+TKT_EMEA_Last_F2F_Audit__c,Last F2F Audit,date,,False,True,True
+TKT_EMEA_Start_Year_of_Relationship__c,Start Year of Relationship,string,4,False,True,True
+TKT_EMEM_Dealer_Vetting_End_Date__c,Dealer Vetting End Date,date,,False,True,True
+Available_Credit__c,Available Credit,currency,,False,True,True
+Credit_Status__c,Credit Status,picklist,255,False,True,True
+P21_Primary_Store_Location__c,P21 Primary Store Location,reference,18,False,True,True
+TRS_P21_Primary_Store_Number__c,P21 Primary Store Number,string,16,False,True,True
+Warehouse_List__c,Warehouse List,textarea,1028,False,True,True
+TKAAB2BL_Buyer_Group__c,Buyer Group,reference,18,False,True,True
+TKAAB2BL_DefaultFeeFlag__c,Default Fee Flag,multipicklist,4099,False,True,True
+TKAAB2BL_Buyer_Group_Name__c,Buyer Group Name,string,1300,False,False,True
+DNBConnect__dunsTradedUp__c,D-U-N-S Traded Up,boolean,,True,True,True
+DNBConnect__matchedDuns__c,Matched D-U-N-S,string,9,False,True,True
+RSUPPLY_Pricing_Tier__c,Supply Pricing Tier,string,80,False,True,True
+TT_Service_Strategy__c,Service Strategy,picklist,255,False,True,True
+TT_TCSOU_Account_Link__c,TCS OU Account Link,reference,18,False,True,True
+TCSNALA_Intelligent_Services__c,Intelligent Services,boolean,,True,True,True
+TKAAB2BL_CampaignName__c,Campaign Name,textarea,255,False,True,True
+TKAAB2BL_MediumName__c,Medium,textarea,255,False,True,True
+TKAAB2BL_SourceName__c,Source,textarea,255,False,True,True
+Oxbox_Distributor_Agreement_Signed__c,Distributor Agreement Signed,boolean,,True,True,True
+TT_Company_Id__c,Company ID,double,,False,True,True
+TT_Company__c,Company,reference,18,False,True,True
+TT_Is_Company__c,Is Company,boolean,,True,True,True
+TT_Pricing__c,Pricing,reference,18,False,True,True
+TT_Pricing_Company_Id__c,Pricing Company Id,double,,False,False,True
+Account_Metrics__c,Account Metrics,reference,18,False,True,True
+OXB2B_Website_Locator__c,Website Locator,boolean,,True,True,True
+TKCRMOD_Book__c,e-workshop,picklist,255,False,True,True
+TKCRMOD_WS247Phone__c,Remote service provided,picklist,255,False,True,True
+TKCRMOD_WSEmail__c,Marine Channel Incentive,picklist,255,False,True,True
+TKCRMOD_WSFax__c,Key accounts Served,picklist,255,False,True,True
+TKCRMOD_WSMobile__c,"Max distance of remote service, km",double,,False,True,True
+TKCRMOD_WS_24_7_Phone_Alt__c,Number of Service Vans,double,,False,True,True
+TKCRMOD_WS_Email_Alt__c,Marine Products,multipicklist,4099,False,True,True
+TKCRMOD_WS_Mobile_Alt__c,Multi Brand Dealer,picklist,255,False,True,True
+TKCRMOD_WS_Phone_Alt__c,Number of Sales Staff,double,,False,True,True
+TKAAB2BL_AccountNumber__c,TKAAB2BL Account Number,string,20,False,True,True
+TKAAB2BL_Customer_Tax_ID__c,Customer Tax ID,string,40,False,True,True
+TKAAB2BL_receive_CC_Failure_Notification__c,Receive Credit Card Failure Notification,boolean,,True,True,True
+TCSNALA_Trane_Managed_Account__c,Trane owned/managed accounts,boolean,,True,True,True
+SUPPLY_Marketing_Segmentation__c,Supply Marketing Segmentation,string,1300,False,False,True
+Active_NDA_in_Place__c,Active NDA in Place,boolean,,True,True,True
+NDA_expiration_date__c,NDA expiration date,date,,False,True,True
+Topics_Covered_by_NDA__c,Topics Covered by NDA,textarea,32768,False,True,True
+RSHVAC_IWD_Distributor_Sold_To__c,IWD Distributor Sold To,reference,18,False,True,True
+UniqueEntry__Account_Dupes_Ignored__c,Account Dupes Ignored,double,,False,True,True
+UniqueEntry__Current_Endpoint__c,Current Endpoint,string,255,False,True,True
+UniqueEntry__EnrichedOn__c,EnrichedOn,datetime,,False,True,True
+UniqueEntry__RingLead_App_Field__c,RingLead App Field,string,255,False,True,True
+UniqueEntry__RingLead_Enrichment_Result__c,RingLead Enrichment Result,textarea,131072,False,True,True
+Channel__c,Channel,string,1300,False,False,True
+UniqueEntry__RingLead_Last_Processed_Date__c,Last Processed Date,datetime,,False,True,True
+Commercial_Pricing_Level__c,Commercial Pricing Level,string,80,False,True,True
+Company_DUNS_Number__c,Company DUNS Number,string,255,False,True,True
+UniqueEntry__Ringlead_Id__c,Ringlead Id,string,80,False,True,True
+Contact__c,Contact,reference,18,False,True,True
+Converted_Lead_ID__c,Converted Lead ID,textarea,3900,False,True,True
+Cost_Center_Brand__c,Cost Center Brand,string,50,False,True,True
+Cost_Center_Name__c,Cost Center Name,reference,18,False,True,True
+Country_Code__c,Country Code,string,16,False,True,True
+Country__c,Country,picklist,255,False,True,True
+Credit_Hold__c,Credit Hold,string,80,False,True,True
+Currency__c,Currency,picklist,255,False,True,True
+Current_Commercial_Agreements__c,Current Commercial Agreements,double,,False,True,True
+Current_Consumer_Agreements__c,Current Consumer Agreements,double,,False,True,True
+Current_Golf_Agreements__c,Current Golf Agreements,double,,False,True,True
+Current_Volume__c,Current Volume,currency,,False,True,True
+UniqueEntry__isRingLeadEnriched__c,isRingLeadEnriched,boolean,,True,True,True
+TC_Internal_Trane_Email__c,Internal Trane Email,email,80,False,True,True
+TCSNA_Internal_Trane_Email__c,Internal Trane Email,email,80,False,True,True
+Data_com_Does_Not_Auto_Update__c,Data.com Does Not Auto-Update,boolean,,True,True,True
+Dealer_Type__c,Dealer Type,picklist,255,False,True,True
+Dealer__c,Dealer,boolean,,True,True,True
+Default_Branch__c,Default Branch,string,240,False,True,True
+Delete_Approver__c,Delete Approver,reference,18,False,True,True
+Delete_Reason__c,Delete Reason,textarea,255,False,True,True
+Distributor_End_User__c,Distributor End User,boolean,,True,True,True
+District_Territory__c,District (Territory),picklist,255,False,True,True
+Division__c,Division,string,255,False,True,True
+RHVAC_Cost_Center_Brand__c,Cost Center Brand,string,1300,False,False,True
+Domestic_Ultimate_DUNS__c,Domestic Ultimate DUNS,string,255,False,True,True
+TT_Lost_Date__c,Lost Date,date,,False,True,True
+TT_External_Account_Number__c,External Account Number,string,80,False,True,True
+EU_Indirect_Account__c,EU Distributor,reference,18,False,True,True
+Email_ID__c,Email Address,email,80,False,True,True
+Equipment_Asset_Share__c,Equipment / Asset Share (%),double,,False,True,True
+Feedback_Date_Time__c,Feedback Date Time,string,50,False,True,True
+RHVAC_Tier_2_Date__c,Tier 2 Date,date,,False,True,True
+Fusion_OBM_Routing_Code__c,Fusion OBM Routing Code,string,1300,False,False,True
+RSHVAC_Ready_for_Partner_Account__c,Ready for Admin Setup,boolean,,True,False,True
+TT_Marketing_Tier_Override__c,Marketing Tier Override,boolean,,True,True,True
+General_Customer_Buying_and_or_Decision__c,General Customer Buying and/or Decision,textarea,32768,False,True,True
+TT_Marketing_Tier__c,Marketing Tier,picklist,255,False,True,True
+Global_Ultimate_DUNS__c,Global Ultimate DUNS,string,255,False,True,True
+Active__c,Active,picklist,255,False,True,True
+Has_Account_Plan__c,Has Account Plan?,boolean,,True,False,True
+NumberofLocations__c,Number of Locations,double,,False,True,True
+ID_18__c,ID_18,string,1300,False,False,True
+IRIT_Contract_Customer__c,IRIT Contract Customer,boolean,,True,True,True
+IRIT_Customer_Number__c,IRIT Customer Number,string,30,False,True,True
+SLAExpirationDate__c,SLA Expiration Date,date,,False,True,True
+SLASerialNumber__c,SLA Serial Number,string,10,False,True,True
+IRIT_Dealer_Approved_Date__c,IRIT Dealer Approved Date,date,,False,True,True
+UpsellOpportunity__c,Upsell Opportunity,picklist,255,False,True,True
+Goods_Services_Tax_Harmonized_Sales_Tax__c,GST/HST ID,string,50,False,True,True
+IRIT_Domestic_Ultimate_DUNS_Name__c,IRIT Domestic Ultimate DUNS Name,string,255,False,True,True
+Provincial_Sales_Tax_Quebec_Sales_Tax_Id__c,PST/QST ID,string,50,False,True,True
+IRIT_Parent_HQ_DUNS_Name__c,IRIT Parent HQ DUNS Name,string,255,False,True,True
+IRIT_Payment_Terms__c,Payment Terms,string,100,False,True,True
+TT_Current_Account__c,Current Account,reference,18,False,True,True
+TT_Reporting_Account_Name__c,Reporting Account Name,string,1300,False,False,True
+Integration_Error_Message__c,Integration Error Message,textarea,30000,False,True,True
+Integration_OBM_DateTime__c,Integration OBM DateTime,datetime,,False,True,True
+Integration_Status__c,Integration Status,picklist,255,False,True,True
+Is_Account_Plan_Exists__c,Account Plan Exists?,boolean,,True,True,True
+Is_Approved__c,Is Approved,boolean,,True,True,True
+LATAM_Indirect_Account__c,LATAM Distributor,reference,18,False,True,True
+Labor_Rate__c,Labor Rate,double,,False,True,True
+Last_Modifed_Date_Time__c,Last Modifed Date/Time,string,50,False,True,True
+Last_Modified_User__c,Last Modified User,string,50,False,True,True
+Lead_Service_Tech_as_applicable__c,Lead Service Tech (as applicable),string,255,False,True,True
+Legacy_Cost_Center__c,Legacy Cost Center,string,50,False,True,True
+Legacy_Cost_Centers__c,Legacy Cost Center,string,1300,False,False,True
+TT_Current_Account_Name__c,Current Account Name,string,1300,False,False,True
+Legacy_Created_Date__c,Legacy Created Date,date,,False,True,True
+Locality__c,Locality,string,255,False,True,True
+Locked_Opportunities_image__c,Locked Opportunities,string,1300,False,False,True
+MADIS_Number__c,MADIS Number,string,240,False,True,True
+MEIA_Indirect_Account__c,MEIA Distributor,reference,18,False,True,True
+Main_Account_Goal__c,Customer Comments,textarea,32768,False,True,True
+New_Customer__c,New Customer,picklist,255,False,True,True
+Operating_Unit_Code__c,Operating Unit Code,string,40,False,True,True
+Operating_Unit__c,Operating Unit,string,80,False,True,True
+Opportunities_Exploit__c,Opportunities (Exploit),textarea,131072,False,True,True
+Oracle_Account_Status__c,Oracle Account Status,string,80,False,True,True
+Oracle_Number__c,Oracle Number,string,30,False,True,True
+Oracle_Parent_Site_Use_Id__c,Oracle Parent Site Use Id,string,30,False,True,True
+Oracle_Site_Use_Id__c,Oracle Site Use Id,string,30,False,True,True
+Org_Id__c,Org Id,string,80,False,True,True
+Organization__c,Distribution Channel,picklist,255,False,True,True
+Owner_is_Partner__c,Owner is Partner,boolean,,True,False,True
+Owner_full_Name__c,Owner Full Name,string,1300,False,False,True
+Parent_Account_Name__c,Parent Account Name,string,255,False,True,True
+Position_vs_Competition__c,Position vs. Competition,picklist,255,False,True,True
+Power_of_1__c,Power of 1,double,,False,False,True
+PriceList__c,PriceList,string,30,False,True,True
+Pricing_Region__c,Pricing Region,string,80,False,True,True
+Pricing_Segment__c,Pricing Segment,string,80,False,True,True
+Products__c,Products,multipicklist,4099,False,True,True
+Projected_Growth_Plan_Year__c,Projected Growth - Plan Year (%),double,,False,True,True
+RHVAC_Account_Site__c,Site Number,string,50,False,True,True
+RHVAC_Expected_Annual_Purchases__c,Expected Annual Purchases,currency,,False,True,True
+RHVAC_Nexia__c,Nexia,boolean,,True,True,True
+RHVAC_Parts_Account_Number__c,P21 Account Number,string,15,False,True,True
+RHVAC_Qualification_Date__c,New Dealer Qualification Date,date,,False,True,True
+RHVAC_Siebel_ID__c,RHVAC Siebel ID,string,15,False,True,True
+RHVAC_TCS_Id__c,TCS/CC Id,string,15,False,True,True
+RHVAC_TCS_Level__c,TCS/CC Level,picklist,255,False,True,True
+RS_CRS_Is_Blacklisted__c,Is Blacklisted?,boolean,,True,True,True
+RS_CRS_Legacy_CRM_Account_Id__c,Legacy CRM Account Id,string,18,False,True,True
+RS_Development_Plan__c,Development Plan,textarea,32768,False,True,True
+Rate__c,Rate,string,255,False,True,True
+Recently_Visited__c,Recently Visited?,string,1300,False,False,True
+Region__c,Region,picklist,255,False,True,True
+Request_Delete__c,Request Delete,boolean,,True,True,True
+Revenue_Growth_Last_Year__c,Revenue Growth Last Year (%),double,,False,True,True
+SBU_ID_Formula_Acct__c,SBU ID Formula - Acct,string,1300,False,False,True
+SBU_ID_Workflow_Account__c,SBU ID Workflow - Account,string,20,False,True,True
+Sales_Channel__c,Sales Channel,string,80,False,True,True
+Sales_Manager_Leader_Feedback__c,Sales Manager / Leader Feedback,textarea,32768,False,True,True
+Sales_Person_Id__c,Sales Person Id,string,80,False,True,True
+Sales_Person__c,Sales Person,string,240,False,True,True
+Salesforce_Account_Id__c,Salesforce Account Id,string,1300,False,False,True
+Services_Share__c,Services Share (%),double,,False,True,True
+Shipping_Terms__c,Shipping Terms,string,30,False,True,True
+Siebel_ID__c,Siebel ID,string,255,False,True,True
+Site_Location__c,Site Location,string,80,False,True,True
+Site_Name__c,Site Name,string,80,False,True,True
+Site_Status__c,Site Status,string,80,False,True,True
+State_Code__c,State Code,string,8,False,True,True
+Status__c,Status,picklist,255,False,True,True
+Strategic_Account_Contact_Internal_del__c,Strategic Account Contact Internal,reference,18,False,True,True
+Strengths_Capitalize__c,Strengths (Capitalize),textarea,131072,False,True,True
+Sub_Type__c,Sub-Type,picklist,255,False,True,True
+TKM_Age_Since_Last_Won_Opp__c,Age Since Last Won Opp,double,,False,False,True
+TKM_Buying_Behavior__c,Buying Behavior,picklist,255,False,True,True
+TKM_Engineering_Manager__c,Engineering Manager,string,100,False,True,True
+TKM_Latest_Opportunity_Close_Date__c,Latest Opportunity Close Date,date,,False,True,True
+TKM_New_or_Repeat_Cust__c,New or Repeat Cust?,string,1300,False,False,True
+TKM_RepeatCustomerCutoff__c,Repeat Customer Cutoff,date,,False,False,True
+TKM_Senior_Sponsor__c,Senior Sponsor,string,100,False,True,True
+TKM_Service_Manager__c,Service Manager,picklist,255,False,True,True
+TKPrimaryDealer__c,Primary Dealer,reference,18,False,True,True
+TK_Annual_Goal_Revenue__c,Annual Goal (Revenue),currency,,False,True,True
+TK_Bill_to_Type__c,Bill to Type,picklist,255,False,True,True
+TK_Competitive_Position__c,Reefer Trailer Competitive Position,picklist,255,False,True,True
+TK_Corporate_City__c,City,string,120,False,True,True
+TK_Corporate_Phone__c,Corporate Phone,phone,40,False,True,True
+TK_Corporate_State__c,State,string,100,False,True,True
+TK_Corporate_Website__c,Corporate Website,url,255,False,True,True
+TK_CryoTech_Freight__c,CryoTech Freight,currency,,False,True,True
+TK_Cryo_Competitive_Position__c,Cryo Competitive Position,picklist,255,False,True,True
+TK_Cryo_Fleet__c,TK Cryo Fleet,double,,False,True,True
+TK_Cryo_Total_Fleet__c,Cryo Total Fleet,double,,False,True,True
+TK_Customer_Segment__c,Customer Segment,picklist,255,False,True,True
+TK_Dealer_Type__c,Dealer Type,picklist,255,False,True,True
+TK_Eutectics_Freight__c,Eutectics Freight,currency,,False,True,True
+TK_Fleet_Size__c,Fleet Size,string,25,False,True,True
+TK_Frigo_Block_Competitive_Position__c,Frigoblock Competitive Position,picklist,255,False,True,True
+TK_Frigoblock_Fleet__c,TK Frigoblock Fleet,double,,False,True,True
+TK_Frigoblock_Total_Fleet__c,Frigoblock Total Fleet,double,,False,True,True
+TK_HaulType__c,Haul Type,picklist,255,False,True,True
+TK_Parent_Poem_Code__c,Parent Dealer Code,string,50,False,True,True
+TK_Parent_Poem_Code_fm__c,Parent Poem Code,string,1300,False,False,True
+TK_Party_Site_ID__c,Party Site ID,string,80,False,True,True
+TK_Poem_Code__c,Dealer Code,string,80,False,True,True
+TK_Primary_Dealer_Number__c,Primary Dealer Number,string,25,False,True,True
+TK_Primary_Fleet_Type__c,Primary Fleet Type,picklist,255,False,True,True
+TK_R12_Account_Number__c,Oracle Account Number,string,80,False,True,True
+TK_R12_Site_Number__c,Oracle Site Number,string,80,False,True,True
+TK_SP_Truck_Competitive_Position__c,SP Truck Competitive Position,picklist,255,False,True,True
+TK_SP_Truck_Fleet__c,TK SP Truck Fleet,double,,False,True,True
+TK_SP_Truck_Total_Fleet__c,SP Truck Total Fleet,double,,False,True,True
+TK_Salespeople__c,# Salespeople,double,,False,True,True
+TK_Same_as_Shipping_Address__c,Same as Shipping Address,boolean,,True,True,True
+TK_Scope__c,Scope,picklist,255,False,True,True
+TK_ServiceTechnicians__c,# Service Technicians,double,,False,True,True
+TK_Site_Type__c,Site Type,picklist,255,False,True,True
+TK_Status__c,Status,picklist,255,False,True,True
+TK_TKFleet__c,TK % Fleet,percent,,False,False,True
+TK_TKUnitsinFleet__c,# TK Units in Fleet,double,,False,True,True
+TK_TotalFleetSize__c,Total Fleet Size,double,,False,True,True
+TK_Trailer_Competitive_Position__c,Trailer Competitive Position,picklist,255,False,True,True
+TK_Trailer_Fleet__c,TK Trailer Fleet,double,,False,True,True
+TK_Trailer_Freight__c,Trailer Freight,currency,,False,True,True
+TK_Trailer_Total_Fleet__c,Trailer Total Fleet,double,,False,True,True
+TK_Truck_Freight__c,Truck Freight,currency,,False,True,True
+TK_Type__c,Type,picklist,255,False,True,True
+TK_VP_Truck_Ce_Series_Freight__c,VP Truck Ce Series Freight,currency,,False,True,True
+TK_VP_Truck_Competitive_Position__c,VP Truck Competitive Position,picklist,255,False,True,True
+TK_VP_Truck_Fleet__c,TK VP Truck Fleet,double,,False,True,True
+TK_VP_Truck_Freight__c,VP Truck Freight,currency,,False,True,True
+TK_VP_Truck_Total_Fleet__c,VP Truck Total Fleet,double,,False,True,True
+TK_YTD_Actuals_Revenue__c,YTD Actuals (Revenue),currency,,False,True,True
+Threats_Mitigate__c,Threats (Mitigate),textarea,131072,False,True,True
+Total_Potential_Volume__c,Total Potential Volume,currency,,False,True,True
+Warehouse__c,Warehouse,string,80,False,True,True
+WasConverted__c,WasConverted,boolean,,True,True,True
+Weaknesses_Improve__c,Weaknesses (Improve),textarea,131072,False,True,True
+YTD_Revenue__c,YTD Revenue,currency,,False,True,True
+YTD_Services_Connectivity__c,YTD Services Connectivity,currency,,False,True,True
+fusionTrxId__c,Fusion Transaction ID,string,90,False,True,True
+isNew__c,isNew,boolean,,True,True,True
+record_type_code__c,record type code,string,200,False,True,True
+Last_Won_Opportunity__c,Last Won Opportunity,date,,False,False,True
+Locked_Opportunities__c,Locked Opportunities,double,,False,False,True
+IRCO_Legacy_ID__c,IRCO Legacy ID,string,18,False,True,True
+OxBox_NbrOfLocations__c,# of Locations,double,,False,True,True
+Oxbox_CategoryValueRange__c,Category Value Range,double,,False,True,True
+TKM_Total_Assets_Count__c,Total Assets Count,double,,False,False,True
+ddc_prospector__Sourced_from_Data_com__c,Sourced from Data.com,double,,False,False,True
+qualtrics__NPS_Date__c,NPS Date,date,,False,True,True
+qualtrics__Net_Promoter_Score__c,Net Promoter Score,double,,False,True,True
+Legacy_Owner__c,Legacy Owner,string,100,False,True,True
+Legacy_Last_Modified__c,Legacy Last Modified,datetime,,False,True,True
+CHVACDoNotCall__c,Do Not Call,boolean,,True,True,True
+CHVAC_DoNotMail__c,Do Not Mail,boolean,,True,True,True
+CHVAC_SalesOwnerEmail__c,Sales Owner Email,email,80,False,True,True
+Oxbox_DecisionMaker__c,Decision Maker,string,100,False,True,True
+Oxbox_FocusAreaRegion__c,Focus Area/Region,multipicklist,4099,False,True,True
+Oxbox_FutureOpportunity__c,Future Opportunity?,picklist,255,False,True,True
+Oxbox_Headquarters__c,Headquarters,string,100,False,True,True
+Oxbox_IndustrySizeValue__c,Industry Size Value,double,,False,True,True
+Oxbox_LocationNbrValue__c,Location # Value,double,,False,True,True
+Oxbox_Locations__c,Locations,textarea,255,False,True,True
+Oxbox_Loss_Stage__c,Loss Stage,picklist,255,False,True,True
+Oxbox_OxboxSalesExStage__c,Oxbox Pipeline Stage,picklist,255,False,True,True
+Oxbox_OxboxSiteNbr__c,Oxbox Site #,string,40,False,True,True
+Oxbox_PrimaryEquipmentBrand__c,Primary Equipment Brand,multipicklist,4099,False,True,True
+Oxbox_ReasonforLoss__c,Reason for Loss,textarea,255,False,True,True
+Oxbox_TotalValuation__c,Total Valuation,currency,,False,True,True
+Oxbox_Velocity__c,Velocity,double,,False,False,True
+WOD_2__Business_Units__c,Business Units,multipicklist,4099,False,True,True
+WOD_2__Dealer_Group__c,Dealer Group,multipicklist,4099,False,True,True
+WOD_2__Ultimate_Parent_Account__c,Ultimate Parent Account,string,1300,False,False,True
+WOD_2__Warranty_Account_Type__c,Service Account Type,picklist,255,False,True,True
+tvnt__Established_Business__c,Established Business,picklist,255,False,True,True
+tvnt__Preferred_Contact_Method__c,Preferred Contact Method,picklist,255,False,True,True
+TKSVC_Eligible_For_Duplicate_PO__c,Eligible For Duplicate PO,boolean,,True,True,True
+TKSVC_Invoice_Print_Method__c,Invoice Print Method,picklist,255,False,True,True
+TKSVC_ParentDealer__c,TKSVC Parent Dealer,reference,18,False,True,True
+tvnt__Approval_Hierarchy__c,Approval Hierarchy,reference,18,False,True,True
+TKSVC_Transaction_Currency__c,SVC Transaction Currency,picklist,255,False,True,True
+ASR_Email__pc,ASR Email,string,255,False,True,True
+Account_ID__pc,Account ID,string,30,False,True,True
+Age__pc,Age,double,,False,False,True
+P21_Contact_ID__pc,P21 Contact ID,string,200,False,True,True
+Asst_Email__pc,Asst. Email,email,80,False,True,True
+Business_Ext__pc,Business Ext,string,18,False,True,True
+P21_IsActive__pc,P21 IsActive,boolean,,True,True,True
+Phone2__pc,Phone2,phone,40,False,True,True
+Trane_Rewards_Email__pc,Trane Rewards Email,email,80,False,True,True
+Phone3__pc,Phone3,phone,40,False,True,True
+Mark_to_delete__pc,Mark to delete,boolean,,True,True,True
+CHVAC_OLD_FIRM_ID__pc,CHVAC OLD FIRM ID,string,1300,False,False,True
+CHVAC_OSC_ID__pc,CHVAC OSC ID,string,25,False,True,True
+CHVAC_OSC_ORG_ID__pc,CHVAC OSC ORG ID,string,1300,False,False,True
+TKAM_Registration_Status__pc,Registration Status,picklist,255,False,True,True
+TKAM_Aftermarket_Store_Admin_EMEA__pc,Aftermarket Store Admin - EMEA,boolean,,True,True,True
+CHVACB2B_Duplicated__pc,CHVACB2B Duplicated,boolean,,True,True,True
+Facebook__pc,Facebook,url,255,False,True,True
+Instagram__pc,Instagram,string,255,False,True,True
+Lead_Score__pc,Lead Score,double,,False,True,True
+Legacy_PSCRM_Contact_Id__pc,Legacy PS CRM Contact Id,string,18,False,True,True
+LinkedIn__pc,LinkedIn,url,255,False,True,True
+OriginalReferrer__pc,Original Referrer,string,255,False,True,True
+Contact_Preference__pc,Contact Preference,multipicklist,4099,False,True,True
+TCKeyAccount__pc,Key Account,boolean,,True,False,True
+TCNALA_Legacy_PSCRM_Contact_Id__pc,CRM ID,string,30,True,False,True
+TCSNALA_Buying_Role__pc,Buying Role,picklist,255,False,True,True
+TCSNALA_Decision_Making_Authority__pc,Decision Making Authority,textarea,255,False,True,True
+TCSNALA_Influence_Status__pc,Influence/Status,picklist,255,False,True,True
+TCSNALA_Key_Account__pc,Key Account,string,1300,False,False,True
+TCSNALA_Legacy_Contact_Source_Id__pc,Legacy Contact Source Id,string,80,False,True,True
+TCSNALA_Legacy_Contact_Source__pc,Legacy Contact Source,string,40,False,True,True
+TCSNALA_Personal_Business_Agenda__pc,Personal/Business Agenda,textarea,255,False,True,True
+TCSNALA_Relationship_Actions__pc,Relationship Actions,textarea,255,False,True,True
+TCSNALA_Relationship_Strategy__pc,Relationship Strategy,picklist,255,False,True,True
+Approved_Opportunity_Opt_In__pc,Approved Opportunity Opt In,boolean,,True,True,True
+TC_Job_Seniority__pc,Job Seniority,picklist,255,False,True,True
+TC_Sales_Office__pc,Sales Office,picklist,255,False,True,True
+TC_Sales_Region__pc,Sales Region,picklist,255,False,True,True
+Twitter__pc,Twitter,string,255,False,True,True
+formSubmissionURL__pc,Page Submitted From,url,255,False,True,True
+lastMarketingProgram__pc,Last Program Touched,string,255,False,True,True
+mktoBehaviorScore__pc,Behavior Score,double,,False,True,True
+mktoCommentHistory__pc,Comment History,textarea,5000,False,True,True
+mktoDemographicScore__pc,Demographic Score,double,,False,True,True
+mktoLastProgramSuccess__pc,Last Program Success,string,255,False,True,True
+mktoProgramID__pc,Marketo Program ID,string,255,False,True,True
+mktoUTMCampaign__pc,Campaign,string,255,False,True,True
+mktoUTMContent__pc,Content,string,255,False,True,True
+mktoUTMMedium__pc,Medium,string,255,False,True,True
+prefTCOptOutDate__pc,Trane Commercial Opted Out Date,datetime,,False,True,True
+prefTCOptOutDetail__pc,Trane Commercial Opted Out Detail,textarea,500,False,True,True
+prefTCOptOut__pc,Trane Commercial Opted Out?,boolean,,True,True,True
+requestReason__pc,Request Reason,textarea,500,False,True,True
+sBUOwnerTC__pc,SBU Owner TC,boolean,,True,True,True
+sBUOwnerTK__pc,SBU_Owner_TK,boolean,,True,True,True
+sBUOwnerTR__pc,SBU_Owner_TR,boolean,,True,True,True
+sBUOwnerTS__pc,SBU_Owner_TS,boolean,,True,True,True
+sBUOwnerTT__pc,SBU_Owner_TT,boolean,,True,True,True
+tCJobRole__pc,Job Role,picklist,255,False,True,True
+tCPersona__pc,Persona,picklist,255,False,True,True
+tCPortfolio__pc,Last Portfolio Interest,string,255,False,True,True
+tCProduct__pc,Last Product Interest,string,255,False,True,True
+Loyalty_Contact__pc,Loyalty Contact,boolean,,True,True,True
+SMS_Message__pc,SMS Message,textarea,32768,False,True,True
+CORP_ID__pc,Corp Id,string,100,False,True,True
+RSUPPLY_P21_Company_Phone__pc,P21 Company Phone,phone,40,False,True,True
+Id_duplicate__pc,Id duplicate,string,255,False,True,True
+Is_duplicate__pc,Is duplicate,boolean,,True,True,True
+CHVAC_JobLevel__pc,Job Level,picklist,255,False,True,True
+CHVAC_Offering__pc,Offering,picklist,255,False,True,True
+CHVAC_Office__pc,Office,picklist,255,False,True,True
+CHVAC_Portfolio__pc,Portfolio,picklist,255,False,True,True
+Contact_Currency__pc,Contact Currency,picklist,255,False,True,True
+Converted_Lead_ID__pc,Converted Lead ID,textarea,3900,False,True,True
+E_Channel_User__pc,CustomerView User,picklist,255,False,True,True
+Delete_Approver__pc,Delete Approver,reference,18,False,True,True
+Delete_Reason__pc,Delete Reason,string,255,False,True,True
+Manager_s_Type__pc,Manager's Type,picklist,255,False,True,True
+SBUID__pc,SBU ID,picklist,255,False,True,True
+Gender__pc,Gender,picklist,255,False,True,True
+Home_Value__pc,Home Value,currency,,False,True,True
+ID_18__pc,ID_18,string,1300,False,False,True
+IR_Employee__pc,IR Employee,reference,18,False,True,True
+Integration_Error_Message__pc,Integration Error Message,textarea,30000,False,True,True
+Integration_OBM_DateTime__pc,Integration OBM DateTime,datetime,,False,True,True
+Integration_Status__pc,Integration Status,picklist,255,False,True,True
+Is_Approved__pc,Is Approved,boolean,,True,True,True
+Language__pc,Language,picklist,255,False,True,True
+Lead_Company__pc,Lead Company,string,255,False,True,True
+Mailing_List_Opt_Out__pc,Mailing List Opt Out,boolean,,True,True,True
+TKCRMOD_Accesses__pc,Accesses,multipicklist,4099,False,True,True
+TKCRMOD_MemberOf__pc,Member Of,textarea,255,False,True,True
+Map_Location__Latitude__ps,Map Location (Latitude),double,,False,True,True
+Map_Location__Longitude__ps,Map Location (Longitude),double,,False,True,True
+Map_Location__pc,Map Location,location,,False,False,True
+Marital_Status__pc,Marital Status,picklist,255,False,True,True
+Market_Potential__pc,Market Potential,currency,,False,True,True
+Source_Detail__pc,Source Detail,string,255,False,True,True
+Owner_Address_1__pc,Owner Address 1,string,150,False,True,True
+Owner_Address_2__pc,Owner Address 2,string,150,False,True,True
+Owner_City__pc,Owner City,string,50,False,True,True
+TCSNALA_Contact_Id__pc,Contact Id,string,1300,False,False,True
+Owner_Location_Name__pc,Owner Location Name,string,150,False,True,True
+Owner_Phone__pc,Owner Phone,string,50,False,True,True
+Owner_State__pc,Owner State,string,2,False,True,True
+Owner_Website__pc,Owner Website,url,255,False,True,True
+Owner_Zip__pc,Owner Zip,string,15,False,True,True
+TCSNALA_Owner_Name__pc,Owner Name,string,1300,False,False,True
+mktoLifecycleStatusDateAssigned__pc,Assigned Date,datetime,,False,True,True
+mktoLifecycleStatusDateNurture__pc,Nurture Start Date,datetime,,False,True,True
+Primary__pc,Primary,boolean,,True,True,True
+RS_CRS_Account_Name__pc,Account Name,reference,18,False,True,True
+RS_CRS_Case__pc,Case,reference,18,False,True,True
+RS_CRS_CopyMailingAddressToOwnerAddress__pc,Same As Account Address,boolean,,True,True,True
+mktoLifecycleStatusDateQualifiedOriginal__pc,Original Qualified Date,datetime,,False,True,True
+mktoLifecycleStatusDateQualified__pc,Marketing Qualified Date,datetime,,False,True,True
+RecordTypeName__pc,RecordTypeName,string,1300,False,False,True
+Relationship_Strength__pc,Relationship Strength,picklist,255,False,True,True
+Request_Delete__pc,Request Delete,boolean,,True,True,True
+Role__pc,Role,picklist,255,False,True,True
+mktoLifecycleStatusDateWorking__pc,Working Date,datetime,,False,True,True
+SBU_ID_Formula__pc,SBU ID Formula,string,1300,False,False,True
+SBU_ID_Workflow__pc,SBU ID Workflow,string,20,False,True,True
+mktoLifecycleStatus__pc,Lifecycle Status,string,255,False,True,True
+mktoSFSync__pc,Marketo-SF Sync,boolean,,True,True,True
+Siebel_ID__pc,Siebel ID,string,255,False,True,True
+Status__pc,Status,picklist,255,False,True,True
+Booked_Order_Opt_In__pc,Booked Order Opt In,boolean,,True,True,True
+Text_Opt_Out__pc,Text Opt Out,boolean,,True,True,True
+Type__pc,Type,picklist,255,False,True,True
+fusionTrxId__pc,Fusion Transaction ID,string,90,False,True,True
+IRCO_Legacy_ID__pc,IRCO Legacy ID,string,18,False,True,True
+ddc_prospector__Sourced_from_Data_com__pc,Sourced from Data.com,double,,False,False,True
+CDS_Contact_Type__pc,CDS Contact Type,picklist,255,False,True,True
+CHVAC_Firm_ID_From_Account__pc,CHVAC Firm ID,string,1300,False,False,True
+CDS_Legacy_Id__pc,CDS Legacy Id,string,6,False,True,True
+CDS_Strategic_User__pc,CDS Strategic User,boolean,,True,True,True
+How_was_conenciton_formed__pc,How was conenciton formed?,textarea,32768,False,True,True
+Last_Meeting__pc,Last Meeting,date,,False,True,True
+Notes__pc,Notes,textarea,32768,False,True,True
+Trane_Attendees__pc,Trane Attendees,reference,18,False,True,True
+UniqueEntry__Contact_Dupes_Ignored__pc,Contact Dupes Ignored,double,,False,True,True
+UniqueEntry__Current_Endpoint__pc,Current Endpoint,string,255,False,True,True
+UniqueEntry__EnrichedOn__pc,EnrichedOn,datetime,,False,True,True
+smagicinteract__SMSOptOut__pc,SMS Opt Out,boolean,,True,True,True
+qualtrics__Informed_Consent_Date__pc,Informed Consent Date,date,,False,True,True
+qualtrics__Informed_Consent__pc,Informed Consent,boolean,,True,True,True
+qualtrics__Last_Survey_Invitation__pc,Last Survey Invitation,date,,False,True,True
+qualtrics__Last_Survey_Response__pc,Last Survey Response,date,,False,True,True
+qualtrics__Net_Promoter_Score__pc,Net Promoter Score,double,,False,True,True
+P21_Address_Id__pc,P21 Address Id,string,50,False,True,True
+P21_Contact_Type__pc,P21 Contact Type,picklist,255,False,True,True
+UserId__pc,UserId,string,50,False,True,True
+TCSNALA_Status__pc,Status,picklist,255,False,True,True
+Requestor_Location__pc,Requestor Location,reference,18,False,True,True
+X24_7_Fleet_Monitoring_Contact__pc,24/7 Fleet Monitoring Contact,boolean,,True,True,True
+TKAAB2BL_ActiveAddress__pc,Active Contact Point Address,reference,18,False,True,True
+TKAAB2BL_Active_Dealer__pc,Active Dealer,reference,18,False,True,True
+TKAAB2BL_InterruptUser__pc,Interrupt User,boolean,,True,True,True
+TKAAB2BL_PickupAddress__pc,Selected Pickup Address,textarea,1000,False,True,True
+CHVAC_SalesOwnerEmail__pc,Sales Owner Email,email,80,False,True,True
+TKAAB2BL_UpdateB2BLSettings__pc,Update B2BL Settings,boolean,,True,True,True
+Oxbox_DecisionMaker__pc,Decision Maker,boolean,,True,True,True
+TK_Buying_Influence__pc,Buying Influence,picklist,255,False,True,True
+TK_Comments__pc,Comments,textarea,32768,False,True,True
+TK_Contact_Type__pc,Contact Type,picklist,255,False,True,True
+TK_DISC__pc,DiSC,picklist,255,False,True,True
+TK_EMEA_Functional_Position__pc,Functional Position,multipicklist,4099,False,True,True
+TK_Functional_Position__pc,Functional Position,picklist,255,False,True,True
+TK_Key_Business_Challenges__pc,Key Business Challenges,string,255,False,True,True
+TK_Type__pc,Type,multipicklist,4099,False,True,True
+iSell__Avention_ID__pc,D&B Contact ID,string,100,False,True,True
+TK_Shared_Configuration_Opt_In__pc,Shared Configuration Opt In,boolean,,True,True,True
+TKMB2B_Override_Effective_Account__pc,Override Effective Account,boolean,,True,True,True
+TKAAB2BL_ActiveAddressDisplay__pc,Active Address Display,string,1300,False,False,True
+TKAAB2BL_ActiveDealerAddressDisplay__pc,Active Dealer Address Display,string,1300,False,False,True
+TKCRMOD_CRMOD_ID__pc,CRMOD ID,string,20,False,True,True
+ccrz__CompanyName__pc,CompanyName,string,80,False,True,True
+ccrz__CompanyType__pc,CompanyType,picklist,255,False,True,True
+ccrz__DataId__pc,DataId,string,255,False,True,True
+ccrz__IsPortalUser__pc,Portal User,boolean,,True,True,True
+ccrz__SelfRegistered__pc,Self Registered,boolean,,True,True,True
+TKCRMOD_ContactRole__pc,Contact Role,multipicklist,4099,False,True,True
+TKAAB2BL_ActiveDealerDisplay__pc,Active Dealer Display,string,1300,False,False,True
+TKAAB2BL_ActiveDealerPoemCode__pc,Active Dealer Poem Code,string,1300,False,False,True
+TKCRMOD_Publications__pc,Publications,multipicklist,4099,False,True,True
+TKAAB2BL_ActiveDealerShoppable__pc,Active Dealer Shoppable,boolean,,True,False,True
+TKCRMOD_Region__pc,Region,picklist,255,False,True,True
+TKAAB2BL_ActiveDealerStatus__pc,Active Dealer Status,string,1300,False,False,True
+TKT_Created_At__pc,Created At,datetime,,False,True,True
+TKT_External_ID__pc,External ID,string,255,False,True,True
+TKAAB2BL_BuyerGroupLevel1Code__pc,Buyer Group Level 1 Code,string,1300,False,False,True
+TKAAB2BL_PickupSession__pc,Pickup Session,boolean,,True,False,True
+TSCNALA_Description__pc,Description,string,140,False,True,True
+Contact_And_Account_Name__pc,Contact And Account Name,string,1300,False,False,True
+RSUPPLY_Notes__pc,Notes,textarea,255,False,True,True
+TKAAB2BL_Dealer_Has_FAQ__pc,TKAAB2BL_Dealer_Has_FAQ,boolean,,True,False,True
+mkto_si__Add_to_Marketo_Campaign__pc,Add to Marketo Campaign,string,1300,False,False,True
+mkto_si__Sales_Insight__pc,Sales Insight,string,1300,False,False,True
+mkto_si__View_in_Marketo__pc,View in Marketo,string,1300,False,False,True
+mkto_si__Current_Sales_Campaign__pc,Current Sales Campaign,string,100,False,True,True
+mkto_si__HideDate__pc,Hide Date,date,,False,True,True
+mkto_si__Last_Activity_By_Sales__pc,Last Activity by Sales,datetime,,False,True,True
+mkto_si__Last_Interesting_Moment_Date__pc,Last Interesting Moment Date,datetime,,False,True,True
+mkto_si__Last_Interesting_Moment_Desc__pc,Last Interesting Moment Desc,textarea,255,False,True,True
+mkto_si__Last_Interesting_Moment_Source__pc,Last Interesting Moment Source,string,100,False,True,True
+mkto_si__Last_Interesting_Moment_Type__pc,Last Interesting Moment Type,string,100,False,True,True
+mkto_si__Last_Sales_Engagement__pc,Last Sales Engagement,datetime,,False,True,True
+mkto_si__Mkto_Lead_Score__pc,Mkto Lead Score,double,,False,True,True
+mkto_si__Priority__pc,Engagement,double,,False,True,True
+mkto_si__Relative_Score_Value__pc,Relative Score Value,double,,False,True,True
+mkto_si__Sales_Last_Replied__pc,Sales Last Replied,datetime,,False,True,True
+mkto_si__Sales_Opt_Out__pc,Sales Opt Out,boolean,,True,True,True
+mkto_si__Urgency_Value__pc,Urgency Value,double,,False,True,True
+mkto_si__Last_Interesting_Moment__pc,Last Interesting Moment,string,1300,False,False,True
+mkto_si__Relative_Score__pc,Relative Score,string,1300,False,False,True
+mkto_si__Urgency__pc,Urgency,string,1300,False,False,True
+engagio__Department__pc,Department,string,128,False,True,True
+engagio__EngagementMinutesLast30Days__pc,Engagement Minutes (1 mo.),double,,False,True,True
+engagio__EngagementMinutesLast3Months__pc,Engagement Minutes (3 mo.),double,,False,True,True
+engagio__EngagementMinutesLast7Days__pc,Engagement Minutes (7 days),double,,False,True,True
+engagio__FirstEngagementDate__pc,First Engagement Date,datetime,,False,True,True
+engagio__IntentMinutesLast30Days__pc,High Intent Engagement Mins (1 mo.),double,,False,True,True
+engagio__Role__pc,Role,string,128,False,True,True
+engagio__Sales_Touches_14_days__pc,Sales Touches (14 days),double,,False,True,True
+engagio__Sales_Touches_7_days__pc,Sales Touches (7 days),double,,False,True,True
+DNBConnect__D_B_Connect_Company_Profile__pc,D&B Connect Company Profile,reference,18,False,True,True
+DNBConnect__D_B_Connect_Contact_Profile__pc,D&B Connect Contact Profile,reference,18,False,True,True
+DNBConnect__D_B_Contact_Match_Driver__pc,D&B Contact Match Driver,string,255,False,True,True
+DNBConnect__D_B_Match_Confidence_Code__pc,D&B Match Confidence Code,double,,False,True,True
+DNBConnect__D_B_Match_Data_Profile__pc,D&B Match Data Profile,string,28,False,True,True
+DNBConnect__D_B_Match_Grade__pc,D&B Match Grade,string,11,False,True,True
+DNBConnect__D_B_Match_Type__pc,D&B Match Type,string,255,False,True,True
+DNBConnect__D_B_Name_Match_Score__pc,D&B Name Match Score,double,,False,True,True
+eCommerce_User_Permission__pc,eCommerce User Permission,boolean,,True,True,True
+CCEB2B_Default_Shipping_Address__pc,Default Shipping Address,reference,18,False,True,True
+Default_Store__pc,My Store,reference,18,False,True,True
+DNBConnect__matchedDuns__pc,Matched D-U-N-S,string,9,False,True,True
+LSS_Sent_to_marketing_nurturing_program__pc,Sent to marketing nurturing program,boolean,,True,True,True
+TKAAB2BL_Account_ID_18__pc,Account ID_18,string,1300,False,False,True
+CCEB2B_Current_Impersonating_User__pc,Current Impersonating User,reference,18,False,True,True
+TKAAB2BL_AccountName__pc,Account Name,string,1300,False,False,True
+TT_Experience_User__pc,User,reference,18,False,True,True
+TT_Experience_User_Active__pc,User Active?,boolean,,True,False,True
+TT_Experience_User_Exists__pc,TT Experience User Exists,boolean,,True,False,True
+Area_of_Expertise__pc,Area of Expertise,textarea,255,False,True,True
+Follow_Up_Date__pc,Follow Up Date,date,,False,True,True
+Initial_Contact_Date__pc,Initial Contact Date,date,,False,True,True
+NDA_Duration__pc,NDA Duration,picklist,255,False,True,True
+NDA_Needed__pc,NDA Needed?,boolean,,True,True,True
+NDA_Title__pc,NDA Title,string,255,False,True,True
+NDA_Update_Date__pc,NDA Update Date,date,,False,True,True
+NDA_in_Place__pc,NDA in Place?,picklist,255,False,True,True
+Project_Affiliation__pc,Project Affiliation,reference,18,False,True,True
+TKAAB2BL_Campaign_Name__pc,Campaign Name,string,1300,False,False,True
+TKAAB2BL_Medium__pc,Medium,string,1300,False,False,True
+TKAAB2BL_Source__pc,Source,string,1300,False,False,True
+OXB2B_Email_Opt_In__pc,OXB2B Email Opt In,boolean,,True,True,True
+CCEB2B_My_Warehouse__pc,My Warehouse,reference,18,False,True,True
+P21_Contact_Id_Number__pc,P21 Contact Id,double,,False,False,True
+Contact_RecordType__pc,Contact RecordType,string,100,False,True,True
+Record_Type_Identifier__pc,Record Type Identifier,string,20,False,True,True
+ZoomInfo_Merge_Archive__pc,ZoomInfo Merge Archive,textarea,131072,False,True,True
+ZoomInfo_Person_Has_Moved__pc,ZoomInfo Person Has Moved,picklist,255,False,True,True
+ZoomInfo_Company_ID__pc,ZoomInfo Company ID,string,255,False,True,True
+ZoomInfo_Contact_ID__pc,ZoomInfo Contact ID,string,255,False,True,True
+ZoomInfo_Enrich_Status__pc,ZoomInfo Enrich Status,string,255,False,True,True
+ZoomInfo_First_Enriched__pc,ZoomInfo First Enriched,string,255,False,True,True
+ZoomInfo_Last_Enriched__pc,ZoomInfo Last Enriched,string,255,False,True,True
+ZoomInfo_Match_Status__pc,ZoomInfo Match Status,string,255,False,True,True
+UniqueEntry__Lead_Dupes_Ignored__pc,Lead Dupes Ignored,double,,False,True,True
+UniqueEntry__RingLead_App_Field__pc,RingLead App Field,string,255,False,True,True
+UniqueEntry__RingLead_Last_Processed_Date__pc,Last Processed Date,datetime,,False,True,True
+UniqueEntry__Ringlead_Id__pc,Ringlead Id,string,80,False,True,True
+Channel_PP__pc,Channel-PP,string,1300,False,False,True
+TT_Effective_Account_Id__pc,Current Effective Account,reference,18,False,True,True
+EmailInvalidCause__pc,Email Invalid Cause,string,255,False,True,True
+EmailInvalid__pc,Email Invalid,boolean,,True,True,True

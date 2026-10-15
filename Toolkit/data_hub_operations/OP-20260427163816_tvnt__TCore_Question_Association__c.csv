@@ -1,0 +1,7 @@
+Name,tvnt__Sequence__c,tvnt__Section__c,tvnt__Display_criteria__c,tvnt__Parent_Question_Association__c,tvnt__Matching_criteria__c,CurrencyIsoCode,tvnt__Question__c,tvnt__Mandatory__c,tvnt__Questionnaire__c
+3.2 – Failure Code – Screen,13.0,a8acf00000FpqdZAAR,Screen,a8Vcf0000001I6JEAU,Any,USD,a8Wcf000000QvENEA0,False,a8Zcf00000030bOEAQ
+3.3 – Failure Code – Software,14.0,a8acf00000FpqdZAAR,Software,a8Vcf0000001I6JEAU,Any,USD,a8Wcf000000QvEOEA0,False,a8Zcf00000030bOEAQ
+3.4 – Failure Code – Hardware,15.0,a8acf00000FpqdZAAR,Hardware,a8Vcf0000001I6JEAU,Any,USD,a8Wcf000000QvEPEA0,False,a8Zcf00000030bOEAQ
+Failure Code (Seal/Oil Leak),23.0,a8acf00000FpqdaAAB,Seal/Oil Leaks,a8Vcf0000001I6fEAE,Any,USD,a8Wcf000000QvEZEA0,True,a8Zcf00000030bPEAQ
+Failure Code (Bearing Failures),23.0,a8acf00000FpqdaAAB,Bearing Failures,a8Vcf0000001I6fEAE,Any,USD,a8Wcf000000QvEaEAK,True,a8Zcf00000030bPEAQ
+Failure Code (Other Failures),23.0,a8acf00000FpqdaAAB,Other Failures,a8Vcf0000001I6fEAE,Any,USD,a8Wcf000000QvEbEAK,True,a8Zcf00000030bPEAQ

@@ -1,0 +1,4 @@
+FirstName,Phone No.,Billing Street,sf__Error
+Charlie,345-678-9012, Lakeview,[Billing Street] whitespace_check: Value has leading/trailing whitespace — will cause picklist/ID mismatches.
+Diana,456-789-0123, Hilltop,[Billing Street] whitespace_check: Value has leading/trailing whitespace — will cause picklist/ID mismatches.
+Ethan,567-890-1234, Brookfield,[Billing Street] whitespace_check: Value has leading/trailing whitespace — will cause picklist/ID mismatches.

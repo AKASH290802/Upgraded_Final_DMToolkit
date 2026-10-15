@@ -1,0 +1,17 @@
+ENHANCED VALIDATION SUMMARY REPORT
+==================================================
+
+Generated: 2026-01-13 13:18:01
+Salesforce Org: Tavant
+Target Object: Account
+
+OVERALL STATISTICS:
+Total Records Processed: 11
+Transform Success: 10 (90.9%)
+Transform Failure: 1 (9.1%)
+
+FAILURE BREAKDOWN:
+- Lookup transformation failures: 0
+- Picklist validation failures: 1
+- Unique field constraint failures: 0
+

@@ -1,0 +1,91 @@
+Hi this is DM_toolkit project. Below are the project run steps
+
+1. install all the dependencies:
+    a. json {for reading and manupulation of JSON file}
+    b. sqlalchemy {for sql and engine}
+    c. simple_salesforce {for salesforce related activity}
+    d. Pandas {Data Manupulation}
+    e. concurrent.futures
+
+
+DataSet:
+Connection.py:
+We had created a python script called Connection.py which will connect sql, salesforce to python and validate the credientials.
+this is also usefull to validate the linked services.
+You can use this script to connect to your own salesforce or sql database.
+
+Object_selection.py:
+We have created a python script called Object_selection.py which will allow you to select the salesforce object you want to work with.
+
+org_selection.py:
+in line number 2,
+add your new/updated org name which is already update in linkedservice.json
+We have created a python script called org_selection.py which will allow you to select the salesforce org you want to work with.
+
+
+linkedservices:
+we have created linkedservices.json file for storing linked services like salesforce and sql.
+You can add your own linked services in this file and use them in the project.
+
+
+Schema-Level Validation:
+We have implemented schema-level validation for Salesforce objects. The validation checks include:
+Rules for validation:
+1. Field should not be Null.
+2. Unique col should be Unique(No duplicate Record will allowed).
+3. Email validation
+4. data format validation
+5. Picklist validation
+6. data type validation
+7. Required field validation
+8. Reference field validation (if the field is reference to another object, it should exist in that object).
+
+
+Custom Validation using GenAI:
+We have implemented custom validation for Salesforce objects. The validation checks include:
+1. Custom rules was defined in salesforce object. First we will fetch the rules  and save as validation.csv using Validation_rules.py file.
+2. Once we have the rules, we convert validation rules Error Formula into python based syntax (Appex to Python) using GenAI_Validation.py file.
+3. GenAI_Validation.py file will Generate 2 python file in Validation Bundle given below:
+   a. bundle.py: This file will convert the Appex code into python redable formate and create a validation function.
+   b. validator.py: This file will validate data based upon selection of input data file and validation function called from bundle.py.
+4. GenAI_Validation.py will create 2 folder:
+    a. Validation Bundle: This folder will contain the generated python files for validation.
+    b. Validation Data: This folder will contain the validation rules fetched from Salesforce.
+5. ValidatedData folder contain Raw Data, Validated Data, Success and Failure files.
+
+
+Mapping document:
+We also created a mapping document for salesforce object by using Mapping.py file.
+This python file will generate a mapping document in the form of json file.
+Once we got data or we already have data, then we can update (Manually).
+
+We can also use this mapping document to load data into salesforce using dataload.py file.
+
+
+Other Tools:
+data_load2sql.py
+This file will load data into sql database from csv or excel file or salesforce query.
+
+
+
+Pros:
+We can fetch data from sql/csv and create pandas.
+We can extract salesforce data and load it into sql or stored as excel/csv file.
+
+
+Future task:
+data will be coming from azure, mongo, gdrive (csv/excel) that also can be handle. 
+
+Key Features:
+User can select data source.
+User can switch data points. 
+User can Create Mapping document for particular object (given instruction by user).
+User can validate data.
+
+
+
+How to run this project:
+1. Org selection file first run.
+2. run validation.py file for validate data and linked services.
+3. if you have other salesforce cred or sql cred, just stored it into linkedservices.json file and put enteries in list of org_selection
+4. based upon your changes, you can check your linked service and do other operation like validate data, unit testing your data and migrate data.
